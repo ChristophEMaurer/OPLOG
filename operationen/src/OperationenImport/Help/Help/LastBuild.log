@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2015.10.10.0" projectFile="d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\OperationenImport.shfbproj" started="08.01.2018 00:42:12">
+<buildStep step="Initializing">
+Finding tools...
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
+Found HTML Help 1 compiler in &#39;C:\Program Files (x86)\HTML Help Workshop\&#39;
+Locating components in the following folder(s):
+    d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help
+    C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins\
+    C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\
+Framework reflection data location: C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework
+Using presentation style &#39;VS2013&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013&#39;
+Loading and initializing plug-ins...
+Lightweight Website Style Version 2015.10.10.0
+Copyright &#169; 2006-2015, Eric Woodruff, All Rights Reserved
+Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: d:\daten\develop\OpLog\Operationen\src\OperationenImport\bin\Release\Operationen.OperationenImport.dll
+    Found assembly &#39;d:\daten\develop\OpLog\Operationen\src\OperationenImport\bin\Release\Operationen.OperationenImport.dll&#39;
+Source: d:\daten\develop\OpLog\Operationen\src\OperationenImport\bin\Release\Operationen.OperationenImport.xml
+
+Copying XML comments files
+    d:\daten\develop\OpLog\Operationen\src\OperationenImport\bin\Release\Operationen.OperationenImport.XML -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Operationen.OperationenImport.XML
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, Englisch (USA))...
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+</plugIn>    Last step completed in 00:00:00,0251
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00,0080
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - GenerateRefInfo.proj]
+Der Buildvorgang wurde am 08.01.2018 00:42:14 gestartet.
+Das in einem BeforeTargets-Attribut bei &quot;C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)&quot; aufgef&#252;hrte Ziel &quot;_ConvertPdbFiles&quot; ist nicht im Projekt vorhanden und wird daher ignoriert.
+Das in einem AfterTargets-Attribut bei &quot;C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)&quot; aufgef&#252;hrte Ziel &quot;_CollectPdbFiles&quot; ist nicht im Projekt vorhanden und wird daher ignoriert.
+Das in einem BeforeTargets-Attribut bei &quot;C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)&quot; aufgef&#252;hrte Ziel &quot;_CollectMdbFiles&quot; ist nicht im Projekt vorhanden und wird daher ignoriert.
+Das in einem AfterTargets-Attribut bei &quot;C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)&quot; aufgef&#252;hrte Ziel &quot;_CopyMdbFiles&quot; ist nicht im Projekt vorhanden und wird daher ignoriert.
+Projekt &quot;d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\GenerateRefInfo.proj&quot; auf Knoten &quot;1&quot; (Standardziele).
+PrepareForBuild:
+  Das Verzeichnis &quot;obj\Debug\&quot; wird erstellt.
+GenerateRefInfo:
+  MRefBuilder (v2015.10.10.0)
+  Copyright &#169; 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#169; 2006-2015, Eric Woodruff, All Rights Reserved.
+  Loaded 1 assemblies for reflection and 0 dependency assemblies.
+  Wrote information on 1 namespaces, 8 types, and 60 members
+  Die Datei wird von &quot;reflection.org&quot; in &quot;reflection.all&quot; kopiert.
+  XslTransform (v2015.10.10.0)
+  Copyright &#169; 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#169; 2006-2015, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
+Die Erstellung von Projekt &quot;d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\GenerateRefInfo.proj&quot; ist abgeschlossen (Standardziele).
+
+Der Buildvorgang wurde erfolgreich ausgef&#252;hrt.
+
+Verstrichene Zeit 00:00:01.18
+    Last step completed in 00:00:01,7366
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - TransformManifest.proj]
+Der Buildvorgang wurde am 08.01.2018 00:42:16 gestartet.
+Projekt &quot;d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\TransformManifest.proj&quot; auf Knoten &quot;1&quot; (Standardziele).
+TransformManifest:
+  XslTransform (v2015.10.10.0)
+  Copyright &#169; 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#169; 2006-2015, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Die Datei wird von &quot;reflection.xml&quot; in &quot;reflection.nofilenames&quot; kopiert.
+  XslTransform (v2015.10.10.0)
+  Copyright &#169; 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#169; 2006-2015, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
+  XslTransform (v2015.10.10.0)
+  Copyright &#169; 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#169; 2006-2015, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+Die Erstellung von Projekt &quot;d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\TransformManifest.proj&quot; ist abgeschlossen (Standardziele).
+
+Der Buildvorgang wurde erfolgreich ausgef&#252;hrt.
+
+Verstrichene Zeit 00:00:01.12
+    Last step completed in 00:00:01,6286
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00,0201
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00,0020
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00,0000
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file...
+[C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - GenerateIntermediateTOC.proj]
+Der Buildvorgang wurde am 08.01.2018 00:42:17 gestartet.
+Projekt &quot;d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\GenerateIntermediateTOC.proj&quot; auf Knoten &quot;1&quot; (Standardziele).
+GenerateIntermediateTOC:
+  XslTransform (v2015.10.10.0)
+  Copyright &#169; 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#169; 2006-2015, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
+Die Erstellung von Projekt &quot;d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\GenerateIntermediateTOC.proj&quot; ist abgeschlossen (Standardziele).
+
+Der Buildvorgang wurde erfolgreich ausgef&#252;hrt.
+
+Verstrichene Zeit 00:00:00.78
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:01,2883
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    Last step completed in 00:00:00,0938
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\sandcastle.config
+    Last step completed in 00:00:00,0040
+</buildStep>
+<buildStep step="BuildReferenceTopics">
+Building reference help topics...
+[C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - BuildReferenceTopics.proj]
+Der Buildvorgang wurde am 08.01.2018 00:42:19 gestartet.
+Projekt &quot;d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\BuildReferenceTopics.proj&quot; auf Knoten &quot;1&quot; (Standardziele).
+BuildReferenceTopics:
+  BuildAssembler (v2015.10.10.0)
+  Copyright &#169; 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#169; 2006-2015, Eric Woodruff, All Rights Reserved.
+  Loading configuration...
+  Processing topics...
+  Processed 50 topic(s)
+  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 2 of 15.
+  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 1 of 30.
+Die Erstellung von Projekt &quot;d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\BuildReferenceTopics.proj&quot; ist abgeschlossen (Standardziele).
+
+Der Buildvorgang wurde erfolgreich ausgef&#252;hrt.
+
+Verstrichene Zeit 00:00:05.73
+    Last step completed in 00:00:06,2615
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00,0010
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+[C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - ExtractHtmlInfo.proj]
+Sandcastle Help File Builder and Tools, version 2015.10.10.0
+Copyright &#169; 2006-2015, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
+
+Processing Help 1 files in d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1
+Processed 50 HTML files
+Sorting keywords and generating See Also indices
+Saving HTML Help 1 keyword index to d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\plugins.hhk
+Saving HTML Help 1 table of contents to d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\plugins.hhc
+    Last step completed in 00:00:01,1083
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\icons\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\styles\branding.css
+    Last step completed in 00:00:00,2420
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating HTML Help 1 table of contents file...
+    Last step completed in 00:00:00,0010
+</buildStep>
+<buildStep step="GenerateHelpFileIndex">
+Generating HTML Help 1 index file...
+    Last step completed in 00:00:00,0000
+</buildStep>
+<buildStep step="GenerateHelpProject">
+Generating HTML Help 1 project file...
+    Last step completed in 00:00:00,0040
+</buildStep>
+<buildStep step="CompilingHelpFile">
+Compiling HTML Help 1 file...
+[C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - Build1xHelpFile.proj]
+  Microsoft HTML Help Compiler 4.74.8702
+  
+  
+  
+  Compiling d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\plugins.chm
+  
+  
+  
+  
+  
+  Compile time: 0 minutes, 0 seconds
+  
+  52	Topics
+  
+  577	Local links
+  
+  24	Internet links
+  
+  0	Graphics
+  
+  
+  
+  
+  
+  Created d:\daten\develop\OpLog\Operationen\src\OperationenImport\Help\Help\Working\Output\HtmlHelp1\plugins.chm, 105,963 bytes
+  
+  Compression decreased file by 320,734 bytes.
+  
+    Last step completed in 00:00:01,7218
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00,0351
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 08.01.2018 00:42:27.  Total time: 00:00:15,0474
+
+</buildStep>
+</shfbBuild>

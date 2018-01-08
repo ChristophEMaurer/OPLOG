@@ -1,0 +1,836 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FxCopProject Version="1.36" Name="My FxCop Project">
+ <ProjectOptions>
+  <SharedProject>True</SharedProject>
+  <Stylesheet Apply="False">c:\program files\microsoft fxcop 1.36\Xml\FxCopReport.xsl</Stylesheet>
+  <SaveMessages>
+   <Project Status="Active, Excluded" NewOnly="False" />
+   <Report Status="Active" NewOnly="False" />
+  </SaveMessages>
+  <ProjectFile Compress="True" DefaultTargetCheck="True" DefaultRuleCheck="True" SaveByRuleGroup="" Deterministic="True" />
+  <EnableMultithreadedLoad>True</EnableMultithreadedLoad>
+  <EnableMultithreadedAnalysis>True</EnableMultithreadedAnalysis>
+  <SourceLookup>True</SourceLookup>
+  <AnalysisExceptionsThreshold>10</AnalysisExceptionsThreshold>
+  <RuleExceptionsThreshold>1</RuleExceptionsThreshold>
+  <Spelling Locale="en-US" />
+  <OverrideRuleVisibilities>False</OverrideRuleVisibilities>
+  <CustomDictionaries SearchFxCopDir="True" SearchUserProfile="True" SearchProjectDir="True" />
+  <SearchGlobalAssemblyCache>False</SearchGlobalAssemblyCache>
+  <DeadlockDetectionTimeout>120</DeadlockDetectionTimeout>
+  <IgnoreGeneratedCode>False</IgnoreGeneratedCode>
+ </ProjectOptions>
+ <Targets>
+  <Target Name="$(ProjectDir)/bin/Debug/Windows.Forms.dll" Analyze="True" AnalyzeAllChildren="True" />
+ </Targets>
+ <Rules>
+  <RuleFiles>
+   <RuleFile Name="$(FxCopDir)\Rules\DesignRules.dll" Enabled="True" AllRulesEnabled="True" />
+   <RuleFile Name="$(FxCopDir)\Rules\GlobalizationRules.dll" Enabled="True" AllRulesEnabled="True" />
+   <RuleFile Name="$(FxCopDir)\Rules\InteroperabilityRules.dll" Enabled="True" AllRulesEnabled="True" />
+   <RuleFile Name="$(FxCopDir)\Rules\MobilityRules.dll" Enabled="True" AllRulesEnabled="True" />
+   <RuleFile Name="$(FxCopDir)\Rules\NamingRules.dll" Enabled="True" AllRulesEnabled="True" />
+   <RuleFile Name="$(FxCopDir)\Rules\PerformanceRules.dll" Enabled="True" AllRulesEnabled="True" />
+   <RuleFile Name="$(FxCopDir)\Rules\PortabilityRules.dll" Enabled="True" AllRulesEnabled="True" />
+   <RuleFile Name="$(FxCopDir)\Rules\SecurityRules.dll" Enabled="True" AllRulesEnabled="True" />
+   <RuleFile Name="$(FxCopDir)\Rules\UsageRules.dll" Enabled="True" AllRulesEnabled="True" />
+  </RuleFiles>
+  <Groups />
+  <Settings />
+ </Rules>
+ <FxCopReport Version="1.36">
+  <Namespaces>
+   <Namespace Name="Windows.Forms.Wizard">
+    <Messages>
+     <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Created="2008-08-15 22:42:12Z">
+      <Issue>
+       <Item>Windows.Forms.Wizard</Item>
+      </Issue>
+     </Message>
+    </Messages>
+   </Namespace>
+  </Namespaces>
+  <Targets>
+   <Target Name="$(ProjectDir)/bin/Debug/Windows.Forms.dll">
+    <Modules>
+     <Module Name="windows.forms.dll">
+      <Messages>
+       <Message TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014" Created="2008-08-15 22:42:12Z">
+        <Issue>
+         <Item>'Windows.Forms.dll'</Item>
+        </Issue>
+       </Message>
+       <Message TypeName="MarkAssembliesWithNeutralResourcesLanguage" Category="Microsoft.Performance" CheckId="CA1824" Created="2008-08-15 22:42:12Z">
+        <Issue>
+         <Item>'Windows.Forms.dll'</Item>
+        </Issue>
+       </Message>
+      </Messages>
+      <Namespaces>
+       <Namespace Name="Windows.Forms">
+        <Types>
+         <Type Name="CalendarPickerView">
+          <Members>
+           <Member Name="#.ctor(System.String)">
+            <Messages>
+             <Message Id="str" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2008-08-15 22:42:12Z">
+              <Issue Name="MemberParameter">
+               <Item>'CalendarPickerView.CalendarPickerView(string)'</Item>
+               <Item>str</Item>
+               <Item>'strDate'</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="#OKClicked()">
+            <Messages>
+             <Message Id="OK" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Created="2008-08-15 22:42:12Z">
+              <Issue Name="MemberAbbreviation">
+               <Item>OK</Item>
+               <Item>'CalendarPickerView.OKClicked()'</Item>
+               <Item>Ok</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="DatabaseForm">
+          <Members>
+           <Member Name="#.ctor(AppFramework.BusinessLayerBase)">
+            <Messages>
+             <Message Id="o" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2008-08-15 22:42:12Z">
+              <Issue Name="MemberParameter">
+               <Item>'DatabaseForm.DatabaseForm(BusinessLayerBase)'</Item>
+               <Item>o</Item>
+               <Item>'oBusinessLayer'</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="#_businessLayerBase">
+            <Messages>
+             <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Created="2008-08-15 22:42:12Z">
+              <Issue>
+               <Item>'DatabaseForm._businessLayerBase'</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="#Confirm(System.String)">
+            <Messages>
+             <Message Id="str" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2008-08-15 22:42:12Z">
+              <Issue Name="MemberParameter">
+               <Item>'DatabaseForm.Confirm(string)'</Item>
+               <Item>str</Item>
+               <Item>'strText'</Item>
+              </Issue>
+             </Message>
+             <Message TypeName="SpecifyMessageBoxOptions" Category="Microsoft.Globalization" CheckId="CA1300" Created="2008-08-15 22:42:12Z">
+              <Issue>
+               <Item>'DatabaseForm.Confirm(string)'</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="#ConvertToInt32(System.Object)">
+            <Messages>
+             <Message Id="o" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2008-08-15 22:42:12Z">
+              <Issue Name="MemberParameterMoreMeaningfulName">
+               <Item>'DatabaseForm.ConvertToInt32(object)'</Item>
+               <Item>'o'</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="#DefaultListViewProperties(System.Windows.Forms.ListView)">
+            <Messages>
+             <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Created="2008-08-15 22:42:12Z" FixCategory="DependsOnFix">
+              <Issue>
+               <Item>'DatabaseForm.DefaultListViewProperties(ListView)'</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="#GetFirstSelectedIndex(System.Windows.Forms.ListView)">
+            <Messages>
+             <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Created="2008-08-15 22:42:12Z" FixCategory="DependsOnFix">
+              <Issue>
+               <Item>'DatabaseForm.GetFirstSelectedIndex(ListView)'</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="#GetFirstSelectedLVI(System.Windows.Forms.ListView)">
+            <Messages>
+             <Message Id="LVI" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Created="2008-08-15 22:42:12Z">
+              <Issue Name="Member">
+               <Item>LVI</Item>
+               <Item>'DatabaseForm.GetFirstSelectedLVI(ListView)'</Item>
+               <Item>Lvi</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="#GetFirstSelectedLVI(System.Windows.Forms.ListView,System.Boolean)">
+            <Messages>
+             <Message Id="LVI" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Created="2008-08-15 22:42:12Z">
+              <Issue Name="Member">
+               <Item>LVI</Item>
+               <Item>'DatabaseForm.GetFirstSelectedLVI(ListView, bool)'</Item>
+               <Item>Lvi</Item>
+              </Issue>
+             </Message>
+             <Message Id="b" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2008-08-15 22:42:12Z">
+              <Issue Name="MemberParameter">
+               <Item>'DatabaseForm.GetFirstSelectedLVI(ListView, bool)'</Item>
+               <Item>b</Item>
+               <Item>'bMessageIfNoneSelected'</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="#GetFirstSelectedTag(System.Windows.Forms.ListView,System.Boolean)">
+            <Messages>
+             <Message Id="b" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2008-08-15 22:42:12Z">
+              <Issue Name="MemberParameter">
+               <Item>'DatabaseForm.GetFirstSelectedTag(ListView, bool)'</Item>
+               <Item>b</Item>
+               <Item>'bMessageIfNoneSelected'</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="#GetFirstSelectedTag(System.Windows.Forms.ListView,System.Boolean,System.String)">
+            <Messages>
+             <Message Id="b" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2008-08-15 22:42:12Z">
+              <Issue Name="MemberParameter">
+               <Item>'DatabaseForm.GetFirstSelectedTag(ListView, bool, string)'</Item>
+               <Item>b</Item>
+               <Item>'bMessageIfNoneSelected'</Item>
+              </Issue>
+             </Message>
+             <Message Id="str" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2008-08-15 22:42:12Z">
+              <Issue Name="MemberParameter">
+               <Item>'DatabaseForm.GetFirstSelectedTag(ListView, bool, string)'</Item>
+               <Item>str</Item>
+               <Item>'strText'</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="#GetFirstSelectedTagString(System.Windows.Forms.ListView,System.Boolean)">
+            <Messages>
+             <Message Id="b" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2008-08-15 22:42:12Z">
+              <Issue Name="MemberParameter">
+               <Item>'DatabaseForm.GetFirstSelectedTagString(ListView, bool)'</Item>
+               <Item>b</Item>
+               <Item>'bMessageIfNoneSelected'</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="#GetFirstSelectedTagString(System.Windows.Forms.ListView,System.Boolean,System.String)">
+            <Messages>
+             <Message Id="b" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2008-08-15 22:42:12Z">
+              <Issue Name="MemberParameter">
+               <Item>'DatabaseForm.GetFirstSelectedTagString(ListView, bool, string)'</Item>
+               <Item>b</Item>
+               <Item>'bMessageIfNoneSelected'</Item>
+              </Issue>
+             </Message>
+             <Message Id="str" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2008-08-15 22:42:12Z">
+              <Issue Name="MemberParameter">
+               <Item>'DatabaseForm.GetFirstSelectedTagString(ListView, bool, string)'</Item>
+               <Item>str</Item>
+               <Item>'strText'</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="#InitializeComponent()">
+            <Messages>
+             <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Created="2008-08-15 22:42:12Z">
+              <Issue>
+               <Item>'DatabaseForm.InitializeComponent()'</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="#MessageBox(System.String)">
+            <Messages>
+             <Message Id="str" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2008-08-15 22:42:12Z">
+              <Issue Name="MemberParameter">
+               <Item>'DatabaseForm.MessageBox(string)'</Item>
+               <Item>str</Item>
+               <Item>'strText'</Item>
+              </Issue>
+             </Message>
+             <Message TypeName="SpecifyMessageBoxOptions" Category="Microsoft.Globalization" CheckId="CA1300" Created="2008-08-15 22:42:12Z">
+              <Issue>
+               <Item>'DatabaseForm.MessageBox(string)'</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="#MessageBox(System.String,System.Windows.Forms.MessageBoxButtons)">
+            <Messages>
+             <Message Id="str" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2008-08-15 22:42:12Z">
+              <Issue Name="MemberParameter">
+               <Item>'DatabaseForm.MessageBox(string, MessageBoxButtons)'</Item>
+               <Item>str</Item>
+               <Item>'strText'</Item>
+              </Issue>
+             </Message>
+             <Message TypeName="SpecifyMessageBoxOptions" Category="Microsoft.Globalization" CheckId="CA1300" Created="2008-08-15 22:42:12Z">
+              <Issue>
+               <Item>'DatabaseForm.MessageBox(string, MessageBoxButtons)'</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="#OKClicked()">
+            <Messages>
+             <Message Id="OK" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Created="2008-08-15 22:42:12Z">
+              <Issue Name="MemberAbbreviation">
+               <Item>OK</Item>
+               <Item>'DatabaseForm.OKClicked()'</Item>
+               <Item>Ok</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="#SetSelectionByTagValue(System.Windows.Forms.ListView,System.Int32)">
+            <Messages>
+             <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Created="2008-08-15 22:42:12Z" FixCategory="DependsOnFix">
+              <Issue>
+               <Item>'DatabaseForm.SetSelectionByTagValue(ListView, int)'</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="ListViewBalken">
+          <Messages>
+           <Message Id="Balken" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2008-08-15 22:42:12Z">
+            <Issue Name="Type">
+             <Item>Balken</Item>
+             <Item>'ListViewBalken'</Item>
+            </Issue>
+           </Message>
+          </Messages>
+          <Members>
+           <Member Name="#_balkenHintergrund">
+            <Messages>
+             <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Created="2008-08-15 22:42:12Z">
+              <Issue>
+               <Item>'ListViewBalken._balkenHintergrund'</Item>
+              </Issue>
+             </Message>
+             <Message Id="Hintergrund" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2008-08-15 22:42:12Z">
+              <Issue Name="Member">
+               <Item>Hintergrund</Item>
+               <Item>'ListViewBalken._balkenHintergrund'</Item>
+              </Issue>
+             </Message>
+             <Message Id="balken" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2008-08-15 22:42:12Z">
+              <Issue Name="Member">
+               <Item>balken</Item>
+               <Item>'ListViewBalken._balkenHintergrund'</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="#_balkenIst">
+            <Messages>
+             <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Created="2008-08-15 22:42:12Z">
+              <Issue>
+               <Item>'ListViewBalken._balkenIst'</Item>
+              </Issue>
+             </Message>
+             <Message Id="Ist" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2008-08-15 22:42:12Z">
+              <Issue Name="Member">
+               <Item>Ist</Item>
+               <Item>'ListViewBalken._balkenIst'</Item>
+              </Issue>
+             </Message>
+             <Message Id="balken" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2008-08-15 22:42:12Z">
+              <Issue Name="Member">
+               <Item>balken</Item>
+               <Item>'ListViewBalken._balkenIst'</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="#_balkenText">
+            <Messages>
+             <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Created="2008-08-15 22:42:12Z">
+              <Issue>
+               <Item>'ListViewBalken._balkenText'</Item>
+              </Issue>
+             </Message>
+             <Message Id="balken" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2008-08-15 22:42:12Z">
+              <Issue Name="Member">
+               <Item>balken</Item>
+               <Item>'ListViewBalken._balkenText'</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="#DrawPercentage(System.Windows.Forms.DrawListViewSubItemEventArgs)">
+            <Messages>
+             <Message Id="g" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Created="2008-08-15 22:42:12Z">
+              <Issue>
+               <Item>'ListViewBalken.DrawPercentage(DrawListViewSubItemEventArgs)'</Item>
+               <Item>'g'</Item>
+               <Item>'Graphics'</Item>
+              </Issue>
+             </Message>
+             <Message Id="System.String.Format(System.String,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Created="2008-08-15 22:42:12Z">
+              <Issue>
+               <Item>'string.Format(string, object)'</Item>
+               <Item>'ListViewBalken.DrawPercentage(DrawListViewSubItemEventArgs)'</Item>
+               <Item>'string.Format(IFormatProvider, string, params object[])'</Item>
+              </Issue>
+              <Issue>
+               <Item>'string.Format(string, object)'</Item>
+               <Item>'ListViewBalken.DrawPercentage(DrawListViewSubItemEventArgs)'</Item>
+               <Item>'string.Format(IFormatProvider, string, params object[])'</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="#ProzentFromBalkenGrafikData(System.String)">
+            <Messages>
+             <Message Id="Balken" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2008-08-15 22:42:12Z">
+              <Issue Name="Member">
+               <Item>Balken</Item>
+               <Item>'ListViewBalken.ProzentFromBalkenGrafikData(string)'</Item>
+              </Issue>
+             </Message>
+             <Message Id="Grafik" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2008-08-15 22:42:12Z">
+              <Issue Name="Member">
+               <Item>Grafik</Item>
+               <Item>'ListViewBalken.ProzentFromBalkenGrafikData(string)'</Item>
+              </Issue>
+             </Message>
+             <Message Id="Prozent" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2008-08-15 22:42:12Z">
+              <Issue Name="Member">
+               <Item>Prozent</Item>
+               <Item>'ListViewBalken.ProzentFromBalkenGrafikData(string)'</Item>
+              </Issue>
+             </Message>
+             <Message Id="s" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2008-08-15 22:42:12Z">
+              <Issue Name="MemberParameterMoreMeaningfulName">
+               <Item>'ListViewBalken.ProzentFromBalkenGrafikData(string)'</Item>
+               <Item>'s'</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="#ProzentFromBalkenGrafikData(System.String,System.Double&amp;,System.Double&amp;)">
+            <Messages>
+             <Message Id="1#" TypeName="AvoidOutParameters" Category="Microsoft.Design" CheckId="CA1021" Created="2008-08-15 22:42:12Z">
+              <Issue>
+               <Item>'ist'</Item>
+              </Issue>
+             </Message>
+             <Message Id="2#" TypeName="AvoidOutParameters" Category="Microsoft.Design" CheckId="CA1021" Created="2008-08-15 22:42:12Z">
+              <Issue>
+               <Item>'total'</Item>
+              </Issue>
+             </Message>
+             <Message Id="Balken" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2008-08-15 22:42:12Z">
+              <Issue Name="Member">
+               <Item>Balken</Item>
+               <Item>'ListViewBalken.ProzentFromBalkenGrafikData(string, out double, out double)'</Item>
+              </Issue>
+             </Message>
+             <Message Id="Grafik" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2008-08-15 22:42:12Z">
+              <Issue Name="Member">
+               <Item>Grafik</Item>
+               <Item>'ListViewBalken.ProzentFromBalkenGrafikData(string, out double, out double)'</Item>
+              </Issue>
+             </Message>
+             <Message Id="Prozent" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2008-08-15 22:42:12Z">
+              <Issue Name="Member">
+               <Item>Prozent</Item>
+               <Item>'ListViewBalken.ProzentFromBalkenGrafikData(string, out double, out double)'</Item>
+              </Issue>
+             </Message>
+             <Message Id="ist" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2008-08-15 22:42:12Z">
+              <Issue Name="MemberParameter">
+               <Item>'ListViewBalken.ProzentFromBalkenGrafikData(string, out double, out double)'</Item>
+               <Item>ist</Item>
+               <Item>'ist'</Item>
+              </Issue>
+             </Message>
+             <Message Id="s" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2008-08-15 22:42:12Z">
+              <Issue Name="MemberParameterMoreMeaningfulName">
+               <Item>'ListViewBalken.ProzentFromBalkenGrafikData(string, out double, out double)'</Item>
+               <Item>'s'</Item>
+              </Issue>
+             </Message>
+             <Message Id="System.Double.Parse(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Created="2008-08-15 22:42:12Z">
+              <Issue>
+               <Item>'double.Parse(string)'</Item>
+               <Item>'ListViewBalken.ProzentFromBalkenGrafikData(string, out double, out double)'</Item>
+               <Item>'double.Parse(string, IFormatProvider)'</Item>
+              </Issue>
+              <Issue>
+               <Item>'double.Parse(string)'</Item>
+               <Item>'ListViewBalken.ProzentFromBalkenGrafikData(string, out double, out double)'</Item>
+               <Item>'double.Parse(string, IFormatProvider)'</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="#SetBalkenColumnIndex(System.Int32)">
+            <Messages>
+             <Message Id="Balken" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2008-08-15 22:42:12Z">
+              <Issue Name="Member">
+               <Item>Balken</Item>
+               <Item>'ListViewBalken.SetBalkenColumnIndex(int)'</Item>
+              </Issue>
+             </Message>
+             <Message Id="balken" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2008-08-15 22:42:12Z">
+              <Issue Name="MemberParameter">
+               <Item>'ListViewBalken.SetBalkenColumnIndex(int)'</Item>
+               <Item>balken</Item>
+               <Item>'balkenColumnIndex'</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="SizeGripPanel">
+          <Members>
+           <Member Name="#WndProc(System.Windows.Forms.Message&amp;)">
+            <Messages>
+             <Message TypeName="OverrideLinkDemandsShouldBeIdenticalToBase" Category="Microsoft.Security" CheckId="CA2123" Created="2008-08-15 22:42:12Z">
+              <Issue Name="BaseOnly">
+               <Item>'SizeGripPanel.WndProc(ref Message)'</Item>
+               <Item>'ScrollableControl.WndProc(ref Message)'</Item>
+               <Item>[SecurityPermission(SecurityAction.LinkDemand, Flags = SecurityPermissionFlag.UnmanagedCode)]</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+        </Types>
+       </Namespace>
+       <Namespace Name="Windows.Forms.Wizard">
+        <Types>
+         <Type Name="WizardMaster">
+          <Members>
+           <Member Name="#.ctor(System.String[])">
+            <Messages>
+             <Message TypeName="DoNotInitializeUnnecessarily" Category="Microsoft.Performance" CheckId="CA1805" Created="2008-08-15 22:42:12Z">
+              <Issue>
+               <Item>'WizardMaster.WizardMaster(string[])'</Item>
+               <Item>'WizardMaster.__bAnimate'</Item>
+               <Item>'bool'</Item>
+               <Item>false</Item>
+              </Issue>
+              <Issue>
+               <Item>'WizardMaster.WizardMaster(string[])'</Item>
+               <Item>'WizardMaster._allDone'</Item>
+               <Item>'bool'</Item>
+               <Item>false</Item>
+              </Issue>
+              <Issue>
+               <Item>'WizardMaster.WizardMaster(string[])'</Item>
+               <Item>'WizardMaster._oCurrentPage'</Item>
+               <Item>'WizardPage'</Item>
+               <Item>null</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="#AnimateWindow(System.UInt32,System.UInt32,System.UInt32)">
+            <Messages>
+             <Message TypeName="MarkBooleanPInvokeArgumentsWithMarshalAs" Category="Microsoft.Interoperability" CheckId="CA1414" Created="2008-08-15 22:42:12Z">
+              <Issue Name="Return">
+               <Item>'WizardMaster.AnimateWindow(uint, uint, uint)'</Item>
+              </Issue>
+             </Message>
+             <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Created="2008-08-15 22:42:12Z">
+              <Issue>
+               <Item>'WizardMaster.AnimateWindow(uint, uint, uint)'</Item>
+              </Issue>
+             </Message>
+             <Message Id="0" TypeName="PInvokeDeclarationsShouldBePortable" Category="Microsoft.Portability" CheckId="CA1901" Created="2008-08-15 22:42:12Z" FixCategory="NonBreaking">
+              <Issue Name="Parameter">
+               <Item>'hwnd'</Item>
+               <Item>'WizardMaster.AnimateWindow(uint, uint, uint)'</Item>
+               <Item>4</Item>
+               <Item>64-bit</Item>
+               <Item>8</Item>
+               <Item>'uint'</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="#CreateLabels()">
+            <Messages>
+             <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Created="2008-08-15 22:42:12Z">
+              <Issue>
+               <Item>'int.ToString()'</Item>
+               <Item>'WizardMaster.CreateLabels()'</Item>
+               <Item>'int.ToString(IFormatProvider)'</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="#FormMayClose(System.Boolean)">
+            <Messages>
+             <Message Id="0#" TypeName="ParameterNamesShouldNotMatchMemberNames" Category="Microsoft.Naming" CheckId="CA1719" Created="2008-08-15 22:42:12Z">
+              <Issue>
+               <Item>'formMayClose'</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="#isUpdate">
+            <Messages>
+             <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Created="2008-08-15 22:42:12Z">
+              <Issue>
+               <Item>'WizardMaster.isUpdate'</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="#OnPostFinish(System.Boolean)">
+            <Messages>
+             <Message Id="bOn" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Created="2008-08-15 22:42:12Z">
+              <Issue Name="MemberParameterShouldBeDiscreteTerm">
+               <Item>'WizardMaster.OnPostFinish(bool)'</Item>
+               <Item>bOn</Item>
+               <Item>'bOnFinish'</Item>
+               <Item>bon</Item>
+              </Issue>
+             </Message>
+             <Message Id="b" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2008-08-15 22:42:12Z">
+              <Issue Name="MemberParameter">
+               <Item>'WizardMaster.OnPostFinish(bool)'</Item>
+               <Item>b</Item>
+               <Item>'bOnFinish'</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="#PageNameInOverview(Windows.Forms.Wizard.WizardPage)">
+            <Messages>
+             <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Created="2008-08-15 22:42:12Z">
+              <Issue>
+               <Item>'WizardMaster.PageNameInOverview(WizardPage)'</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="#PageNameInOverview(Windows.Forms.Wizard.WizardPage,System.Boolean)">
+            <Messages>
+             <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Created="2008-08-15 22:42:12Z">
+              <Issue>
+               <Item>'WizardMaster.PageNameInOverview(WizardPage, bool)'</Item>
+              </Issue>
+             </Message>
+             <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Created="2008-08-15 22:42:12Z" FixCategory="NonBreaking">
+              <Issue>
+               <Item>'WizardMaster.PageNameInOverview(WizardPage, bool)'</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="#PrevPage()">
+            <Messages>
+             <Message Id="Prev" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Created="2008-08-15 22:42:12Z">
+              <Issue Name="Member">
+               <Item>Prev</Item>
+               <Item>'WizardMaster.PrevPage()'</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="WizardMaster+AnimateStyles">
+          <Messages>
+           <Message TypeName="EnumsShouldHaveZeroValue" Category="Microsoft.Design" CheckId="CA1008" Created="2008-08-15 22:42:12Z" FixCategory="NonBreaking">
+            <Issue Name="NotFlagsNoZeroValue">
+             <Item>'WizardMaster.AnimateStyles'</Item>
+            </Issue>
+           </Message>
+           <Message TypeName="MarkEnumsWithFlags" Category="Microsoft.Design" CheckId="CA1027" Created="2008-08-15 22:42:12Z">
+            <Issue>
+             <Item>'WizardMaster.AnimateStyles'</Item>
+            </Issue>
+           </Message>
+           <Message TypeName="NestedTypesShouldNotBeVisible" Category="Microsoft.Design" CheckId="CA1034" Created="2008-08-15 22:42:12Z">
+            <Issue>
+             <Item>'WizardMaster.AnimateStyles'</Item>
+            </Issue>
+           </Message>
+           <Message TypeName="OnlyFlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1717" Created="2008-08-15 22:42:12Z">
+            <Issue>
+             <Item>'WizardMaster.AnimateStyles'</Item>
+            </Issue>
+           </Message>
+          </Messages>
+          <Members>
+           <Member Name="#HOR_Negative">
+            <Messages>
+             <Message Id="HOR" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Created="2008-08-15 22:42:12Z">
+              <Issue Name="Member">
+               <Item>HOR</Item>
+               <Item>'WizardMaster.AnimateStyles.HOR_Negative'</Item>
+               <Item>Hor</Item>
+              </Issue>
+             </Message>
+             <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Created="2008-08-15 22:42:12Z">
+              <Issue Name="Member">
+               <Item>'WizardMaster.AnimateStyles.HOR_Negative'</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="#HOR_Positive">
+            <Messages>
+             <Message Id="HOR" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Created="2008-08-15 22:42:12Z">
+              <Issue Name="Member">
+               <Item>HOR</Item>
+               <Item>'WizardMaster.AnimateStyles.HOR_Positive'</Item>
+               <Item>Hor</Item>
+              </Issue>
+             </Message>
+             <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Created="2008-08-15 22:42:12Z">
+              <Issue Name="Member">
+               <Item>'WizardMaster.AnimateStyles.HOR_Positive'</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="#VER_Negative">
+            <Messages>
+             <Message Id="VER" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Created="2008-08-15 22:42:12Z">
+              <Issue Name="Member">
+               <Item>VER</Item>
+               <Item>'WizardMaster.AnimateStyles.VER_Negative'</Item>
+               <Item>Ver</Item>
+              </Issue>
+             </Message>
+             <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Created="2008-08-15 22:42:12Z">
+              <Issue Name="Member">
+               <Item>'WizardMaster.AnimateStyles.VER_Negative'</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="#VER_Positive">
+            <Messages>
+             <Message Id="VER" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Created="2008-08-15 22:42:12Z">
+              <Issue Name="Member">
+               <Item>VER</Item>
+               <Item>'WizardMaster.AnimateStyles.VER_Positive'</Item>
+               <Item>Ver</Item>
+              </Issue>
+             </Message>
+             <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Created="2008-08-15 22:42:12Z">
+              <Issue Name="Member">
+               <Item>'WizardMaster.AnimateStyles.VER_Positive'</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+        </Types>
+       </Namespace>
+      </Namespaces>
+     </Module>
+    </Modules>
+   </Target>
+  </Targets>
+  <Rules>
+   <Rule TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020">
+    <Resolution Name="Default">Consider merging the types defined in '{0}' with another namespace.</Resolution>
+   </Rule>
+   <Rule TypeName="AvoidOutParameters" Category="Microsoft.Design" CheckId="CA1021">
+    <Resolution Name="Default">Consider a design that does not require that {0} be an out parameter.</Resolution>
+   </Rule>
+   <Rule TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811">
+    <Resolution Name="Default">{0} appears to have no upstream public or protected callers.</Resolution>
+   </Rule>
+   <Rule TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702">
+    <Resolution Name="MemberParameterShouldBeDiscreteTerm">In member {0}, the compound word '{1}' in parameter name {2} exists as a discrete term. If your usage is intended to be single word, case it as '{3}' or strip the first token entirely if it represents any sort of Hungarian notation.</Resolution>
+   </Rule>
+   <Rule TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051">
+    <Resolution Name="Default">Because field {0} is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Resolution>
+   </Rule>
+   <Rule TypeName="DoNotInitializeUnnecessarily" Category="Microsoft.Performance" CheckId="CA1805">
+    <Resolution Name="Default">{0} initializes field {1} of type {2} to {3}. Remove this initialization because it will be done automatically by the runtime.</Resolution>
+   </Rule>
+   <Rule TypeName="EnumsShouldHaveZeroValue" Category="Microsoft.Design" CheckId="CA1008">
+    <Resolution Name="NotFlagsNoZeroValue">Add a member to {0} that has a value of zero with a suggested name of 'None'.</Resolution>
+   </Rule>
+   <Rule TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709">
+    <Resolution Name="Member">Correct the casing of '{0}' in member name {1} by changing it to '{2}'.</Resolution>
+    <Resolution Name="MemberAbbreviation">Correct the casing of '{0}' in member name {1} by changing it to '{2}'. '{2}' is an abbreviation and therefore is not subject to acronym casing guidelines.</Resolution>
+   </Rule>
+   <Rule TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704">
+    <Resolution Name="Member">Correct the spelling of '{0}' in member name {1} or remove it entirely if it represents any sort of Hungarian notation.</Resolution>
+    <Resolution Name="MemberParameter">In method {0}, correct the spelling of '{1}' in parameter name {2} or remove it entirely if it represents any sort of Hungarian notation.</Resolution>
+    <Resolution Name="MemberParameterMoreMeaningfulName">In method {0}, consider providing a more meaningful name than parameter name {1}.</Resolution>
+    <Resolution Name="Type">Correct the spelling of '{0}' in type name {1}.</Resolution>
+   </Rule>
+   <Rule TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707">
+    <Resolution Name="Member">Remove the underscores from member name {0}.</Resolution>
+   </Rule>
+   <Rule TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014">
+    <Resolution Name="Default">Mark {0} with CLSCompliant(true) because it exposes externally visible types.</Resolution>
+   </Rule>
+   <Rule TypeName="MarkAssembliesWithNeutralResourcesLanguage" Category="Microsoft.Performance" CheckId="CA1824">
+    <Resolution Name="Default">Because assembly {0} contains a ResX-based resource file, mark it with the NeutralResourcesLanguage attribute, specifying the language of the resources within the assembly. This could improve lookup performance the first time a resource is retrieved.</Resolution>
+   </Rule>
+   <Rule TypeName="MarkBooleanPInvokeArgumentsWithMarshalAs" Category="Microsoft.Interoperability" CheckId="CA1414">
+    <Resolution Name="Return">Add the MarshalAsAttribute to the return type of P/Invoke {0}. If the corresponding unmanaged return type is a 4-byte Win32 'BOOL', use MarshalAs(UnmanagedType.Bool). For a 1-byte C++ 'bool', use MarshalAs(UnmanagedType.U1).</Resolution>
+   </Rule>
+   <Rule TypeName="MarkEnumsWithFlags" Category="Microsoft.Design" CheckId="CA1027">
+    <Resolution Name="Default">The constituent members of {0} appear to represent flags that can be combined rather than discrete values. If this is correct, mark the enumeration with FlagsAttribute.</Resolution>
+   </Rule>
+   <Rule TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822">
+    <Resolution Name="Default">The 'this' parameter (or 'Me' in Visual Basic) of {0} is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Resolution>
+   </Rule>
+   <Rule TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060">
+    <Resolution Name="Default">Because it is a P/Invoke method, {0} should be defined in a class named NativeMethods, SafeNativeMethods, or UnsafeNativeMethods.</Resolution>
+   </Rule>
+   <Rule TypeName="NestedTypesShouldNotBeVisible" Category="Microsoft.Design" CheckId="CA1034">
+    <Resolution Name="Default">Do not nest type {0}. Alternatively, change its accessibility so that it is not externally visible.</Resolution>
+   </Rule>
+   <Rule TypeName="OnlyFlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1717">
+    <Resolution Name="Default">If the name {0} is plural, change it to its singular form.</Resolution>
+   </Rule>
+   <Rule TypeName="OverrideLinkDemandsShouldBeIdenticalToBase" Category="Microsoft.Security" CheckId="CA2123">
+    <Resolution Name="BaseOnly">Add the following security attribute to {0} in order to match a LinkDemand on base method {1}:  {2}.</Resolution>
+   </Rule>
+   <Rule TypeName="PInvokeDeclarationsShouldBePortable" Category="Microsoft.Portability" CheckId="CA1901">
+    <Resolution Name="Parameter">As it is declared in your code, parameter {0} of P/Invoke {1} will be {2} bytes wide on {3} platforms. This is not correct, as the actual native declaration of this API indicates it should be {4} bytes wide on {3} platforms. Consult the MSDN Platform SDK documentation for help determining what data type should be used instead of {5}.</Resolution>
+   </Rule>
+   <Rule TypeName="ParameterNamesShouldNotMatchMemberNames" Category="Microsoft.Naming" CheckId="CA1719">
+    <Resolution Name="Default">Change either member or parameter name {0} so that one differs from the other.</Resolution>
+   </Rule>
+   <Rule TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804">
+    <Resolution Name="Default">{0} declares a variable, {1}, of type {2}, which is never used or is only assigned to. Use this variable or remove it.</Resolution>
+   </Rule>
+   <Rule TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305">
+    <Resolution Name="Default">Because the behavior of {0} could vary based on the current user's locale settings, replace this call in {1} with a call to {2}. If the result of {2} will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Resolution>
+   </Rule>
+   <Rule TypeName="SpecifyMessageBoxOptions" Category="Microsoft.Globalization" CheckId="CA1300">
+    <Resolution Name="Default">Change {0} to call the MessageBox.Show overload that specifies MessageBoxOptions, and make sure to set MessageBoxOptions.RightAlign and MessageBoxOptions.RtlReading if RightToLeft is set to RightToLeft.Yes on the parent control.</Resolution>
+   </Rule>
+  </Rules>
+ </FxCopReport>
+</FxCopProject>

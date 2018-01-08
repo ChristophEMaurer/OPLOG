@@ -1,0 +1,96 @@
+[OPTIONS]
+Binary TOC=Yes
+Compatibility=1.1 or later
+Compiled file=operationen.chm
+Contents file=op.hhc
+Default topic=html\Text\Allgemeines.html
+Display compile progress=Yes
+Enhanced decompilation=Yes
+Language=0x407 Deutsch (Deutschland)
+Title=OP-LOG
+
+
+[FILES]
+html\AkademischeAusbildungTypenView.html
+html\AkademischeAusbildungView.html
+html\AutoImportView.html
+html\ChirurgDokumenteView.html
+html\ChirurgenFunktionenView.html
+html\ChirurgenRichtlinienView.html
+html\ChirurgenView.html
+html\ChirurgOperationenView.html
+html\ChirurgView.html
+html\DatabaseUpdateView.html
+html\DateienView.html
+html\DateiTypenView.html
+html\DokumenteView.html
+html\DownloadFileView.html
+html\EnterSerialNumberView.html
+html\GebieteView.html
+html\GesamtOperationenView.html
+html\ImportChirurgenExcludeView.html
+html\IstOperationView.html
+html\KlinischeErgebnisseView.html
+html\KommentareView.html
+html\KommentarVerfassenView.html
+html\LogonView.html
+html\LogView.html
+html\MultipleOperationInsertNotificationView.html
+html\NotizenView.html
+html\NotizTypenView.html
+html\OperationenImportView.html
+html\OperationenKatalogView.html
+html\OperationenLogbuchView.html
+html\OperationenView.html
+html\OperationenZeitenVergleichView.html
+html\OptionsView.html
+html\PendingDokumenteView.html
+html\PendingDokumentOverwriteView.html
+html\PlanOperationenView.html
+html\PlanOperationVergleichView.html
+html\PlanOperationVergleichIstView.html
+html\PlanOperationView.html
+html\PluginInfoView.html
+html\RichtlinienOpsKodeView.html
+html\RichtlinienVergleichView.html
+html\RichtlinienView.html
+html\RichtlinieSelectView.html
+html\SelectDokumentView.html
+html\UserChangePasswordView.html
+html\UserSetPasswordView.html
+html\Extras\Import\AutomatischerImport.html
+html\Extras\Import\Import.html
+html\Extras\Import\WizardImportArzt.html
+html\Extras\Import\WizardImportOPSKatalog.html
+html\Extras\Import\WizardImportRichtlinien.html
+html\Extras\Import\WizardImportZuordnungen.html
+html\Extras\Export\Export.html
+html\Extras\Export\WizardExportArzt.html
+html\Extras\Export\WizardExportZuordnungen.html
+html\Extras\Export\WizardIExportRichtlinien.html
+html\Extras\CheckForUpdates.html
+html\Extras\DatenbankKomprimieren.html
+html\Extras\LizenzBestellen.html
+html\Extras\WizardLizenzInstallieren.html
+html\Text\Allgemeines.html
+html\OperationenDifferenceView.html
+html\SecGroupsView.html
+html\SecGroupsChirurgenView.html
+html\SecGroupsSecRightsView.html
+html\SecUserOverviewView.html
+html\AbteilungenView.html
+html\AbteilungenChirurgenView.html
+html\WeiterbilderChirurgenView.html
+html\RichtlinienvergleichOverviewView.html
+html\AboutBox.html
+html\RichtlinienOpsKodeUnassignedView.html
+html\OperationenVergleichView.html
+html\UpdateSerialnumbersView.html
+html\ExportOperationenKatalogView.html
+html\ImportOperationenMobileWizard.html
+html\SelectListViewColumnsView.html
+html\WeiterbildungszeitraumView.html
+html\RichtlinienSollIstView.html
+
+[INFOTYPES]
+

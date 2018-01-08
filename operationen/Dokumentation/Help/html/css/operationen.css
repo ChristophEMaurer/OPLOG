@@ -1,0 +1,43 @@
+body
+{
+  font-family: Verdana;
+  font-size: 0.9em;
+  color: #000000;
+  background-color: #C4E6E2;
+}
+
+td
+{
+  font-family: Verdana;
+  font-size: 0.9em;
+}
+
+h1
+{
+    font-size: 1.5em;
+}
+
+h2
+{
+    font-size: 1.2em;
+}
+
+h3
+{
+    font-size: 1.0em;
+    font-weight: bold;
+}
+
+.boxtext
+{
+    background-color: #C0C0C0;
+    font-size: 1.0em;
+}
+
+
+.code
+{
+    font-family: Courier New;
+    background-color: #C0C0C0;
+    font-size: 1.0em;
+}

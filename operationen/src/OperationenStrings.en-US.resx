@@ -1,0 +1,4041 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutBox_about" xml:space="preserve">
+    <value>About </value>
+  </data>
+  <data name="AboutBox_Benutzer" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="AkademischeAusbildungTypenView_info" xml:space="preserve">
+    <value>These values are used in window '{0}'.</value>
+  </data>
+  <data name="AkademischeAusbildungTypenView_title" xml:space="preserve">
+    <value>Edit academic CV</value>
+  </data>
+  <data name="AkademischeAusbildungView_Beginn" xml:space="preserve">
+    <value>Begin</value>
+  </data>
+  <data name="AkademischeAusbildungView_Bezeichnung" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="AkademischeAusbildungView_Bezeichnung_info" xml:space="preserve">
+    <value>You can add missing types under 'Administration &gt; Academic CV Types'.</value>
+  </data>
+  <data name="AkademischeAusbildungView_Ende" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="AkademischeAusbildungView_notype" xml:space="preserve">
+    <value>$r$- you must to select a type</value>
+  </data>
+  <data name="AkademischeAusbildungView_Organisation" xml:space="preserve">
+    <value>Organisation</value>
+  </data>
+  <data name="AkademischeAusbildungView_title" xml:space="preserve">
+    <value>Academic</value>
+  </data>
+  <data name="AutoImportView_progress" xml:space="preserve">
+    <value>Reading file {0} of {1}: {2}</value>
+  </data>
+  <data name="AutoImportView_progress2" xml:space="preserve">
+    <value>Records read: {0}, records inserted: {1}</value>
+  </data>
+  <data name="AutoImportView_title" xml:space="preserve">
+    <value>Automatic import from folder</value>
+  </data>
+  <data name="ChirurgDokumenteView_BearbeitetAm" xml:space="preserve">
+    <value>Edited on: </value>
+  </data>
+  <data name="ChirurgDokumenteView_Beschreibung" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="ChirurgDokumenteView_confirm_delete" xml:space="preserve">
+    <value>If you delete this document, the file on your computer will also be deleted if it exists for editing.$r$Do you really want to delete the selected document? This action cannot be undone.</value>
+  </data>
+  <data name="ChirurgDokumenteView_Dokument" xml:space="preserve">
+    <value>Document</value>
+  </data>
+  <data name="ChirurgDokumenteView_err_delete" xml:space="preserve">
+    <value>The file $r$$r${0}$r$$r$could not be deleted!$r$Contact your system administrator with this message.</value>
+  </data>
+  <data name="ChirurgDokumenteView_err_format" xml:space="preserve">
+    <value>The file name $r$$r${0}$r$$r$does not have the expected format.$r$(There should be two underscores in the file name)$r$Contact your system administator with this message.</value>
+  </data>
+  <data name="ChirurgDokumenteView_err_format2" xml:space="preserve">
+    <value>The file name $r$$r${0} ({1})$r$$r$does not have the expected format.$r$(There should be a number between the two underscores.$r$Contact your system administrator with this message.</value>
+  </data>
+  <data name="ChirurgDokumenteView_err_insert" xml:space="preserve">
+    <value>The file $r$$r${0}$r$$r$could not be inserted into the database.$r$Contact your system administrator with this message.</value>
+  </data>
+  <data name="ChirurgDokumenteView_err_read" xml:space="preserve">
+    <value>Error reading file</value>
+  </data>
+  <data name="ChirurgDokumenteView_info" xml:space="preserve">
+    <value>Click '{0}' to copy the file from the database onto your PC for local editing.$r$Click '{1}' to put the local file back into the database. Click '{2}' to view the file. You can add new files with '{3}'. You can edit only your own files, you cannot edit files of other users.</value>
+  </data>
+  <data name="ChirurgDokumenteView_missingFile" xml:space="preserve">
+    <value>The file $r$$r${0}$r$$r$could not be found.$r$Contact your system administrator with this message.</value>
+  </data>
+  <data name="ChirurgDokumenteView_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="ChirurgDokumenteView_title" xml:space="preserve">
+    <value>Edit logbook</value>
+  </data>
+  <data name="ChirurgenView_confirmExclude" xml:space="preserve">
+    <value>The names of the selected surgeons will be added to the import-exclude-list$r$Operations of these surgeons will not be imported from now on.$r$Continue?</value>
+  </data>
+  <data name="ChirurgenView_title" xml:space="preserve">
+    <value>Select a surgeon</value>
+  </data>
+  <data name="ChirurgOperationenView" xml:space="preserve">
+    <value>Performed Operation single</value>
+  </data>
+  <data name="ChirurgOperationenView_anzahl" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="ChirurgOperationenView_Bezeichnung" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="ChirurgOperationenView_confirmDeleteOperation" xml:space="preserve">
+    <value>Do you really want to delete {0} selected operations?</value>
+  </data>
+  <data name="ChirurgOperationenView_confirmDeleteZuordnung" xml:space="preserve">
+    <value>Do you really want to remove the assignment of guidelines for {0} operations?</value>
+  </data>
+  <data name="ChirurgOperationenView_Datum" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="ChirurgOperationenView_Gebiet" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="ChirurgOperationenView_Nr" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ChirurgOperationenView_OPSKode" xml:space="preserve">
+    <value>OPSCode</value>
+  </data>
+  <data name="ChirurgOperationenView_Richtlinie" xml:space="preserve">
+    <value>Guideline</value>
+  </data>
+  <data name="ChirurgView_info" xml:space="preserve">
+    <value>The initial password is 'start'. The password must be changed when logging in for the first time. $r$You can modify official positions at '{0}'.</value>
+  </data>
+  <data name="ChirurgView_msg_done" xml:space="preserve">
+    <value>The initial password is 'start'.</value>
+  </data>
+  <data name="ChirurgView_title_edit" xml:space="preserve">
+    <value>Edit surgeon</value>
+  </data>
+  <data name="ChirurgView_title_new" xml:space="preserve">
+    <value>New Surgeon</value>
+  </data>
+  <data name="OperationenForm_confirmData" xml:space="preserve">
+    <value>You are about to load {0} items.$r$This could take a minute or two.$r$You can reduce the number of items by narrowing the search result.$r$$r$Continue?</value>
+  </data>
+  <data name="OperationenForm_confirmDeleteMultiple" xml:space="preserve">
+    <value>You are about to delete {0} entries.  This will fail for entries which are referenced elsewhere.$r$$r$Continue?</value>
+  </data>
+  <data name="OperationenForm_confirmDeleteSimpleMultiple" xml:space="preserve">
+    <value>Do you really want to delete the {0} selected items?</value>
+  </data>
+  <data name="OperationenForm_confirmDeleteSimpleSingle" xml:space="preserve">
+    <value>Do you really want to delete the selected item?</value>
+  </data>
+  <data name="OperationenForm_confirmDeleteSingle" xml:space="preserve">
+    <value>You are about to delete one entry. This will fail if this entry is referenced elsewhere.$r$$r$Continue?</value>
+  </data>
+  <data name="OperationenForm_err_noprinter" xml:space="preserve">
+    <value>The print preview could not be generated. Make sure that a printer is installed.</value>
+  </data>
+  <data name="OperationenForm_err_nowwwconnection" xml:space="preserve">
+    <value>There might not be an internet connection.</value>
+  </data>
+  <data name="OptionsView_info_auto_serial" xml:space="preserve">
+    <value>If you check this option, one serial number will be automatically consumed if a new user is created anywhere in the system. Product keys can be managed at '{0}'.</value>
+  </data>
+  <data name="OperationenForm_invalidDate" xml:space="preserve">
+    <value>$r$- '{0}' does not contain a valid date</value>
+  </data>
+  <data name="OperationenForm_launchFileError" xml:space="preserve">
+    <value>The file $r$$r$'{0}'$r$$r$cannot be displayed.$r$Either this file is missing or it has program associated with it.$r$Contact your system administrator with this message.</value>
+  </data>
+  <data name="OperationenForm_ll_extras_seriennummern_verwalten" xml:space="preserve">
+    <value>Tools &gt; Manage serial numbers...</value>
+  </data>
+  <data name="OperationenForm_missingFile" xml:space="preserve">
+    <value>The file $r$'{0}'$r$does not exist. Please contact your system administrator with this message.</value>
+  </data>
+  <data name="OperationenForm_missingText" xml:space="preserve">
+    <value>$r$- '{0}' is missing</value>
+  </data>
+  <data name="OperationenForm_needsSelection" xml:space="preserve">
+    <value>$r$- '{0}' has to be selected.</value>
+  </data>
+  <data name="OperationenForm_noSelection" xml:space="preserve">
+    <value>You must select an entry.</value>
+  </data>
+  <data name="OperationenForm_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="OperationenForm_OPSKatalog" xml:space="preserve">
+    <value>OPS-Catalog</value>
+  </data>
+  <data name="OperationenKatalogView_confirm_delete1" xml:space="preserve">
+    <value>Do you want to delete ALL entries from the OPS-Catalog?</value>
+  </data>
+  <data name="OperationenKatalogView_confirm_delete2" xml:space="preserve">
+    <value>Do you really want to delete ALL entries from the OPS-Catalog?</value>
+  </data>
+  <data name="OperationenZeitenVergleichView_InfoText" xml:space="preserve">
+    <value>One Operation ID can appear more than once for one surgeon. Only one of these is used to calculate the total.</value>
+  </data>
+  <data name="OptionsView_err_plugin_load" xml:space="preserve">
+    <value>Plugin$r$$r${0}$r$$r$could not be loaded:$r$$r${1}</value>
+  </data>
+  <data name="OptionsView_missing_dir" xml:space="preserve">
+    <value>$r$- folder$r$  '{0}'$r$does not exist.</value>
+  </data>
+  <data name="OptionsView_tab_auto_import" xml:space="preserve">
+    <value>Automatic operation import</value>
+  </data>
+  <data name="OptionsView_tab_program" xml:space="preserve">
+    <value>Programm Update</value>
+  </data>
+  <data name="OptionsView_tab_proxy" xml:space="preserve">
+    <value>Proxy</value>
+  </data>
+  <data name="OptionsView_tab_serial_numbers" xml:space="preserve">
+    <value>Serial numbers</value>
+  </data>
+  <data name="OptionsView_title" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="SerialNumbersView_col_serialnumber" xml:space="preserve">
+    <value>Serial number</value>
+  </data>
+  <data name="SerialNumbersView_col_usedby" xml:space="preserve">
+    <value>Used by</value>
+  </data>
+  <data name="SerialNumbersView_confirm_insert" xml:space="preserve">
+    <value>Do you want to insert these {0} serial numbers?</value>
+  </data>
+  <data name="SerialNumbersView_info" xml:space="preserve">
+    <value>Paste new serial numbers into the text box and click '{0}' to save them.</value>
+  </data>
+  <data name="SerialNumbersView_info_data" xml:space="preserve">
+    <value>You can only delete serial numbers which are not assigned to a person.</value>
+  </data>
+  <data name="SerialNumbersView_lv_serial_free" xml:space="preserve">
+    <value>*** unused ***</value>
+  </data>
+  <data name="SerialNumbersView_serial_badformat" xml:space="preserve">
+    <value>'{0}' is not a valid serial number. Aborting.</value>
+  </data>
+  <data name="SerialNumbersView_serial_unused" xml:space="preserve">
+    <value>The serial number '{0}' has already been entered, but has not been used. It will not be saved.</value>
+  </data>
+  <data name="SerialNumbersView_serial_used" xml:space="preserve">
+    <value>The serial number '{0}' is already in use. It will not be saved.</value>
+  </data>
+  <data name="SerialNumbersView_title" xml:space="preserve">
+    <value>Manage Serial Numbers</value>
+  </data>
+  <data name="TypenTemplateView_Eintrag" xml:space="preserve">
+    <value>Entry</value>
+  </data>
+  <data name="OperationenForm_ll_offizielle_dokumente_opskatalog" xml:space="preserve">
+    <value>Official documents &gt; OPS-Catalog</value>
+  </data>
+  <data name="OperationenKatalogView_info_search" xml:space="preserve">
+    <value>The underscore '_' can be used as a wild card for any single character, the '%' for many characters ('_-300', '%500').</value>
+  </data>
+  <data name="RichtlinienOpsKodeUnassignedView_info" xml:space="preserve">
+    <value>Enter the OPSCode into the text box '{0}' to assign it to the selected guideline. All operations that begin with this OPS-Kode will be assigned to the selected guide line. The underscore '_' can be used as a wild card to match any single character. Read the help to fully understand the different ways of entering an OPS-Kode. Try out the underscore in the window '{1}'.</value>
+  </data>
+  <data name="RichtlinienOpsKodeUnassignedView_entry_exists" xml:space="preserve">
+    <value>This entry already exists</value>
+  </data>
+  <data name="RichtlinienOpsKodeUnassignedView_msg_continue" xml:space="preserve">
+    <value>Do you really want to add this entry?</value>
+  </data>
+  <data name="RichtlinienOpsKodeUnassignedView_msg_subset" xml:space="preserve">
+    <value>This code will make the following codes redundant:</value>
+  </data>
+  <data name="RichtlinienOpsKodeUnassignedView_msg_superset" xml:space="preserve">
+    <value>This code is redundant because of the following codes:</value>
+  </data>
+  <data name="AkademischeAusbildungView_info" xml:space="preserve">
+    <value>You can edit these values at '{0}'.</value>
+  </data>
+  <data name="OptionsView_tab_print" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="KommentareView_status_done" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="KommentareView_status_edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="KommentareView_status_update_confirm" xml:space="preserve">
+    <value>This will freeze both texts. You will not be able to make any changes after this. Continue?</value>
+  </data>
+  <data name="OperationenLogbuchView_open_comments" xml:space="preserve">
+    <value>There are comments on you which do not yet have status 'Done'.$r$You can disable this message at$r$$r$'{0}'.</value>
+  </data>
+  <data name="KommentareView_info" xml:space="preserve">
+    <value>You can edit both texts until you click '{0}'. Only the person who created the entry is allowed to click '{0}'.</value>
+  </data>
+  <data name="KommentareView_status_update_text" xml:space="preserve">
+    <value>Both texts must have contents!</value>
+  </data>
+  <data name="PlanOperationVergleichIstView_info" xml:space="preserve">
+    <value>Percentages are relative to the value '{0}'. Click into the top list to copy the OPSCode into the textbox '{1}'.</value>
+  </data>
+  <data name="PlanOperationVergleichIstView_title" xml:space="preserve">
+    <value>Distribution of operations</value>
+  </data>
+  <data name="OperationenEditView_msg_no_op_selected" xml:space="preserve">
+    <value>You have to select an operation from box '{0}'</value>
+  </data>
+  <data name="OperationenEditView_msg_no_surgeonop_selected" xml:space="preserve">
+    <value>You have to select one of your operations from box '{0}'</value>
+  </data>
+  <data name="OperationenEditView_title" xml:space="preserve">
+    <value>Edit Operations</value>
+  </data>
+  <data name="OperationenEditView_info" xml:space="preserve">
+    <value>To insert a new operation: click on an operation in box '{0}', fill out the data and then click '{1}'. To change an existing operation: click on an operation in box '{2}', fill out the data and then click '{3}'.</value>
+  </data>
+  <data name="OperationenForm_entries" xml:space="preserve">
+    <value>entries</value>
+  </data>
+  <data name="ChirurgenRichtlinienView_msg_anzahl_number" xml:space="preserve">
+    <value>$r$- '{0}' must be a number</value>
+  </data>
+  <data name="ChirurgenRichtlinienView_msg_anzahl_range" xml:space="preserve">
+    <value>$r$- '{0}' must be a number between {1} and {2}</value>
+  </data>
+  <data name="ChirurgenRichtlinienView_grp_chirurgenrichtlinien" xml:space="preserve">
+    <value>Manually added numbers</value>
+  </data>
+  <data name="ChirurgenRichtlinienView_grp_richtlinien" xml:space="preserve">
+    <value>Guidelines</value>
+  </data>
+  <data name="ChirurgenRichtlinienView_info" xml:space="preserve">
+    <value>Click an entry in group box '{0}', modify the fields and click '{1}' to insert data.$r$Click an entry on group box '{2}', modify the fields and click '{3}' to modify data.$r$Values added here will be added to automatically assigned operations at '{4}'.</value>
+  </data>
+  <data name="ChirurgenRichtlinienView_title" xml:space="preserve">
+    <value>Manually supplement guidelines</value>
+  </data>
+  <data name="OperationenForm_ll_auswertungen_zuordnungen" xml:space="preserve">
+    <value>Reporting &gt; Zuordnungen</value>
+  </data>
+  <data name="OperationenForm_ll_verwaltung_vermerkarten" xml:space="preserve">
+    <value>Verwaltung &gt; Vermerkarten</value>
+  </data>
+  <data name="OperationenForm_needsSelection_grp" xml:space="preserve">
+    <value>You must select an entry from box '{0}'</value>
+  </data>
+  <data name="KommentareView_status_update_confirm2" xml:space="preserve">
+    <value>Do you really want to finalize both texts? You will not be able to make any changes after this. Continue?</value>
+  </data>
+  <data name="OptionsView_info" xml:space="preserve">
+    <value>All settings are valid for all users who start this program on this computer. They do not affect users who start this program from other computers.</value>
+  </data>
+  <data name="OptionsView_tab_other" xml:space="preserve">
+    <value>Various</value>
+  </data>
+  <data name="OperationenForm_ll_auswertungen_vereinbarte_sollist" xml:space="preserve">
+    <value>Reporting &gt; Vereinbarte Soll/Ist Prozeduren</value>
+  </data>
+  <data name="OperationenForm_ll_bearbeiten_prozeduren_vereinbaren" xml:space="preserve">
+    <value>Edit &gt; Prozeduren vereinbaren</value>
+  </data>
+  <data name="PlanOperationenView_info" xml:space="preserve">
+    <value>Planned numbers of all surgeons can be compared at '{0}'.</value>
+  </data>
+  <data name="PlanOperationVergleichView_info" xml:space="preserve">
+    <value>Numbers are entered at '{0}'.</value>
+  </data>
+  <data name="CopyWWWProgramUpdateFilesView_bad_version_file" xml:space="preserve">
+    <value>File '{0}' does not have the required format.</value>
+  </data>
+  <data name="CopyWWWProgramUpdateFilesView_download_file" xml:space="preserve">
+    <value>Download file</value>
+  </data>
+  <data name="CopyWWWProgramUpdateFilesView_err_copy_file" xml:space="preserve">
+    <value>Could not copy file from $r${0}$r$to$r${1}$r$.</value>
+  </data>
+  <data name="CopyWWWProgramUpdateFilesView_err_delete_file" xml:space="preserve">
+    <value>File '{0}' could not be deleted.</value>
+  </data>
+  <data name="CopyWWWProgramUpdateFilesView_info1" xml:space="preserve">
+    <value>Pick a folder to which to copy the files from the internet to. If you want to copy the files to a USB device, you will want to attach that USB device beforehand.</value>
+  </data>
+  <data name="CopyWWWProgramUpdateFilesView_info2" xml:space="preserve">
+    <value>Click '{0}' to download the files from the internet and to copy them to the specified folder. This might take a moment or two, depending on the speed of your internet connection.</value>
+  </data>
+  <data name="CopyWWWProgramUpdateFilesView_info3_err" xml:space="preserve">
+    <value>Unable to copy files, please try again later.</value>
+  </data>
+  <data name="CopyWWWProgramUpdateFilesView_info3_ok" xml:space="preserve">
+    <value>Successfully copied files to '{0}'. Now copy these files to the directory specified under '{1}'.</value>
+  </data>
+  <data name="CopyWWWProgramUpdateFilesView_missing_dir" xml:space="preserve">
+    <value>Directory '{0}' does not exist.</value>
+  </data>
+  <data name="CopyWWWProgramUpdateFilesView_title" xml:space="preserve">
+    <value>Copy update files</value>
+  </data>
+  <data name="OperationenLogbuchView_err_version_file" xml:space="preserve">
+    <value>File '{0}' does not have the correct format. Contact your system administrator with this message.</value>
+  </data>
+  <data name="OperationenForm_ll_extras_optionen_programmupdate" xml:space="preserve">
+    <value>Extras &gt; Optionen &gt; Programm Update</value>
+  </data>
+  <data name="OperationenForm_ll_auswertungen_liste_operationen" xml:space="preserve">
+    <value>Reporting &gt; Liste aller durchgeführten Prozeduren</value>
+  </data>
+  <data name="OperationenForm_ll_auswertungen_op_zeiten" xml:space="preserve">
+    <value>Reporting &gt; Time spent in operating room</value>
+  </data>
+  <data name="OperationenView_title" xml:space="preserve">
+    <value>List of all operations</value>
+  </data>
+  <data name="OperationenZeitenVergleichView_title" xml:space="preserve">
+    <value>Time spent in operation room</value>
+  </data>
+  <data name="OptionsView_print_lines_print" xml:space="preserve">
+    <value>Number of lines per page when printing '{0}'</value>
+  </data>
+  <data name="OperationenForm_ll_auswertungen_verteilung_prozeduren_operateur" xml:space="preserve">
+    <value>Reporting &gt; Verteilung der Prozeduren nach Operateur</value>
+  </data>
+  <data name="AkademischeAusbildungView_operateur" xml:space="preserve">
+    <value>Surgeon</value>
+  </data>
+  <data name="NewOperationenView_confirm_insert" xml:space="preserve">
+    <value>This will insert all operations from list '{0}'.$r$Continue?</value>
+  </data>
+  <data name="OperationenForm_ll_bearbeiten_akademischer_lebenslauf" xml:space="preserve">
+    <value>Edit &gt; Academic CV</value>
+  </data>
+  <data name="KlinischeErgebnisseView_title" xml:space="preserve">
+    <value>Clinical results</value>
+  </data>
+  <data name="OperationenForm_ll_auswertungen_klinische_ergebnisse" xml:space="preserve">
+    <value>Reporting &gt; Clinical results</value>
+  </data>
+  <data name="AutoImportView_err_load_plugin" xml:space="preserve">
+    <value>Could not load plugin</value>
+  </data>
+  <data name="BusinessLayer_attn_files_to_edit" xml:space="preserve">
+    <value>Attention:$r$$r$There are files to edit.$r$Please insert these into the database at 'Edit &gt; Logbook',$r$so that your changes will not be lost.</value>
+  </data>
+  <data name="BusinessLayer_err_error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="BusinessLayer_err_missing_database" xml:space="preserve">
+    <value>Could not find database$r$$r${0}$r$$r$, therefore this application cannot start.$r$Contact your system administrator with this message.</value>
+  </data>
+  <data name="BusinessLayer_err_missing_database2" xml:space="preserve">
+    <value>The database '{0}' may be missing.$r$Contact your system administrator with this message:$r$$r${1}</value>
+  </data>
+  <data name="BusinessLayer_err_missing_db_operationen" xml:space="preserve">
+    <value>The database 'operationen' may be missing.$r$Contact your system administrator with this message:$r$$r${0}</value>
+  </data>
+  <data name="BusinessLayer_err_missing_folder" xml:space="preserve">
+    <value>The folder $r$$r$'{0}'$r$$r$is missing. The application cannot start.$r$Contact your system administrator with this message.</value>
+  </data>
+  <data name="BusinessLayer_err_serial_used" xml:space="preserve">
+    <value>This serial number has already been used.$r$$r$You must use a different serial number for each user.</value>
+  </data>
+  <data name="ChirurgOperationenView_info_summary" xml:space="preserve">
+    <value>You can set the number of relevant positions for the Code at '{0}'</value>
+  </data>
+  <data name="RichtlinienVergleichOverviewView_title" xml:space="preserve">
+    <value>Compare guidelines: Overview</value>
+  </data>
+  <data name="AbteilungenChirurgenView_title" xml:space="preserve">
+    <value>Assign surgeons to departments</value>
+  </data>
+  <data name="AbteilungenChirurgenView_abteilung" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="AbteilungenView_info" xml:space="preserve">
+    <value>A surgeon can be part of one or more departments.</value>
+  </data>
+  <data name="AbteilungenView_title" xml:space="preserve">
+    <value>Departments</value>
+  </data>
+  <data name="SecGroupsChirurgenView_title" xml:space="preserve">
+    <value>Assignment of surgeons to roles</value>
+  </data>
+  <data name="SecGroupsChirurgenView_usergroup" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="SecGroupsSecRightsView_description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="SecGroupsSecRightsView_info" xml:space="preserve">
+    <value>Tip: Create a user without further data for each role and logon as this user to check that you assigned the rights correctly.</value>
+  </data>
+  <data name="SecGroupsSecRightsView_title" xml:space="preserve">
+    <value>Assignment of rights to roles.</value>
+  </data>
+  <data name="SecGroupsSecRightsView_usergroup" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="SecGroupsView_info" xml:space="preserve">
+    <value>A user can be part of one or more roles and has all the rights assigned to all the roles that he belongs to.</value>
+  </data>
+  <data name="SecGroupsView_title" xml:space="preserve">
+    <value>re</value>
+  </data>
+  <data name="WeiterbilderChirurgenView_title" xml:space="preserve">
+    <value>Assignment of surgeons to trainers</value>
+  </data>
+  <data name="SecGroupsSecRightsView_err_last_right" xml:space="preserve">
+    <value>The following right may not be removed because it would not be assigned to any user:</value>
+  </data>
+  <data name="AbteilungenChirurgenView_select_surgeon_info" xml:space="preserve">
+    <value>Choose a surgeon.</value>
+  </data>
+  <data name="ChirurgenView_info" xml:space="preserve">
+    <value>A trainer sees all surgeons assigned to him.$r$There is a right to see all surgeons from all departments that oneself belongs to and there is a right to see all surgeons.</value>
+  </data>
+  <data name="SecGroupsChirurgenView_select_surgeon_info" xml:space="preserve">
+    <value>Here you can see all surgeons</value>
+  </data>
+  <data name="WeiterbilderChirurgenView_select_surgeon_info" xml:space="preserve">
+    <value>You will see all surgeons of all departments to which you belong.</value>
+  </data>
+  <data name="SecUserOverviewView_abteilung" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="SecUserOverviewView_right_description" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="SecUserOverviewView_title" xml:space="preserve">
+    <value>User assignments - overview</value>
+  </data>
+  <data name="SecUserOverviewView_usergroup" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="OperationenForm_ll_auswertungen_richtlinien_gesamt" xml:space="preserve">
+    <value>Auswertungen &gt; Weiterbildungsstand gemäß Weiterbildungrichtlinien: Gesamtübersicht</value>
+  </data>
+  <data name="AboutBox_apppath" xml:space="preserve">
+    <value>Program path</value>
+  </data>
+  <data name="RichtlinienVergleichOverviewView_info" xml:space="preserve">
+    <value>Click an entry in the top list to fill the list below. If you change something in group box '{0}' you will want to click '{1}' to refresh the list below.</value>
+  </data>
+  <data name="SecUserOverviewView_grund" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="WeiterbilderChirurgenView_info" xml:space="preserve">
+    <value>A surgeon is a trainer if you check checkbox '{0}'.</value>
+  </data>
+  <data name="OperationenForm_ll_verwaltung_operateur_edit" xml:space="preserve">
+    <value>Verwaltung &gt; Operateurdaten &gt; Bearbeiten</value>
+  </data>
+  <data name="PrintIstOperationen_title" xml:space="preserve">
+    <value>Print operations</value>
+  </data>
+  <data name="BusinessLayer_err_del_user_abandoned_rights" xml:space="preserve">
+    <value>This user may not be deleted because this operation would produce the following abandoned rights which would not be assigned to any user:</value>
+  </data>
+  <data name="EnterSerialNumberView_data" xml:space="preserve">
+    <value>This data will be transmitted:</value>
+  </data>
+  <data name="TextBoxView_name" xml:space="preserve">
+    <value>Key</value>
+  </data>
+  <data name="TextBoxView_value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="OperationenForm_invalidTime" xml:space="preserve">
+    <value>$r$- '{0}' is not a valid time</value>
+  </data>
+  <data name="ChirurgOperationenView_title" xml:space="preserve">
+    <value>Operations of one surgeon</value>
+  </data>
+  <data name="DatabaseUpdateView_info" xml:space="preserve">
+    <value>The database will be updated.$r$$r$All installations accessing this database must be updated afterwards.$r$$r$Please make sure that nobody except yourself is accessing the database and make a backup of the database now.$r$$r$- Click '{0}' to update the database now.$r$$r$- Click '{1}' to exit now without updating.</value>
+  </data>
+  <data name="DatabaseUpdateView_title" xml:space="preserve">
+    <value>Datebase update</value>
+  </data>
+  <data name="AboutBox_path_plugins" xml:space="preserve">
+    <value>Plugin folder</value>
+  </data>
+  <data name="AboutBox_framework" xml:space="preserve">
+    <value>.NET Framework</value>
+  </data>
+  <data name="AboutBox_machinename" xml:space="preserve">
+    <value>Computer name</value>
+  </data>
+  <data name="AboutBox_user" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="AboutBox_version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="OperationenLogbuchView_KeineEigenen" xml:space="preserve">
+    <value>&lt;No files to display&gt;</value>
+  </data>
+  <data name="OperationenLogbuchView_del_surgeon_failure" xml:space="preserve">
+    <value>Surgeon '{0} {1}' could not be deleted</value>
+  </data>
+  <data name="OperationenLogbuchView_del_surgeon_msg" xml:space="preserve">
+    <value>Attention:$r$$r$The selected surgeon '{0} {1}' will be deleted. This will delete all of his data including all his operations. If you want to keep the operations and simply disable the surgeon, set the surgeon to disabled at $r$'{2}'</value>
+  </data>
+  <data name="OperationenLogbuchView_del_surgeon_msg2" xml:space="preserve">
+    <value>Do you really want to delete surgeon '{0} {1}'?</value>
+  </data>
+  <data name="OperationenLogbuchView_del_surgeon_success" xml:space="preserve">
+    <value>Surgeon '{0} {1}' was deleted.</value>
+  </data>
+  <data name="OperationenLogbuchView_import_ops" xml:space="preserve">
+    <value>Import operations</value>
+  </data>
+  <data name="OperationenEditView_msg_op_nonexists" xml:space="preserve">
+    <value>The code you entered does not exist</value>
+  </data>
+  <data name="OperationenVergleichView_errorNoOpscode" xml:space="preserve">
+    <value>Only one OPSCode can be added to the table</value>
+  </data>
+  <data name="OperationenVergleichView_info" xml:space="preserve">
+    <value>Click '{0}' to save the selected OPSCodes.$r$Left-click the column header (OPSCode) and click 'Remove OPSCode' to remove a column.$r$Double click an entry in table '{1}', to copy the OPSCode to '{2}'.</value>
+  </data>
+  <data name="BusinessLayer_err_date_manipulated" xml:space="preserve">
+    <value>The program has expired or the date on this computer has been changed.</value>
+  </data>
+  <data name="KommentarVerfassenView_ueber" xml:space="preserve">
+    <value>about</value>
+  </data>
+  <data name="LogonView_error" xml:space="preserve">
+    <value>Could not logon.$r$Check your user name and your password</value>
+  </data>
+  <data name="LogonView_info" xml:space="preserve">
+    <value>- The initial password of a new user is 'start'.$r$- After installing this program, you must logon as user 'mustermann' with password 'start'.$r$- You must assign a user to a role so that he is allowed to click menu items</value>
+  </data>
+  <data name="LogonView_title" xml:space="preserve">
+    <value>Logon</value>
+  </data>
+  <data name="AboutBox_Betriebssystem" xml:space="preserve">
+    <value>OS</value>
+  </data>
+  <data name="AboutBox_data" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="AboutBox_Datenbank" xml:space="preserve">
+    <value>Database</value>
+  </data>
+  <data name="AboutBox_err_missing_file" xml:space="preserve">
+    <value>File$r$$r$'{0}'$r$$r$is missing.</value>
+  </data>
+  <data name="AboutBox_group_computer" xml:space="preserve">
+    <value>Computer</value>
+  </data>
+  <data name="AboutBox_group_logbook" xml:space="preserve">
+    <value>OP-LOG</value>
+  </data>
+  <data name="AboutBox_installedVersion" xml:space="preserve">
+    <value>Installed version</value>
+  </data>
+  <data name="AboutBox_Klinik" xml:space="preserve">
+    <value>Clinic</value>
+  </data>
+  <data name="AboutBox_license_city" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="AboutBox_license_company" xml:space="preserve">
+    <value>Company/Clinic</value>
+  </data>
+  <data name="AboutBox_license_licenceData" xml:space="preserve">
+    <value>License file</value>
+  </data>
+  <data name="AboutBox_license_licenseCreateDate" xml:space="preserve">
+    <value>Create date</value>
+  </data>
+  <data name="AboutBox_license_licenseExpireDate" xml:space="preserve">
+    <value>Valid until</value>
+  </data>
+  <data name="AboutBox_license_street" xml:space="preserve">
+    <value>Street</value>
+  </data>
+  <data name="AboutBox_license_userFirstName" xml:space="preserve">
+    <value>First name</value>
+  </data>
+  <data name="AboutBox_license_userLastName" xml:space="preserve">
+    <value>Last name</value>
+  </data>
+  <data name="AboutBox_licenseError" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="AboutBox_PLZ" xml:space="preserve">
+    <value>ZIP, city</value>
+  </data>
+  <data name="AboutBox_straße" xml:space="preserve">
+    <value>Street, No</value>
+  </data>
+  <data name="AbteilungenView_titlePlural" xml:space="preserve">
+    <value>Departments</value>
+  </data>
+  <data name="AbteilungenView_titleSingular" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="AkademischeAusbildungTypenView_titlePlural" xml:space="preserve">
+    <value>Academic education</value>
+  </data>
+  <data name="AkademischeAusbildungTypenView_titleSingular" xml:space="preserve">
+    <value>Academic education</value>
+  </data>
+  <data name="BusinesLayer_errorVersion" xml:space="preserve">
+    <value>Database and program version do not match, the program cannot start.$r$$r$Database version: {0}.{1}$r$Database name: {2}$r$Program version: {3}.{4} {5}$r$$r$Please contact your administrator.</value>
+  </data>
+  <data name="BusinessLayer_err_license_badcreatedateformat" xml:space="preserve">
+    <value>Create date '{0}' of license file does not have format 'DD.MM.YYYY'</value>
+  </data>
+  <data name="BusinessLayer_err_license_badexpiredateformat" xml:space="preserve">
+    <value>Expiration date '{0}' of license file does not have format 'DD.MM.YYYY'</value>
+  </data>
+  <data name="BusinessLayer_err_license_badformat" xml:space="preserve">
+    <value>License file is invalid</value>
+  </data>
+  <data name="BusinessLayer_err_license_badsignature" xml:space="preserve">
+    <value>License file$r$$r$'{0}'$r$$r$ does not have a valid signature</value>
+  </data>
+  <data name="BusinessLayer_err_license_badxml" xml:space="preserve">
+    <value>License file$r$$r$'{0}'$r$$r$does not have a valid XML format</value>
+  </data>
+  <data name="BusinessLayer_err_license_createdateinfuture" xml:space="preserve">
+    <value>Date of validity '{0}' of license file has not been reached.</value>
+  </data>
+  <data name="BusinessLayer_err_license_dateexpired" xml:space="preserve">
+    <value>License file$r$$r$'{0}'$r$$r$ has expired.</value>
+  </data>
+  <data name="BusinessLayer_err_license_missingnode" xml:space="preserve">
+    <value>Entry '{0}' is missing in license file$r$$r$'{1}'$r$$r$</value>
+  </data>
+  <data name="BusinessLayer_err_license_missingsignature" xml:space="preserve">
+    <value>The signature of license file$r$$r$'{0}'$r$$r$is missing or invalid</value>
+  </data>
+  <data name="BusinessLayer_err_license_nonexists" xml:space="preserve">
+    <value>None found</value>
+  </data>
+  <data name="BusinessLayer_err_license_notfound" xml:space="preserve">
+    <value>Could not find license file$r$$r$'{0}'$r$$r$</value>
+  </data>
+  <data name="BusinessLayer_err_missing_file" xml:space="preserve">
+    <value>File$r$$r$'{0}'$r$$r$is missing.</value>
+  </data>
+  <data name="BusinessLayer_err_trial_failed" xml:space="preserve">
+    <value>A valid license file or serial number is required for this program</value>
+  </data>
+  <data name="BusinessLayer_error1" xml:space="preserve">
+    <value>You must have write access to directory$r$$r$'{0}'$r$$r$ to execute this program.</value>
+  </data>
+  <data name="ChirurgenFunktionenView_info" xml:space="preserve">
+    <value>You must choose a function from this list when entering a comment.</value>
+  </data>
+  <data name="ChirurgenFunktionenView_title" xml:space="preserve">
+    <value>Edit functions</value>
+  </data>
+  <data name="ChirurgenFunktionenView_titlePlural" xml:space="preserve">
+    <value>Functions</value>
+  </data>
+  <data name="ChirurgenFunktionenView_titleSingular" xml:space="preserve">
+    <value>Function</value>
+  </data>
+  <data name="ChirurgenRichtlinienView_anzahl" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="ChirurgenRichtlinienView_datum" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="ChirurgenRichtlinienView_methode" xml:space="preserve">
+    <value>Operation method</value>
+  </data>
+  <data name="ChirurgenRichtlinienView_nr" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ChirurgenRichtlinienView_ort" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="ChirurgenRichtlinienView_richtzahl" xml:space="preserve">
+    <value>Guiding value</value>
+  </data>
+  <data name="ChirurgenView_chkWeiterbilder" xml:space="preserve">
+    <value>Trainer</value>
+  </data>
+  <data name="ChirurgenView_llExclude" xml:space="preserve">
+    <value>Do not import the operations of the selected surgeons</value>
+  </data>
+  <data name="ChirurgenView_radInaktiv" xml:space="preserve">
+    <value>Inactive</value>
+  </data>
+  <data name="ChirurgOperationenView_cmdAssignRichtlinie" xml:space="preserve">
+    <value>Assign guideline...</value>
+  </data>
+  <data name="ChirurgOperationenView_cmdDelete" xml:space="preserve">
+    <value>Delete operation...</value>
+  </data>
+  <data name="ChirurgOperationenView_cmdNew" xml:space="preserve">
+    <value>New operation...</value>
+  </data>
+  <data name="ChirurgOperationenView_cmdRemoveRichtlinie" xml:space="preserve">
+    <value>Remove guideline...</value>
+  </data>
+  <data name="ChirurgOperationenView_filter_opscode" xml:space="preserve">
+    <value>OPSCodes starting with '{0}'</value>
+  </data>
+  <data name="ChirurgView_chkWeiterbilder" xml:space="preserve">
+    <value>Trainer</value>
+  </data>
+  <data name="ChirurgView_err_importname1" xml:space="preserve">
+    <value>Name '{0}' used during data import is already used by someone else.</value>
+  </data>
+  <data name="ChirurgView_err_username1" xml:space="preserve">
+    <value>The user name '{0}' already exists.</value>
+  </data>
+  <data name="ChirurgView_err_username2" xml:space="preserve">
+    <value>Attention: you changed the logon name!</value>
+  </data>
+  <data name="CopyWWWProgramUpdateFilesView_cmdCopy" xml:space="preserve">
+    <value>Copy...</value>
+  </data>
+  <data name="CopyWWWProgramUpdateFilesView_cmdVerzeichnis" xml:space="preserve">
+    <value>Choose folder...</value>
+  </data>
+  <data name="DatabaseForm_eintrag" xml:space="preserve">
+    <value>Entry</value>
+  </data>
+  <data name="DatabaseForm_msg1" xml:space="preserve">
+    <value>No entry selected</value>
+  </data>
+  <data name="DatabaseForm_msg2" xml:space="preserve">
+    <value>No '{0}' selected</value>
+  </data>
+  <data name="DatabaseLayer_bezeichnung" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="DatabaseLayer_error1" xml:space="preserve">
+    <value>Not a valid serial number. Surgeon was not saved.</value>
+  </data>
+  <data name="DatabaseLayer_error2" xml:space="preserve">
+    <value>'{0}' is not a valid serial number</value>
+  </data>
+  <data name="DatabaseLayer_opscode" xml:space="preserve">
+    <value>OPSCode</value>
+  </data>
+  <data name="DatabaseLayerCommon_alle" xml:space="preserve">
+    <value>__all__</value>
+  </data>
+  <data name="DatabaseUpdateView_change" xml:space="preserve">
+    <value>$r$$r$Changes:</value>
+  </data>
+  <data name="DatabaseUpdateView_update_error" xml:space="preserve">
+    <value>Database update failed:$r$$r${0}</value>
+  </data>
+  <data name="DatabaseUpdateView_update_ok" xml:space="preserve">
+    <value>Database update succeeded</value>
+  </data>
+  <data name="DateienView_dateiart" xml:space="preserve">
+    <value>File type</value>
+  </data>
+  <data name="DateienView_dateiname" xml:space="preserve">
+    <value>File name</value>
+  </data>
+  <data name="DateienView_eigenedateien" xml:space="preserve">
+    <value>Files</value>
+  </data>
+  <data name="DateienView_errDeleteFile" xml:space="preserve">
+    <value>File$r$$r$'{0}'$r$$r$ could not be deleted</value>
+  </data>
+  <data name="DateienView_errFileExists" xml:space="preserve">
+    <value>File$r$$r$'{0}'$r$$r$ exists</value>
+  </data>
+  <data name="DateienView_errFileNoCopy" xml:space="preserve">
+    <value>Could not copy file from $r${0}$r$to$r${1}$r$.</value>
+  </data>
+  <data name="DateienView_errFileNotFound" xml:space="preserve">
+    <value>Could not find file$r$$r$'{0}'.</value>
+  </data>
+  <data name="DateienView_errNoDateiart" xml:space="preserve">
+    <value>$r$- no type selected</value>
+  </data>
+  <data name="DateienView_info" xml:space="preserve">
+    <value>Edit files</value>
+  </data>
+  <data name="DateienView_menuetext" xml:space="preserve">
+    <value>Menu text</value>
+  </data>
+  <data name="DateienView_title" xml:space="preserve">
+    <value>Edit files</value>
+  </data>
+  <data name="DateiTypenView_info" xml:space="preserve">
+    <value>When adding a file with '{0}', you must choose a type from this list.</value>
+  </data>
+  <data name="DateiTypenView_title" xml:space="preserve">
+    <value>Edit files</value>
+  </data>
+  <data name="DateiTypenView_titlePlural" xml:space="preserve">
+    <value>File types</value>
+  </data>
+  <data name="DateiTypenView_titleSingular" xml:space="preserve">
+    <value>File type</value>
+  </data>
+  <data name="DokumenteView_beschreibung" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="DokumenteView_dateiname" xml:space="preserve">
+    <value>File name</value>
+  </data>
+  <data name="DokumenteView_errMinMax" xml:space="preserve">
+    <value>$r$- '{0}' must be a number between {1} and {2}</value>
+  </data>
+  <data name="DokumenteView_gruppe" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="DokumenteView_info" xml:space="preserve">
+    <value>Edit documents. You can create a personal copy with '{0}'</value>
+  </data>
+  <data name="DokumenteView_nr" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="DokumenteView_title" xml:space="preserve">
+    <value>Edit documents</value>
+  </data>
+  <data name="DownloadFileView_abortedByUser" xml:space="preserve">
+    <value>Download aborted by user</value>
+  </data>
+  <data name="DownloadFileView_downloadStatus" xml:space="preserve">
+    <value>Downloaded {0}KB of {1}KB</value>
+  </data>
+  <data name="DownloadFileView_errorDownloading" xml:space="preserve">
+    <value>Could not download file$r$$r${0}:$r$$r${1}</value>
+  </data>
+  <data name="EnterSerialNumberView_clinic" xml:space="preserve">
+    <value>Clinic</value>
+  </data>
+  <data name="EnterSerialNumberView_computername" xml:space="preserve">
+    <value>Computer name</value>
+  </data>
+  <data name="EnterSerialNumberView_enterSerial" xml:space="preserve">
+    <value>Enter serial number</value>
+  </data>
+  <data name="EnterSerialNumberView_firstName" xml:space="preserve">
+    <value>First name</value>
+  </data>
+  <data name="EnterSerialNumberView_invalidSerial" xml:space="preserve">
+    <value>Invalid serial number</value>
+  </data>
+  <data name="EnterSerialNumberView_lastName" xml:space="preserve">
+    <value>Last name</value>
+  </data>
+  <data name="EnterSerialNumberView_noneLeft" xml:space="preserve">
+    <value>[none available]</value>
+  </data>
+  <data name="EnterSerialNumberView_serialNotice" xml:space="preserve">
+    <value>The data you entered in '{0}' will be transmitted. You agreed to this when you accepted the license agreement. If you do not want this, abort now. Wait after clicking '{1}', this can take a moment or two, depending on the speed of your internet connection.</value>
+  </data>
+  <data name="EnterSerialNumberView_serialNumber" xml:space="preserve">
+    <value>Serial number</value>
+  </data>
+  <data name="EnterSerialNumberView_street" xml:space="preserve">
+    <value>Street</value>
+  </data>
+  <data name="EnterSerialNumberView_version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="EnterSerialNumberView_zip" xml:space="preserve">
+    <value>ZIP</value>
+  </data>
+  <data name="ExportOperationenKatalogView_confirm_remove_all" xml:space="preserve">
+    <value>Really delete all entries?</value>
+  </data>
+  <data name="ExportOperationenKatalogView_err_read_file" xml:space="preserve">
+    <value>Error reading file$r$$r$'{0}':$r$$r${1}</value>
+  </data>
+  <data name="ExportOperationenKatalogView_err_read_signature" xml:space="preserve">
+    <value>File $r$$r$'{0}'$r$$r$ has an unexpected signature, the expected signature was '{1}'</value>
+  </data>
+  <data name="ExportOperationenKatalogView_err_write_file" xml:space="preserve">
+    <value>Could not write file$r$$r$'{0}'$r$$r$</value>
+  </data>
+  <data name="ExportOperationenKatalogView_info" xml:space="preserve">
+    <value>Double click an entry to add or delete. Click '{0}' to read and then edit a previously exported file.$r$Click '{1}' to add all procedures that have been carried out by any surgeon.</value>
+  </data>
+  <data name="ExportOperationenKatalogView_opscode" xml:space="preserve">
+    <value>OPSCode</value>
+  </data>
+  <data name="ExportOperationenKatalogView_opstext" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="ExportOperationenKatalogView_title" xml:space="preserve">
+    <value>OPS-Catalog for Cell Phone</value>
+  </data>
+  <data name="GebieteView_bemerkung" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="GebieteView_confirm" xml:space="preserve">
+    <value>Do you really want to delete {0} areas?</value>
+  </data>
+  <data name="GebieteView_gebiet" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="GebieteView_herkunft" xml:space="preserve">
+    <value>Origin</value>
+  </data>
+  <data name="GebieteView_info" xml:space="preserve">
+    <value>Enter required areas</value>
+  </data>
+  <data name="GebieteView_title" xml:space="preserve">
+    <value>Edit areas</value>
+  </data>
+  <data name="GesamtOperationenView_anzahl" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="GesamtOperationenView_bezeichnung" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="GesamtOperationenView_filterFunktion" xml:space="preserve">
+    <value>Function:</value>
+  </data>
+  <data name="GesamtOperationenView_filterGebiete" xml:space="preserve">
+    <value>Areas:</value>
+  </data>
+  <data name="GesamtOperationenView_filterTotal" xml:space="preserve">
+    <value>Total:</value>
+  </data>
+  <data name="GesamtOperationenView_gebiet" xml:space="preserve">
+    <value>Area:</value>
+  </data>
+  <data name="GesamtOperationenView_gebiete" xml:space="preserve">
+    <value>Areas:</value>
+  </data>
+  <data name="GesamtOperationenView_grpText" xml:space="preserve">
+    <value>OPSCode for selected properties</value>
+  </data>
+  <data name="GesamtOperationenView_info" xml:space="preserve">
+    <value>Evaluate operations linked to guidelines via '{0}' only.</value>
+  </data>
+  <data name="GesamtOperationenView_no" xml:space="preserve">
+    <value>Guideline no</value>
+  </data>
+  <data name="GesamtOperationenView_opsCode" xml:space="preserve">
+    <value>OPSCode</value>
+  </data>
+  <data name="GesamtOperationenView_print_head" xml:space="preserve">
+    <value>    Guideline             No</value>
+  </data>
+  <data name="GesamtOperationenView_richtzahl" xml:space="preserve">
+    <value>Guiding value</value>
+  </data>
+  <data name="GesamtOperationenView_title" xml:space="preserve">
+    <value>List of operations - all</value>
+  </data>
+  <data name="ImportChirurgenExcludeView_confirm_delete" xml:space="preserve">
+    <value>Really delete {0} names?</value>
+  </data>
+  <data name="ImportChirurgenExcludeView_info" xml:space="preserve">
+    <value>Operations of surgeons in this list will NOT be imported when running a data import. Enter a first name only if there is more than one person with the same last name.</value>
+  </data>
+  <data name="ImportChirurgenExcludeView_title" xml:space="preserve">
+    <value>Edit data import exclusions</value>
+  </data>
+  <data name="KlinischeErgebnisseView_actual" xml:space="preserve">
+    <value>Actual</value>
+  </data>
+  <data name="KlinischeErgebnisseView_percent" xml:space="preserve">
+    <value>Percent</value>
+  </data>
+  <data name="KlinischeErgebnisseView_surgeon" xml:space="preserve">
+    <value>Surgeon</value>
+  </data>
+  <data name="KommentareView_angelegt" xml:space="preserve">
+    <value>Created</value>
+  </data>
+  <data name="KommentareView_chirurg" xml:space="preserve">
+    <value>Surgeon</value>
+  </data>
+  <data name="KommentareView_cmdAllComments" xml:space="preserve">
+    <value>Display all comments for all surgeons</value>
+  </data>
+  <data name="KommentareView_cmdCommentNew" xml:space="preserve">
+    <value>New comment...</value>
+  </data>
+  <data name="KommentareView_dienststellung" xml:space="preserve">
+    <value>Function</value>
+  </data>
+  <data name="KommentareView_einschaetzungVon" xml:space="preserve">
+    <value>Comment from</value>
+  </data>
+  <data name="KommentareView_status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="KommentareView_stellungnahmeVon" xml:space="preserve">
+    <value>Reply from</value>
+  </data>
+  <data name="KommentareView_title" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="KommentareView_ueber" xml:space="preserve">
+    <value>On</value>
+  </data>
+  <data name="KommentareView_von" xml:space="preserve">
+    <value>By</value>
+  </data>
+  <data name="KommentareView_zeitraum" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="KommentarVerfassenView_einschaetzungVon" xml:space="preserve">
+    <value>Comment from</value>
+  </data>
+  <data name="KommentarVerfassenView_info" xml:space="preserve">
+    <value>Comments can be changed until they have status 'done'. The comment on the right side can be added only by the surgeon who has been commented on. Functions can be edited in {0}.</value>
+  </data>
+  <data name="KommentarVerfassenView_stellungnahmeVon" xml:space="preserve">
+    <value>Reply by</value>
+  </data>
+  <data name="KommentarVerfassenView_titleEdit" xml:space="preserve">
+    <value>Edit comment</value>
+  </data>
+  <data name="KommentarVerfassenView_titleNew" xml:space="preserve">
+    <value>New comment</value>
+  </data>
+  <data name="LogView_aktion" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="LogView_anzahlEintraege" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="LogView_benutzer" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="LogView_cmdDelete" xml:space="preserve">
+    <value>Delete all entries...</value>
+  </data>
+  <data name="LogView_cmdDeleteList" xml:space="preserve">
+    <value>Delete all entries in this list.</value>
+  </data>
+  <data name="LogView_confirmDelete1" xml:space="preserve">
+    <value>Really delete all entries?</value>
+  </data>
+  <data name="LogView_confirmDelete2" xml:space="preserve">
+    <value>Really really delete all entries?</value>
+  </data>
+  <data name="LogView_confirmDelete3" xml:space="preserve">
+    <value>Really delete ALL entries from the list, not just the selected ones?</value>
+  </data>
+  <data name="LogView_text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="LogView_title" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="LogView_zeit" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="MultipleOperationInsertNotificationView_info" xml:space="preserve">
+    <value>Add the operation {0} times. Are you sure you want to do this?</value>
+  </data>
+  <data name="MultipleOperationInsertNotificationView_title" xml:space="preserve">
+    <value>Add an operation multiple times</value>
+  </data>
+  <data name="NotizenView_art" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="NotizenView_beginn" xml:space="preserve">
+    <value>Begin</value>
+  </data>
+  <data name="NotizenView_ende" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="NotizenView_info" xml:space="preserve">
+    <value>Edit Types at '{0}'</value>
+  </data>
+  <data name="NotizenView_printFilter1" xml:space="preserve">
+    <value>All notes of '{0}, {1}'</value>
+  </data>
+  <data name="NotizenView_printFilter2" xml:space="preserve">
+    <value>    From      To      Type    Text</value>
+  </data>
+  <data name="NotizenView_title" xml:space="preserve">
+    <value>Edit Notes</value>
+  </data>
+  <data name="NotizenView_vermerk" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="NotizenView_vermerkart" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="NotizTypenView_info" xml:space="preserve">
+    <value>When editing a note with '{0}' you must choose an entry from this list.</value>
+  </data>
+  <data name="NotizTypenView_title" xml:space="preserve">
+    <value>Edit types of notes</value>
+  </data>
+  <data name="NotizTypenView_titlePlural" xml:space="preserve">
+    <value>Note types</value>
+  </data>
+  <data name="NotizTypenView_titleSingular" xml:space="preserve">
+    <value>Note type</value>
+  </data>
+  <data name="OPDauerFortschrittView_anzahl" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="OPDauerFortschrittView_bis" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="OPDauerFortschrittView_datum" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="OPDauerFortschrittView_dauer" xml:space="preserve">
+    <value>Duration (hh:mm)</value>
+  </data>
+  <data name="OPDauerFortschrittView_durchschnitt" xml:space="preserve">
+    <value>Avarage duration (hh:mm)</value>
+  </data>
+  <data name="OPDauerFortschrittView_grpDauer" xml:space="preserve">
+    <value>Duration of operation</value>
+  </data>
+  <data name="OPDauerFortschrittView_grpDauerDurchschnitt" xml:space="preserve">
+    <value>Average duration of operation</value>
+  </data>
+  <data name="OPDauerFortschrittView_info" xml:space="preserve">
+    <value>Double click an entry in the list to move the OPSCode to '{0}'</value>
+  </data>
+  <data name="OPDauerFortschrittView_obererMedian" xml:space="preserve">
+    <value>upper median</value>
+  </data>
+  <data name="OPDauerFortschrittView_opsCode" xml:space="preserve">
+    <value>OPSCode</value>
+  </data>
+  <data name="OPDauerFortschrittView_opsText" xml:space="preserve">
+    <value>OPSText</value>
+  </data>
+  <data name="OPDauerFortschrittView_printFilter1" xml:space="preserve">
+    <value>OPSCodes starting with '{0}'</value>
+  </data>
+  <data name="OPDauerFortschrittView_printOperateur" xml:space="preserve">
+    <value>Surgeon</value>
+  </data>
+  <data name="OPDauerFortschrittView_title" xml:space="preserve">
+    <value>Average duration of operation</value>
+  </data>
+  <data name="OPDauerFortschrittView_untererMedian" xml:space="preserve">
+    <value>lower median</value>
+  </data>
+  <data name="OPDauerFortschrittView_von" xml:space="preserve">
+    <value>Fom</value>
+  </data>
+  <data name="OperationenEditView_bis" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="OperationenEditView_datum" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="OperationenEditView_ergebnisse" xml:space="preserve">
+    <value>Results</value>
+  </data>
+  <data name="OperationenEditView_fallzahl" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="OperationenEditView_funktion" xml:space="preserve">
+    <value>Function</value>
+  </data>
+  <data name="OperationenEditView_klinische" xml:space="preserve">
+    <value>Clinical</value>
+  </data>
+  <data name="OperationenEditView_prozeduren" xml:space="preserve">
+    <value>operations</value>
+  </data>
+  <data name="OperationenEditView_quelle" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="OperationenEditView_von" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="OperationenForm_bis" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="OperationenForm_controlBadFormat" xml:space="preserve">
+    <value>$r$- '{0}' has an invalid format</value>
+  </data>
+  <data name="OperationenForm_err_missing_file" xml:space="preserve">
+    <value>File $r$$r$'{0}'$r$$r$is missing.</value>
+  </data>
+  <data name="OperationenForm_errFileCopySrcDst" xml:space="preserve">
+    <value>File$r$$r$'{0}'$r$$r$could not be copied to $r$$r$'{1}'$r$$r$</value>
+  </data>
+  <data name="OperationenForm_errFileExists" xml:space="preserve">
+    <value>File$r$$r$'{0}'$r$$r$ exists</value>
+  </data>
+  <data name="OperationenForm_errFileNotFound" xml:space="preserve">
+    <value>File$r$$r$'{0}'$r$$r$ is missing</value>
+  </data>
+  <data name="OperationenForm_filter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="OperationenForm_fromSpace" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="OperationenForm_Funktion" xml:space="preserve">
+    <value>Function</value>
+  </data>
+  <data name="OperationenForm_hinweis" xml:space="preserve">
+    <value>Note:$r$</value>
+  </data>
+  <data name="OperationenForm_invalid" xml:space="preserve">
+    <value>$r$- '{0}' contains an invalid value</value>
+  </data>
+  <data name="OperationenForm_invalidContent" xml:space="preserve">
+    <value>$r$- {0} '{1}' is invalid</value>
+  </data>
+  <data name="OperationenForm_klinikExtern" xml:space="preserve">
+    <value>External operations only</value>
+  </data>
+  <data name="OperationenForm_klinikIntern" xml:space="preserve">
+    <value>Internal operations only</value>
+  </data>
+  <data name="OperationenForm_klinikInternUndExtern" xml:space="preserve">
+    <value>Internal and external operations</value>
+  </data>
+  <data name="OperationenForm_lcase_bis" xml:space="preserve">
+    <value>to</value>
+  </data>
+  <data name="OperationenForm_Nachname" xml:space="preserve">
+    <value>Last name</value>
+  </data>
+  <data name="OperationenForm_needsContents" xml:space="preserve">
+    <value>$r$- '{0}' may not be empty</value>
+  </data>
+  <data name="OperationenForm_needsSelectionItem" xml:space="preserve">
+    <value>$r$- no '{0}' selected</value>
+  </data>
+  <data name="OperationenForm_noneFound" xml:space="preserve">
+    <value>[no matching operation found]</value>
+  </data>
+  <data name="OperationenForm_nr" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="OperationenForm_print_filter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="OperationenForm_print_form" xml:space="preserve">
+    <value>Print...</value>
+  </data>
+  <data name="OperationenForm_print_header" xml:space="preserve">
+    <value>Printed {0}, page {1}</value>
+  </data>
+  <data name="OperationenForm_print_header2" xml:space="preserve">
+    <value>Printed {0}</value>
+  </data>
+  <data name="OperationenForm_print_instructions" xml:space="preserve">
+    <value>Print this page using you internet browser. You can change the lines per page here: '{0}'</value>
+  </data>
+  <data name="OperationenForm_print_listviewBrowser" xml:space="preserve">
+    <value>Internet browser: Print...</value>
+  </data>
+  <data name="OperationenForm_print_listviewBrowserBdc" xml:space="preserve">
+    <value>Internet browser: Print in BDC logbook format</value>
+  </data>
+  <data name="OperationenForm_print_listviewBrowserSelectedColumns" xml:space="preserve">
+    <value>Internet browser: Select columns and print...</value>
+  </data>
+  <data name="OperationenForm_printQuelle1" xml:space="preserve">
+    <value>Internal and external operations</value>
+  </data>
+  <data name="OperationenForm_printQuelle2" xml:space="preserve">
+    <value>Internal operations only</value>
+  </data>
+  <data name="OperationenForm_printQuelle3" xml:space="preserve">
+    <value>External operations only</value>
+  </data>
+  <data name="OperationenForm_richttext" xml:space="preserve">
+    <value>Operation method</value>
+  </data>
+  <data name="OperationenForm_richtzahl" xml:space="preserve">
+    <value>Guiding value</value>
+  </data>
+  <data name="OperationenForm_SecGroupsView" xml:space="preserve">
+    <value>Tools &gt; Roles</value>
+  </data>
+  <data name="OperationenForm_ucase_bis" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="OperationenForm_von" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="OperationenImporter_beginnImport" xml:space="preserve">
+    <value>Beginn</value>
+  </data>
+  <data name="OperationenImporter_endImport" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="OperationenImporter_err_assign1" xml:space="preserve">
+    <value>Cannot assign operation. More than one surgeon exists with name '{0}, {1}'</value>
+  </data>
+  <data name="OperationenImporter_err_assign2" xml:space="preserve">
+    <value>Cannot assign operation. More than one surgeon exists with name '{0}'</value>
+  </data>
+  <data name="OperationenImporter_errGeneral" xml:space="preserve">
+    <value>General error</value>
+  </data>
+  <data name="OperationenImporter_errImport" xml:space="preserve">
+    <value>Import failed:$r$$r$</value>
+  </data>
+  <data name="OperationenImporter_errInsertChirurgenOperationen" xml:space="preserve">
+    <value>Error inserting into database:InsertChirurgenOperationen()</value>
+  </data>
+  <data name="OperationenImporter_fehler" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="OperationenImporter_info" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="OperationenImporter_insert1" xml:space="preserve">
+    <value>Saving new surgeon '{0}, {1}'</value>
+  </data>
+  <data name="OperationenImporter_insert2" xml:space="preserve">
+    <value>Could not add surgeon '{0}, {1}'.$r$$r$Click '{2}' to add this surgeon to the exclusion list and continue.$r$$r$Click '{3}' to continue.$r$$r$Click'{4}' to abort.</value>
+  </data>
+  <data name="OperationenImporter_insert3" xml:space="preserve">
+    <value>Adding new OPSCode</value>
+  </data>
+  <data name="OperationenImporter_insertOpscodeError" xml:space="preserve">
+    <value>Could not add new OPSCode '{0}'</value>
+  </data>
+  <data name="AboutBox_Lizenzinformation" xml:space="preserve">
+    <value>License information</value>
+  </data>
+  <data name="OperationenForm_Vorname" xml:space="preserve">
+    <value>First name</value>
+  </data>
+  <data name="OperationenImporter_insertOpscodeSuccess" xml:space="preserve">
+    <value>Added new OPSCode '{0}'</value>
+  </data>
+  <data name="OperationenImporter_userabort" xml:space="preserve">
+    <value>Notice: Import aborted by user</value>
+  </data>
+  <data name="OperationenImportView_beschreibung" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="OperationenImportView_dateiname" xml:space="preserve">
+    <value>File name</value>
+  </data>
+  <data name="OperationenImportView_errImport" xml:space="preserve">
+    <value>Import failed:$r$$r$</value>
+  </data>
+  <data name="OperationenImportView_errLoadingPlugin" xml:space="preserve">
+    <value>Could not load Plugin $r$$r$'{0}'$r$$r$</value>
+  </data>
+  <data name="OperationenImportView_importSingleMissing" xml:space="preserve">
+    <value>If you enable '{0}' you must select a user</value>
+  </data>
+  <data name="OperationenImportView_info_importid" xml:space="preserve">
+    <value>Case sensitive! When choosing this option: First create the surgeon,  then set the import name, then import data. If you check '{0}', surgeons will be created using the import name as their last name.</value>
+  </data>
+  <data name="OperationenImportView_info1" xml:space="preserve">
+    <value>Select a plugin above and then click '{0}' to execute the import with it. You can import the same data multiple time, operations are inserted only once.</value>
+  </data>
+  <data name="OperationenImportView_info2" xml:space="preserve">
+    <value>Add a surgeon in '{0}' if you do not want to import his data</value>
+  </data>
+  <data name="OperationenImportView_ladePlugin" xml:space="preserve">
+    <value>Loading plugin</value>
+  </data>
+  <data name="OperationenImportView_pluginGeladen" xml:space="preserve">
+    <value>Plugin was loaded:</value>
+  </data>
+  <data name="OperationenImportView_title" xml:space="preserve">
+    <value>Importing operations</value>
+  </data>
+  <data name="OperationenKatalogView_cmdDelete" xml:space="preserve">
+    <value>Delete...</value>
+  </data>
+  <data name="OperationenKatalogView_cmdDeleteAll" xml:space="preserve">
+    <value>Delete entire OPS-Catalog</value>
+  </data>
+  <data name="OperationenKatalogView_cmdInsert" xml:space="preserve">
+    <value>Insert...</value>
+  </data>
+  <data name="OperationenKatalogView_info" xml:space="preserve">
+    <value>To create a new OPS-Catalog, first delete the existing one with '{0}', then import a new one with '{1}'</value>
+  </data>
+  <data name="OperationenKatalogView_title" xml:space="preserve">
+    <value>OPS-Catalog</value>
+  </data>
+  <data name="OperationenLogbuchView_bedienungsanleitung" xml:space="preserve">
+    <value>Instructions manual</value>
+  </data>
+  <data name="OperationenLogbuchView_befehl_alleDokumenteSehen" xml:space="preserve">
+    <value>Command: View all open documents</value>
+  </data>
+  <data name="OperationenLogbuchView_CloseWindows" xml:space="preserve">
+    <value>The action$r$$r$'{0}'$r$$r$cannot be completed. You must close all open windows first.</value>
+  </data>
+  <data name="OperationenLogbuchView_confirm_autoImport1" xml:space="preserve">
+    <value>All files from the selected folder will be imported. The settings used are the ones from $r$$r$'{0}'$r$$r$, even though they are disabled.$r$$r$Continue?</value>
+  </data>
+  <data name="OperationenLogbuchView_confirmUpgrade1" xml:space="preserve">
+    <value>The program version is older than the database version.$r$There is a new version of '{0}'.$r$This must be installed now.$r$$r$Continue?</value>
+  </data>
+  <data name="OperationenLogbuchView_confirmUpgrade2" xml:space="preserve">
+    <value>There is a new version of '{0}'. Install it now?</value>
+  </data>
+  <data name="OperationenLogbuchView_downloadInfo1" xml:space="preserve">
+    <value>File $r$$r$'{0}' is missing. It will be downloaded from '{1}'.</value>
+  </data>
+  <data name="OperationenLogbuchView_downloadInfo2" xml:space="preserve">
+    <value>Downloading file '{0}'</value>
+  </data>
+  <data name="OperationenLogbuchView_infoclick" xml:space="preserve">
+    <value>Click on this text to display the next one</value>
+  </data>
+  <data name="OperationenLogbuchView_languageErr1" xml:space="preserve">
+    <value>'{0}' is not a supported language</value>
+  </data>
+  <data name="OperationenLogbuchView_mehrDetails" xml:space="preserve">
+    <value>Show more details</value>
+  </data>
+  <data name="OperationenLogbuchView_mnAuswertungen" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="OperationenLogbuchView_mnBearbeiten" xml:space="preserve">
+    <value>Edit operations and guidelines and their associations</value>
+  </data>
+  <data name="OperationenLogbuchView_mnEigeneDateien" xml:space="preserve">
+    <value>Insert files that can be viewed by clicking the menu</value>
+  </data>
+  <data name="OperationenLogbuchView_mnExtras" xml:space="preserve">
+    <value>Manage the software and change options</value>
+  </data>
+  <data name="OperationenLogbuchView_mnHilfe" xml:space="preserve">
+    <value>Display help</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_AboutBox" xml:space="preserve">
+    <value>Display the program version</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_AboutBox_caption" xml:space="preserve">
+    <value>About '{0}'</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_AbteilungenChirurgenView" xml:space="preserve">
+    <value>Assign surgeons to department</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_AbteilungenView" xml:space="preserve">
+    <value>Edit departments</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_AkademischeAusbildungTypenView" xml:space="preserve">
+    <value>Define types of academic education</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_AkademischeAusbildungView" xml:space="preserve">
+    <value>Edit academic education</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_AutoImportView" xml:space="preserve">
+    <value>Execute automatic data import</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_BAEK_WBOrdnung" xml:space="preserve">
+    <value>Display the guidelines of the 'Bundesärztekammer'</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_BAEK_WBOrdnung_caption" xml:space="preserve">
+    <value>BAEK</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_BAEK_WBRichtlinien" xml:space="preserve">
+    <value>Display the guiding values of the 'Bundesärztekammer'</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_BAEK_WBRichtlinien_caption" xml:space="preserve">
+    <value>BAEK</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_ChirurgDokumenteView" xml:space="preserve">
+    <value>Create a personal copy of a document that was inserted in '{0}'</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_ChirurgenFunktionenView" xml:space="preserve">
+    <value>Edit types of functions</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_ChirurgenRichtlinienView" xml:space="preserve">
+    <value>Assign previously executed operations to a guideline</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_ChirurgenRichtlinienView_caption" xml:space="preserve">
+    <value>Previously fulfilled guidelines</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_ChirurgOperationenView" xml:space="preserve">
+    <value>Display operations of one surgeon</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_ChirurgOperationenView_caption" xml:space="preserve">
+    <value>Overview</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_ChirurgView_delete" xml:space="preserve">
+    <value>Delete a user and all associated data</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_ChirurgView_edit" xml:space="preserve">
+    <value>Edit a surgeon</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_ChirurgView_new" xml:space="preserve">
+    <value>Create a surgeon</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_CopyWWWProgramUpdateFilesView" xml:space="preserve">
+    <value>Copy the software to a local folder from the internet</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_CopyWWWProgramUpdateFilesView_caption" xml:space="preserve">
+    <value>Copy software from the internet</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_DateienView" xml:space="preserve">
+    <value>Add document to menu item '{0}'</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_DateiTypenView" xml:space="preserve">
+    <value>Define submenus for menu item '{0}'</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_DokumenteView" xml:space="preserve">
+    <value>Manage documents</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_EigeneDateien" xml:space="preserve">
+    <value>Files added with '{0}' will appear here</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_Exit" xml:space="preserve">
+    <value>Exit the application</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_Exit_caption" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_Export" xml:space="preserve">
+    <value>Export data</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_ExportChirurgWizard" xml:space="preserve">
+    <value>Export data of one surgeon</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_ExportOperationenKatalogView" xml:space="preserve">
+    <value>Export a subset of the OPS-Catalog for usage on a mobile device</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_ExportRichtlinienWizard" xml:space="preserve">
+    <value>Write guidelines to a text file</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_ExportRichtlinienZuordnungWizard" xml:space="preserve">
+    <value>Write associstions between guidelines and OPSCodes to a text file</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_ExportRichtlinienZuordnungWizard_caption" xml:space="preserve">
+    <value>Guildelines&lt;--&gt;OPSCodes</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_GebieteView" xml:space="preserve">
+    <value>Edit areas</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_GesamtOperationenView" xml:space="preserve">
+    <value>Display operations of one or more areas</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_GesamtOperationenView_caption" xml:space="preserve">
+    <value>Overview</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_help_bedienunganleitung" xml:space="preserve">
+    <value>Display manual (.pdf)</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_help_chm" xml:space="preserve">
+    <value>Display help file (.chm)</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_Import" xml:space="preserve">
+    <value>Import data</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_ImportChirurgenExcludeView" xml:space="preserve">
+    <value>Exclude surgeons from data import</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_ImportChirurgWizard" xml:space="preserve">
+    <value>Read a surgeon's data from a file created with '{0}'</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_ImportOperationenMobileWizard" xml:space="preserve">
+    <value>Read operations entered on a mobile device</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_ImportOPSWizard" xml:space="preserve">
+    <value>Import the DIMDI OPS-Catalog from a text file</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_ImportRichtlinienWizard" xml:space="preserve">
+    <value>Read guidelines for one specific area from a text file that was created with '{0}'</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_ImportRichtlinienZuordnungWizard" xml:space="preserve">
+    <value>Read assignments beween OPSCodes and guidelines for one specific area from a text file that was created with '{0}'</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_ImportRichtlinienZuordnungWizard_caption" xml:space="preserve">
+    <value>Guidelines &lt;--&gt; OPSCodes</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_InstallLicenseWizard" xml:space="preserve">
+    <value>Install a license file</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_KlinischeErgebnisseView" xml:space="preserve">
+    <value>Overview of clinical results for all surgeons</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_KommentareView" xml:space="preserve">
+    <value>Edit comments of trainer on surgeon in training</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_LogView" xml:space="preserve">
+    <value>Display history</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_NotizenView" xml:space="preserve">
+    <value>Create notes</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_NotizTypenView" xml:space="preserve">
+    <value>Define types of notes</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_OPDauerFortschrittView" xml:space="preserve">
+    <value>Calculate average time taken for an operation</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_OperationenEditView" xml:space="preserve">
+    <value>Edit operations manually</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_OperationenImportView" xml:space="preserve">
+    <value>Import operations</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_OperationenKatalogView" xml:space="preserve">
+    <value>Edit OPS-Catalog</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_OperationenSummaryView" xml:space="preserve">
+    <value>View global system values</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_OperationenVergleichView" xml:space="preserve">
+    <value>Display operations for one or more OPSCodes</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_OperationenVergleichView_caption" xml:space="preserve">
+    <value>Distribution</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_OperationenView" xml:space="preserve">
+    <value>List all operations</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_OperationenView_caption" xml:space="preserve">
+    <value>List of all operations</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_OperationenZeitenVergleichView" xml:space="preserve">
+    <value>Who spent how much time operating?</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_OptionsView" xml:space="preserve">
+    <value>Change various settings</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_OptionsView_caption" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_PlanOperationenView" xml:space="preserve">
+    <value>Set future target values of operations and compare them to the actual numbers</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_PlanOperationVergleichIstView" xml:space="preserve">
+    <value>List operations for one OPSCode</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_PlanOperationVergleichIstView_caption" xml:space="preserve">
+    <value>Distribution</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_PlanOperationVergleichView" xml:space="preserve">
+    <value>Display an overview of the target values defined with '{0}' for all surgeons</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_PrintIstOperationen" xml:space="preserve">
+    <value>Print operations individually or as an overview</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_RichtlinienOpsKodeUnassignedView" xml:space="preserve">
+    <value>Define the OPSCode to which an operation belongs</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_RichtlinienOpsKodeUnassignedView_caption" xml:space="preserve">
+    <value>Guidelines &lt;--&gt; OPSCodes</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_RichtlinienVergleichOverviewView" xml:space="preserve">
+    <value>Display actual numbers for all surgeons for one guideline</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_RichtlinienVergleichView" xml:space="preserve">
+    <value>For one surgeon, display the actual numbers compared to the guiding values</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_RichtlinienView" xml:space="preserve">
+    <value>Edit guidelines of one area</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_SecGroupsChirurgenView" xml:space="preserve">
+    <value>Assign users to roles. A role contains rights. A user is assigned all rights of all roles he is a member of</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_SecGroupsSecRightsView" xml:space="preserve">
+    <value>Assign rights to roles. Users are assigned to roles. A user is assigned all rights of all roles he is a member of</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_SecGroupsView" xml:space="preserve">
+    <value>Edit roles. A role contains rights. A user is assigned all rights of all roles he is a member of</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_SecUserOverviewView" xml:space="preserve">
+    <value>Display an overview of departments, roles, users and rights</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_SerialNumbersView" xml:space="preserve">
+    <value>Enter new serial numbers or remove unused ones.</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_SerialNumbersView_caption" xml:space="preserve">
+    <value>Serial numbers</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_sprache_de_de" xml:space="preserve">
+    <value>Sprache auf Deutsch umschalten</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_sprache_en_us" xml:space="preserve">
+    <value>Switch language to English</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_updatecheck_folder" xml:space="preserve">
+    <value>Check for updates from a local folder</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_updatecheck_folder_caption" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_updatecheck_internet" xml:space="preserve">
+    <value>Check for updates from the internet</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_updatecheck_internet_caption" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_UserChangePasswordView" xml:space="preserve">
+    <value>Change my password</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_UserChangePasswordView_caption" xml:space="preserve">
+    <value>Change password</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_UserSetPasswordView" xml:space="preserve">
+    <value>Set the password of another user</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_UserSetPasswordView_caption" xml:space="preserve">
+    <value>Change password</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_WeiterbilderChirurgenView" xml:space="preserve">
+    <value>Assign surgeons in training to trainers</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_www_help" xml:space="preserve">
+    <value>Go to the internet help pages</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_www_main" xml:space="preserve">
+    <value>Go to the internet page '{0}'</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_www_serialnumbers" xml:space="preserve">
+    <value>Buy serial numbers on the internet</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_www_serialnumbers_caption" xml:space="preserve">
+    <value>Serial numbers</value>
+  </data>
+  <data name="OperationenLogbuchView_mnOffizielleDokumente" xml:space="preserve">
+    <value>Official regulations</value>
+  </data>
+  <data name="OperationenLogbuchView_mnStammdaten" xml:space="preserve">
+    <value>Manage data that changes infrequently</value>
+  </data>
+  <data name="OperationenLogbuchView_mnVerwaltung" xml:space="preserve">
+    <value>Manage menu and data rights and assign them to users</value>
+  </data>
+  <data name="OperationenLogbuchView_msg_importError1" xml:space="preserve">
+    <value>Data import could not be completed.$r$All files that were imported successfully have been moved to folder$r$$r$'{0}'$r$$r$</value>
+  </data>
+  <data name="OperationenLogbuchView_msg_importSuccess1" xml:space="preserve">
+    <value>Data import completed.$r$All files that were imported successfully have been moved to folder$r$$r$'{0}'$r$$r$</value>
+  </data>
+  <data name="OperationenLogbuchView_NoSelfDelete" xml:space="preserve">
+    <value>A user cannot delete himself.</value>
+  </data>
+  <data name="OperationenLogbuchView_rightDataAbteilung" xml:space="preserve">
+    <value>Data: access to the data of all surgeons of the department of which the user is a member of.</value>
+  </data>
+  <data name="OperationenLogbuchView_rightDataAll" xml:space="preserve">
+    <value>Data: access to the data of all surgeons</value>
+  </data>
+  <data name="OperationenLogbuchView_rightEdit" xml:space="preserve">
+    <value>&gt; Edit</value>
+  </data>
+  <data name="OperationenLogbuchView_title2" xml:space="preserve">
+    <value>Automatic update - {0}</value>
+  </data>
+  <data name="OperationenLogbuchView_title3" xml:space="preserve">
+    <value>Automatic update</value>
+  </data>
+  <data name="OperationenLogbuchView_updateErr1" xml:space="preserve">
+    <value>Cannot retrieve version info. No update required.</value>
+  </data>
+  <data name="OperationenLogbuchView_updateOk" xml:space="preserve">
+    <value>Your software is up to date.</value>
+  </data>
+  <data name="OperationenLogbuchView_wenigerDetails" xml:space="preserve">
+    <value>Display less details</value>
+  </data>
+  <data name="OperationenSummaryView_d_comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="OperationenSummaryView_d_name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="OperationenSummaryView_d_value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="OperationenSummaryView_info" xml:space="preserve">
+    <value>You can see all data, not matter which rights you have been assigned to.</value>
+  </data>
+  <data name="OperationenSummaryView_logtable_name" xml:space="preserve">
+    <value>Number of entries of '{0}'</value>
+  </data>
+  <data name="OperationenSummaryView_logtable_warn" xml:space="preserve">
+    <value>If the number of entries becomes very large, you should delete them here: '{0}'</value>
+  </data>
+  <data name="OperationenSummaryView_opcount" xml:space="preserve">
+    <value>Total number of operation records</value>
+  </data>
+  <data name="OperationenSummaryView_opfirst" xml:space="preserve">
+    <value>First recorded operation</value>
+  </data>
+  <data name="OperationenSummaryView_oplast" xml:space="preserve">
+    <value>Last recorded operation</value>
+  </data>
+  <data name="OperationenSummaryView_s_nachname" xml:space="preserve">
+    <value>Last name</value>
+  </data>
+  <data name="OperationenSummaryView_s_opcount" xml:space="preserve">
+    <value>Number of operations</value>
+  </data>
+  <data name="OperationenSummaryView_s_opfirst" xml:space="preserve">
+    <value>First operation</value>
+  </data>
+  <data name="OperationenSummaryView_s_oplast" xml:space="preserve">
+    <value>Last operation</value>
+  </data>
+  <data name="OperationenSummaryView_s_vorname" xml:space="preserve">
+    <value>First name</value>
+  </data>
+  <data name="OperationenSummaryView_title" xml:space="preserve">
+    <value>System overview</value>
+  </data>
+  <data name="OperationenVergleichView_autoText" xml:space="preserve">
+    <value>[OPSText]</value>
+  </data>
+  <data name="OperationenVergleichView_colName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="OperationenVergleichView_colOpscode" xml:space="preserve">
+    <value>OPSCode</value>
+  </data>
+  <data name="OperationenVergleichView_colOpstext" xml:space="preserve">
+    <value>OPSText</value>
+  </data>
+  <data name="OperationenVergleichView_context_cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="OperationenVergleichView_context_delete" xml:space="preserve">
+    <value>Remove OPSCode</value>
+  </data>
+  <data name="OperationenVergleichView_title" xml:space="preserve">
+    <value>Operations - by OPSCode</value>
+  </data>
+  <data name="OperationenView_bezeichnung" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="OperationenView_bis" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="OperationenView_confirmMany" xml:space="preserve">
+    <value>This will read {0} records which might take a minute or two.$r$Narrow the range to reduce this number.$r$$r$Continue?</value>
+  </data>
+  <data name="OperationenView_datum" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="OperationenView_ergebnisse" xml:space="preserve">
+    <value>...results</value>
+  </data>
+  <data name="OperationenView_fallzahl" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="OperationenView_funktion" xml:space="preserve">
+    <value>Function</value>
+  </data>
+  <data name="OperationenView_klinische" xml:space="preserve">
+    <value>Clinical...</value>
+  </data>
+  <data name="OperationenView_name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="OperationenView_opskode" xml:space="preserve">
+    <value>OPSCode</value>
+  </data>
+  <data name="OperationenView_printFilter1" xml:space="preserve">
+    <value>OPSCodes starting with '{0}'</value>
+  </data>
+  <data name="OperationenView_prozeduren" xml:space="preserve">
+    <value>Operations</value>
+  </data>
+  <data name="OperationenView_von" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="OperationenView_vorname" xml:space="preserve">
+    <value>First name</value>
+  </data>
+  <data name="OperationenWizardPage_eingabefehler" xml:space="preserve">
+    <value>Notice:$r$</value>
+  </data>
+  <data name="OperationenWizardPage_errTextNotAllowed" xml:space="preserve">
+    <value>$r$- '{0}' may not contain '{1}'</value>
+  </data>
+  <data name="OperationenWizardPage_missingText" xml:space="preserve">
+    <value>$r$- '{0}' is missing</value>
+  </data>
+  <data name="OperationenWizardPage_next" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="OperationenZeitenVergleichView_funktion" xml:space="preserve">
+    <value>Function</value>
+  </data>
+  <data name="OperationenZeitenVergleichView_info" xml:space="preserve">
+    <value>For one ID, there can be more than one entry for one surgeon. Only one of these will be used for reporting.</value>
+  </data>
+  <data name="OperationenZeitenVergleichView_minuten" xml:space="preserve">
+    <value>Minutes</value>
+  </data>
+  <data name="OperationenZeitenVergleichView_nachname" xml:space="preserve">
+    <value>Last name</value>
+  </data>
+  <data name="OperationenZeitenVergleichView_prozent" xml:space="preserve">
+    <value>Percent</value>
+  </data>
+  <data name="OperationenZeitenVergleichView_stunden" xml:space="preserve">
+    <value>Hours</value>
+  </data>
+  <data name="OperationenZeitenVergleichView_tage" xml:space="preserve">
+    <value>Days</value>
+  </data>
+  <data name="OperationenZeitenVergleichView_vorname" xml:space="preserve">
+    <value>First name</value>
+  </data>
+  <data name="OperationenZeitenVergleichView_zeit" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="OptionsView_chkOpenCommentMsg" xml:space="preserve">
+    <value>Display a message on startup if there are comments regarding yourself that do not yet have status 'Done'.</value>
+  </data>
+  <data name="OptionsView_info_proxy" xml:space="preserve">
+    <value>These settings will be used when accessing the internet</value>
+  </data>
+  <data name="OptionsView_lblOpscodeStellen" xml:space="preserve">
+    <value>Number of relevant OPSCode positions used in grouping</value>
+  </data>
+  <data name="OptionsView_print_bdc" xml:space="preserve">
+    <value>Print in BDC Format</value>
+  </data>
+  <data name="OptionsView_print_lines_default" xml:space="preserve">
+    <value>Number of lines for all others</value>
+  </data>
+  <data name="OptionsView_watermarkSecretInfo" xml:space="preserve">
+    <value>You can replace the cool green dude (watermark) with an image of your choice by creating file '{0}'</value>
+  </data>
+  <data name="PendingDokumenteView_dateiname" xml:space="preserve">
+    <value>File name</value>
+  </data>
+  <data name="PendingDokumenteView_dokument" xml:space="preserve">
+    <value>Document</value>
+  </data>
+  <data name="PendingDokumenteView_info" xml:space="preserve">
+    <value>View all documents which are on the PC and have not been moved back into the database.$r$$r$Click '{0}' to insert the selected document into the database.</value>
+  </data>
+  <data name="PendingDokumenteView_keineBearbeitung" xml:space="preserve">
+    <value>No documents are open for editing</value>
+  </data>
+  <data name="PendingDokumenteView_title" xml:space="preserve">
+    <value>Open documents</value>
+  </data>
+  <data name="PendingDokumentOverwriteView_confirm1" xml:space="preserve">
+    <value>Do you want to overwrite the existing document on thet PC? Any modifications to this document will be lost.</value>
+  </data>
+  <data name="PendingDokumentOverwriteView_info1" xml:space="preserve">
+    <value>The document already exists on your PC. You can edit the existing document or replace it with the document from the database and then edit it.</value>
+  </data>
+  <data name="PendingDokumentOverwriteView_info2" xml:space="preserve">
+    <value>- Click '{0}' to edit the document on your PC$r$$r$-Click '{1}' to overwrite the document on your PC with the current version from the database and then edit it.$r$$r$- Click '{2}' to do nothing and cancel</value>
+  </data>
+  <data name="PlanOperationenView_col_anzahl" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="PlanOperationenView_col_auto" xml:space="preserve">
+    <value>Automatically assigned operations</value>
+  </data>
+  <data name="PlanOperationenView_col_bis" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="PlanOperationenView_col_ist" xml:space="preserve">
+    <value>Actual</value>
+  </data>
+  <data name="PlanOperationenView_col_opsKode" xml:space="preserve">
+    <value>OPSCode</value>
+  </data>
+  <data name="PlanOperationenView_col_prozedur" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="PlanOperationenView_col_prozent" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="PlanOperationenView_col_soll" xml:space="preserve">
+    <value>Target</value>
+  </data>
+  <data name="PlanOperationenView_col_von" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="PlanOperationenView_confirmDelete" xml:space="preserve">
+    <value>Do you really want to delete the selected entries?</value>
+  </data>
+  <data name="PlanOperationenView_grpPlan" xml:space="preserve">
+    <value>Planned operations</value>
+  </data>
+  <data name="PlanOperationenView_grpSummen" xml:space="preserve">
+    <value>Totals of planned operations</value>
+  </data>
+  <data name="PlanOperationenView_operateur" xml:space="preserve">
+    <value>Surgeon:</value>
+  </data>
+  <data name="PlanOperationenView_title" xml:space="preserve">
+    <value>Plan operations</value>
+  </data>
+  <data name="PlanOperationVergleichIstView_bezeichnung" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="PlanOperationVergleichIstView_funktion" xml:space="preserve">
+    <value>Function</value>
+  </data>
+  <data name="PlanOperationVergleichIstView_ist" xml:space="preserve">
+    <value>Actual</value>
+  </data>
+  <data name="PlanOperationVergleichIstView_operateur" xml:space="preserve">
+    <value>Surgeon</value>
+  </data>
+  <data name="PlanOperationVergleichIstView_opskode" xml:space="preserve">
+    <value>OPSCode</value>
+  </data>
+  <data name="PlanOperationVergleichIstView_printFilter1" xml:space="preserve">
+    <value>OPSCode beginning with '{0}'</value>
+  </data>
+  <data name="PlanOperationVergleichIstView_prozent" xml:space="preserve">
+    <value>Percent</value>
+  </data>
+  <data name="PlanOperationVergleichView_ist" xml:space="preserve">
+    <value>Actual</value>
+  </data>
+  <data name="PlanOperationVergleichView_operateur" xml:space="preserve">
+    <value>Surgeon</value>
+  </data>
+  <data name="PlanOperationVergleichView_printFilter1" xml:space="preserve">
+    <value>OPSCode beginning with '{0}'</value>
+  </data>
+  <data name="PlanOperationVergleichView_prozent" xml:space="preserve">
+    <value>Percent</value>
+  </data>
+  <data name="PlanOperationVergleichView_soll" xml:space="preserve">
+    <value>Target</value>
+  </data>
+  <data name="PlanOperationVergleichView_title" xml:space="preserve">
+    <value>Actual/Target values overview</value>
+  </data>
+  <data name="PlanOperationView_cmdEdit" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="PlanOperationView_info" xml:space="preserve">
+    <value>Notice:$r$Double click an entry in the list above to copy the contents up to the dot to field '{0}'</value>
+  </data>
+  <data name="PlanOperationView_titleEdit" xml:space="preserve">
+    <value>Edit planned operation</value>
+  </data>
+  <data name="PlanOperationView_titleNew" xml:space="preserve">
+    <value>Add planned operation</value>
+  </data>
+  <data name="PluginInfoView_title" xml:space="preserve">
+    <value>Plugin info</value>
+  </data>
+  <data name="PrintIstOperationen_bis" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="PrintIstOperationen_gesamtanzahl" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="PrintIstOperationen_printFilter1" xml:space="preserve">
+    <value>All operations of</value>
+  </data>
+  <data name="PrintIstOperationen_printFilter2" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="PrintIstOperationen_printFilter3" xml:space="preserve">
+    <value>All operations of</value>
+  </data>
+  <data name="PrintIstOperationen_von" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="Program_error1" xml:space="preserve">
+    <value>The supported databases are: MSAccess, SQLServer and MySQL.$r$This type is unknown:$r$$r$'{0}'$r$$r$.The program will terminate.</value>
+  </data>
+  <data name="Program_error2" xml:space="preserve">
+    <value>Could not connect to database. The program will terminate.</value>
+  </data>
+  <data name="Program_error3" xml:space="preserve">
+    <value>Could not read database version. The program will terminate.</value>
+  </data>
+  <data name="QATCustomizationDialog_ribbonApplicationButtonText" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="RichtlinienOpsKodeUnassignedView_errorOps" xml:space="preserve">
+    <value>{0} '{1}' does not exist</value>
+  </data>
+  <data name="RichtlinienOpsKodeUnassignedView_grpMissing" xml:space="preserve">
+    <value>Operations not assigned to area '{0}'</value>
+  </data>
+  <data name="RichtlinienOpsKodeUnassignedView_grpRichtlinien" xml:space="preserve">
+    <value>Add assignment between OPSCodes and guideline</value>
+  </data>
+  <data name="RichtlinienOpsKodeUnassignedView_grpZuordnungen" xml:space="preserve">
+    <value>Existing assignments between OPSCodes and guidelines</value>
+  </data>
+  <data name="RichtlinienOpsKodeUnassignedView_info2" xml:space="preserve">
+    <value>Notice: This list can be modified by you.</value>
+  </data>
+  <data name="RichtlinienOpsKodeUnassignedView_methode" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="RichtlinienOpsKodeUnassignedView_nr" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="RichtlinienOpsKodeUnassignedView_opscode" xml:space="preserve">
+    <value>OPSCode</value>
+  </data>
+  <data name="RichtlinienOpsKodeUnassignedView_opstext" xml:space="preserve">
+    <value>OPSText</value>
+  </data>
+  <data name="RichtlinienOpsKodeUnassignedView_printFilter1" xml:space="preserve">
+    <value>Guidelines of area '{0}'</value>
+  </data>
+  <data name="RichtlinienOpsKodeUnassignedView_printFilter2" xml:space="preserve">
+    <value>Nr  Guiding-value    Operation</value>
+  </data>
+  <data name="RichtlinienOpsKodeUnassignedView_printFilter3" xml:space="preserve">
+    <value>OPSCode   OPSText                 No Target    Operation</value>
+  </data>
+  <data name="RichtlinienOpsKodeUnassignedView_richtzahl" xml:space="preserve">
+    <value>Guiding value</value>
+  </data>
+  <data name="RichtlinienOpsKodeUnassignedView_title" xml:space="preserve">
+    <value>Assignment of guidelines to OPSCodes</value>
+  </data>
+  <data name="RichtlinienVergleichOverviewView_gebiet" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="RichtlinienVergleichOverviewView_ist" xml:space="preserve">
+    <value>Actual</value>
+  </data>
+  <data name="RichtlinienVergleichOverviewView_keineAusgewählt" xml:space="preserve">
+    <value>None selected!</value>
+  </data>
+  <data name="RichtlinienVergleichOverviewView_nachname" xml:space="preserve">
+    <value>Last name</value>
+  </data>
+  <data name="RichtlinienVergleichOverviewView_nr" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="RichtlinienVergleichOverviewView_prozent" xml:space="preserve">
+    <value>Percent</value>
+  </data>
+  <data name="RichtlinienVergleichOverviewView_richtlinien" xml:space="preserve">
+    <value>Guidelines</value>
+  </data>
+  <data name="RichtlinienVergleichOverviewView_richtzahl" xml:space="preserve">
+    <value>Guideline</value>
+  </data>
+  <data name="RichtlinienVergleichOverviewView_soll" xml:space="preserve">
+    <value>Target</value>
+  </data>
+  <data name="RichtlinienVergleichOverviewView_vorname" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="RichtlinienVergleichOverviewView_weiterbildungsrichtlinie" xml:space="preserve">
+    <value>Guidelines</value>
+  </data>
+  <data name="RichtlinienVergleichView_auto" xml:space="preserve">
+    <value>automatically assigned operations</value>
+  </data>
+  <data name="RichtlinienVergleichView_bezeichnung" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="RichtlinienVergleichView_cmdAssignOPSRichtlinie" xml:space="preserve">
+    <value>Add assignment 'OPSCode&lt;--&gt;Guideline'...</value>
+  </data>
+  <data name="RichtlinienVergleichView_cmdAssignRichtlinie" xml:space="preserve">
+    <value>Assign guideline...</value>
+  </data>
+  <data name="RichtlinienVergleichView_datum" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="RichtlinienVergleichView_gebiet" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="RichtlinienVergleichView_grpMissing" xml:space="preserve">
+    <value>Operations that could not be assigned</value>
+  </data>
+  <data name="RichtlinienVergleichView_grpRichtlinien" xml:space="preserve">
+    <value>Guidelines an automatically assigned operations</value>
+  </data>
+  <data name="RichtlinienVergleichView_ist" xml:space="preserve">
+    <value>Actual</value>
+  </data>
+  <data name="RichtlinienVergleichView_mehrereZeitraeume" xml:space="preserve">
+    <value>Multiple ranges</value>
+  </data>
+  <data name="RichtlinienVergleichView_methode" xml:space="preserve">
+    <value>Method</value>
+  </data>
+  <data name="RichtlinienVergleichView_nr" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="RichtlinienVergleichView_operateur" xml:space="preserve">
+    <value>Surgeon</value>
+  </data>
+  <data name="RichtlinienVergleichView_opscode" xml:space="preserve">
+    <value>OPSCode</value>
+  </data>
+  <data name="RichtlinienVergleichView_opstext" xml:space="preserve">
+    <value>OPSText</value>
+  </data>
+  <data name="RichtlinienVergleichView_printFilter1" xml:space="preserve">
+    <value>Actual/Target Guidelines Single</value>
+  </data>
+  <data name="RichtlinienVergleichView_printFilter2" xml:space="preserve">
+    <value>Actual Guiding-value   No  Operation</value>
+  </data>
+  <data name="RichtlinienVergleichView_printFilter3" xml:space="preserve">
+    <value>Total   Guiding-value   No   Operation</value>
+  </data>
+  <data name="RichtlinienVergleichView_richtzahl" xml:space="preserve">
+    <value>Guiding value</value>
+  </data>
+  <data name="RichtlinienVergleichView_summe" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="RichtlinienVergleichView_title" xml:space="preserve">
+    <value>Actual/Target Guidelines</value>
+  </data>
+  <data name="RichtlinienVergleichView_zuordnung_extern" xml:space="preserve">
+    <value>extern</value>
+  </data>
+  <data name="RichtlinienVergleichView_zuordnung_manuell" xml:space="preserve">
+    <value>manual</value>
+  </data>
+  <data name="RichtlinienView_bemerkung" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="RichtlinienView_facharztgebiet" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="RichtlinienView_gebiet" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="RichtlinienView_herkunft" xml:space="preserve">
+    <value>Origin</value>
+  </data>
+  <data name="RichtlinienView_info1" xml:space="preserve">
+    <value>FA = Facharzt - ZW = Zusatz-Weiterbildung - WB = Weiterbildung - WBO = Weiterbildungsordnung$r$Die Angabe 'BK' (Basiskompetenz) in der Spalte 'Richtzahl' bedeutet, dass der Erwerb von Kenntnissen, Fertigkeiten und$r$Erfahrungen gefordert ist, ohne dass hierfür eine festgelegte Mindestzahl nachgewiesen werden muss.</value>
+  </data>
+  <data name="RichtlinienView_info2" xml:space="preserve">
+    <value>Enter a number or 'BK' as a guiding value. To insert a heading without a guiding value, enter a 0. Numbers must be incremental and must not be used  more than once.</value>
+  </data>
+  <data name="RichtlinienView_richtlinieneintrag" xml:space="preserve">
+    <value>Guideline</value>
+  </data>
+  <data name="RichtlinienView_title" xml:space="preserve">
+    <value>Guidelines</value>
+  </data>
+  <data name="RichtlinieSelectView_methode" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="RichtlinieSelectView_nr" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="RichtlinieSelectView_richtlinien" xml:space="preserve">
+    <value>Guidlines</value>
+  </data>
+  <data name="RichtlinieSelectView_richtzahl" xml:space="preserve">
+    <value>Guidline</value>
+  </data>
+  <data name="RichtlinieSelectView_title" xml:space="preserve">
+    <value>Select guideline</value>
+  </data>
+  <data name="SecGroupsChirurgenView_err_del_user_abandoned_rights" xml:space="preserve">
+    <value>This user may not be removed from the group because this operation would produce the following abandoned rights which would not be assigned to any user:</value>
+  </data>
+  <data name="SecGroupsChirurgenView_ueberpruefe" xml:space="preserve">
+    <value>Checking rights</value>
+  </data>
+  <data name="SecGroupsView_titlePlural" xml:space="preserve">
+    <value>Roles</value>
+  </data>
+  <data name="SecGroupsView_titleSingular" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="secrights_cmd_viewAllDocs" xml:space="preserve">
+    <value>Command: view all open documents</value>
+  </data>
+  <data name="secrights_select_surgeons_abteilung" xml:space="preserve">
+    <value>Data: access the data of all users from all departments of which the user is member of.</value>
+  </data>
+  <data name="secrights_select_surgeons_all" xml:space="preserve">
+    <value>Data: access the data of all surgeons</value>
+  </data>
+  <data name="SelectDokumentView_beschreibung" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="SelectDokumentView_dateiFehlt" xml:space="preserve">
+    <value>Missing file!!!</value>
+  </data>
+  <data name="SelectDokumentView_dateiname" xml:space="preserve">
+    <value>Filename</value>
+  </data>
+  <data name="SelectDokumentView_dokumentenstatus" xml:space="preserve">
+    <value>Document status</value>
+  </data>
+  <data name="SelectDokumentView_gruppe" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="SelectDokumentView_lfdNr" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="SelectDokumentView_title" xml:space="preserve">
+    <value>Choose document</value>
+  </data>
+  <data name="SelectDokumentView_vorhanden" xml:space="preserve">
+    <value>exists</value>
+  </data>
+  <data name="SelectListViewColumnsView_info" xml:space="preserve">
+    <value>Choose all columns to print</value>
+  </data>
+  <data name="SelectListViewColumnsView_spalte" xml:space="preserve">
+    <value>Column</value>
+  </data>
+  <data name="SelectListViewColumnsView_title" xml:space="preserve">
+    <value>Select columns</value>
+  </data>
+  <data name="TypenTemplateView_text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="UpdateSerialnumbersView_confirm_autoupdate" xml:space="preserve">
+    <value>Do you really want to assign all available serial numbers to users without a serial number?</value>
+  </data>
+  <data name="UpdateSerialnumbersView_info_error" xml:space="preserve">
+    <value>There are more then {0} users without a valid serial number and there is no valid license file. Insert serial numbers or install a license file.</value>
+  </data>
+  <data name="UpdateSerialnumbersView_info_ok" xml:space="preserve">
+    <value>There is a valid license file or all users have valid serial numbers. Restart the program.</value>
+  </data>
+  <data name="UpdateSerialnumbersView_title" xml:space="preserve">
+    <value>Add serial numbers</value>
+  </data>
+  <data name="UserChangePasswordView_error1" xml:space="preserve">
+    <value>The new password must not be empty</value>
+  </data>
+  <data name="UserChangePasswordView_error2" xml:space="preserve">
+    <value>The new password does not match the repeated value</value>
+  </data>
+  <data name="UserChangePasswordView_error3" xml:space="preserve">
+    <value>The new password must be different from the old one</value>
+  </data>
+  <data name="UserChangePasswordView_error4" xml:space="preserve">
+    <value>User and password must not be the same</value>
+  </data>
+  <data name="UserChangePasswordView_title" xml:space="preserve">
+    <value>Change my password</value>
+  </data>
+  <data name="UserSetPasswordView_confirm1" xml:space="preserve">
+    <value>The password of the selected user will be set to the new value.$r$Continue?</value>
+  </data>
+  <data name="UserSetPasswordView_error1" xml:space="preserve">
+    <value>Password and repeated password do not match</value>
+  </data>
+  <data name="UserSetPasswordView_title" xml:space="preserve">
+    <value>Set password of another user</value>
+  </data>
+  <data name="WeiterbildungszeitraumView_bis" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="WeiterbildungszeitraumView_cannotinsert" xml:space="preserve">
+    <value>Cannot insert another date</value>
+  </data>
+  <data name="WeiterbildungszeitraumView_datesTooFarApart" xml:space="preserve">
+    <value>Range between '{0}' and '{1}' is too great</value>
+  </data>
+  <data name="WeiterbildungszeitraumView_fromDateBehindBar" xml:space="preserve">
+    <value>$r$-  Data '{0}' is too far in the future</value>
+  </data>
+  <data name="WeiterbildungszeitraumView_info" xml:space="preserve">
+    <value>Here you can enter ranges for which the actual numbers are calculated. These ranges will be used with '{0}'</value>
+  </data>
+  <data name="WeiterbildungszeitraumView_nr" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="WeiterbildungszeitraumView_removeSeparator" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="WeiterbildungszeitraumView_title" xml:space="preserve">
+    <value>Guidelines</value>
+  </data>
+  <data name="WeiterbildungszeitraumView_toDateBeforeBar" xml:space="preserve">
+    <value>$r$-  Data '{0}' is too far in the past</value>
+  </data>
+  <data name="WeiterbildungszeitraumView_von" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="WeiterbildungszeitraumView_zeitpunkteVorhanden" xml:space="preserve">
+    <value>Ranges</value>
+  </data>
+  <data name="WizardMaster_assistent" xml:space="preserve">
+    <value>Wizard</value>
+  </data>
+  <data name="WizardMaster_fertigstellen" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="WizardMaster_schliessen" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Wizards_CreateCustomerData_BasicData_header1" xml:space="preserve">
+    <value>Enter customer data</value>
+  </data>
+  <data name="Wizards_CreateCustomerData_BasicData_info" xml:space="preserve">
+    <value>Notice:$r$Data entered here will be transmitted to us via the internet.You agreed to this when you agreed to the license agreement.If you do not wish this to happen, abort now.</value>
+  </data>
+  <data name="Wizards_CreateCustomerData_BasicData_pagename" xml:space="preserve">
+    <value>Customer data</value>
+  </data>
+  <data name="Wizards_CreateCustomerData_completed_error" xml:space="preserve">
+    <value>Could not insert customer data</value>
+  </data>
+  <data name="Wizards_CreateCustomerData_completed_pagename" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="Wizards_CreateCustomerData_completed_success" xml:space="preserve">
+    <value>Customer data was inserted successfully.</value>
+  </data>
+  <data name="Wizards_CreateCustomerData_CustomerDataCreator_error" xml:space="preserve">
+    <value>Customer data could be inserted.</value>
+  </data>
+  <data name="Wizards_CreateCustomerData_Summary_info" xml:space="preserve">
+    <value>Summary$r$$r$Clinic:$r$ {0}$r$$r$ZIP, city:$r$ {1}$r$$r$Street.:$r${2}$r$$r$Click {3} to finish.</value>
+  </data>
+  <data name="Wizards_CreateCustomerData_Summary_pagename" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="Wizards_CreateCustomerData_Welcome_pagename" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="Wizards_CreateCustomerData_Welcome_text" xml:space="preserve">
+    <value>Welcome to the 'Create Customer Data' Wizard.</value>
+  </data>
+  <data name="Wizards_CreateCustomerData_Wizard_title" xml:space="preserve">
+    <value>Create customer data</value>
+  </data>
+  <data name="Wizards_ExportChirurg_ChirurgExporterSQL_copyDbTemplate" xml:space="preserve">
+    <value>Copying database template</value>
+  </data>
+  <data name="Wizards_ExportChirurg_ChirurgExporterSQL_error_export_surgeon" xml:space="preserve">
+    <value>Surgeon '{0}' could not be exported into database '{1}'.$r$$r${2}</value>
+  </data>
+  <data name="Wizards_ExportChirurg_ChirurgExporterSQL_export_aa" xml:space="preserve">
+    <value>Export academic education</value>
+  </data>
+  <data name="Wizards_ExportChirurg_ChirurgExporterSQL_export_chirurg" xml:space="preserve">
+    <value>Export surgeon</value>
+  </data>
+  <data name="Wizards_ExportChirurg_ChirurgExporterSQL_export_chirurgenDokumente" xml:space="preserve">
+    <value>Export documents</value>
+  </data>
+  <data name="Wizards_ExportChirurg_ChirurgExporterSQL_export_chirurgenGebiete" xml:space="preserve">
+    <value>Export areas</value>
+  </data>
+  <data name="Wizards_ExportChirurg_ChirurgExporterSQL_export_chirurgenOperationen" xml:space="preserve">
+    <value>Export operations</value>
+  </data>
+  <data name="Wizards_ExportChirurg_ChirurgExporterSQL_export_dateiarten" xml:space="preserve">
+    <value>Export types of My Documents</value>
+  </data>
+  <data name="Wizards_ExportChirurg_ChirurgExporterSQL_export_dateien" xml:space="preserve">
+    <value>Export My Documents</value>
+  </data>
+  <data name="Wizards_ExportChirurg_ChirurgExporterSQL_export_dienststellung" xml:space="preserve">
+    <value>Export functions</value>
+  </data>
+  <data name="Wizards_ExportChirurg_ChirurgExporterSQL_export_dokumente" xml:space="preserve">
+    <value>Export documents</value>
+  </data>
+  <data name="Wizards_ExportChirurg_ChirurgExporterSQL_export_exclude" xml:space="preserve">
+    <value>Export import exclude definitions</value>
+  </data>
+  <data name="Wizards_ExportChirurg_ChirurgExporterSQL_export_gebiete" xml:space="preserve">
+    <value>Export areas</value>
+  </data>
+  <data name="Wizards_ExportChirurg_ChirurgExporterSQL_export_klinErgTypen" xml:space="preserve">
+    <value>Export clinical result types</value>
+  </data>
+  <data name="Wizards_ExportChirurg_ChirurgExporterSQL_export_kommentare" xml:space="preserve">
+    <value>Export comments</value>
+  </data>
+  <data name="Wizards_ExportChirurg_ChirurgExporterSQL_export_notizen" xml:space="preserve">
+    <value>Export notes</value>
+  </data>
+  <data name="Wizards_ExportChirurg_ChirurgExporterSQL_export_notiztypen" xml:space="preserve">
+    <value>Export types of notes</value>
+  </data>
+  <data name="Wizards_ExportChirurg_ChirurgExporterSQL_export_op" xml:space="preserve">
+    <value>Export operations</value>
+  </data>
+  <data name="Wizards_ExportChirurg_ChirurgExporterSQL_export_opfkt" xml:space="preserve">
+    <value>Export functions</value>
+  </data>
+  <data name="Wizards_ExportChirurg_ChirurgExporterSQL_export_planOperationen" xml:space="preserve">
+    <value>Export planned operations</value>
+  </data>
+  <data name="Wizards_ExportChirurg_ChirurgExporterSQL_export_richtlinien" xml:space="preserve">
+    <value>Export guidelines</value>
+  </data>
+  <data name="Wizards_ExportChirurg_ChirurgExporterSQL_export_richtlinienOpscodes" xml:space="preserve">
+    <value>Export assignments</value>
+  </data>
+  <data name="Wizards_ExportChirurg_Completed_error" xml:space="preserve">
+    <value>Could not create database$r$$r${0}{1}</value>
+  </data>
+  <data name="Wizards_ExportChirurg_Completed_info" xml:space="preserve">
+    <value>Created database$r$$r$'{2}'$r$$r$with data of $r$$r${0}{1}$r$$r$. You can copy this file and import it into a different system</value>
+  </data>
+  <data name="Wizards_ExportChirurg_Completed_pagename" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="Wizards_ExportChirurg_SelectChirurg_anrede" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Wizards_ExportChirurg_SelectChirurg_error_select_user" xml:space="preserve">
+    <value>You must select a surgeon!</value>
+  </data>
+  <data name="Wizards_ExportChirurg_SelectChirurg_header1" xml:space="preserve">
+    <value>Select a surgeon</value>
+  </data>
+  <data name="Wizards_ExportChirurg_SelectChirurg_header2" xml:space="preserve">
+    <value>The data of this surgeon will be exported</value>
+  </data>
+  <data name="Wizards_ExportChirurg_SelectChirurg_nachname" xml:space="preserve">
+    <value>Last name</value>
+  </data>
+  <data name="Wizards_ExportChirurg_SelectChirurg_pagename" xml:space="preserve">
+    <value>Select surgeon</value>
+  </data>
+  <data name="Wizards_ExportChirurg_SelectChirurg_userid" xml:space="preserve">
+    <value>User-ID</value>
+  </data>
+  <data name="Wizards_ExportChirurg_SelectChirurg_vorname" xml:space="preserve">
+    <value>First name</value>
+  </data>
+  <data name="Wizards_ExportChirurg_SelectFile_error_file_exists" xml:space="preserve">
+    <value>File$r$$r$'{0}'$r$$r$exists!</value>
+  </data>
+  <data name="Wizards_ExportChirurg_SelectFile_error_select_file" xml:space="preserve">
+    <value>You must choose a file!</value>
+  </data>
+  <data name="Wizards_ExportChirurg_SelectFile_header1" xml:space="preserve">
+    <value>Choose a database file name</value>
+  </data>
+  <data name="Wizards_ExportChirurg_SelectFile_header2" xml:space="preserve">
+    <value>All data will be save to this file.</value>
+  </data>
+  <data name="Wizards_ExportChirurg_SelectFile_pagename" xml:space="preserve">
+    <value>Choose database name</value>
+  </data>
+  <data name="Wizards_ExportChirurg_SelectFile_text" xml:space="preserve">
+    <value>Choose a filename.$r$A database will be created with this name.</value>
+  </data>
+  <data name="Wizards_ExportChirurg_Summary_pagename" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="Wizards_ExportChirurg_Summary_text" xml:space="preserve">
+    <value>Select a surgeon!:$r$$r$Surgeon:$r$$r${0} {1}$r$$r$Target database:$r$$r${2}$r$$r$Click '{3}' to finish.</value>
+  </data>
+  <data name="Wizards_ExportChirurg_Welcome_pagename" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="Wizards_ExportChirurg_Welcome_text" xml:space="preserve">
+    <value>Welcome to the 'Export Surgeon' Wizard.</value>
+  </data>
+  <data name="Wizards_ExportChirurg_wizard_title" xml:space="preserve">
+    <value>Export Surgeon Wizard</value>
+  </data>
+  <data name="Wizards_ExportRichtlinien_Completed_error" xml:space="preserve">
+    <value>Could not export guidelines</value>
+  </data>
+  <data name="Wizards_ExportRichtlinien_Completed_pagename" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="Wizards_ExportRichtlinien_Completed_text" xml:space="preserve">
+    <value>Guidelines were exported to file$r$$r$'{0}'$r$$r$.</value>
+  </data>
+  <data name="Wizards_ExportRichtlinien_Exporter_error" xml:space="preserve">
+    <value>Could not write to file$r$$r$'{0}'$r$$r$.</value>
+  </data>
+  <data name="Wizards_ExportRichtlinien_SelectFile_err_file" xml:space="preserve">
+    <value>You must select a file!</value>
+  </data>
+  <data name="Wizards_ExportRichtlinien_SelectFile_err_file_exists" xml:space="preserve">
+    <value>File$r$$r$'{0}'$r$$r$already exists.</value>
+  </data>
+  <data name="Wizards_ExportRichtlinien_SelectFile_header1" xml:space="preserve">
+    <value>Choose a file</value>
+  </data>
+  <data name="Wizards_ExportRichtlinien_SelectFile_header2" xml:space="preserve">
+    <value>Guidelines will be exported to this file</value>
+  </data>
+  <data name="Wizards_ExportRichtlinien_SelectFile_pagename" xml:space="preserve">
+    <value>Choose file</value>
+  </data>
+  <data name="Wizards_ExportRichtlinien_SelectGebiet_bemerkung" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="Wizards_ExportRichtlinien_SelectGebiet_err_gebiet" xml:space="preserve">
+    <value>You must choose an area</value>
+  </data>
+  <data name="Wizards_ExportRichtlinien_SelectGebiet_gebiet" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="Wizards_ExportRichtlinien_SelectGebiet_header1" xml:space="preserve">
+    <value>Choose an area</value>
+  </data>
+  <data name="Wizards_ExportRichtlinien_SelectGebiet_header2" xml:space="preserve">
+    <value>Guidelines of this area will be exported</value>
+  </data>
+  <data name="Wizards_ExportRichtlinien_SelectGebiet_herkunft" xml:space="preserve">
+    <value>Origin</value>
+  </data>
+  <data name="Wizards_ExportRichtlinien_SelectGebiet_pagename" xml:space="preserve">
+    <value>Select area</value>
+  </data>
+  <data name="Wizards_ExportRichtlinien_Summary_pagename" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="Wizards_ExportRichtlinien_Summary_text" xml:space="preserve">
+    <value>Summary:$nl$$nl$Area:$nl$    {0}$nl$$nl$File:$nl$    {1}$nl$$nl$Click '{2}' to finish.</value>
+  </data>
+  <data name="Wizards_ExportRichtlinien_Welcome_pagename" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="Wizards_ExportRichtlinien_Welcome_text" xml:space="preserve">
+    <value>Welcome to the 'Export Guidelines' Wizard. Click '{0}' to begin.</value>
+  </data>
+  <data name="Wizards_ExportRichtlinien_wizard_title" xml:space="preserve">
+    <value>Export Guidelines Wizard</value>
+  </data>
+  <data name="Wizards_ExportRichtlinienZuordnung_Completed_failure" xml:space="preserve">
+    <value>Assignments could not be exported.</value>
+  </data>
+  <data name="Wizards_ExportRichtlinienZuordnung_Completed_pagename" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="Wizards_ExportRichtlinienZuordnung_Completed_success" xml:space="preserve">
+    <value>Assignments were exported to file$r$$r$'{0}'$r$$r$</value>
+  </data>
+  <data name="Wizards_ExportRichtlinienZuordnung_SelectFile_choosefile" xml:space="preserve">
+    <value>You must choose a file</value>
+  </data>
+  <data name="Wizards_ExportRichtlinienZuordnung_SelectFile_fileexists" xml:space="preserve">
+    <value>File$r$$r$'{0}'$r$$r$already exists.</value>
+  </data>
+  <data name="Wizards_ExportRichtlinienZuordnung_SelectFile_header1" xml:space="preserve">
+    <value>Choose a file</value>
+  </data>
+  <data name="Wizards_ExportRichtlinienZuordnung_SelectFile_header2" xml:space="preserve">
+    <value>Assignments will be exported to this file</value>
+  </data>
+  <data name="Wizards_ExportRichtlinienZuordnung_SelectFile_pagename" xml:space="preserve">
+    <value>Choose a file</value>
+  </data>
+  <data name="Wizards_ExportRichtlinienZuordnung_SelectGebiet_Bemerkung" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="Wizards_ExportRichtlinienZuordnung_SelectGebiet_Gebiet" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="Wizards_ExportRichtlinienZuordnung_SelectGebiet_header1" xml:space="preserve">
+    <value>Choose an area</value>
+  </data>
+  <data name="Wizards_ExportRichtlinienZuordnung_SelectGebiet_header2" xml:space="preserve">
+    <value>Assignments of this area will be exported</value>
+  </data>
+  <data name="Wizards_ExportRichtlinienZuordnung_SelectGebiet_Herkunft" xml:space="preserve">
+    <value>Origin</value>
+  </data>
+  <data name="Wizards_ExportRichtlinienZuordnung_SelectGebiet_missing_gebiet" xml:space="preserve">
+    <value>You must select an area</value>
+  </data>
+  <data name="Wizards_ExportRichtlinienZuordnung_SelectGebiet_pagename" xml:space="preserve">
+    <value>Select area</value>
+  </data>
+  <data name="Wizards_ExportRichtlinienZuordnung_Summary_pagename" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="Wizards_ExportRichtlinienZuordnung_Summary_text" xml:space="preserve">
+    <value>Summary:$r$$r$Area:$r$    {0}$r$$r$File:$r$    {1}$r$$r$Click '{2}' to finish.</value>
+  </data>
+  <data name="Wizards_ExportRichtlinienZuordnung_Welcome_pagename" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="Wizards_ExportRichtlinienZuordnung_Welcome_text" xml:space="preserve">
+    <value>Welcome to the 'Export Assignments Between OPSCodes And Guidelines' Wizard. Click '{0}' to begin.</value>
+  </data>
+  <data name="Wizards_ExportRichtlinienZuordnung_Wizard_title" xml:space="preserve">
+    <value>Export Assignments Between OPSCodes And Guidelines Wizard</value>
+  </data>
+  <data name="Wizards_ImportChirurg_ChirurgenView_anmeldename" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="Wizards_ImportChirurg_ChirurgenView_anrede" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Wizards_ImportChirurg_ChirurgenView_nachname" xml:space="preserve">
+    <value>Last name</value>
+  </data>
+  <data name="Wizards_ImportChirurg_ChirurgenView_title" xml:space="preserve">
+    <value>Select surgeon</value>
+  </data>
+  <data name="Wizards_ImportChirurg_ChirurgenView_vorname" xml:space="preserve">
+    <value>First name</value>
+  </data>
+  <data name="Wizards_ImportChirurg_ChirurgImporterSQL_checkVersion" xml:space="preserve">
+    <value>Checking database version</value>
+  </data>
+  <data name="Wizards_ImportChirurg_ChirurgImporterSQL_error1" xml:space="preserve">
+    <value>The database to import has incorrect version '{0}.{1}'$r$$r$The version of this database is '{2}.{3}'</value>
+  </data>
+  <data name="Wizards_ImportChirurg_ChirurgImporterSQL_msg1" xml:space="preserve">
+    <value>One or more surgeons found. Select the one whose data you wish to import</value>
+  </data>
+  <data name="Wizards_ImportChirurg_ChirurgImporterSQL_msg2" xml:space="preserve">
+    <value>The selected database does not contain a surgeon.</value>
+  </data>
+  <data name="Wizards_ImportChirurg_ChirurgImporterSQL_msg3" xml:space="preserve">
+    <value>Could not import surgeon</value>
+  </data>
+  <data name="Wizards_ImportChirurg_ChirurgImporterSQL_msg4" xml:space="preserve">
+    <value>Username '{0}' already exists. Change the username and re-run the import.</value>
+  </data>
+  <data name="Wizards_ImportChirurg_ChirurgImporterSQL_progress1" xml:space="preserve">
+    <value>Importing surgeon</value>
+  </data>
+  <data name="Wizards_ImportChirurg_Completed_msg1" xml:space="preserve">
+    <value>Imported surgeon</value>
+  </data>
+  <data name="Wizards_ImportChirurg_Completed_msg2" xml:space="preserve">
+    <value>Could not import surgeon</value>
+  </data>
+  <data name="Wizards_ImportChirurg_Completed_pageName" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="Wizards_ImportChirurg_NewOperationenView_bezeichnung" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Wizards_ImportChirurg_NewOperationenView_bis" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="Wizards_ImportChirurg_NewOperationenView_confirm1" xml:space="preserve">
+    <value>Really import operations multiple times?</value>
+  </data>
+  <data name="Wizards_ImportChirurg_NewOperationenView_datum" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Wizards_ImportChirurg_NewOperationenView_extern" xml:space="preserve">
+    <value>extern</value>
+  </data>
+  <data name="Wizards_ImportChirurg_NewOperationenView_fallzahl" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Wizards_ImportChirurg_NewOperationenView_funktion" xml:space="preserve">
+    <value>Function</value>
+  </data>
+  <data name="Wizards_ImportChirurg_NewOperationenView_grpOperationen" xml:space="preserve">
+    <value>All operations</value>
+  </data>
+  <data name="Wizards_ImportChirurg_NewOperationenView_info" xml:space="preserve">
+    <value>Select all operations to import above. Click '{0}' to import all operations. The same operation will be inserted only once. You can force the same operation to be imported multiple times by selecting '{1}'. This can make sense when importing previously executed operations, which all have the same date.</value>
+  </data>
+  <data name="Wizards_ImportChirurg_NewOperationenView_intern" xml:space="preserve">
+    <value>Intern</value>
+  </data>
+  <data name="Wizards_ImportChirurg_NewOperationenView_opskode" xml:space="preserve">
+    <value>OPSCode</value>
+  </data>
+  <data name="Wizards_ImportChirurg_NewOperationenView_title" xml:space="preserve">
+    <value>List of all operations</value>
+  </data>
+  <data name="Wizards_ImportChirurg_NewOperationenView_von" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="Wizards_ImportChirurg_SelectFile_header1" xml:space="preserve">
+    <value>Choose a file</value>
+  </data>
+  <data name="Wizards_ImportChirurg_SelectFile_header2" xml:space="preserve">
+    <value>Data will be imported from this file.</value>
+  </data>
+  <data name="Wizards_ImportChirurg_SelectFile_info" xml:space="preserve">
+    <value>Choose the file from which to import the data.</value>
+  </data>
+  <data name="Wizards_ImportChirurg_SelectFile_msg1" xml:space="preserve">
+    <value>You must select a file</value>
+  </data>
+  <data name="Wizards_ImportChirurg_SelectFile_msg2" xml:space="preserve">
+    <value>File$r$$r$'{0}'$r$$r$does not exist!</value>
+  </data>
+  <data name="Wizards_ImportChirurg_SelectFile_pageName" xml:space="preserve">
+    <value>Choose file</value>
+  </data>
+  <data name="Wizards_ImportChirurg_Summary_pageName" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="Wizards_ImportChirurg_Summary_summary" xml:space="preserve">
+    <value>Summary$r$$r$Selected file:$r$  '{0}'$r$$r$NOTICE:$r$All operations from the given file will be imported.$r$$r$Click '{1}' to finish.</value>
+  </data>
+  <data name="Wizards_ImportChirurg_Welcome_pagename" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="Wizards_ImportChirurg_Welcome_welcome" xml:space="preserve">
+    <value>Welcome to the 'Import Surgeon' Wizard.$r$$r$Click '{0}' to begin.</value>
+  </data>
+  <data name="Wizards_ImportChirurg_Wizard_title" xml:space="preserve">
+    <value>Import Surgeon Wizard</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_Completed_completed_error" xml:space="preserve">
+    <value>The operations could not be imported</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_Completed_completed_success" xml:space="preserve">
+    <value>The operations were imported successfully.</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_Completed_pagename" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_NewOperationenMobileView_allops" xml:space="preserve">
+    <value>All operations</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_NewOperationenMobileView_bezeichnung" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_NewOperationenMobileView_bis" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_NewOperationenMobileView_comfirm" xml:space="preserve">
+    <value>Do you really want to import operations multiple times?</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_NewOperationenMobileView_confirm_insert" xml:space="preserve">
+    <value>This will import all operations from list '{0}'. Continue?</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_NewOperationenMobileView_datum" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_NewOperationenMobileView_ext_int" xml:space="preserve">
+    <value>Ext./Int.</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_NewOperationenMobileView_fallzahl" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_NewOperationenMobileView_funktion" xml:space="preserve">
+    <value>Function</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_NewOperationenMobileView_info" xml:space="preserve">
+    <value>Select all operations to import above. Click '{0}' to import all operations. The same operation will be inserted only once. You can force the same operation to be imported multiple times by selecting '{1}'. This can make sense when importing previously executed operations, which all have the same date.</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_NewOperationenMobileView_opscode" xml:space="preserve">
+    <value>OPSCode</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_NewOperationenMobileView_title" xml:space="preserve">
+    <value>Import operations from mobile device</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_NewOperationenMobileView_von" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_NewOperationenView_confirm_insert" xml:space="preserve">
+    <value>This will import all operations from list '{0}'. Continue?</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_NewOperationenView_err_format" xml:space="preserve">
+    <value>$r$-  '{0}' has an invalid format</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_SelectChirurg_anrede" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_SelectChirurg_error_select_user" xml:space="preserve">
+    <value>You must choose a surgeon</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_SelectChirurg_header1" xml:space="preserve">
+    <value>Choose a surgeon</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_SelectChirurg_header2" xml:space="preserve">
+    <value>The imported operations will be assigned to this surgeon</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_SelectChirurg_nachname" xml:space="preserve">
+    <value>Last name</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_SelectChirurg_pagename" xml:space="preserve">
+    <value>Choose surgeon</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_SelectChirurg_userid" xml:space="preserve">
+    <value>UserID</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_SelectChirurg_vorname" xml:space="preserve">
+    <value>First name</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_SelectFile_err_missing_file" xml:space="preserve">
+    <value>Selected file$r$$r$'{0}'$r$$r$does not exist!</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_SelectFile_err_no_file" xml:space="preserve">
+    <value>You must choose a file</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_SelectFile_header1" xml:space="preserve">
+    <value>Choose a surgeon</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_SelectFile_header2" xml:space="preserve">
+    <value>The operations will be imported from this file</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_SelectFile_pagename" xml:space="preserve">
+    <value>Choose file</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_SelectFile_text" xml:space="preserve">
+    <value>Choose the file which contains the operations which you entered on and exported from the mobile device</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_sql_err" xml:space="preserve">
+    <value>Could not import surgeon '{0}':$r$$r${1}</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_sql_err_read_file" xml:space="preserve">
+    <value>Could not read file$r$$r$'{0}'</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_sql_err_read_signature" xml:space="preserve">
+    <value>File$r$$r$'{0}'$r$$r$ has the wrong signature, the expected signature was '{1}'</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_sql_importops" xml:space="preserve">
+    <value>Importing the surgeon's operations </value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_Summary_pagename" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_Summary_text" xml:space="preserve">
+    <value>Summary:$r$$r$Surgeon$r$    '{0}, {1}',$r$$r$Filename:$r$    '{2}'.$r$$r$Click '{3}' to begin.</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_Welcome_pagename" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_Welcome_text" xml:space="preserve">
+    <value>This wizard will assist you with importing operations from a mobile device</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_wizard_title" xml:space="preserve">
+    <value>Import operations from a mobile device</value>
+  </data>
+  <data name="Wizards_ImportOPS_Completed_error" xml:space="preserve">
+    <value>Could not process OPS-Catalog</value>
+  </data>
+  <data name="Wizards_ImportOPS_Completed_pagename" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="Wizards_ImportOPS_Completed_success" xml:space="preserve">
+    <value>Successfully processed OPS-Catalog</value>
+  </data>
+  <data name="Wizards_ImportOPS_OperationenDifferenceView_anders" xml:space="preserve">
+    <value>other</value>
+  </data>
+  <data name="Wizards_ImportOPS_OperationenDifferenceView_blau" xml:space="preserve">
+    <value>blue</value>
+  </data>
+  <data name="Wizards_ImportOPS_OperationenDifferenceView_confirm1" xml:space="preserve">
+    <value>This will process all selected entries which previously existed but are different in the import file.$r$$r$Continue?</value>
+  </data>
+  <data name="Wizards_ImportOPS_OperationenDifferenceView_confirm2" xml:space="preserve">
+    <value>This will process all selected new entries of the import file.$r$$r$Continue?</value>
+  </data>
+  <data name="Wizards_ImportOPS_OperationenDifferenceView_confirm3" xml:space="preserve">
+    <value>This will process all entries from the import file.$r$$r$Continue?</value>
+  </data>
+  <data name="Wizards_ImportOPS_OperationenDifferenceView_diff" xml:space="preserve">
+    <value>These {0} entries are different</value>
+  </data>
+  <data name="Wizards_ImportOPS_OperationenDifferenceView_exists" xml:space="preserve">
+    <value>The entries in black already exist</value>
+  </data>
+  <data name="Wizards_ImportOPS_OperationenDifferenceView_fehlt" xml:space="preserve">
+    <value>missing</value>
+  </data>
+  <data name="Wizards_ImportOPS_OperationenDifferenceView_fertig" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="Wizards_ImportOPS_OperationenDifferenceView_gone" xml:space="preserve">
+    <value>The entries in {0} are missing in the import file</value>
+  </data>
+  <data name="Wizards_ImportOPS_OperationenDifferenceView_grpDatabase" xml:space="preserve">
+    <value>Existing operations in the database which are different</value>
+  </data>
+  <data name="ChirurgView_frau" xml:space="preserve">
+    <value>Mrs</value>
+  </data>
+  <data name="ChirurgView_herr" xml:space="preserve">
+    <value>Mr</value>
+  </data>
+  <data name="Wizards_ImportOPS_OperationenDifferenceView_grpImport" xml:space="preserve">
+    <value>Operations which are different in the import file</value>
+  </data>
+  <data name="Wizards_ImportOPS_OperationenDifferenceView_gruen" xml:space="preserve">
+    <value>green</value>
+  </data>
+  <data name="Wizards_ImportOPS_OperationenDifferenceView_info" xml:space="preserve">
+    <value>Double click an entry in one of the two lists, to select the corresponding entry in the other list.</value>
+  </data>
+  <data name="Wizards_ImportOPS_OperationenDifferenceView_info2" xml:space="preserve">
+    <value>Importing a new OPC-Catalog into an existing one can be difficult. It is easier to first completely delete the existing catalog and then import a new one by clicking '{0}'.</value>
+  </data>
+  <data name="Wizards_ImportOPS_OperationenDifferenceView_msg1" xml:space="preserve">
+    <value>Processing all selected entries which differ...</value>
+  </data>
+  <data name="Wizards_ImportOPS_OperationenDifferenceView_neu" xml:space="preserve">
+    <value>new</value>
+  </data>
+  <data name="Wizards_ImportOPS_OperationenDifferenceView_new" xml:space="preserve">
+    <value>These entries in {0} from the import file are new</value>
+  </data>
+  <data name="Wizards_ImportOPS_OperationenDifferenceView_opskode" xml:space="preserve">
+    <value>OPSCode</value>
+  </data>
+  <data name="Wizards_ImportOPS_OperationenDifferenceView_opstext" xml:space="preserve">
+    <value>OPSText</value>
+  </data>
+  <data name="Wizards_ImportOPS_OperationenDifferenceView_progress1" xml:space="preserve">
+    <value>Adding all new entries...</value>
+  </data>
+  <data name="Wizards_ImportOPS_OperationenDifferenceView_progress2" xml:space="preserve">
+    <value>Adding all entries...</value>
+  </data>
+  <data name="Wizards_ImportOPS_OperationenDifferenceView_rot" xml:space="preserve">
+    <value>red</value>
+  </data>
+  <data name="Wizards_ImportOPS_OperationenDifferenceView_status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Wizards_ImportOPS_OperationenDifferenceView_step1" xml:space="preserve">
+    <value>Step 1/3: Reading import file...</value>
+  </data>
+  <data name="Wizards_ImportOPS_OperationenDifferenceView_step2" xml:space="preserve">
+    <value>Step 1/3: Reading database...</value>
+  </data>
+  <data name="Wizards_ImportOPS_OperationenDifferenceView_step3" xml:space="preserve">
+    <value>Step 1/3: Comparing...</value>
+  </data>
+  <data name="Wizards_ImportOPS_OperationenDifferenceView_title" xml:space="preserve">
+    <value>Importing OPS-Catalog</value>
+  </data>
+  <data name="Wizards_ImportOPS_OPSImporter_error1" xml:space="preserve">
+    <value>Could not read file '{0}'.</value>
+  </data>
+  <data name="Wizards_ImportOPS_SelectFile_header1" xml:space="preserve">
+    <value>Choose the OPS-Catalog</value>
+  </data>
+  <data name="Wizards_ImportOPS_SelectFile_header2" xml:space="preserve">
+    <value>All entries from this file will be imported</value>
+  </data>
+  <data name="Wizards_ImportOPS_SelectFile_info" xml:space="preserve">
+    <value>Choose the file from which to import the OPS-Catalog.$r$This file is distributed by the DIMDI (Deutsches Institut für Medizinische Dokumentation und Information)$r$Example 'ops2011syst_asciiedv_20101021.txt' or 'ops2013syst_claml_20121012.xml':</value>
+  </data>
+  <data name="Wizards_ImportOPS_SelectFile_msg1" xml:space="preserve">
+    <value>You must select a file</value>
+  </data>
+  <data name="Wizards_ImportOPS_SelectFile_msg2" xml:space="preserve">
+    <value>File$r$$r$'{0}'$r$$r$ does not exist</value>
+  </data>
+  <data name="Wizards_ImportOPS_SelectFile_pageName" xml:space="preserve">
+    <value>Choose import file</value>
+  </data>
+  <data name="Wizards_ImportOPS_SelectVersion_info" xml:space="preserve">
+    <value>Choose the format of the file to import. Beginning with 2010, the format has changed: it is now UTF8 and the first column with the letter 'A' has disappeared. Beginning with 2013, the file is XML.</value>
+  </data>
+  <data name="Wizards_ImportOPS_SelectVersion_pagename" xml:space="preserve">
+    <value>Choose format</value>
+  </data>
+  <data name="Wizards_ImportOPS_Summary_pageName" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="Wizards_ImportOPS_Summary_summary" xml:space="preserve">
+    <value>Summary:$r$$r$File:$r$    {0}$r$$r$Version:$r$    {1}$r$$r$Click '{2}' to begin.</value>
+  </data>
+  <data name="Wizards_ImportOPS_Welcome_pagename" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="Wizards_ImportOPS_Welcome_welcome" xml:space="preserve">
+    <value>Welcome to the 'Import OPS-Catalog' Wizard</value>
+  </data>
+  <data name="Wizards_ImportOPS_wizard_title" xml:space="preserve">
+    <value>Import OPS-Catalog Wizard</value>
+  </data>
+  <data name="Wizards_ImportRichtlinien_Completed_msg1" xml:space="preserve">
+    <value>The guidelines were imported successfully.</value>
+  </data>
+  <data name="Wizards_ImportRichtlinien_Completed_msg2" xml:space="preserve">
+    <value>The guidelines could not be imported.</value>
+  </data>
+  <data name="Wizards_ImportRichtlinien_Completed_pageName" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="Wizards_ImportRichtlinien_RichtlinienImporter_error1" xml:space="preserve">
+    <value>Could not read file$r$$r$'{0}': '{1}'</value>
+  </data>
+  <data name="Wizards_ImportRichtlinien_RichtlinienImporter_error2" xml:space="preserve">
+    <value>Error:$r$$r$This line does not have 3 fields</value>
+  </data>
+  <data name="Wizards_ImportRichtlinien_RichtlinienImporter_error3" xml:space="preserve">
+    <value>Error:$r$$r$The 'No' (first value) is not a number</value>
+  </data>
+  <data name="Wizards_ImportRichtlinien_RichtlinienImporter_error4" xml:space="preserve">
+    <value>Error:$r$$r$The guiding value (second value) is not a number</value>
+  </data>
+  <data name="Wizards_ImportRichtlinien_RichtlinienZuordnungImporter_msg1" xml:space="preserve">
+    <value>Assignments of OPSCodes to guidelines of this area already exist.$r$Do you really want to import more assignments?</value>
+  </data>
+  <data name="Wizards_ImportRichtlinien_RichtlinienZuordnungImporter_msg2" xml:space="preserve">
+    <value>Could not read file$r$$r$'{0}': '{1}'</value>
+  </data>
+  <data name="Wizards_ImportRichtlinien_SelectFile_header1" xml:space="preserve">
+    <value>Choose the import file</value>
+  </data>
+  <data name="Wizards_ImportRichtlinien_SelectFile_header2" xml:space="preserve">
+    <value>All guidelines from this file will be imported</value>
+  </data>
+  <data name="Wizards_ImportRichtlinien_SelectFile_msg1" xml:space="preserve">
+    <value>You must choose a file!</value>
+  </data>
+  <data name="Wizards_ImportRichtlinien_SelectFile_msg2" xml:space="preserve">
+    <value>File$r$$r$'{0}'$r$$r$does not exist</value>
+  </data>
+  <data name="Wizards_ImportRichtlinien_SelectFile_pageName" xml:space="preserve">
+    <value>Choose file</value>
+  </data>
+  <data name="Wizards_ImportRichtlinien_SelectGebiet_bemerkung" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="Wizards_ImportRichtlinien_SelectGebiet_gebiet" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="Wizards_ImportRichtlinien_SelectGebiet_header1" xml:space="preserve">
+    <value>Choose an area</value>
+  </data>
+  <data name="Wizards_ImportRichtlinien_SelectGebiet_header2" xml:space="preserve">
+    <value>The guidelines from the import file will be imported into this area</value>
+  </data>
+  <data name="Wizards_ImportRichtlinien_SelectGebiet_herkunft" xml:space="preserve">
+    <value>Origin</value>
+  </data>
+  <data name="Wizards_ImportRichtlinien_SelectGebiet_msg1" xml:space="preserve">
+    <value>You must choose an area</value>
+  </data>
+  <data name="Wizards_ImportRichtlinien_SelectGebiet_pageName" xml:space="preserve">
+    <value>Select area</value>
+  </data>
+  <data name="Wizards_ImportRichtlinien_SelectGebiet_summary" xml:space="preserve">
+    <value>Summary:$r$$r$Area:$r$    {0}$r$$r$Import file:    {1}$r$$r$Click '{3}' to begin.</value>
+  </data>
+  <data name="Wizards_ImportRichtlinien_Summary_pageName" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="Wizards_ImportRichtlinien_Welcome_info" xml:space="preserve">
+    <value>Welcome to the 'Import Guidelines' Wizard. Click '{0}' to begin.</value>
+  </data>
+  <data name="Wizards_ImportRichtlinien_Welcome_pagename" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="Wizards_ImportRichtlinien_Wizard_title" xml:space="preserve">
+    <value>Import Guidelines Wizard</value>
+  </data>
+  <data name="Wizards_ImportRichtlinienZuordnung_Completed_msg1" xml:space="preserve">
+    <value>The assignments have been imported successfully</value>
+  </data>
+  <data name="Wizards_ImportRichtlinienZuordnung_Completed_msg2" xml:space="preserve">
+    <value>The assignments could not be imported</value>
+  </data>
+  <data name="Wizards_ImportRichtlinienZuordnung_Completed_pageName" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="Wizards_ImportRichtlinienZuordnung_RichtlinienValidateView_error1" xml:space="preserve">
+    <value>Could not read file$r$$r$'{0}'</value>
+  </data>
+  <data name="Wizards_ImportRichtlinienZuordnung_RichtlinienValidateView_grpNeueRichtlinien" xml:space="preserve">
+    <value>Assignments from the import file</value>
+  </data>
+  <data name="Wizards_ImportRichtlinienZuordnung_RichtlinienValidateView_info" xml:space="preserve">
+    <value>The upper list contains existing guidelines. The lower list contains guidelines from the import file. The data import processing only looks at the number of the guidelines. Therefore it is important to check that 'No', 'Guiding value' and 'Method' match.$r$Make sure that the guidelines from both lists match.$r$Guidelines may be missing from the lower list (Because not every guideline has something assigned to it), but there must not be guidelines in the lower list that appear in the upper list (this guideline would be missing from the existing ones).$r$ Guidelines with identical numbers must have the same text.$r$Double click a line to select the corresponding entry in the other list.</value>
+  </data>
+  <data name="Wizards_ImportRichtlinienZuordnung_RichtlinienValidateView_info2" xml:space="preserve">
+    <value>Red entries mark differences</value>
+  </data>
+  <data name="Wizards_ImportRichtlinienZuordnung_RichtlinienValidateView_info3" xml:space="preserve">
+    <value>I checked both lists to make sure that the guidelines are identical</value>
+  </data>
+  <data name="Wizards_ImportRichtlinienZuordnung_RichtlinienValidateView_msg1" xml:space="preserve">
+    <value>Existing guidelines for</value>
+  </data>
+  <data name="Wizards_ImportRichtlinienZuordnung_RichtlinienValidateView_msg2" xml:space="preserve">
+    <value>You must check $r$$r$'{0}'$r$$r$ or click '{1}' .</value>
+  </data>
+  <data name="Wizards_ImportRichtlinienZuordnung_RichtlinienValidateView_title" xml:space="preserve">
+    <value>Check guidelines</value>
+  </data>
+  <data name="Wizards_ImportRichtlinienZuordnung_SelectFile_header1" xml:space="preserve">
+    <value>Choose an import file</value>
+  </data>
+  <data name="Wizards_ImportRichtlinienZuordnung_SelectFile_header2" xml:space="preserve">
+    <value>Alle assignments from this file will be imported</value>
+  </data>
+  <data name="Wizards_ImportRichtlinienZuordnung_SelectFile_msg1" xml:space="preserve">
+    <value>You must choose a file!</value>
+  </data>
+  <data name="Wizards_ImportRichtlinienZuordnung_SelectFile_msg2" xml:space="preserve">
+    <value>File$r$$r$'{0}'$r$$r$does not exist!</value>
+  </data>
+  <data name="Wizards_ImportRichtlinienZuordnung_SelectFile_pagename" xml:space="preserve">
+    <value>Choose file</value>
+  </data>
+  <data name="Wizards_ImportRichtlinienZuordnung_SelectGebiet_bemerkung" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="Wizards_ImportRichtlinienZuordnung_SelectGebiet_gebiet" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="Wizards_ImportRichtlinienZuordnung_SelectGebiet_header1" xml:space="preserve">
+    <value>Choose an area</value>
+  </data>
+  <data name="Wizards_ImportRichtlinienZuordnung_SelectGebiet_header2" xml:space="preserve">
+    <value>The assigments from the import file will be imported into this area</value>
+  </data>
+  <data name="Wizards_ImportRichtlinienZuordnung_SelectGebiet_herkunft" xml:space="preserve">
+    <value>Origin</value>
+  </data>
+  <data name="Wizards_ImportRichtlinienZuordnung_SelectGebiet_msg1" xml:space="preserve">
+    <value>You must select an area!</value>
+  </data>
+  <data name="Wizards_ImportRichtlinienZuordnung_SelectGebiet_pageName" xml:space="preserve">
+    <value>Select area</value>
+  </data>
+  <data name="Wizards_ImportRichtlinienZuordnung_Summary_msg1" xml:space="preserve">
+    <value>***unknown area***</value>
+  </data>
+  <data name="Wizards_ImportRichtlinienZuordnung_Summary_msg2" xml:space="preserve">
+    <value>Could not read file$r$$r$'{0}'</value>
+  </data>
+  <data name="Wizards_ImportRichtlinienZuordnung_Summary_pageName" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="Wizards_ImportRichtlinienZuordnung_Summary_summary" xml:space="preserve">
+    <value>Summary:$r$$r$Area:$r$    {0}$r$$r$Import file:$r$    {1}$r$$r$The selected file contains assignments for area:$r${2}$r$$r$Click '{3}' to begin.</value>
+  </data>
+  <data name="Wizards_ImportRichtlinienZuordnung_Welcome_info" xml:space="preserve">
+    <value>Welcome to the 'Assignments From OPSCodes To Guidelines' Wizard.$r$Click '{0}' to begin</value>
+  </data>
+  <data name="Wizards_ImportRichtlinienZuordnung_Welcome_pageName" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="Wizards_ImportRichtlinienZuordnung_Wizard_title" xml:space="preserve">
+    <value>Assignments From OPSCodes To Guidelines Wizard</value>
+  </data>
+  <data name="Wizards_InstallLicense_Completed_msg1" xml:space="preserve">
+    <value>The license file was installed succesfully$r$$r$You must restart the application.</value>
+  </data>
+  <data name="Wizards_InstallLicense_Completed_msg2" xml:space="preserve">
+    <value>The license file could not be installed.</value>
+  </data>
+  <data name="Wizards_InstallLicense_Completed_pageName" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="Wizards_InstallLicense_LicenseInstaller_error1" xml:space="preserve">
+    <value>The license file$r$'{0}'$r$could not be copied to$r$'{1}'</value>
+  </data>
+  <data name="Wizards_InstallLicense_Summary_pageName" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="Wizards_InstallLicense_Summary_summary" xml:space="preserve">
+    <value>Summary:$r$$r$License file:$r$    {0}$r$$r$Click '{1}' to begin.</value>
+  </data>
+  <data name="Wizards_InstallLicense_Welcome_info" xml:space="preserve">
+    <value>Welcome to the 'Install License File' Wizard. Click '{0}' to begin.</value>
+  </data>
+  <data name="Wizards_InstallLicense_Welcome_pageName" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="Wizards_InstallLicense_Wizard_title" xml:space="preserve">
+    <value>Install License File Wizard.</value>
+  </data>
+  <data name="OperationenForm_Anmeldename" xml:space="preserve">
+    <value>User name</value>
+  </data>
+  <data name="OperationenForm_Anrede" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="OperationenForm_Chirurg" xml:space="preserve">
+    <value>Surgeon</value>
+  </data>
+  <data name="RichtlinienView_richtlinien" xml:space="preserve">
+    <value>Guidelines</value>
+  </data>
+  <data name="RichtlinienOpsKodeUnassignedView_grpRichtlinien2" xml:space="preserve">
+    <value>Guidelines for area '{0}'</value>
+  </data>
+  <data name="RichtlinienOpsKodeUnassignedView_grpZuordnungenPrint" xml:space="preserve">
+    <value>Existing assignments between OPSCodes and guidelines for area '{0}'</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_sprache_de_de_caption" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_sprache_en_us_caption" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="BusinessLayer_errorVersion" xml:space="preserve">
+    <value>Database version and program version do not match.$r$$r$Database version: {0}.{1}$r$Database name: {2}$r$Program version: {3}.{4} {5}$r$$r$Please contact your system administrator with this message.</value>
+  </data>
+  <data name="OperationenForm_entry" xml:space="preserve">
+    <value>Entry</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_PlanOperationenView_caption" xml:space="preserve">
+    <value>Target/Actual One</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_PlanOperationVergleichView_caption" xml:space="preserve">
+    <value>Target/Actual Many</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_RichtlinienSollIstView" xml:space="preserve">
+    <value>Enter target values for Guidelines</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_RichtlinienSollIstView_caption" xml:space="preserve">
+    <value>Target/Actual Guidelines</value>
+  </data>
+  <data name="OperationenLogbuchView_videoTutorial1" xml:space="preserve">
+    <value>1-Install program</value>
+  </data>
+  <data name="OperationenLogbuchView_videoTutorial1Url" xml:space="preserve">
+    <value>http://op-log.de/download/video/1-installation_demo/1-installation_demo.htm</value>
+  </data>
+  <data name="OperationenLogbuchView_videoTutorial2" xml:space="preserve">
+    <value>2-Create users</value>
+  </data>
+  <data name="OperationenLogbuchView_videoTutorial2Url" xml:space="preserve">
+    <value>http://op-log.de/download/video/2-chirurgenAnlegen_demo/2-chirurgenAnlegen_demo.htm</value>
+  </data>
+  <data name="OperationenLogbuchView_videoTutorial3" xml:space="preserve">
+    <value>3-Departments</value>
+  </data>
+  <data name="OperationenLogbuchView_videoTutorial3Url" xml:space="preserve">
+    <value>http://op-log.de/download/video/3-abteilungen_demo/3-abteilungen_demo.htm</value>
+  </data>
+  <data name="OperationenLogbuchView_videoTutorial4" xml:space="preserve">
+    <value>4-Roles and Rights</value>
+  </data>
+  <data name="OperationenLogbuchView_videoTutorial4Url" xml:space="preserve">
+    <value>http://op-log.de/download/video/4-rechteUndRollen/4-rechteUndRollen.htm</value>
+  </data>
+  <data name="OperationenLogbuchView_videoTutorial5" xml:space="preserve">
+    <value>5-Import data</value>
+  </data>
+  <data name="OperationenLogbuchView_videoTutorial5Url" xml:space="preserve">
+    <value>http://op-log.de/download/video/5-datenimport/5-datenimport.htm</value>
+  </data>
+  <data name="RichtlinienSollIstView_auto" xml:space="preserve">
+    <value>Automatically assigned operations</value>
+  </data>
+  <data name="RichtlinienSollIstView_bezeichnung" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="RichtlinienSollIstView_cmdAdd" xml:space="preserve">
+    <value>Add column</value>
+  </data>
+  <data name="RichtlinienSollIstView_cmdDelete" xml:space="preserve">
+    <value>Remove column</value>
+  </data>
+  <data name="RichtlinienSollIstView_cmdUpdate" xml:space="preserve">
+    <value>Change date</value>
+  </data>
+  <data name="RichtlinienSollIstView_datum" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="RichtlinienSollIstView_gebiet" xml:space="preserve">
+    <value>Specialist area</value>
+  </data>
+  <data name="RichtlinienSollIstView_grpRichtlinien" xml:space="preserve">
+    <value>Guidelines</value>
+  </data>
+  <data name="RichtlinienSollIstView_grpTest" xml:space="preserve">
+    <value>Assigned operations</value>
+  </data>
+  <data name="RichtlinienSollIstView_info" xml:space="preserve">
+    <value>Click an actual number to display the matching operations in the list below.Click a target number to set that value. To add a new column, fill out the two date fields and then click '{0}'. To change the date of a column, first click the column header, then change the date, and then click '{1}'. To delete a column, click the column header and then click '{2}' in the context menu.</value>
+  </data>
+  <data name="RichtlinienSollIstView_ist" xml:space="preserve">
+    <value>Actual</value>
+  </data>
+  <data name="RichtlinienSollIstView_nr" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="RichtlinienSollIstView_operateur" xml:space="preserve">
+    <value>Surgeon</value>
+  </data>
+  <data name="RichtlinienSollIstView_opscode" xml:space="preserve">
+    <value>OPSCode</value>
+  </data>
+  <data name="RichtlinienSollIstView_richtzahl" xml:space="preserve">
+    <value>Target value</value>
+  </data>
+  <data name="RichtlinienSollIstView_soll" xml:space="preserve">
+    <value>Target</value>
+  </data>
+  <data name="RichtlinienSollIstView_title" xml:space="preserve">
+    <value>Target/Actual guidelines</value>
+  </data>
+  <data name="RichtlinienSollIstView_wbrl" xml:space="preserve">
+    <value>Guideline</value>
+  </data>
+  <data name="RichtlinienSollIstView_wbrlnr" xml:space="preserve">
+    <value>GL-No</value>
+  </data>
+  <data name="Wizards_ImportRichtlinien_Summary_summary" xml:space="preserve">
+    <value>Summary:$r$$r$Area:$r$    {0}$r$$r$File:$r$    {1}$r$$r$Click '{2}' to finish.</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_ddVideoTutorials" xml:space="preserve">
+    <value>Show video tutorials</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_ddVideoTutorials_caption" xml:space="preserve">
+    <value>Video Tutorials</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_NewOperationenMobileView_err_format" xml:space="preserve">
+    <value>$r$- '{0}' has bad format</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_NewOperationenMobileView_extern" xml:space="preserve">
+    <value>Extern</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_NewOperationenMobileView_intern" xml:space="preserve">
+    <value>Intern</value>
+  </data>
+  <data name="PendingDokumentOverwriteView_title" xml:space="preserve">
+    <value>Edit document</value>
+  </data>
+  <data name="Wizards_ImportChirurg_NewOperationenView_confirm_insert" xml:space="preserve">
+    <value>Really insert all selected entries from group box '{0}'?</value>
+  </data>
+  <data name="ExportOperationenKatalogView_grpExportDaten" xml:space="preserve">
+    <value>Operations to export</value>
+  </data>
+  <data name="ExportOperationenKatalogView_lblSelection_many" xml:space="preserve">
+    <value>{0} entries selected</value>
+  </data>
+  <data name="ExportOperationenKatalogView_lblSelection_one" xml:space="preserve">
+    <value>{0} entry selected</value>
+  </data>
+  <data name="Wizards_ImportChirurg_NewOperationenView_extint" xml:space="preserve">
+    <value>ext./int.</value>
+  </data>
+  <data name="PluginInfoView_TargetInvocationException" xml:space="preserve">
+    <value>TargetInvocationException:$r$This plugin could not be loaded. Possible reasons are:$r$$r$- The program was run from a UNC share such as '\\cmaurer\oplog'$r$  which has not been added to the trustworthy sites on this machine.$r$  To resolve this issue, run the 'addTrust.bat' script as an administrator. Also, read the help text on server installation.</value>
+  </data>
+  <data name="OptionsView_tab_info2" xml:space="preserve">
+    <value>Automatic import will only be run if the logged-on user has the corresponding right.</value>
+  </data>
+  <data name="OptionsView_tab_info0" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="OptionsView_tab_info1" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="OptionsView_tab_info3" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="OptionsView_tab_info4" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="OptionsView_tab_info5" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="OperationenImportView_errLoadingPluginContinueYesNo" xml:space="preserve">
+    <value>$r$ - Click '{0}' to continue loading plugins$r$ - Click '{1}' to cancel</value>
+  </data>
+  <data name="OperationenImportView_errLoadingPluginError" xml:space="preserve">
+    <value>Message:</value>
+  </data>
+  <data name="OperationenImportView_lvNoData" xml:space="preserve">
+    <value>No plugins loaded</value>
+  </data>
+  <data name="OperationenImportView_plugin" xml:space="preserve">
+    <value>Plugin</value>
+  </data>
+  <data name="OperationenSummaryView_fileInfoLogfilesComment" xml:space="preserve">
+    <value>Move or delete these files in folder '{0}'</value>
+  </data>
+  <data name="OperationenSummaryView_fileInfoLogfilesCount" xml:space="preserve">
+    <value>Number of log files from data import</value>
+  </data>
+  <data name="OperationenSummaryView_fileInfoLogfilesTotalSize" xml:space="preserve">
+    <value>Total size of all log files from data import</value>
+  </data>
+  <data name="OperationenSummaryView_fileInfoPluginsCount" xml:space="preserve">
+    <value>Number of plugins</value>
+  </data>
+  <data name="OperationenForm_errLoadingPlugin" xml:space="preserve">
+    <value>Could not load plugin $r$$r$'{0}'$r$$r$</value>
+  </data>
+  <data name="OperationenForm_errLoadingPluginContinueYesNo" xml:space="preserve">
+    <value>$r$ - Click '{0}' to continue loading plugins$r$ - Click '{1}' to cancel</value>
+  </data>
+  <data name="OperationenForm_errLoadingPluginError" xml:space="preserve">
+    <value>Message:</value>
+  </data>
+  <data name="BusinessLayer_err_copy_file" xml:space="preserve">
+    <value>Could not copy file from$r$$r$'{0}' to$r$$r$'{1}'.</value>
+  </data>
+  <data name="BusinessLayer_err_fileNoReadOrBadFormat" xml:space="preserve">
+    <value>File could not be read or has invalid format.</value>
+  </data>
+  <data name="BusinessLayer_errLoginFailed" xml:space="preserve">
+    <value>Could not logon user '{0}'</value>
+  </data>
+  <data name="Wizards_ImportOPS_SelectVersion_header1" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="Wizards_ImportOPS_SelectVersion_header2" xml:space="preserve">
+    <value>Choose the file format</value>
+  </data>
+  <data name="SelectListViewColumnsView_noColumnSelected" xml:space="preserve">
+    <value>You must select a column!</value>
+  </data>
+  <data name="OperationenImporter_recordSkippedOpExists" xml:space="preserve">
+    <value>Record is skipped because operation already exists.</value>
+  </data>
+  <data name="OperationenImporter_skippedRecordExcludeList" xml:space="preserve">
+    <value>Record is skipped because name is on exclude list.</value>
+  </data>
+  <data name="OperationenImporter_skippedRecordFunction" xml:space="preserve">
+    <value>Record is skipped because funciton was not selected.</value>
+  </data>
+  <data name="OperationenImporter_unknownState" xml:space="preserve">
+    <value>Unknown state</value>
+  </data>
+  <data name="OperationenImporter_insertChirurgenOperationen" xml:space="preserve">
+    <value>Inserted operation for surgeon</value>
+  </data>
+  <data name="OperationenImporter_noinsertSurgeon" xml:space="preserve">
+    <value>Surgeon was not inserted</value>
+  </data>
+  <data name="OperationenImporter_recordSkippedNoSurgeon" xml:space="preserve">
+    <value>Operation for surgeon was not inserted because surgeon does not exist</value>
+  </data>
+  <data name="FilterRangeUserFunction_insertDateFrom" xml:space="preserve">
+    <value>Insert Date from:</value>
+  </data>
+  <data name="FilterRangeUserFunction_chkExtern" xml:space="preserve">
+    <value>external</value>
+  </data>
+  <data name="FilterRangeUserFunction_chkIntern" xml:space="preserve">
+    <value>internal</value>
+  </data>
+  <data name="FilterRangeUserFunction_dateFrom" xml:space="preserve">
+    <value>Date from:</value>
+  </data>
+  <data name="FilterRangeUserFunction_dateTo" xml:space="preserve">
+    <value>Date to:</value>
+  </data>
+  <data name="FilterRangeUserFunction_funktion" xml:space="preserve">
+    <value>Function:</value>
+  </data>
+  <data name="FilterRangeUserFunction_operateur" xml:space="preserve">
+    <value>Surgeon:</value>
+  </data>
+  <data name="FilterRangeUserFunction_opsCodeText" xml:space="preserve">
+    <value>OpsCode/Text</value>
+  </data>
+  <data name="RichtlinienVergleichView_chkDate" xml:space="preserve">
+    <value>Display all operations (including date)</value>
+  </data>
+  <data name="RichtlinienVergleichView_cmdAnzeigen" xml:space="preserve">
+    <value>Display</value>
+  </data>
+  <data name="RichtlinienVergleichView_istSollVergleich" xml:space="preserve">
+    <value>Actual-planned comparison</value>
+  </data>
+  <data name="RichtlinienVergleichView_legend2" xml:space="preserve">
+    <value>Guidelines and auto assigned operations</value>
+  </data>
+  <data name="OperationenImporter_surgeonExists" xml:space="preserve">
+    <value>Surgeon exists</value>
+  </data>
+  <data name="OperationenImporter_findChirurgenOperationenCodeDate" xml:space="preserve">
+    <value>Operation for surgeon is checked by opsCode, timestamp</value>
+  </data>
+  <data name="OperationenImporter_findChirurgenOperationenCodeDateId" xml:space="preserve">
+    <value>Operation for surgeon is checked by opsCode, timestamp, identifier</value>
+  </data>
+  <data name="OperationenImporter_findSurgeonExplicit" xml:space="preserve">
+    <value>Surgeon was explicitly selected</value>
+  </data>
+  <data name="OperationenImporter_findSurgeonExplicitLast" xml:space="preserve">
+    <value>Explicitly selected surgeon is compared by lastname</value>
+  </data>
+  <data name="OperationenImporter_findSurgeonExplicitLastFirst" xml:space="preserve">
+    <value>Explicitly selected surgeon is compared by lastname, firstname</value>
+  </data>
+  <data name="OperationenImporter_findSurgeonImportId" xml:space="preserve">
+    <value>Surgeon is searched for by importId</value>
+  </data>
+  <data name="OperationenImporter_findSurgeonLast" xml:space="preserve">
+    <value>Surgeon is searched for by lastname</value>
+  </data>
+  <data name="OperationenImporter_findSurgeonLastFirst" xml:space="preserve">
+    <value>Surgeon is searched for by lastname, firstname</value>
+  </data>
+  <data name="OperationenImporter_data" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="OperationenImportView_importpk_importid" xml:space="preserve">
+    <value>Importname</value>
+  </data>
+  <data name="OperationenImportView_importpk_info" xml:space="preserve">
+    <value>Identify by:</value>
+  </data>
+  <data name="OperationenImportView_importpk_lastname" xml:space="preserve">
+    <value>last name</value>
+  </data>
+  <data name="OperationenImportView_importpk_lastnameFirstname" xml:space="preserve">
+    <value>first name</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_filterAll" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="ClientServerView_abort" xml:space="preserve">
+    <value>Aborted by user</value>
+  </data>
+  <data name="ClientServerView_cmdReceive" xml:space="preserve">
+    <value>Receive a file...</value>
+  </data>
+  <data name="ClientServerView_cmdSend" xml:space="preserve">
+    <value>Send a file...</value>
+  </data>
+  <data name="ClientServerView_confirmFileOverwrite" xml:space="preserve">
+    <value>The selected file exists and will be overwritten. Continue?</value>
+  </data>
+  <data name="ClientServerView_connected" xml:space="preserve">
+    <value>The connection was established.</value>
+  </data>
+  <data name="ClientServerView_done" xml:space="preserve">
+    <value>The transmission ended successfully.</value>
+  </data>
+  <data name="ClientServerView_err_fileSize" xml:space="preserve">
+    <value>Error: Invalid file size '{0}' bytes, must be between {1} and {2}.</value>
+  </data>
+  <data name="ClientServerView_err_ip" xml:space="preserve">
+    <value>Error: Invalid IP address.</value>
+  </data>
+  <data name="ClientServerView_err_length" xml:space="preserve">
+    <value>Error: Invalid number '{0}' of bytes, must be between {1} and {2}.</value>
+  </data>
+  <data name="ClientServerView_err_magicNumber" xml:space="preserve">
+    <value>Error: Invalid migic number in header '0x{0:X}', expected was '0x{1:X}'.</value>
+  </data>
+  <data name="ClientServerView_info" xml:space="preserve">
+    <value>You can send/receive a file to/from another device via TCP/IP.$r$Click '{0}' to receive data from another device (the other device must send to the IP address/port indicated above) and write that data to the specified file.$r$Click '{1}' to send the selected file to another device with the IP address/port as indicated above. This computer and the other device must be on the same network, connected by cable or by WiFi, Click the help button for more details.</value>
+  </data>
+  <data name="ClientServerView_listening" xml:space="preserve">
+    <value>Waiting for client to connect...</value>
+  </data>
+  <data name="ClientServerView_readbytes" xml:space="preserve">
+    <value>Received {0} of {1} bytes</value>
+  </data>
+  <data name="ClientServerView_receiving" xml:space="preserve">
+    <value>Receiving data...</value>
+  </data>
+  <data name="ClientServerView_sending" xml:space="preserve">
+    <value>Sending data...</value>
+  </data>
+  <data name="ClientServerView_sentbytes" xml:space="preserve">
+    <value>Sent {0} of {1} bytes</value>
+  </data>
+  <data name="ClientServerView_title" xml:space="preserve">
+    <value>Transmit Files</value>
+  </data>
+  <data name="OperationenImportView_cmdSave" xml:space="preserve">
+    <value>Save settings</value>
+  </data>
+  <data name="OperationenLogbuchView_mnItem_ClientServerView" xml:space="preserve">
+    <value>Send/receive files to/from another computer</value>
+  </data>
+  <data name="FilterRangeUserFunction_filter" xml:space="preserve">
+    <value>Filter:</value>
+  </data>
+  <data name="LogbuchMaster_login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="LogonView_logon" xml:space="preserve">
+    <value>Logon</value>
+  </data>
+  <data name="LogonView_password" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="LogonView_user" xml:space="preserve">
+    <value>Username:</value>
+  </data>
+  <data name="OperationenLogbuchView_err_missing_file" xml:space="preserve">
+    <value>File '{0}' is missing</value>
+  </data>
+  <data name="OperationenView_cmdAnzeigen" xml:space="preserve">
+    <value>Display</value>
+  </data>
+  <data name="Wizards_ImportOperationenMobile_NewOperationenMobileView_confirm" xml:space="preserve">
+    <value>Do you want to import operations multiple times?</value>
+  </data>
+  <data name="LogbuchMaster_head1" xml:space="preserve">
+    <value>Surgical Logbook</value>
+  </data>
+  <data name="LogbuchMaster_head2" xml:space="preserve">
+    <value>These webpages access the same database as the Windows Program</value>
+  </data>
+  <data name="LogbuchMaster_head3" xml:space="preserve">
+    <value>No Installation, no setup. Access all data with any Internet Browser</value>
+  </data>
+  <data name="LogbuchMaster_loginGreeting" xml:space="preserve">
+    <value>Hello, &lt;b&gt;{0} {1}&lt;/b&gt;</value>
+  </data>
+  <data name="LogbuchMaster_logout" xml:space="preserve">
+    <value>Logoff</value>
+  </data>
+  <data name="ChirurgOperationenView_cmdAnzeigen" xml:space="preserve">
+    <value>Display</value>
+  </data>
+  <data name="ChirurgOperationenView_lblSumme" xml:space="preserve">
+    <value>Total:</value>
+  </data>
+  <data name="ChirurgOperationenView_overview" xml:space="preserve">
+    <value>Summary of all operations</value>
+  </data>
+  <data name="ChirurgOperationenView_procedures" xml:space="preserve">
+    <value>Operations</value>
+  </data>
+  <data name="OperationenLogbuchView_splashScreen_autoupdateFolder" xml:space="preserve">
+    <value>Checking for new version from folder</value>
+  </data>
+  <data name="OperationenLogbuchView_splashScreen_autoupdateInternet" xml:space="preserve">
+    <value>Checking for new version from internet</value>
+  </data>
+  <data name="SplashScreenView_title" xml:space="preserve">
+    <value>OP-LOG Surgical Logbook</value>
+  </data>
+  <data name="BusinessLayer_err_serial_multiple" xml:space="preserve">
+    <value>The following serial numbers are used multiple times, which is not allowed. Each serial number may only be used once. Serial numbers, which have been used multiple times have been reset. Restart the program.$r$$r$</value>
+  </data>
+  <data name="FilterOpsCodeOpsText_filter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="FilterOpsCodeOpsText_filterOpsCode" xml:space="preserve">
+    <value>OPS-Code</value>
+  </data>
+  <data name="FilterOpsCodeOpsText_info_search" xml:space="preserve">
+    <value>The character _ (underscore) serves as a placeholder for one arbitrary character (e.g. '_-300').</value>
+  </data>
+  <data name="OperationenKatalogView_cmdAnzeigen" xml:space="preserve">
+    <value>Display</value>
+  </data>
+  <data name="OperationenKatalogView_opscode" xml:space="preserve">
+    <value>OPS-Code</value>
+  </data>
+  <data name="OperationenKatalogView_opstext" xml:space="preserve">
+    <value>OPS-Text</value>
+  </data>
+  <data name="OperationenKatalogView_Prozeduren" xml:space="preserve">
+    <value>Operations</value>
+  </data>
+  <data name="FilterOpsCodeOpsText_filterOpsText" xml:space="preserve">
+    <value>OPS-Text</value>
+  </data>
+  <data name="GebieteView_cmdAnzeigen" xml:space="preserve">
+    <value>Display</value>
+  </data>
+  <data name="GebieteView_gebiete" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="RichtlinienView_cmdAnzeigen" xml:space="preserve">
+    <value>Display</value>
+  </data>
+  <data name="RichtlinienView_gebiete" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="RichtlinienView_facharztgebiete" xml:space="preserve">
+    <value>Specialist areas</value>
+  </data>
+  <data name="RichtlinienView_nr" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="RichtlinienView_richttext" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="RichtlinienView_richtzahl" xml:space="preserve">
+    <value>Target value</value>
+  </data>
+  <data name="OperationenSummaryView_infoFreeSerials" xml:space="preserve">
+    <value>Number of free, available  serial numbers</value>
+  </data>
+  <data name="OperationenSummaryView_infoNo" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="OperationenSummaryView_infoValidLicense" xml:space="preserve">
+    <value>Valid license file exists</value>
+  </data>
+  <data name="OperationenSummaryView_infoYes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="WeiterbildungszeitraumView_err_datesTooFarApart" xml:space="preserve">
+    <value>$r$- '{0}' and '{1}' may not be more than {2} years apart</value>
+  </data>
+  <data name="WeiterbildungszeitraumView_err_fromDateBehindBar" xml:space="preserve">
+    <value>$r$- '{0}' '{1}' must be before the first date '{2}' (see box below)</value>
+  </data>
+  <data name="WeiterbildungszeitraumView_err_toDateBeforeBar" xml:space="preserve">
+    <value>$r$- '{0}' '{1}' must be after the last date '{2}' (see box below)</value>
+  </data>
+  <data name="WeiterbildungszeitraumView_err_toDateBeforeFromDate" xml:space="preserve">
+    <value>$r$- '{0}' '{1}' must be after '{2}' '{3}'</value>
+  </data>
+  <data name="Default_of" xml:space="preserve">
+    <value>of</value>
+  </data>
+  <data name="Default_page" xml:space="preserve">
+    <value>Page</value>
+  </data>
+  <data name="ExportOperationenKatalogView_defaultGroupName" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="ExportOperationenKatalogView_group" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="ExportOperationenKatalogView_groups" xml:space="preserve">
+    <value>Groups</value>
+  </data>
+  <data name="ExportOperationenKatalogView_err_groupExists" xml:space="preserve">
+    <value>Goup '{0}' already exists.</value>
+  </data>
+  <data name="ExportOperationenKatalogView_exported_ops" xml:space="preserve">
+    <value>Operations to be exported</value>
+  </data>
+  <data name="AboutBox_group_software" xml:space="preserve">
+    <value>Software</value>
+  </data>
+  <data name="ExportOperationenKatalogView_deleteAllForAutoCreation" xml:space="preserve">
+    <value>All groups and entries will be created automatically for the current OPS-Catalog. All current groups and entries will be cleared. Continue?</value>
+  </data>
+  <data name="RichtlinienView_infoGebiete" xml:space="preserve">
+    <value>Go to '{0}' to insert a new Specialist-Area for which you can insert new guidelines below.</value>
+  </data>
+  <data name="OperationenKatalogView_delete2_success" xml:space="preserve">
+    <value>All entries have been deleted from the  OPS-Catalog.</value>
+  </data>
+  <data name="Wizards_ImportOPS_OPSImporter_error_xml" xml:space="preserve">
+    <value>The XML file {0} could not be read. The matching *.dtd might be missing.</value>
+  </data>
+  <data name="OperationenEditView_bezeichnung" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="OperationenEditView_opsCode" xml:space="preserve">
+    <value>OPSCode</value>
+  </data>
+</root>

@@ -1,0 +1,75 @@
+<html>
+<head>
+<title>
+OP-LOG
+</title>
+<link rel="stylesheet" type="text/css" href="../css/operationen.css"> 
+</head>
+<body>
+
+
+<h1>Rollen und Rechte</h1>
+
+<p>
+OP-LOG enthält eine vollständige Rechteverwaltung. 
+Jedem Menüpunkt und jeder Schaltfläche ist ein Recht zugeordnet. Alle vorhandenen Rechte können Sie unter 
+<a href="../SecGroupsSecRightsView.html">Zuordnungen von Rechten zu Rollen</a> sehen.
+Rechte können nicht geändert oder hinzugefügt werden, sie sind fester Bestandteil des Programmes. 
+Wenn durch ein Programm-Update ein neuer Menüpunkt hinzukommt,
+ist automatisch auch ein neues Recht für diesen Menüpunkt  vorhanden.
+</p>
+
+<p>
+Im Fenster <a href="../SecGroupsSecRightsView.html">Zuordnungen von Rechten zu Rollen</a> 
+kann einer Rolle Rechte zugewiesen werden. Ein Recht kann einer oder mehreren Rollen zugeordnet werden.
+</p>
+
+<p>
+Im Fenster <a href="../SecGroupsChirurgenView.html">Zuordnungen von Benutzern zu Rollen</a> wird festgelegt, 
+welche Benutzer zu einer Rolle gehören. Gehört ein Benutzer zu einer Rolle, so 
+erhält er alle Rechte dieser Rolle. Gehört ein Benutzer zu mehreren Rollen, 
+so erhält er alle Rechte von allen Rollen, denen er angehört.
+</p>
+
+<p>
+Dadurch, dass einer Rolle bestimmte Rechte zugewiesen werden und Benutzer einer bestimmten Rolle angehören, 
+lassen sich Aufgaben und auch Zugriffe im Programm hervorragend steuern.
+</p>
+
+<p>
+Im Fenster <a href="../SecUserOverviewView.html">Benutzer/Abteilungen/Rollen/Rechte - Übersicht</a> 
+kann man für einen einzelnen Benutzer sehen, welchen Abteilungen und Rollen er angehört, 
+und welche Rechte er insgesamt erhält.
+</p>
+
+
+<h2>Sichtweite auf die Daten</h2>
+
+<p>
+Ein normaler Benutzer sieht nur seine eigenen Daten.
+</p>
+
+<p>
+Ein Benutzer, der  Weiterbilder ist, sieht seine eigenen Daten und alle 
+Daten der ihm zugeordneten Benutzer, egal aus welcher Abteilung diese stammen.
+</p>
+
+<p>
+Ein Benutzer, der das Recht 'alle Chirurgen aus meinen Abteilungen sehen' besitzt, 
+sieht alle Daten von allen Chirurgen aus allen Abteilungen, denen er selber angehört.
+Dieses Recht muss einem Benutzer explizit zugeordnet werden.
+</p>
+
+<p>
+Ein Benutzer, der sowohl Weiterbilder ist als auch das Recht 'alle Chirurgen aus meinen Abteilungen sehen' besitzt, sieht seinen eigenen Daten,
+die Daten aller Chirurgen, die ihm zugeordnet sind, sowie alle Daten von allen Chirurgen aus all denen Abteilungen, denen er selber angehört.
+</p>
+
+<p>
+Ein Benutzer, der das Recht 'alle Chirurgen sehen' besitzt, sieht alle Daten von allen Chirurgen.
+Dieses Recht muss einem Benutzer explizit zugeordnet werden.
+</p>
+
+
+</body>
+</html>

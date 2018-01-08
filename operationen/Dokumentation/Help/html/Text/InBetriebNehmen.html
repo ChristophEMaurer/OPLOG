@@ -1,0 +1,247 @@
+<html>
+<head>
+<title>
+OP-LOG
+</title>
+<link rel="stylesheet" type="text/css" href="../css/operationen.css"> 
+</head>
+<body>
+
+<h1>Programm in Betrieb nehmen</h1>
+
+
+<h2>Erstes Anmelden</h2>
+<p>
+Nach der ersten Installation gibt es bereits den Chirurgen Mustermann mit Kennwort 'start'.
+Sie müssen sich beim ersten Mal als Mustermann mit Kennwort 'start' anmelden.
+</p>
+
+<p>
+<img src="..\images\setup\anmelden.jpg" alt="Anmelden" /> 
+</p>
+
+<h2>Seriennummern eingeben</h2>
+<p>
+Ab dem dritten Chirurgen müssen Sie pro Chirurg eine Seriennummer eingeben.
+</p>
+
+<p>
+Wenn Sie das OP-LOG alleine nutzen und keine Operationen importieren möchten, können Sie diesen Schritt überspringen.
+</p>
+
+<p>
+Seriennummern f&uuml;r Chirugen k&ouml;nnen Sie unter <a href="../SerialnumbersView.html">Extras &gt; Seriennummern verwalten</a> in das Programm einf&uuml;gen.
+Wenn Sie m&ouml;chten, dass beim Datenimport automatisch diese Seriennummern verwendet werden, schalten Sie diese Option
+unter 
+<a href="../OptionsView.html#opt-seriennummern">
+    Extras &gt; Optionen &gt;  Seriennummern &gt; Immer wenn ein Arzt angelegt wird eine Seriennummer automatisch aus den hinterlegten verbrauchen
+</a> ein.
+</p>
+
+
+<h2>Weitere Ärzte anlegen</h2>
+<p>
+Nachdem Sie sich beim ersten Mal als Mustermann mit Kennwort 'start' angemeldet haben, können Sie weitere Chirurgen anlegen.
+Sie können einen neuen Chirurgen unter <a href="../ChirurgView.html">Verwaltung &gt; Operateur-Daten &gt; Neu anlegen...</a> anlegen.
+Beim <a href="../OperationenImportView.html">Datenimport</a> - wenn Sie ausgeführte Prozeduren importieren - geschieht dieses automatisch.
+</p>
+
+<p>
+Wenn ein Arzt Weiterbilder ist, kann er alle Daten der ihm zugeordneten Ärzten sehen. 
+<br />Normale Benutzer dürfen nur ihre eigenen Daten sehen.
+<br />Wenn Sie einem Benutzer das Recht 'Daten: Zugriff auf die Daten aller Chirurgen aus allen Abteilungen, denen der Benutzer angehört.' zuordnen, 
+so darf er alle Daten aller Benutzer aus seiner Abteilung sehen.
+</p>
+
+
+<h2>Neu angelegten Arzt einer Rolle zuordnen</h2>
+<p>
+Wenn ein Chirurg neu angelegt wurde, egal ob manuell oder durch einen Datenimport, hat er zunächst keine Rechte, das heißt, er darf zunächst keinen Menüpukt anklicken.
+</p>
+
+<p>
+Lesen Sie hierzu auch <a href="Rollen.html">Rollen und Rechte</a>.
+</p>
+
+<p>
+Damit ein neu angelegter Chirurg nach dem ersten Anmelden auch das Programm bedienen darf, fügen Sie ihn unter 
+<a href="../SecGroupsChirurgenView.html">Extras &gt; Zuordnungen von Benutzern zu Rollen</a> einer Rolle hinzu. 
+Eine Rolle enthält Rechte und bestimmt, was der Benutzer anklicken darf und welche Daten er sehen darf.
+</p>
+
+<h2>Kennwort ändern</h2>
+
+<p>
+Direkt nach dem ersten Anmelden müssen Sie Ihr Kennwort ändern, da dieses ja anfangs für jeden 'start' ist. 
+So stellen Sie sicher, dass nur Sie sich mit Ihrem Namen anmelden können.
+</p>
+
+<p>
+<img src="..\images\setup\kennwortAendern.jpg" alt="Kennwort Ändern" /> 
+</p>
+
+<h2>Eigene Dateien einstellen</h2>
+
+<p>Als nächstes sollten Sie alle Dateien, die jedem zur Verfügung stehen sollten, 
+wie zum Beispiel ein hauseigenes Curriculum, einspielen, damit diese unter dem Menüpunkt 'Eigene Dateien' 
+für jeden zur Verfügung stehen und abgerufen werden können. Gehen Sie dazu folgendermaßen vor:
+</p>
+
+<p>
+Jede Eigene Datei gehört zu einem Dateityp. Es sind bereits die drei Dateitypen 
+</p>
+
+<ul>
+<li>Curriculum</li>
+<li>Logbuch</li>
+<li>Weiterbildung</li>
+</ul>
+
+<p>
+vordefiniert. Falls Sie weitere benötigen, können Sie diese unter <a href="../DateiTypenView.html">Verwaltung &gt; Eigene Dateiarten</a> verändern. 
+</p>
+
+<p>
+<img src="..\images\menu\verwaltung\eigeneDateiarten.jpg" alt="Eigene Dateiarten" /> 
+</p>
+
+<p>
+Beispielhaft fügen wir nun ein hauseigenes Curriculum ein, dieses ist in unserem Beispiel ein selbst erstelltes Dokument.
+</p>
+
+<p>
+Klicken Sie hierzu auf <a href="../DateienView.html">Verwaltung > Eigene Dateien</a>.
+</p>
+
+<p>
+Wählen Sie den Dateityp 'Curriculum' aus, geben Sie als Menütext 'Curriculum' ein, klicken Sie 'Datei auswählen'
+und wählen Sie die Datei aus, die das für Sie gültige Curriculum enthält.
+In unserem Beispiel ist die Datei 'curriculum.jpg'
+ein von Hand beschriebenes Blatt, das anschließend eingescannt wurde.
+Klicken Sie jetzt auf 'Einfügen', das Fenster sieht jetzt so aus:
+</p>
+
+<p>
+<img src="..\images\menu\verwaltung\eigeneDateien.jpg" alt="Eigene Dateien" /> 
+</p>
+
+<p>
+Hierdurch erscheint automatisch folgender Menüpunkt unter dem Hauptmenü 'Eigene Dateien':
+</p>
+
+<p>
+<img src="..\images\menu\eigeneDateien\eigeneDateien.jpg" alt="Eigene Dateien" /> 
+</p>
+
+<p>
+Wenn Sie jetzt auf 'Curriculum...' klicken, wird die Datei angezeigt, welche Sie gerade eingefügt hatten.
+Sie können jetzt weitere Dateien einfügen, auf alle diese Dateien kann jeder angemeldete Arzt zugreifen.
+Sie haben so die Möglichkeit, Dokumente und sonstige Dateien zentral für alle Beteiligten zur Verfügung zu stellen.
+</p>
+
+
+<h2>Logbücher einstellen</h2>
+<p>
+Sie können die Muster-Logbücher der Bundesärztekammer einspielen, damit diese Dokumente unter dem Menüpunkt
+<a href="../DokumenteView.html">Offizielle Dokumente &gt; Ärztekammer-Logbücher</a> für jeden zur Verfügung 
+stehen. Gehen Sie dazu folgendermaßen vor.
+</p>
+<p>
+Ein Logbuch ist das für Sie gültige Dokument "Logbuch - Dokumentation der Weiterbildung gemäß Weiterbildungsordnung".
+</p>
+<p>
+Dieses spielen Sie analog zu "Eigene-Dateien " ein, nur dass Sie hierzu das Fenster <a href="../DokumenteView.html"> Offizielle Dokumente &gt; Ärztekammer-Logbücher</a> verwenden:
+</p>
+
+<p>
+<img src="..\images\menu\offizielleDokumente\logbuecher.jpg" alt="Logbücher" /> 
+</p>
+
+<h2>Richtlinien anlegen</h2>
+
+<p>
+In der Version für Chirurgen sind die Richtlinien für die acht Chirurgen-Fachgebiete vorhanden. Falls sie andere Richtlinien benötigen, können Sie diese individuell verwalten.
+</p>
+
+<p>
+Es gibt zwei Möglichkeiten, Richtlinien in das System einzuspielen:
+</p>
+
+<ul>
+<li>Manuell: Sie entnehmen die Richtlinien dem für Sie gültigen Dokument 'Richtlinien über den Inhalt der Weiterbildung für die Ärztinnen und Ärzte in [Bundesland]...' 
+und geben sie manuell unter dem Menüpunkt <a href="../RichtlinienView.html">Offizielle Dokumente &gt; Weiterbildungsrichtlinien</a> ein</li>
+<li>Durch einen Datenimport: Sie sind im Besitz einer Datei, 
+die durch den <a href="../Extras/Export/WizardExportRichtlinien.html">Richtlinien exportieren Assistent</a> erstellt wurde und 
+importieren die Datei mit dem <a href="../Extras/Import/WizardImportRichtlinien.html">Richtlinien importieren Assistent</a></li>
+</ul>
+
+<p>
+Sollten Sie Richtlinien manuell eingegeben haben, können Sie diese wiederum exportieren, 
+so dass diese nur beim ersten Mal manuell erfasst werden müssen.
+</p>
+
+<p>
+Möchten Sie gleichzeitig alte und neue Richtlinien verwenden, so müssen Sie das Facharzt-Gebiet  
+zweimal anlegen (<a href="../GebieteView.html">Offizielle Dokumente &gt; Facharztgebiete</a>, 
+zum Beipiel als 'Visceralchirurgie Alt' und 'Visceralchirurgie'. Dem Gebiet 'Visceralchirurgie Alt'
+ordnen Sie nun die entsprechenden Richtlinien gemäß der alten Weiterbildungsordnung zu, und dem Gebiet 'Visceralchirurgie' 
+ordnen Sie die entsprechenden Richtlinien gemäß der neuen Weiterbildungsordnung zu.
+</p>
+
+<p>
+<img src="..\images\menu\offizielleDokumente\gebieteSpezial.jpg" alt="Gebiete" /> 
+</p>
+
+
+<h2>Zuordnung OPS-Kodes und Richtlinien vornehmen</h2>
+
+<p>
+In OP-LOG ist bereits der gesamte Operationen und Prozeduren Schlüssel 2007 enthalten sowie die Weiterbildungsrichtlinien der Bundesärztekammer.
+</p>
+
+<p>
+Nun können Sie festlegen, welche Prozedur zu welcher Richtlinie zugeordnet werden soll, damit eine automatische Aufstellung der vorhandenen Prozeduren zu den Richtlinien erfolgen kann.
+</p>
+
+<p>
+Siehe hierzu auch den Menüpunkt  <a href="../RichtlinienOpsKodeView.html">Bearbeiten &gt; Zuordnung von Richtlinien zu Prozeduren</a>.
+</p>
+
+<p>
+Für einige Facharztgebiete sind diese Zuordnungen bereits vorhanden.
+</p>
+
+
+<h2>Ausgeführte Prozeduren importieren</h2>
+
+<p>
+Nun fehlen nur noch die von Ihnen und/oder von anderen  Ärzten bereits durchgeführten Prozeduren. Diese können Sie manuell eingeben, oder automatisch importieren.
+</p>
+
+<ul>
+<li>Zur manuellen Eingabe rufen Sie das Fenster <a href="../IstOperationView.html">Bearbeiten &gt; Neue Prozedur manuell anlegen</a> auf. Damit Sie dieses nach dem Programmstartmöglichst schnell durchführen können, können Sie die Tastenkombination "STRG + N" drücken, um das Fenster zu öffnen.</li>
+<li>Für den automatischen Import von Operationen siehe die Abschnitte unter <a href="../Extras/IMport/IMport.html">Extras &gt; Datenimport</a></li>
+</ul>
+
+<h2>Sonstiges</h2>
+
+<p>
+Ist es nicht möglich, die Prozeduren aus dem Krankenhaus-EDV-System in diesem Format zu exportieren, so können Sie Ihr gewünschtes Format gerne mitteilen, und es  kann ein weiteres Plugin hergestellt werden, welches Ihr Format berücksichtigt. Allerdings müssen die logischen Inhalte gleichermaßen vorhanden sein, es sollte möglichst nur das Format anders sein.
+</p>
+
+<p>
+Führen Sie diesen Import oft durch und kontrollieren Sie die importierten Daten. Insbesondere nach einer neuen Installation kann man durch einen Datenimport gleich alle benötigten Chirurgen automatisch mit anlegen lassen.
+</p>
+
+<p>
+Sämtliche Auswertungen sind nur so gut wie die Qualität der Daten, die importiert wurden.
+</p>
+
+<p>
+Sie können selber Plugins erstellen wie im Internet unter <a target="_blank" href="http://www.op-log.de/Plugins.aspx ">http://www.op-log.de/Plugins.aspx</a> beschrieben. Hierzu sind Programmierkenntnisse in Microsoft .NET 2.0 erforderlich.
+
+</p>
+
+</body>
+</html>
+

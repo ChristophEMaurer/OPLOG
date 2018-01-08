@@ -1,0 +1,105 @@
+<html>
+<head>
+<title>
+OP-LOG
+</title>
+<link rel="stylesheet" type="text/css" href="css/operationen.css"/> 
+</head>
+<body>
+
+<h1>Weiterbildungsstand gemäß Weiterbildungsrichtlinien: Einzelübersicht</h1>
+
+<p>
+<img src="images\menu\auswertungen\uebersichtRichtlinien.jpg" alt="Weiterbildungsstand gemäß Weiterbildungsrichtlinien"  /> 
+</p>
+
+<p>
+Hier werden die Prozeduren eines Operateurs, der Facharzt werden möchte, den offiziellen Weiterbildungsrichtlinien gegenübergestellt.
+Man sieht, wie viele Prozeduren er schon durchgeführt hat und welche ihm noch fehlen.
+</p>
+
+<h2>Richtlinien und automatisch zugeordnete Prozeduren</h2>
+<p>
+In der Liste oben werden alle Prozeduren sowie die Richtlinien, denen sie automatisch zugeordnet wurden, angezeigt.
+Es gibt drei Arten von Zuordnungen.
+
+<ul>
+<li>Es gibt eine Zuordnung eines OPSKodes zu einer Richtlinie, durch die eine durchgeführte Prozedur einer Richtlinie automatisch zugeordnet wird. 
+Die Zuordnungen treffen Sie in dem Fenster 'Bearbeiten &gt; Zuordnungen von Richtlinien zu OPS-Kodes'.
+</li>
+
+<li>
+Sie haben in dem Fenster  'Auswertungen &gt; Ausgef&uuml;hrte Prozeduren - Einzel&uuml;bersicht' einer durchgef&uuml;hrte Prozedur fest einer Richtlinie zugeordnet.
+</li>
+
+<li>
+Sie haben f&uuml;r diese Weiterbildungsrichtlinie und deren Richtzahl im Fenster 'Bearbeiten &gt; Extern erf&uuml;llte Richtzahlen nachtragen' direkt einen Wert angegeben.
+F&uuml;r diese Eintr&auml;ge erscheint der Text 'manuell'.
+</li>
+
+</ul>
+
+</p>
+
+<p>
+Im Fenster 'Bearbeiten &gt; Zuordnungen von Richtlinien zu OPS-Kodes' wurde festgelegt, dass alle Operationen,
+die mit den Codes '5-06' anfangen, der Richtlinie Nr. 6 ('Operative Eingriffe, davon - an Kopf/Hals, z.B. Schilddr&uuml;sen-Resektion, Tracheotomie') zugeordnet werden.
+</p>
+
+<h2>Ist-Soll Vergleich</h2>
+<p>
+In der mittleren Liste werden die ausgeführten Prozeduren den Richtzahlen der Richtlinien gegenübergestellt.
+</p>
+
+<p>
+Im Beispiel oben hat Mustermann 102 von 400 Prozeduren durchgef&uuml;hrt, die der Richtlinie 1 zugeordnet sind.
+</p>
+
+<h2>Nicht zugeordnete Prozeduren</h2>
+
+<p>
+In der unteren Liste stehen alle Operationen, die nicht automatisch einer Richtlinie zugeordnet werden konnten,
+weil es keine passende Zuordnung eines OPS-Kodes zu einer Richtlinie gab.
+</p>
+
+<p>
+Im Beispiel können die Prozedur mit den OPS-Kode 5-407.3, 1-694 und 5-916.a0 usw. keiner Richtlinie zugeordnet werden.
+Es gibt nun zwei M&ouml;glichkeiten:
+</p>
+
+<h2>1. OPS-Kode zu einer Richtlinie zuordnen</h2>
+<p>
+Sie geben unter 'Bearbeiten &gt; Zuordnung von Richtlinien zu Prozeduren' eine allgemeine Zuordnung an, 
+welche aussagt, zu welcher Richtlinien dieser OPS-Kode gehört. Klicken Sie hierzu auf 'Zuordnung 'OPS-Kode &lt;-&gt; Richtlinie' hinzufügen'.
+Es öffnet sich dann das Fenster 'Zuordnung von Richtlinien zu OPS-Kodes', wobei der OPS-Kode nun voreingestellt ist.
+Die so zugeordneten Richtlinien können Sie unter dem Fenster 'Bearbeiten &gt; Zuordnung von Richtlinien zu OPS-Kodes' sehen.
+</p>
+
+<h2>2. Prozedur fest einer Richtlinie zuordnen</h2>
+<p>
+Sie ordnen genau diese Prozedur fest einer Richtlinie zu. Klicken Sie hierzu auf 'Richtlinie zuordnen'.
+Es öffnet sich das Fenster 'Richtlinie ausw&auml;hlen'. Hier können Sie nun eine Richtlinie auswählen.
+Die so manuell zugordneten Richtlinien k&ouml;nnen Sie im Fenster 'Auswertungen &gt; Ausgef&uuml;hrte Prozeduren - Einzel&uuml;bersicht' sehen.
+</p>
+
+<p>
+Wenn Sie anschließend 'Anzeigen' klicken, verschwindet der Eintrag aus der Liste ganz unten und wandert in die oberen beiden Listen,
+da jetzt die Prozedur einer Richtlinie zugeordnet werden kann.
+</p>
+
+<h2>Zeiträume einrichten...</h2>
+<p>
+Hier können Sie <a href="WeiterbildungsZeitraumView.html">Zeitr&auml;ume</a> einrichten. Die Soll-Ist Zahlen werden dann auf diese Zeiträume aufgeteilt.
+</p>
+
+<p>
+Die Soll-Ist Zahlen werden dann nach diesen Zeiträumen getrennt aufgeführt
+wenn Sie im Fenster <a href="RichtlinienVergleichView.html">Weiterbildungs-Richtlinien</a> auf 'Drucken in BDC Logbuch Format' oder 'Drucken' klicken.
+</p>
+
+<p>
+<img src="images\menu\auswertungen\ausdruckBDC.jpg" alt="Drucken in BDC Logbuch Format" /> 
+</p>
+
+</body>
+</html>

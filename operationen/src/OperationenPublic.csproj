@@ -1,0 +1,2196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FBEBF226-F6A5-4F7D-8CE6-9F3E38BF0F85}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Operationen</RootNamespace>
+    <AssemblyName>Operationen</AssemblyName>
+    <ManifestCertificateThumbprint>35EC926903B87F3EF4978E94A7D0CB5A346F3387</ManifestCertificateThumbprint>
+    <ManifestKeyFile>Operationen_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>false</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetZone>LocalIntranet</TargetZone>
+    <ApplicationIcon>Images\Surgeon.ico</ApplicationIcon>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>x:\OpLogbuch.snk</AssemblyOriginatorKeyFile>
+    <StartupObject>Operationen.Program</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <PublishUrl>C:\brennen\deploy\</PublishUrl>
+    <Install>false</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;targetplatform_x86</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <DocumentationFile>bin\Debug\Operationen.exe.XML</DocumentationFile>
+    <NoWarn>1591,1572,1573</NoWarn>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>On</GenerateSerializationAssemblies>
+    <DocumentationFile>bin\Release\Operationen.exe.XML</DocumentationFile>
+    <NoWarn>1591,1572,1573</NoWarn>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0, processorArchitecture=MSIL" />
+    <Reference Include="Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=5.0.8.1, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\MySQL\MySQL Connector Net 5.0.8.1\Binaries\.NET 2.0\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationCommands.cs" />
+    <Compile Include="BusinessLayer.cs" />
+    <Compile Include="BusinessLayerPublic.cs" />
+    <Compile Include="ChirurgDokumenteView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChirurgDokumenteView.Designer.cs">
+      <DependentUpon>ChirurgDokumenteView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChirurgenView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChirurgenView.Designer.cs">
+      <DependentUpon>ChirurgenView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChirurgView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChirurgView.Designer.cs">
+      <DependentUpon>ChirurgView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChirurgenFunktionenView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChirurgOperationenView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChirurgOperationenView.Designer.cs">
+      <DependentUpon>ChirurgOperationenView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AkademischeAusbildungTypenView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AkademischeAusbildungView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AkademischeAusbildungView.Designer.cs">
+      <DependentUpon>AkademischeAusbildungView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AutoImportView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AutoImportView.Designer.cs">
+      <DependentUpon>AutoImportView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChirurgenRichtlinienView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChirurgenRichtlinienView.Designer.cs">
+      <DependentUpon>ChirurgenRichtlinienView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AbteilungenView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AbteilungenChirurgenView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AbteilungenChirurgenView.Designer.cs">
+      <DependentUpon>AbteilungenChirurgenView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientServerView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientServerView.Designer.cs">
+      <DependentUpon>ClientServerView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseLayerVersionUpdate.cs" />
+    <Compile Include="DatabaseSqlServer.cs" />
+    <Compile Include="DatabaseMySql.cs" />
+    <Compile Include="ExportOperationenAutomatic.cs" />
+    <Compile Include="ExportOperationenAutomaticData.cs" />
+    <Compile Include="ExportOperationenDataItem.cs" />
+    <Compile Include="GlobalConstantsMobile.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="RichtlinienSollIstView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RichtlinienSollIstView.Designer.cs">
+      <DependentUpon>RichtlinienSollIstView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NamespaceDoc.cs" />
+    <Compile Include="OperationenSummaryView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OperationenSummaryView.Designer.cs">
+      <DependentUpon>OperationenSummaryView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectFunktionView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectFunktionView.Designer.cs">
+      <DependentUpon>SelectFunktionView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectListViewColumnsView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectListViewColumnsView.Designer.cs">
+      <DependentUpon>SelectListViewColumnsView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QATCustomizationDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SerialLogicPublic.cs" />
+    <Compile Include="SplashScreenView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreenView.Designer.cs">
+      <DependentUpon>SplashScreenView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateSerialnumbersView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateSerialnumbersView.Designer.cs">
+      <DependentUpon>UpdateSerialnumbersView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseAccess.cs" />
+    <Compile Include="ExportOperationenKatalogView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExportOperationenKatalogView.Designer.cs">
+      <DependentUpon>ExportOperationenKatalogView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OperationenVergleichView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OperationenVergleichView.Designer.cs">
+      <DependentUpon>OperationenVergleichView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SQLBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SQLBox.Designer.cs">
+      <DependentUpon>SQLBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TextBoxView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TextBoxView.Designer.cs">
+      <DependentUpon>TextBoxView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OperationenZeitenVergleichView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OperationenZeitenVergleichView.Designer.cs">
+      <DependentUpon>OperationenZeitenVergleichView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OperationenView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OperationenView.Designer.cs">
+      <DependentUpon>OperationenView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SecUserOverviewView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SecUserOverviewView.Designer.cs">
+      <DependentUpon>SecUserOverviewView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OperationenStrings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OperationenStrings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SecGroupsSecRightsView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SecGroupsSecRightsView.Designer.cs">
+      <DependentUpon>SecGroupsSecRightsView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SecGroupsChirurgenView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SecGroupsChirurgenView.Designer.cs">
+      <DependentUpon>SecGroupsChirurgenView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SecGroupsView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visitors\ApplyGuiDebugVisitor.cs" />
+    <Compile Include="Visitors\ApplyResourcesVisitor.cs" />
+    <Compile Include="Visitors\DumpGuiVisitor.cs" />
+    <Compile Include="Visitors\IControlsVisitor.cs" />
+    <Compile Include="Visitors\XAbleAllCommandsVisitor.cs" />
+    <Compile Include="WebReferences\de.op-log.www\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="WeiterbilderChirurgenView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WeiterbilderChirurgenView.Designer.cs">
+      <DependentUpon>WeiterbilderChirurgenView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RichtlinienOpsKodeUnassignedView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RichtlinienOpsKodeUnassignedView.Designer.cs">
+      <DependentUpon>RichtlinienOpsKodeUnassignedView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RichtlinienVergleichOverviewView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RichtlinienVergleichOverviewView.Designer.cs">
+      <DependentUpon>RichtlinienVergleichOverviewView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KlinischeErgebnisseView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KlinischeErgebnisseView.Designer.cs">
+      <DependentUpon>KlinischeErgebnisseView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CopyWWWProgramUpdateFilesView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CopyWWWProgramUpdateFilesView.Designer.cs">
+      <DependentUpon>CopyWWWProgramUpdateFilesView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OperationenEditView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OperationenEditView.Designer.cs">
+      <DependentUpon>OperationenEditView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KommentareView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KommentarVerfassenView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OptionsView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OptionsView.Designer.cs">
+      <DependentUpon>OptionsView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EnterSerialNumberView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OPDauerFortschrittView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OPDauerFortschrittView.Designer.cs">
+      <DependentUpon>OPDauerFortschrittView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OperationenStrings.en-US.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OperationenStrings.en-US.resx</DependentUpon>
+    </Compile>
+    <Compile Include="OperationenImporter.cs" />
+    <Compile Include="PlanOperationVergleichIstView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlanOperationVergleichIstView.Designer.cs">
+      <DependentUpon>PlanOperationVergleichIstView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RichtlinieSelectView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RichtlinieSelectView.Designer.cs">
+      <DependentUpon>RichtlinieSelectView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SerialNumbersView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SerialNumbersView.Designer.cs">
+      <DependentUpon>SerialNumbersView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TypenTemplateView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TypenTemplateView.Designer.cs">
+      <DependentUpon>TypenTemplateView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GesamtOperationenView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GesamtOperationenView.Designer.cs">
+      <DependentUpon>GesamtOperationenView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MultipleOperationInsertNotificationView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MultipleOperationInsertNotificationView.Designer.cs">
+      <DependentUpon>MultipleOperationInsertNotificationView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DownloadFileView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DownloadFileView.Designer.cs">
+      <DependentUpon>DownloadFileView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DateiTypenView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DateienView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DateienView.Designer.cs">
+      <DependentUpon>DateienView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DokumenteView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DokumenteView.Designer.cs">
+      <DependentUpon>DokumenteView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NotizTypenView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NotizenView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NotizenView.Designer.cs">
+      <DependentUpon>NotizenView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GebieteView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GebieteView.Designer.cs">
+      <DependentUpon>GebieteView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseUpdateView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatabaseUpdateView.Designer.cs">
+      <DependentUpon>DatabaseUpdateView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlanOperationenView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlanOperationenView.Designer.cs">
+      <DependentUpon>PlanOperationenView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImportChirurgenExcludeView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportChirurgenExcludeView.Designer.cs">
+      <DependentUpon>ImportChirurgenExcludeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectDokumentView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectDokumentView.Designer.cs">
+      <DependentUpon>SelectDokumentView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Operationen.Designer.cs">
+      <DependentUpon>Operationen.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="PendingDokumenteView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PendingDokumenteView.Designer.cs">
+      <DependentUpon>PendingDokumenteView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PendingDokumentOverwriteView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PendingDokumentOverwriteView.Designer.cs">
+      <DependentUpon>PendingDokumentOverwriteView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RichtlinienVergleichView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RichtlinienVergleichView.Designer.cs">
+      <DependentUpon>RichtlinienVergleichView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OperationenKatalogView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OperationenKatalogView.Designer.cs">
+      <DependentUpon>OperationenKatalogView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintIstOperationen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintIstOperationen.Designer.cs">
+      <DependentUpon>PrintIstOperationen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseLayer.cs" />
+    <Compile Include="LogView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogView.Designer.cs">
+      <DependentUpon>LogView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OperationenForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OperationenImportView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogonView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlanOperationVergleichView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlanOperationVergleichView.Designer.cs">
+      <DependentUpon>PlanOperationVergleichView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlanOperationView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlanOperationView.Designer.cs">
+      <DependentUpon>PlanOperationView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OperationenLogbuchView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OperationenLogbuchView.Designer.cs">
+      <DependentUpon>OperationenLogbuchView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PluginInfoView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PluginInfoView.Designer.cs">
+      <DependentUpon>PluginInfoView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ChirurgDokumenteView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ChirurgDokumenteView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChirurgenView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ChirurgenView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChirurgView.resx">
+      <DependentUpon>ChirurgView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatabaseUpdateView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DatabaseUpdateView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlanOperationenView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PlanOperationenView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportChirurgenExcludeView.resx">
+      <DependentUpon>ImportChirurgenExcludeView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectDokumentView.resx">
+      <DependentUpon>SelectDokumentView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PendingDokumenteView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PendingDokumenteView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PendingDokumentOverwriteView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PendingDokumentOverwriteView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RichtlinienVergleichView.resx">
+      <DependentUpon>RichtlinienVergleichView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperationenKatalogView.resx">
+      <DependentUpon>OperationenKatalogView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintIstOperationen.resx">
+      <DependentUpon>PrintIstOperationen.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogView.resx">
+      <DependentUpon>LogView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperationenForm.resx">
+      <DependentUpon>OperationenForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperationenImportView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OperationenImportView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlanOperationVergleichView.resx">
+      <DependentUpon>PlanOperationVergleichView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlanOperationView.resx">
+      <DependentUpon>PlanOperationView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperationenLogbuchView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OperationenLogbuchView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PluginInfoView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PluginInfoView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RichtlinienView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RichtlinienView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserChangePasswordView.resx">
+      <DependentUpon>UserChangePasswordView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserSetPasswordView.resx">
+      <DependentUpon>UserSetPasswordView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Operationen.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Operationen.Designer.cs</LastGenOutput>
+    </None>
+    <BaseApplicationManifest Include="Properties\app.manifest" />
+    <Compile Include="RichtlinienView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RichtlinienView.Designer.cs">
+      <DependentUpon>RichtlinienView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserChangePasswordView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserSetPasswordView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WebReferences\localhost\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Weiterbildungzeitraum\HSeparator.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Weiterbildungzeitraum\HSeparator.Designer.cs">
+      <DependentUpon>HSeparator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Weiterbildungzeitraum\SnapLine.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Weiterbildungzeitraum\WeiterbildungszeitraumView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Weiterbildungzeitraum\WeiterbildungszeitraumView.Designer.cs">
+      <DependentUpon>WeiterbildungszeitraumView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\Chirurg\Completed.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\Chirurg\Completed.Designer.cs">
+      <DependentUpon>Completed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\Chirurg\ChirurgWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizards\Chirurg\ChirurgWizard.Designer.cs">
+      <DependentUpon>ChirurgWizard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\Chirurg\ChirurgWizardPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\Chirurg\ChirurgWizardPage.Designer.cs">
+      <DependentUpon>ChirurgWizardPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\Chirurg\ChirurgCreator.cs" />
+    <Compile Include="Wizards\Chirurg\BasicData.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\Chirurg\BasicData.Designer.cs">
+      <DependentUpon>BasicData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\Chirurg\Summary.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\Chirurg\Summary.Designer.cs">
+      <DependentUpon>Summary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\Chirurg\Welcome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\Chirurg\Welcome.Designer.cs">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ImportOperationenMobile\NewOperationenMobileView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizards\ImportOperationenMobile\NewOperationenMobileView.designer.cs">
+      <DependentUpon>NewOperationenMobileView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ImportOperationenMobile\OperationenImporterMobileSQL.cs" />
+    <Compile Include="Wizards\ImportOperationenMobile\Completed.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ImportOperationenMobile\Completed.Designer.cs">
+      <DependentUpon>Completed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ImportOperationenMobile\ImportOperationenMobileWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizards\ImportOperationenMobile\ImportOperationenMobileWizard.Designer.cs">
+      <DependentUpon>ImportOperationenMobileWizard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ImportOperationenMobile\ImportOperationenMobileWizardPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ImportOperationenMobile\ImportOperationenMobileWizardPage.Designer.cs">
+      <DependentUpon>ImportOperationenMobileWizardPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ImportOperationenMobile\SelectChirurg.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ImportOperationenMobile\SelectChirurg.Designer.cs">
+      <DependentUpon>SelectChirurg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ImportOperationenMobile\SelectFile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ImportOperationenMobile\SelectFile.Designer.cs">
+      <DependentUpon>SelectFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ImportOperationenMobile\Summary.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ImportOperationenMobile\Summary.Designer.cs">
+      <DependentUpon>Summary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ImportOperationenMobile\Welcome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ImportOperationenMobile\Welcome.Designer.cs">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\CreateCustomerData\BasicData.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\CreateCustomerData\BasicData.Designer.cs">
+      <DependentUpon>BasicData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\CreateCustomerData\Completed.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\CreateCustomerData\Completed.Designer.cs">
+      <DependentUpon>Completed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\CreateCustomerData\CreateCustomerDataWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizards\CreateCustomerData\CreateCustomerDataWizard.Designer.cs">
+      <DependentUpon>CreateCustomerDataWizard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\CreateCustomerData\CreateCustomerDataWizardPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\CreateCustomerData\CreateCustomerDataWizardPage.Designer.cs">
+      <DependentUpon>CreateCustomerDataWizardPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\CreateCustomerData\CustomerDataCreator.cs" />
+    <Compile Include="Wizards\CreateCustomerData\Summary.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\CreateCustomerData\Summary.Designer.cs">
+      <DependentUpon>Summary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\CreateCustomerData\Welcome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\CreateCustomerData\Welcome.Designer.cs">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ExportChirurg\ChirurgExporterSQL.cs" />
+    <Compile Include="Wizards\ExportChirurg\SelectChirurg.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ExportChirurg\SelectChirurg.Designer.cs">
+      <DependentUpon>SelectChirurg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ImportChirurg\ChirurgenView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizards\ImportChirurg\ChirurgenView.Designer.cs">
+      <DependentUpon>ChirurgenView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ImportChirurg\ChirurgImporterSQL.cs" />
+    <Compile Include="Wizards\ImportChirurg\Completed.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ImportChirurg\Completed.Designer.cs">
+      <DependentUpon>Completed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ImportChirurg\ImportChirurgWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizards\ImportChirurg\ImportChirurgWizard.Designer.cs">
+      <DependentUpon>ImportChirurgWizard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ImportChirurg\ImportChirurgWizardPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ImportChirurg\ImportChirurgWizardPage.Designer.cs">
+      <DependentUpon>ImportChirurgWizardPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ImportChirurg\NewOperationenView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizards\ImportChirurg\NewOperationenView.designer.cs">
+      <DependentUpon>NewOperationenView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ImportChirurg\SelectFile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ImportChirurg\SelectFile.Designer.cs">
+      <DependentUpon>SelectFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ImportChirurg\Summary.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ImportChirurg\Summary.Designer.cs">
+      <DependentUpon>Summary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ImportChirurg\Welcome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ImportChirurg\Welcome.Designer.cs">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ImporterExporter.cs" />
+    <Compile Include="Wizards\ImportOPS\OperationenDifferenceView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizards\ImportOPS\OperationenDifferenceView.Designer.cs">
+      <DependentUpon>OperationenDifferenceView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ImportOPS\SelectVersion.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ImportOPS\SelectVersion.Designer.cs">
+      <DependentUpon>SelectVersion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ImportRichtlinienZuordnung\Completed.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ImportRichtlinienZuordnung\Completed.Designer.cs">
+      <DependentUpon>Completed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ImportRichtlinienZuordnung\RichtlinienValidateView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizards\ImportRichtlinienZuordnung\RichtlinienValidateView.Designer.cs">
+      <DependentUpon>RichtlinienValidateView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ImportRichtlinienZuordnung\ImportRichtlinienZuordnungWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizards\ImportRichtlinienZuordnung\ImportRichtlinienZuordnungWizard.Designer.cs">
+      <DependentUpon>ImportRichtlinienZuordnungWizard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ImportRichtlinienZuordnung\ImportRichtlinienZuordnungWizardPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ImportRichtlinienZuordnung\ImportRichtlinienZuordnungWizardPage.Designer.cs">
+      <DependentUpon>ImportRichtlinienZuordnungWizardPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ImportRichtlinienZuordnung\RichtlinienZuordnungImporter.cs" />
+    <Compile Include="Wizards\ImportRichtlinienZuordnung\SelectFile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ImportRichtlinienZuordnung\SelectFile.Designer.cs">
+      <DependentUpon>SelectFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ImportRichtlinienZuordnung\SelectGebiet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ImportRichtlinienZuordnung\SelectGebiet.Designer.cs">
+      <DependentUpon>SelectGebiet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ImportRichtlinienZuordnung\Summary.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ImportRichtlinienZuordnung\Summary.Designer.cs">
+      <DependentUpon>Summary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ImportRichtlinienZuordnung\Welcome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ImportRichtlinienZuordnung\Welcome.Designer.cs">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ExportRichtlinienZuordnung\Completed.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ExportRichtlinienZuordnung\Completed.Designer.cs">
+      <DependentUpon>Completed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ExportRichtlinienZuordnung\ExportRichtlinienZuordnungWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizards\ExportRichtlinienZuordnung\ExportRichtlinienZuordnungWizard.Designer.cs">
+      <DependentUpon>ExportRichtlinienZuordnungWizard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ExportRichtlinienZuordnung\ExportRichtlinienZuordnungWizardPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ExportRichtlinienZuordnung\ExportRichtlinienZuordnungWizardPage.Designer.cs">
+      <DependentUpon>ExportRichtlinienZuordnungWizardPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ExportRichtlinienZuordnung\RichtlinienZuordnungExporter.cs" />
+    <Compile Include="Wizards\ExportRichtlinienZuordnung\SelectFile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ExportRichtlinienZuordnung\SelectFile.Designer.cs">
+      <DependentUpon>SelectFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ExportRichtlinienZuordnung\SelectGebiet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ExportRichtlinienZuordnung\SelectGebiet.Designer.cs">
+      <DependentUpon>SelectGebiet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ExportRichtlinienZuordnung\Summary.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ExportRichtlinienZuordnung\Summary.Designer.cs">
+      <DependentUpon>Summary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ExportRichtlinienZuordnung\Welcome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ExportRichtlinienZuordnung\Welcome.Designer.cs">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ExportChirurg\Completed.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ExportChirurg\Completed.Designer.cs">
+      <DependentUpon>Completed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ExportChirurg\ExportChirurgWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizards\ExportChirurg\ExportChirurgWizard.Designer.cs">
+      <DependentUpon>ExportChirurgWizard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ExportChirurg\ExportChirurgWizardPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ExportChirurg\ExportChirurgWizardPage.Designer.cs">
+      <DependentUpon>ExportChirurgWizardPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ExportChirurg\SelectFile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ExportChirurg\SelectFile.Designer.cs">
+      <DependentUpon>SelectFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ExportChirurg\Summary.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ExportChirurg\Summary.Designer.cs">
+      <DependentUpon>Summary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ExportChirurg\Welcome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ExportChirurg\Welcome.Designer.cs">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ExportRichtlinien\Completed.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ExportRichtlinien\Completed.Designer.cs">
+      <DependentUpon>Completed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ExportRichtlinien\ExportRichtlinienWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizards\ExportRichtlinien\ExportRichtlinienWizard.Designer.cs">
+      <DependentUpon>ExportRichtlinienWizard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ExportRichtlinien\ExportRichtlinienWizardPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ExportRichtlinien\ExportRichtlinienWizardPage.Designer.cs">
+      <DependentUpon>ExportRichtlinienWizardPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ExportRichtlinien\RichtlinienExporter.cs" />
+    <Compile Include="Wizards\ExportRichtlinien\SelectFile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ExportRichtlinien\SelectFile.Designer.cs">
+      <DependentUpon>SelectFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ExportRichtlinien\SelectGebiet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ExportRichtlinien\SelectGebiet.Designer.cs">
+      <DependentUpon>SelectGebiet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ExportRichtlinien\Summary.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ExportRichtlinien\Summary.Designer.cs">
+      <DependentUpon>Summary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ExportRichtlinien\Welcome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ExportRichtlinien\Welcome.Designer.cs">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ImportOPS\Completed.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ImportOPS\Completed.Designer.cs">
+      <DependentUpon>Completed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ImportOPS\OPSImporter.cs" />
+    <Compile Include="Wizards\ImportOPS\ImportOPSWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizards\ImportOPS\ImportOPSWizard.Designer.cs">
+      <DependentUpon>ImportOPSWizard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ImportOPS\ImportOPSWizardPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ImportOPS\ImportOPSWizardPage.Designer.cs">
+      <DependentUpon>ImportOPSWizardPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ImportOPS\SelectFile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ImportOPS\SelectFile.Designer.cs">
+      <DependentUpon>SelectFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ImportOPS\Summary.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ImportOPS\Summary.Designer.cs">
+      <DependentUpon>Summary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ImportOPS\Welcome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ImportOPS\Welcome.Designer.cs">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ImportRichtlinien\Completed.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ImportRichtlinien\Completed.Designer.cs">
+      <DependentUpon>Completed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ImportRichtlinien\ImportRichtlinienWizardPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ImportRichtlinien\ImportRichtlinienWizardPage.Designer.cs">
+      <DependentUpon>ImportRichtlinienWizardPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ImportRichtlinien\RichtlinienImporter.cs" />
+    <Compile Include="Wizards\ImportRichtlinien\SelectFile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ImportRichtlinien\SelectFile.Designer.cs">
+      <DependentUpon>SelectFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ImportRichtlinien\ImportRichtlinienWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizards\ImportRichtlinien\ImportRichtlinienWizard.Designer.cs">
+      <DependentUpon>ImportRichtlinienWizard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ImportRichtlinien\SelectGebiet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ImportRichtlinien\SelectGebiet.Designer.cs">
+      <DependentUpon>SelectGebiet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ImportRichtlinien\Summary.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ImportRichtlinien\Summary.Designer.cs">
+      <DependentUpon>Summary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\ImportRichtlinien\Welcome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\ImportRichtlinien\Welcome.Designer.cs">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\InstallLicense\Completed.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\InstallLicense\Completed.Designer.cs">
+      <DependentUpon>Completed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\InstallLicense\InstallLicenseWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizards\InstallLicense\InstallLicenseWizard.Designer.cs">
+      <DependentUpon>InstallLicenseWizard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\InstallLicense\InstallLicenseWizardPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\InstallLicense\InstallLicenseWizardPage.Designer.cs">
+      <DependentUpon>InstallLicenseWizardPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\InstallLicense\LicenseInstaller.cs" />
+    <Compile Include="Wizards\InstallLicense\SelectFile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\InstallLicense\SelectFile.Designer.cs">
+      <DependentUpon>SelectFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\InstallLicense\Summary.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\InstallLicense\Summary.Designer.cs">
+      <DependentUpon>Summary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\InstallLicense\Welcome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\InstallLicense\Welcome.Designer.cs">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\OperationenWizardMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizards\OperationenWizardMaster.Designer.cs">
+      <DependentUpon>OperationenWizardMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\OperationenWizardPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\OperationenWizardPage.Designer.cs">
+      <DependentUpon>OperationenWizardPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZeitraeumeView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZeitraeumeView.Designer.cs">
+      <DependentUpon>ZeitraeumeView.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\AppFramework\AppFrameworkPublic.csproj">
+      <Project>{F4723B21-C7CD-455C-B522-5329AB5BFD15}</Project>
+      <Name>AppFrameworkPublic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Security\SekurityPublic.csproj">
+      <Project>{23C861AB-9754-4EF7-A88E-46311E8095E2}</Project>
+      <Name>SekurityPublic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Utility\UtilityPublic.csproj">
+      <Project>{943CE5C3-9B68-447E-9BB9-F95C9E2A4AE5}</Project>
+      <Name>UtilityPublic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Windows\Forms\FormsPublic.csproj">
+      <Project>{B4DDD86C-F842-4F60-AD4A-3A3430F8E915}</Project>
+      <Name>FormsPublic</Name>
+    </ProjectReference>
+    <ProjectReference Include="OperationenAppFramework\OperationenAppFrameworkPublic.csproj">
+      <Project>{C2E3E560-52D9-4264-9615-7D7EE0A04787}</Project>
+      <Name>OperationenAppFrameworkPublic</Name>
+    </ProjectReference>
+    <ProjectReference Include="OperationenImport\OperationenImportSdk.csproj">
+      <Project>{92316D9C-3FDB-4BE1-88E4-DC42839A8581}</Project>
+      <Name>OperationenImportSdk</Name>
+    </ProjectReference>
+    <ProjectReference Include="SetupData\SetupDataPublic.csproj">
+      <Project>{E9C99E85-8C90-4724-B09B-34A55DB86D3F}</Project>
+      <Name>SetupDataPublic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="NotizenView.resx">
+      <DependentUpon>NotizenView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GebieteView.resx">
+      <DependentUpon>GebieteView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\OperationenWizardMaster.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OperationenWizardMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\OperationenWizardPage.resx">
+      <DependentUpon>OperationenWizardPage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Wizards\ImportRichtlinien\SelectFile.resx">
+      <DependentUpon>SelectFile.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ImportRichtlinien\SelectGebiet.resx">
+      <DependentUpon>SelectGebiet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ImportRichtlinien\Summary.resx">
+      <DependentUpon>Summary.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ImportRichtlinien\Welcome.resx">
+      <DependentUpon>Welcome.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DownloadFileView.resx">
+      <DependentUpon>DownloadFileView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DateienView.resx">
+      <DependentUpon>DateienView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DokumenteView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DokumenteView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Chirurg\Completed.resx">
+      <DependentUpon>Completed.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Chirurg\BasicData.resx">
+      <DependentUpon>BasicData.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Chirurg\Summary.resx">
+      <DependentUpon>Summary.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Chirurg\Welcome.resx">
+      <DependentUpon>Welcome.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ExportChirurg\ExportChirurgWizard.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ExportChirurgWizard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ImportOPS\OperationenDifferenceView.resx">
+      <DependentUpon>OperationenDifferenceView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ImportRichtlinienZuordnung\RichtlinienValidateView.resx">
+      <DependentUpon>RichtlinienValidateView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ImportRichtlinienZuordnung\SelectFile.resx">
+      <DependentUpon>SelectFile.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ImportRichtlinienZuordnung\SelectGebiet.resx">
+      <DependentUpon>SelectGebiet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ImportRichtlinienZuordnung\Summary.resx">
+      <DependentUpon>Summary.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ImportRichtlinienZuordnung\Welcome.resx">
+      <DependentUpon>Welcome.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ExportRichtlinienZuordnung\Completed.resx">
+      <DependentUpon>Completed.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ExportRichtlinienZuordnung\SelectFile.resx">
+      <DependentUpon>SelectFile.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ExportRichtlinienZuordnung\SelectGebiet.resx">
+      <DependentUpon>SelectGebiet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ExportRichtlinienZuordnung\Summary.resx">
+      <DependentUpon>Summary.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ExportRichtlinienZuordnung\Welcome.resx">
+      <DependentUpon>Welcome.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ExportChirurg\Completed.resx">
+      <DependentUpon>Completed.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ExportChirurg\SelectFile.resx">
+      <DependentUpon>SelectFile.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ExportChirurg\Summary.resx">
+      <DependentUpon>Summary.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ExportChirurg\Welcome.resx">
+      <DependentUpon>Welcome.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ExportRichtlinien\Completed.resx">
+      <DependentUpon>Completed.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ExportRichtlinien\SelectFile.resx">
+      <DependentUpon>SelectFile.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ExportRichtlinien\SelectGebiet.resx">
+      <DependentUpon>SelectGebiet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ExportRichtlinien\Summary.resx">
+      <DependentUpon>Summary.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ExportRichtlinien\Welcome.resx">
+      <DependentUpon>Welcome.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ImportOPS\Completed.resx">
+      <DependentUpon>Completed.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ImportOPS\SelectFile.resx">
+      <DependentUpon>SelectFile.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ImportOPS\Summary.resx">
+      <DependentUpon>Summary.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ImportOPS\Welcome.resx">
+      <DependentUpon>Welcome.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ImportRichtlinien\Completed.resx">
+      <DependentUpon>Completed.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{B4F97281-0DBD-4835-9ED8-7DFB966E87FF}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AboutBox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChirurgOperationenView.resx">
+      <DependentUpon>ChirurgOperationenView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AkademischeAusbildungView.resx">
+      <DependentUpon>AkademischeAusbildungView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AutoImportView.resx">
+      <DependentUpon>AutoImportView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnterSerialNumberView.resx">
+      <DependentUpon>EnterSerialNumberView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogonView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LogonView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RichtlinieSelectView.resx">
+      <DependentUpon>RichtlinieSelectView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TypenTemplateView.resx">
+      <DependentUpon>TypenTemplateView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GesamtOperationenView.resx">
+      <DependentUpon>GesamtOperationenView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MultipleOperationInsertNotificationView.resx">
+      <DependentUpon>MultipleOperationInsertNotificationView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\Surgeon.png" />
+    <EmbeddedResource Include="Wizards\CreateCustomerData\BasicData.resx">
+      <DependentUpon>BasicData.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\CreateCustomerData\Completed.resx">
+      <DependentUpon>Completed.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\CreateCustomerData\Summary.resx">
+      <DependentUpon>Summary.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\CreateCustomerData\Welcome.resx">
+      <DependentUpon>Welcome.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ImportChirurg\ChirurgenView.resx">
+      <DependentUpon>ChirurgenView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ImportChirurg\Completed.resx">
+      <DependentUpon>Completed.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ImportChirurg\ImportChirurgWizard.resx">
+      <DependentUpon>ImportChirurgWizard.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ImportChirurg\SelectFile.resx">
+      <DependentUpon>SelectFile.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ImportChirurg\Summary.resx">
+      <DependentUpon>Summary.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ImportChirurg\Welcome.resx">
+      <DependentUpon>Welcome.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ImportRichtlinienZuordnung\Completed.resx">
+      <DependentUpon>Completed.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="..\Dokumentation\Keys\OperationenSerialPublicKey.xml">
+      <Link>OperationenSerialPublicKey.xml</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AkademischeAusbildungView.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AkademischeAusbildungView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AutoImportView.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AutoImportView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChirurgDokumenteView.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ChirurgDokumenteView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChirurgenView.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ChirurgenView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChirurgOperationenView.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ChirurgOperationenView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChirurgView.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ChirurgView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChirurgenRichtlinienView.en-US.resx">
+      <DependentUpon>ChirurgenRichtlinienView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChirurgenRichtlinienView.resx">
+      <DependentUpon>ChirurgenRichtlinienView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AbteilungenChirurgenView.en-US.resx">
+      <DependentUpon>AbteilungenChirurgenView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AbteilungenChirurgenView.resx">
+      <DependentUpon>AbteilungenChirurgenView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExportOperationenKatalogView.resx">
+      <DependentUpon>ExportOperationenKatalogView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperationenVergleichView.en-US.resx">
+      <DependentUpon>OperationenVergleichView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperationenVergleichView.resx">
+      <DependentUpon>OperationenVergleichView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperationenView.en-US.resx">
+      <DependentUpon>OperationenView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQLBox.en-US.resx">
+      <DependentUpon>SQLBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQLBox.resx">
+      <DependentUpon>SQLBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TextBoxView.en-US.resx">
+      <DependentUpon>TextBoxView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TextBoxView.resx">
+      <DependentUpon>TextBoxView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperationenZeitenVergleichView.en-US.resx">
+      <DependentUpon>OperationenZeitenVergleichView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperationenZeitenVergleichView.resx">
+      <DependentUpon>OperationenZeitenVergleichView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperationenView.resx">
+      <DependentUpon>OperationenView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SecUserOverviewView.en-US.resx">
+      <DependentUpon>SecUserOverviewView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SecUserOverviewView.resx">
+      <DependentUpon>SecUserOverviewView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SecGroupsSecRightsView.en-US.resx">
+      <DependentUpon>SecGroupsSecRightsView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SecGroupsSecRightsView.resx">
+      <DependentUpon>SecGroupsSecRightsView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SecGroupsChirurgenView.en-US.resx">
+      <DependentUpon>SecGroupsChirurgenView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SecGroupsChirurgenView.resx">
+      <DependentUpon>SecGroupsChirurgenView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WeiterbilderChirurgenView.en-US.resx">
+      <DependentUpon>WeiterbilderChirurgenView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WeiterbilderChirurgenView.resx">
+      <DependentUpon>WeiterbilderChirurgenView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RichtlinienOpsKodeUnassignedView.en-US.resx">
+      <DependentUpon>RichtlinienOpsKodeUnassignedView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RichtlinienOpsKodeUnassignedView.resx">
+      <DependentUpon>RichtlinienOpsKodeUnassignedView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RichtlinienVergleichOverviewView.en-US.resx">
+      <DependentUpon>RichtlinienVergleichOverviewView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RichtlinienVergleichOverviewView.resx">
+      <DependentUpon>RichtlinienVergleichOverviewView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DownloadFileView.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DownloadFileView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KlinischeErgebnisseView.en-US.resx">
+      <DependentUpon>KlinischeErgebnisseView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KlinischeErgebnisseView.resx">
+      <DependentUpon>KlinischeErgebnisseView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CopyWWWProgramUpdateFilesView.en-US.resx">
+      <DependentUpon>CopyWWWProgramUpdateFilesView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CopyWWWProgramUpdateFilesView.resx">
+      <DependentUpon>CopyWWWProgramUpdateFilesView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperationenEditView.en-US.resx">
+      <DependentUpon>OperationenEditView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperationenEditView.resx">
+      <DependentUpon>OperationenEditView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KommentareView.en-US.resx">
+      <DependentUpon>KommentareView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KommentareView.resx">
+      <DependentUpon>KommentareView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KommentarVerfassenView.en-US.resx">
+      <DependentUpon>KommentarVerfassenView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KommentarVerfassenView.resx">
+      <DependentUpon>KommentarVerfassenView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OptionsView.en-US.resx">
+      <DependentUpon>OptionsView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OptionsView.resx">
+      <DependentUpon>OptionsView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatabaseUpdateView.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DatabaseUpdateView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DateienView.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DateienView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DokumenteView.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DokumenteView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnterSerialNumberView.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EnterSerialNumberView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GebieteView.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GebieteView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GesamtOperationenView.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GesamtOperationenView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportChirurgenExcludeView.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ImportChirurgenExcludeView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogonView.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LogonView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogView.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LogView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MultipleOperationInsertNotificationView.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MultipleOperationInsertNotificationView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NotizenView.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NotizenView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OPDauerFortschrittView.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OPDauerFortschrittView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OPDauerFortschrittView.resx">
+      <DependentUpon>OPDauerFortschrittView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperationenImportView.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OperationenImportView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperationenKatalogView.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OperationenKatalogView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperationenStrings.en-US.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>OperationenStrings.en-US.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperationenStrings.resx">
+      <SubType>Designer</SubType>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>OperationenStrings.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PendingDokumenteView.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PendingDokumenteView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PendingDokumentOverwriteView.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PendingDokumentOverwriteView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlanOperationenView.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PlanOperationenView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlanOperationVergleichIstView.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PlanOperationVergleichIstView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlanOperationVergleichIstView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PlanOperationVergleichIstView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlanOperationVergleichView.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PlanOperationVergleichView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlanOperationView.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PlanOperationView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PluginInfoView.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PluginInfoView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintIstOperationen.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PrintIstOperationen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RichtlinienVergleichView.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RichtlinienVergleichView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RichtlinienView.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RichtlinienView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RichtlinieSelectView.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RichtlinieSelectView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectDokumentView.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SelectDokumentView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SerialNumbersView.en-US.resx">
+      <DependentUpon>SerialNumbersView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SerialNumbersView.resx">
+      <DependentUpon>SerialNumbersView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TypenTemplateView.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TypenTemplateView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserChangePasswordView.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>UserChangePasswordView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserSetPasswordView.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>UserSetPasswordView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ImportOperationenMobile\Completed.resx">
+      <DependentUpon>Completed.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ImportOperationenMobile\ImportOperationenMobileWizard.resx">
+      <DependentUpon>ImportOperationenMobileWizard.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ImportOperationenMobile\NewOperationenMobileView.resx">
+      <DependentUpon>NewOperationenMobileView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ImportOperationenMobile\SelectChirurg.resx">
+      <DependentUpon>SelectChirurg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ImportOperationenMobile\SelectFile.resx">
+      <DependentUpon>SelectFile.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ImportOperationenMobile\Summary.resx">
+      <DependentUpon>Summary.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ImportOperationenMobile\Welcome.resx">
+      <DependentUpon>Welcome.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\CreateCustomerData\BasicData.en-US.resx">
+      <DependentUpon>BasicData.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ExportChirurg\SelectChirurg.en-US.resx">
+      <DependentUpon>SelectChirurg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ExportChirurg\SelectChirurg.resx">
+      <DependentUpon>SelectChirurg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ExportChirurg\SelectFile.en-US.resx">
+      <DependentUpon>SelectFile.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ExportRichtlinien\SelectFile.en-US.resx">
+      <DependentUpon>SelectFile.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ExportRichtlinien\SelectGebiet.en-US.resx">
+      <DependentUpon>SelectGebiet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ImportChirurg\NewOperationenView.resx">
+      <DependentUpon>NewOperationenView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\ImportOPS\OperationenDifferenceView.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OperationenDifferenceView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\blue.jpg" />
+    <EmbeddedResource Include="Wizards\InstallLicense\Completed.resx">
+      <DependentUpon>Completed.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\InstallLicense\SelectFile.resx">
+      <DependentUpon>SelectFile.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\InstallLicense\Summary.resx">
+      <DependentUpon>Summary.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\InstallLicense\Welcome.resx">
+      <DependentUpon>Welcome.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="WebReferences\localhost\OperationenWebService.disco" />
+    <None Include="WebReferences\localhost\OperationenWebService.wsdl" />
+    <None Include="WebReferences\localhost\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="WebReferences\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://localhost:1966/www/OperationenWebService.asmx%3fop=RegisterLicense">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>WebReferences\localhost\</RelPath>
+      <UpdateFromURL>http://localhost:1966/www/OperationenWebService.asmx%3fop=RegisterLicense</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Operationen_localhost_OperationenWebService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://www.op-log.de/OperationenWebService.asmx%3fop=RegisterLicense">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>WebReferences\de.op-log.www\</RelPath>
+      <UpdateFromURL>http://www.op-log.de/OperationenWebService.asmx%3fop=RegisterLicense</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Operationen_de_op_log_www_OperationenWebService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="..\Dokumentation\Keys\OperationenLicensePublicKey.xml">
+      <Link>OperationenLicensePublicKey.xml</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientServerView.en-US.resx">
+      <DependentUpon>ClientServerView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientServerView.resx">
+      <DependentUpon>ClientServerView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RichtlinienSollIstView.en-US.resx">
+      <DependentUpon>RichtlinienSollIstView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RichtlinienSollIstView.resx">
+      <DependentUpon>RichtlinienSollIstView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperationenLogbuchView.en-US.resx">
+      <DependentUpon>OperationenLogbuchView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperationenSummaryView.en-US.resx">
+      <DependentUpon>OperationenSummaryView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperationenSummaryView.resx">
+      <DependentUpon>OperationenSummaryView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectFunktionView.resx">
+      <DependentUpon>SelectFunktionView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectListViewColumnsView.en-US.resx">
+      <DependentUpon>SelectListViewColumnsView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectListViewColumnsView.resx">
+      <DependentUpon>SelectListViewColumnsView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreenView.en-US.resx">
+      <DependentUpon>SplashScreenView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreenView.resx">
+      <DependentUpon>SplashScreenView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateSerialnumbersView.en-US.resx">
+      <DependentUpon>UpdateSerialnumbersView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateSerialnumbersView.resx">
+      <DependentUpon>UpdateSerialnumbersView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Weiterbildungzeitraum\HSeparator.resx">
+      <DependentUpon>HSeparator.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Weiterbildungzeitraum\WeiterbildungszeitraumView.resx">
+      <DependentUpon>WeiterbildungszeitraumView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="Images\Surgeon.ico" />
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\Certification32.png" />
+    <None Include="Resources\Book32.png" />
+    <None Include="Resources\Cardiologist-Oculist-Surgeon32.png" />
+    <None Include="Resources\3Dchart-PieChart-Report32.png" />
+    <None Include="Resources\AccountCard32.png" />
+    <None Include="Resources\AccountCard-Key32.png" />
+    <None Include="Resources\AccountCard-Many32.png" />
+    <None Include="Resources\AccountCard-UserGroup32.png" />
+    <None Include="Resources\Boss-UserGroup32.png" />
+    <None Include="Resources\CaseHistory32.png" />
+    <None Include="Resources\CaseHistory-Problem32.png" />
+    <None Include="Resources\Book-BlackPencil32.png" />
+    <None Include="Resources\Certification-BlackPencil32.png" />
+    <None Include="Resources\3Dchart32-PeopleContacts.png" />
+    <None Include="Resources\3Dchart-PeopleContact32.png" />
+    <None Include="Resources\Certification-PeopleContact32.png" />
+    <None Include="Resources\Certification-PeopleContacts32.png" />
+    <None Include="Resources\3Dchart-PeopleContacts32.png" />
+    <None Include="Resources\BarCode-Back16.png" />
+    <None Include="Resources\BarCode-BlackPencil16.png" />
+    <None Include="Resources\Book-Back32.png" />
+    <None Include="Resources\Certification-Back32.png" />
+    <None Include="Resources\Database-Back32.png" />
+    <None Include="Resources\Certification-RightArrow32.png" />
+    <None Include="Resources\Database-Clock-Back32.png" />
+    <None Include="Resources\Document-BlackPencil16.png" />
+    <None Include="Resources\3Dchart16.png" />
+    <None Include="Resources\3Dchart-PeopleContact16.png" />
+    <None Include="Resources\3Dchart-PeopleContacts16.png" />
+    <None Include="Resources\3Dchart-PieChart-Report16.png" />
+    <None Include="Resources\AccountCard16.png" />
+    <None Include="Resources\AccountCard-Key16.png" />
+    <None Include="Resources\AccountCard-Many16.png" />
+    <None Include="Resources\AccountCard-UserGroup16.png" />
+    <None Include="Resources\Add16.png" />
+    <None Include="Resources\Back16.png" />
+    <None Include="Resources\BarCode16.png" />
+    <None Include="Resources\BlackPencil16.png" />
+    <None Include="Resources\Book16.png" />
+    <None Include="Resources\Book-Back16.png" />
+    <None Include="Resources\Book-BlackPencil16.png" />
+    <None Include="Resources\Boss16.png" />
+    <None Include="Resources\Boss-UserGroup16.png" />
+    <None Include="Resources\Cardiologist16.png" />
+    <None Include="Resources\Cardiologist-Oculist-Surgeon16.png" />
+    <None Include="Resources\CaseHistory16.png" />
+    <None Include="Resources\CaseHistory-Problem16.png" />
+    <None Include="Resources\Certification16.png" />
+    <None Include="Resources\Certification-Back16.png" />
+    <None Include="Resources\Certification-BlackPencil16.png" />
+    <None Include="Resources\Certification-PeopleContact16.png" />
+    <None Include="Resources\Certification-RightArrow16.png" />
+    <None Include="Resources\Clock16.png" />
+    <None Include="Resources\Database16.png" />
+    <None Include="Resources\Database-Back16.png" />
+    <None Include="Resources\Database-Clock-Back16.png" />
+    <None Include="Resources\Death16.png" />
+    <None Include="Resources\Certification-PeopleContacts16.png" />
+    <None Include="Resources\Certification-Report32.png" />
+    <None Include="Resources\Certification-Report16.png" />
+    <None Include="Resources\Camcorder32.png" />
+    <None Include="Resources\Camcorder16.png" />
+    <Content Include="Resources\Document-BlackPencil32.png" />
+    <None Include="Resources\Document-Problem16.png" />
+    <Content Include="Resources\Document-Problem32.png" />
+    <None Include="Resources\Document16.png" />
+    <Content Include="Resources\Document32.png" />
+    <None Include="Resources\Hauptfenster_unten.jpg" />
+    <None Include="Resources\lang_en16.png" />
+    <None Include="Resources\lang_de16.png" />
+    <None Include="Resources\Reports-Problem16.png" />
+    <None Include="Resources\Wrench16.png" />
+    <None Include="Resources\User-Registration16.png" />
+    <None Include="Resources\UserGroup16.png" />
+    <None Include="Resources\User16.png" />
+    <None Include="Resources\Timer16.png" />
+    <None Include="Resources\Table-Timer16.png" />
+    <None Include="Resources\Table-Death16.png" />
+    <None Include="Resources\Table-Clock16.png" />
+    <None Include="Resources\Table16.png" />
+    <None Include="Resources\Surgeon-RightArrow16.png" />
+    <None Include="Resources\Surgeon-Problem16.png" />
+    <None Include="Resources\Surgeon-Erase16.png" />
+    <None Include="Resources\Surgeon-BlackPencil16.png" />
+    <None Include="Resources\Surgeon-Back-Erase16.png" />
+    <None Include="Resources\Surgeon-Back16.png" />
+    <None Include="Resources\Surgeon-Add16.png" />
+    <None Include="Resources\Student-Problem16.png" />
+    <None Include="Resources\Student16.png" />
+    <None Include="Resources\RightArrow16.png" />
+    <None Include="Resources\Reports16.png" />
+    <None Include="Resources\Report-PeopleContacts16.png" />
+    <None Include="Resources\Report-PeopleContact16.png" />
+    <None Include="Resources\Report16.png" />
+    <None Include="Resources\Registration16.png" />
+    <None Include="Resources\Question16.png" />
+    <None Include="Resources\Problem16.png" />
+    <None Include="Resources\PieChart-PeopleContacts16.png" />
+    <None Include="Resources\PieChart-PeopleContact16.png" />
+    <None Include="Resources\PieChart16.png" />
+    <None Include="Resources\PeopleContacts16.png" />
+    <None Include="Resources\PeopleContact16.png" />
+    <None Include="Resources\PatientID16.png" />
+    <None Include="Resources\OpenFile16.png" />
+    <None Include="Resources\Oculist16.png" />
+    <None Include="Resources\MultistoreyBuilding16.png" />
+    <None Include="Resources\MobilePhone-RightArrow16.png" />
+    <None Include="Resources\MobilePhone-Back16.png" />
+    <None Include="Resources\MobilePhone16.png" />
+    <None Include="Resources\Messages16.png" />
+    <None Include="Resources\Key16.png" />
+    <None Include="Resources\History16.png" />
+    <None Include="Resources\Help16.png" />
+    <None Include="Resources\FlipHorizontally-RightArrow16.png" />
+    <None Include="Resources\FlipHorizontally-PatientID-Certification16.png" />
+    <None Include="Resources\FlipHorizontally-Back16.png" />
+    <None Include="Resources\FlipHorizontally16.png" />
+    <None Include="Resources\Erase16.png" />
+    <None Include="Resources\Earth-Surgeon16.png" />
+    <None Include="Resources\Earth-Help16.png" />
+    <None Include="Resources\Earth-Certification-Problem16.png" />
+    <None Include="Resources\Earth-Certification16.png" />
+    <None Include="Resources\Earth16.png" />
+    <None Include="Resources\MultistoreyBuilding-UserGroup16.png" />
+    <None Include="WebReferences\de.op-log.www\OperationenWebService.disco" />
+    <None Include="Resources\Question32.png" />
+    <None Include="Resources\Help32.png" />
+    <None Include="Resources\Earth-Surgeon32.png" />
+    <None Include="Resources\Earth-Help32.png" />
+    <None Include="Resources\Surgeon-RightArrow32.png" />
+    <None Include="Resources\MobilePhone-RightArrow32.png" />
+    <None Include="Resources\FlipHorizontally-RightArrow32.png" />
+    <None Include="Resources\Surgeon-Back-Erase32.png" />
+    <None Include="Resources\Surgeon-Back32.png" />
+    <None Include="Resources\Surgeon16.png" />
+    <None Include="Resources\MobilePhone-Back32.png" />
+    <None Include="Resources\FlipHorizontally-Back32.png" />
+    <None Include="Resources\Wrench32.png" />
+    <None Include="Resources\User-Registration32.png" />
+    <None Include="Resources\Registration32.png" />
+    <None Include="Resources\OpenFile-Question16.png" />
+    <None Include="Resources\Open16.png" />
+    <None Include="Resources\History32.png" />
+    <None Include="Resources\Earth-Question16.png" />
+    <None Include="Resources\Earth-BarCode16.png" />
+    <None Include="Resources\PieChart-PeopleContacts32.png" />
+    <None Include="Resources\PieChart-PeopleContact32.png" />
+    <None Include="Resources\FlipHorizontally-PatienID-Certification32.png" />
+    <None Include="Resources\Table-Timer32.png" />
+    <None Include="Resources\Table-Death32.png" />
+    <None Include="Resources\Table-Clock32.png" />
+    <None Include="Resources\Table32.png" />
+    <None Include="Resources\PieChart32-PeopleContacts.png" />
+    <None Include="Resources\PieChart32-PeopleContact.png" />
+    <None Include="Resources\Surgeon-Problem32.png" />
+    <None Include="Resources\Surgeon-Erase32.png" />
+    <None Include="Resources\Surgeon-BlackPencil32.png" />
+    <None Include="Resources\Surgeon-Add32.png" />
+    <None Include="Resources\Student-Problem32.png" />
+    <None Include="Resources\Student32.png" />
+    <None Include="Resources\Reports-Problem32.png" />
+    <None Include="Resources\Reports32.png" />
+    <None Include="Resources\Report-PeopleContacts32.png" />
+    <None Include="Resources\Report-PeopleContact32.png" />
+    <None Include="Resources\Messages32.png" />
+    <None Include="Resources\MultistoreyBuilding-UserGroup32.png" />
+    <None Include="Resources\MultistoreyBuilding32.png" />
+    <None Include="Resources\Earth-Certification-Problem32.png" />
+    <None Include="Resources\Earth-Certification32.png" />
+    <None Include="WebReferences\de.op-log.www\OperationenWebService.wsdl" />
+    <None Include="WebReferences\de.op-log.www\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <EmbeddedResource Include="Images\Watermark.png" />
+    <EmbeddedResource Include="Wizards\ImportOPS\SelectVersion.resx">
+      <DependentUpon>SelectVersion.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZeitraeumeView.en-US.resx">
+      <DependentUpon>ZeitraeumeView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZeitraeumeView.resx">
+      <DependentUpon>ZeitraeumeView.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+</Project>

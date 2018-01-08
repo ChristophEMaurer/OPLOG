@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2015.10.10.0" projectFile="d:\daten\develop\OpLog\Operationen\src\Help\operationen.shfbproj" started="08.01.2018 00:42:29">
+<buildStep step="Initializing">
+Finding tools...
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
+Searching for HTML Help 1 compiler...
+Found HTML Help 1 compiler in &#39;C:\Program Files (x86)\HTML Help Workshop\&#39;
+Locating components in the following folder(s):
+    d:\daten\develop\OpLog\Operationen\src\Help
+    C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins\
+    C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\
+Framework reflection data location: C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework
+Using presentation style &#39;VS2013&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013&#39;
+Loading and initializing plug-ins...
+Lightweight Website Style Version 2015.10.10.0
+Copyright &#169; 2006-2015, Eric Woodruff, All Rights Reserved
+Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: d:\daten\develop\OpLog\Operationen\src\bin\Release\AppFramework.dll
+    Found assembly &#39;d:\daten\develop\OpLog\Operationen\src\bin\Release\AppFramework.dll&#39;
+Source: d:\daten\develop\OpLog\Operationen\src\bin\Release\AppFramework.xml
+Source: d:\daten\develop\OpLog\Operationen\src\bin\Release\CMaurer.Operationen.AppFramework.dll
+    Found assembly &#39;d:\daten\develop\OpLog\Operationen\src\bin\Release\CMaurer.Operationen.AppFramework.dll&#39;
+Source: d:\daten\develop\OpLog\Operationen\src\bin\Release\CMaurer.Operationen.AppFramework.xml
+Source: d:\daten\develop\OpLog\Operationen\src\bin\Release\Operationen.exe
+    Found assembly &#39;d:\daten\develop\OpLog\Operationen\src\bin\Release\Operationen.exe&#39;
+Source: d:\daten\develop\OpLog\Operationen\src\bin\Release\Operationen.OperationenImport.dll
+    Found assembly &#39;d:\daten\develop\OpLog\Operationen\src\bin\Release\Operationen.OperationenImport.dll&#39;
+Source: d:\daten\develop\OpLog\Operationen\src\bin\Release\Operationen.OperationenImport.xml
+Source: d:\daten\develop\OpLog\Operationen\src\bin\Release\Sekurity.dll
+    Found assembly &#39;d:\daten\develop\OpLog\Operationen\src\bin\Release\Sekurity.dll&#39;
+Source: d:\daten\develop\OpLog\Operationen\src\bin\Release\Sekurity.xml
+Source: d:\daten\develop\OpLog\Operationen\src\bin\Release\SetupData.dll
+    Found assembly &#39;d:\daten\develop\OpLog\Operationen\src\bin\Release\SetupData.dll&#39;
+Source: d:\daten\develop\OpLog\Operationen\src\bin\Release\SetupData.xml
+Source: d:\daten\develop\OpLog\Operationen\src\bin\Release\Utility.dll
+    Found assembly &#39;d:\daten\develop\OpLog\Operationen\src\bin\Release\Utility.dll&#39;
+Source: d:\daten\develop\OpLog\Operationen\src\bin\Release\Utility.xml
+Source: d:\daten\develop\OpLog\Operationen\src\bin\Release\Windows.Forms.dll
+    Found assembly &#39;d:\daten\develop\OpLog\Operationen\src\bin\Release\Windows.Forms.dll&#39;
+Source: d:\daten\develop\OpLog\Operationen\src\bin\Release\Windows.Forms.xml
+
+Copying XML comments files
+    d:\daten\develop\OpLog\Operationen\src\bin\Release\AppFramework.xml -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\AppFramework.xml
+    d:\daten\develop\OpLog\Operationen\src\bin\Release\CMaurer.Operationen.AppFramework.xml -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\CMaurer.Operationen.AppFramework.xml
+    d:\daten\develop\OpLog\Operationen\src\bin\Release\Operationen.OperationenImport.xml -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Operationen.OperationenImport.xml
+    d:\daten\develop\OpLog\Operationen\src\bin\Release\Sekurity.xml -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Sekurity.xml
+    d:\daten\develop\OpLog\Operationen\src\bin\Release\SetupData.xml -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\SetupData.xml
+    d:\daten\develop\OpLog\Operationen\src\bin\Release\Utility.xml -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Utility.xml
+    d:\daten\develop\OpLog\Operationen\src\bin\Release\Windows.Forms.xml -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Windows.Forms.xml
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, Englisch (USA))...
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+</plugIn>    Last step completed in 00:00:00,0221
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00,0150
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - GenerateRefInfo.proj]
+Der Buildvorgang wurde am 08.01.2018 00:42:30 gestartet.
+Das in einem BeforeTargets-Attribut bei &quot;C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)&quot; aufgef&#252;hrte Ziel &quot;_ConvertPdbFiles&quot; ist nicht im Projekt vorhanden und wird daher ignoriert.
+Das in einem AfterTargets-Attribut bei &quot;C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)&quot; aufgef&#252;hrte Ziel &quot;_CollectPdbFiles&quot; ist nicht im Projekt vorhanden und wird daher ignoriert.
+Das in einem BeforeTargets-Attribut bei &quot;C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)&quot; aufgef&#252;hrte Ziel &quot;_CollectMdbFiles&quot; ist nicht im Projekt vorhanden und wird daher ignoriert.
+Das in einem AfterTargets-Attribut bei &quot;C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)&quot; aufgef&#252;hrte Ziel &quot;_CopyMdbFiles&quot; ist nicht im Projekt vorhanden und wird daher ignoriert.
+Projekt &quot;d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\GenerateRefInfo.proj&quot; auf Knoten &quot;1&quot; (Standardziele).
+PrepareForBuild:
+  Das Verzeichnis &quot;obj\Debug\&quot; wird erstellt.
+GenerateRefInfo:
+  MRefBuilder (v2015.10.10.0)
+  Copyright &#169; 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#169; 2006-2015, Eric Woodruff, All Rights Reserved.
+  Loaded 8 assemblies for reflection and 0 dependency assemblies.
+  Wrote information on 30 namespaces, 269 types, and 2995 members
+  Die Datei wird von &quot;reflection.org&quot; in &quot;reflection.all&quot; kopiert.
+  XslTransform (v2015.10.10.0)
+  Copyright &#169; 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#169; 2006-2015, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
+Die Erstellung von Projekt &quot;d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\GenerateRefInfo.proj&quot; ist abgeschlossen (Standardziele).
+
+Der Buildvorgang wurde erfolgreich ausgef&#252;hrt.
+
+Verstrichene Zeit 00:00:01.58
+    Last step completed in 00:00:02,2086
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - TransformManifest.proj]
+Der Buildvorgang wurde am 08.01.2018 00:42:33 gestartet.
+Projekt &quot;d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\TransformManifest.proj&quot; auf Knoten &quot;1&quot; (Standardziele).
+TransformManifest:
+  XslTransform (v2015.10.10.0)
+  Copyright &#169; 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#169; 2006-2015, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Die Datei wird von &quot;reflection.xml&quot; in &quot;reflection.nofilenames&quot; kopiert.
+  XslTransform (v2015.10.10.0)
+  Copyright &#169; 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#169; 2006-2015, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
+  XslTransform (v2015.10.10.0)
+  Copyright &#169; 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#169; 2006-2015, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+Die Erstellung von Projekt &quot;d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\TransformManifest.proj&quot; ist abgeschlossen (Standardziele).
+
+Der Buildvorgang wurde erfolgreich ausgef&#252;hrt.
+
+Verstrichene Zeit 00:00:02.04
+    Last step completed in 00:00:02,6234
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00,0672
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00,0020
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00,0010
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file...
+[C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - GenerateIntermediateTOC.proj]
+Der Buildvorgang wurde am 08.01.2018 00:42:35 gestartet.
+Projekt &quot;d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\GenerateIntermediateTOC.proj&quot; auf Knoten &quot;1&quot; (Standardziele).
+GenerateIntermediateTOC:
+  XslTransform (v2015.10.10.0)
+  Copyright &#169; 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#169; 2006-2015, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
+Die Erstellung von Projekt &quot;d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\GenerateIntermediateTOC.proj&quot; ist abgeschlossen (Standardziele).
+
+Der Buildvorgang wurde erfolgreich ausgef&#252;hrt.
+
+Verstrichene Zeit 00:00:00.91
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:01,4897
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    Last step completed in 00:00:00,2131
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\sandcastle.config
+    Last step completed in 00:00:00,0040
+</buildStep>
+<buildStep step="BuildReferenceTopics">
+Building reference help topics...
+[C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - BuildReferenceTopics.proj]
+Der Buildvorgang wurde am 08.01.2018 00:42:37 gestartet.
+Projekt &quot;d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj&quot; auf Knoten &quot;1&quot; (Standardziele).
+BuildReferenceTopics:
+  BuildAssembler (v2015.10.10.0)
+  Copyright &#169; 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#169; 2006-2015, Eric Woodruff, All Rights Reserved.
+  Loading configuration...
+  Processing topics...
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.AboutBox] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.AbteilungenChirurgenView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.AbteilungenView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.AkademischeAusbildungTypenView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.AkademischeAusbildungView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.BaekWbOrdnung] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.BaekWbRichtlinien] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.ChirurgDelete] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.ChirurgDokumenteView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.ChirurgEdit] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.ChirurgenFunktionenView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.ChirurgenRichtlinienView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.ChirurgNew] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.ChirurgOperationenView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.ClientServerView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.CopyWWWProgramUpdateFilesView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.DateienView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.DateiTypenView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.DebugExportOperationen] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.DebugReloadUserRights] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.DebugSql] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.DokumenteView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.EigeneDateien] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.ExecAutoImport] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.Exit] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.ExportChirurgWizard] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.ExportOperationenKatalogView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.ExportRichtlinienWizard] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.ExportRichtlinienZuordnungWizard] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.GebieteView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.GesamtOperationenView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.HelpChm] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.ImportChirurgenExcludeView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.ImportChirurgWizard] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.ImportOperationenMobileWizard] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.ImportOPSWizard] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.ImportRichtlinienWizard] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.ImportRichtlinienZuordnungWizard] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.InstallLicenseWizard] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.KlinischeErgebnisseView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.KommentareView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.LangDeDe] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.LangEnUs] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.LogView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.NotizenView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.NotizTypenView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.OPDauerFortschrittView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.OperationenEditView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.OperationenImportView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.OperationenKatalogView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.OperationenSummaryView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.OperationenVergleichView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.OperationenView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.OperationenZeitenVergleichView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.OptionsView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.PlanOperationenView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.PlanOperationVergleichIstView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.PlanOperationVergleichView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.PrintIstOperationen] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.ribbon] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.RichtlinienOpsKodeUnassignedView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.RichtlinienSollIstView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.RichtlinienVergleichOverviewView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.RichtlinienVergleichView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.RichtlinienView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.SecGroupsChirurgenView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.SecGroupsSecRightsView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.SecGroupsView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.SecUserOverviewView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.SerialBuy] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.SerialNumbersView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.UpdateFromFolder] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.UpdateFromWww] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.UpdateSerialnumbersView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.UserChangePasswordView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.UserSetPasswordView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.WeiterbilderChirurgenView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.WwwHelp] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.WwwHome] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.ApplicationCommands.ZeitraeumeView] Unknown reference link target &#39;T:Elegant.Ui.Command&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Operationen.OperationenForm.Accept(Operationen.Visitors.IControlsVisitor,Elegant.Ui.RibbonGroup)] Unknown reference link target &#39;T:Elegant.Ui.RibbonGroup&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Operationen.OperationenForm.Accept(Operationen.Visitors.IControlsVisitor,Elegant.Ui.RibbonTabPage)] Unknown reference link target &#39;T:Elegant.Ui.RibbonTabPage&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Operationen.OperationenForm.MakeMenuPath(Elegant.Ui.Control)] Unknown reference link target &#39;T:Elegant.Ui.Control&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Operationen.OperationenForm.MakeMenuPath(Elegant.Ui.Control,System.String)] Unknown reference link target &#39;T:Elegant.Ui.Control&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Operationen.OperationenForm.MakeMenuPath(Elegant.Ui.RibbonGroup)] Unknown reference link target &#39;T:Elegant.Ui.RibbonGroup&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdAboutBox] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdAbteilungenChirurgenView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdAbteilungenView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdAkademischeAusbildungTypenView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdAkademischeAusbildungView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdBaekWbOrdnung] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdBaekWbRichtlinien] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdChirurgDelete] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdChirurgDokumenteView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdChirurgEdit] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdChirurgenFunktionenView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdChirurgenRichtlinienView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdChirurgNew] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdChirurgOperationenView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdClientServerViewExport] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdClientServerViewImport] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdCopyWWWProgramUpdateFilesView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdDateienView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdDateiTypenView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdDebugExportOperationen] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdDebugReloadUserRights] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdDebugSql] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdDokumenteView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdExecAutoImport] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdExportChirurgWizard] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdExportOperationenKatalogView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdExportRichtlinienWizard] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdExportRichtlinienZuordnungWizard] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdGebieteView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdGesamtOperationenView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdHelpChm] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdImportChirurgenExcludeView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdImportChirurgWizard] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdImportOperationenMobileWizard] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdImportOPSWizard] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdImportRichtlinienWizard] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdImportRichtlinienZuordnungWizard] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdInstallLicenseWizard] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdKlinischeErgebnisseView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdKommentareView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdLangDeDe] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdLangEnUs] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdLogView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdNotizenView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdNotizTypenView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdOPDauerFortschrittView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdOperationenEditView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdOperationenImportView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdOperationenKatalogView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdOperationenSummaryView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdOperationenVergleichView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdOperationenView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdOperationenZeitenVergleichView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdOptionsView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdPlanOperationenView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdPlanOperationVergleichIstView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdPlanOperationVergleichView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdPrintIstOperationen] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdRichtlinienOpsKodeUnassignedView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdRichtlinienSollIstView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdRichtlinienVergleichOverviewView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdRichtlinienVergleichView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdRichtlinienView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdSecGroupsChirurgenView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdSecGroupsSecRightsView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdSecGroupsView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdSecUserOverviewView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdSerialBuy] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdSerialNumbersView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdUpdateFromFolder] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdUpdateFromWww] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdUpdateSerialnumbersView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdUserChangePasswordView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdUserSetPasswordView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdWeiterbilderChirurgenView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdWwwHelp] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdWwwHome] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.cmdZeitraeumeView] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.ddEigeneDateien] Unknown reference link target &#39;T:Elegant.Ui.DropDown&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.rgrChirurg] Unknown reference link target &#39;T:Elegant.Ui.RibbonGroup&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.rgrExport1] Unknown reference link target &#39;T:Elegant.Ui.RibbonGroup&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.rgrExport2] Unknown reference link target &#39;T:Elegant.Ui.RibbonGroup&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.rgrExtras3] Unknown reference link target &#39;T:Elegant.Ui.RibbonGroup&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.rgrImport1] Unknown reference link target &#39;T:Elegant.Ui.RibbonGroup&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.rgrImport2] Unknown reference link target &#39;T:Elegant.Ui.RibbonGroup&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.rgrImport3] Unknown reference link target &#39;T:Elegant.Ui.RibbonGroup&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.rgrStammdaten2] Unknown reference link target &#39;T:Elegant.Ui.RibbonGroup&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.rgrStammdaten3] Unknown reference link target &#39;T:Elegant.Ui.RibbonGroup&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.rgrStammdaten5] Unknown reference link target &#39;T:Elegant.Ui.RibbonGroup&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.rgrStammdaten6] Unknown reference link target &#39;T:Elegant.Ui.RibbonGroup&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.rgrVerwaltung1] Unknown reference link target &#39;T:Elegant.Ui.RibbonGroup&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.rtpExport] Unknown reference link target &#39;T:Elegant.Ui.RibbonTabPage&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:Operationen.OperationenLogbuchView.rtpImport] Unknown reference link target &#39;T:Elegant.Ui.RibbonTabPage&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Operationen.QATCustomizationDialog] Unknown reference link target &#39;T:Elegant.Ui.QuickAccessToolbarControlsEditorFormBase&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Operationen.QATCustomizationDialog] Unknown reference link target &#39;T:Elegant.Ui.QuickAccessToolbarControlsEditorForm&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Operationen.QATCustomizationDialog] Unknown reference link target &#39;M:Elegant.Ui.QuickAccessToolbarControlsEditorFormBase.GetControlTextLabel(Elegant.Ui.IControl)&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:Operationen.QATCustomizationDialog] Unknown reference link target &#39;M:Elegant.Ui.QuickAccessToolbarControlsEditorFormBase.GetControlTextLabel(Elegant.Ui.IControl)&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Operationen.QATCustomizationDialog.#ctor(Operationen.BusinessLayer,Elegant.Ui.Ribbon)] Unknown reference link target &#39;T:Elegant.Ui.Ribbon&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Operationen.QATCustomizationDialog.GetControlTextLabel(Elegant.Ui.IControl)] Unknown reference link target &#39;T:Elegant.Ui.IControl&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Operationen.Visitors.ApplyGuiDebugVisitor.VisitControl(Elegant.Ui.Control)] Unknown reference link target &#39;T:Elegant.Ui.Control&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Operationen.Visitors.ApplyGuiDebugVisitor.VisitElegantUiButton(Elegant.Ui.Button)] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Operationen.Visitors.ApplyGuiDebugVisitor.VisitRibbonGroup(Elegant.Ui.RibbonGroup)] Unknown reference link target &#39;T:Elegant.Ui.RibbonGroup&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Operationen.Visitors.ApplyGuiDebugVisitor.VisitRibbonTabPage(Elegant.Ui.RibbonTabPage)] Unknown reference link target &#39;T:Elegant.Ui.RibbonTabPage&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Operationen.Visitors.ApplyResourcesVisitor.VisitControl(Elegant.Ui.Control)] Unknown reference link target &#39;T:Elegant.Ui.Control&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Operationen.Visitors.ApplyResourcesVisitor.VisitElegantUiButton(Elegant.Ui.Button)] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Operationen.Visitors.ApplyResourcesVisitor.VisitRibbonGroup(Elegant.Ui.RibbonGroup)] Unknown reference link target &#39;T:Elegant.Ui.RibbonGroup&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Operationen.Visitors.ApplyResourcesVisitor.VisitRibbonTabPage(Elegant.Ui.RibbonTabPage)] Unknown reference link target &#39;T:Elegant.Ui.RibbonTabPage&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Operationen.Visitors.DumpGuiVisitor.VisitControl(Elegant.Ui.Control)] Unknown reference link target &#39;T:Elegant.Ui.Control&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Operationen.Visitors.DumpGuiVisitor.VisitElegantUiButton(Elegant.Ui.Button)] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Operationen.Visitors.DumpGuiVisitor.VisitRibbonGroup(Elegant.Ui.RibbonGroup)] Unknown reference link target &#39;T:Elegant.Ui.RibbonGroup&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Operationen.Visitors.DumpGuiVisitor.VisitRibbonTabPage(Elegant.Ui.RibbonTabPage)] Unknown reference link target &#39;T:Elegant.Ui.RibbonTabPage&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Operationen.Visitors.IControlsVisitor.VisitControl(Elegant.Ui.Control)] Unknown reference link target &#39;T:Elegant.Ui.Control&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Operationen.Visitors.IControlsVisitor.VisitElegantUiButton(Elegant.Ui.Button)] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Operationen.Visitors.IControlsVisitor.VisitRibbonGroup(Elegant.Ui.RibbonGroup)] Unknown reference link target &#39;T:Elegant.Ui.RibbonGroup&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Operationen.Visitors.IControlsVisitor.VisitRibbonTabPage(Elegant.Ui.RibbonTabPage)] Unknown reference link target &#39;T:Elegant.Ui.RibbonTabPage&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Operationen.Visitors.XAbleAllCommandsVisitor.VisitControl(Elegant.Ui.Control)] Unknown reference link target &#39;T:Elegant.Ui.Control&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Operationen.Visitors.XAbleAllCommandsVisitor.VisitElegantUiButton(Elegant.Ui.Button)] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Operationen.Visitors.XAbleAllCommandsVisitor.VisitRibbonGroup(Elegant.Ui.RibbonGroup)] Unknown reference link target &#39;T:Elegant.Ui.RibbonGroup&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Operationen.Visitors.XAbleAllCommandsVisitor.VisitRibbonTabPage(Elegant.Ui.RibbonTabPage)] Unknown reference link target &#39;T:Elegant.Ui.RibbonTabPage&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Operationen.Visitors.XAbleAllCommandsVisitor.XableElegantUiButtonDelegate] Unknown reference link target &#39;T:Elegant.Ui.Button&#39;. [d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj]
+  Processed 3838 topic(s)
+  205 warning(s)
+  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 15 of 15.
+  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 7 of 30.
+Die Erstellung von Projekt &quot;d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\BuildReferenceTopics.proj&quot; ist abgeschlossen (Standardziele).
+
+Der Buildvorgang wurde erfolgreich ausgef&#252;hrt.
+
+Verstrichene Zeit 00:00:20.96
+    Last step completed in 00:00:21,5039
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00,0110
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+[C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - ExtractHtmlInfo.proj]
+Sandcastle Help File Builder and Tools, version 2015.10.10.0
+Copyright &#169; 2006-2015, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
+
+Processing Help 1 files in d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1
+Processed 3838 HTML files
+Sorting keywords and generating See Also indices
+Saving HTML Help 1 keyword index to d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\op-log.hhk
+Saving HTML Help 1 table of contents to d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\op-log.hhc
+    Last step completed in 00:00:03,1308
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\icons\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\styles\branding.css
+    Last step completed in 00:00:00,1835
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating HTML Help 1 table of contents file...
+    Last step completed in 00:00:00,0005
+</buildStep>
+<buildStep step="GenerateHelpFileIndex">
+Generating HTML Help 1 index file...
+    Last step completed in 00:00:00,0000
+</buildStep>
+<buildStep step="GenerateHelpProject">
+Generating HTML Help 1 project file...
+    Last step completed in 00:00:00,0191
+</buildStep>
+<buildStep step="CompilingHelpFile">
+Compiling HTML Help 1 file...
+[C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - Build1xHelpFile.proj]
+  Microsoft HTML Help Compiler 4.74.8702
+  
+  
+  
+  Compiling d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\op-log.chm
+  
+  
+  
+  
+  
+  Compile time: 0 minutes, 14 seconds
+  
+  3,840	Topics
+  
+  41,203	Local links
+  
+  5,836	Internet links
+  
+  0	Graphics
+  
+  
+  
+  
+  
+  Created d:\daten\develop\OpLog\Operationen\src\Help\Help\Working\Output\HtmlHelp1\op-log.chm, 3,880,315 bytes
+  
+  Compression decreased file by 25,659,268 bytes.
+  
+    Last step completed in 00:00:15,2252
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00,8378
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 08.01.2018 00:43:17.  Total time: 00:00:48,3715
+
+</buildStep>
+</shfbBuild>

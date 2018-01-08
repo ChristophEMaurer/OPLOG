@@ -1,0 +1,74 @@
+<html>
+<head>
+<title>
+OP-LOG
+</title>
+<link rel="stylesheet" type="text/css" href="css/operationen.css"/> 
+</head>
+<body>
+
+<h1>Vereinbarte Prozeduren Einzelübersicht</h1>
+
+<p>
+<img src="images\menu\bearbeiten\prozedurenVereinbaren.jpg" alt="Vereinbarte Prozeduren"  /> 
+</p>
+
+<p>
+In diesem Fenster legt der Chefarzt fest, welche Prozeduren die verschiedenen Chirurgen in welchem Zeitraum durchführen sollen.
+Hierdurch kann eine Verteilung der Prozeduren transparent durchgeführt werden.
+<br/>Im unteren Teil kann man sofort sehen, wie viele der vereinbarten Prozeduren bereits durchgeführt wurden.
+</p>
+
+<p>
+Die Berechnung erfolgt folgendermaßen:
+<br />
+Bei den Sollzahlen oben können beliebig überlappende und auseinanderliegende Zeiträume eingegeben worden sein.
+Hier kann es auch mehrere Zeiträume für denselben OPSKode geben.
+
+<br />
+Unten gibt man genau einen Filter-Zeitraum ein.
+
+<br />
+</p>
+
+<b>Beispiel:</b>
+<br />
+
+<code>
+<br />Oben: Viele Soll-Zeiträume
+<br />&nbsp;&nbsp;&nbsp;&nbsp;1111&nbsp;2222&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3333&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4444&nbsp;&nbsp;5555
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3333&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3      
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;333
+<br />
+<br />Unten: Ein Filter-Zeitraum
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;xxxxxxxxxxxxxxxxxxxxxxxx
+<br />
+<br />Zeiträume 1111 und 5555 liegen ganz außerhalb
+<br />Zeiträume 2222 und 4444 überlappen
+<br />Zeiträume 3, 3333 und 3333 liegt ganz drin
+
+</code>
+            
+<ol>
+<li>
+Welche OPSCodes sollen nun gezählt werden, wenn der Filter-Zeitraum xxxx eingegeben wurde?
+<br />Es werden alle OPSCodes genommen, deren Zeitraum ganz im angegebenen Filter-Zeitraum liegen. Im Beispiel sind das die OPSCodes der Zeiträume 3, 333 und 3333
+<br />&nbsp;
+</li>
+<li>
+Wie wird die Soll-Zahl für einen OPSCode im Zeitraum xxxx ermittelt, da ein OPSCode mehrfach in verschiedenen Soll-Zeiträumen vorkommen kann?
+<br />Es werden alle Soll-Zahlen gleicher OPSCodes addiert, deren Zeitraum ganz im angegebenen Filter-Zeitraum liegen.
+<br />&nbsp;
+</li>
+<li>
+Wie wird die Ist-Zahl berechnet?
+<br />Das ist einfach: Der Zeitpunkt der Operation muss innerhalb des Filter-Zeitraumes liegen.
+</li>
+</ol>            
+
+<b>Zusammenfassung</b>
+<p>Es werden nur die Sollzahlen berücksichtigt, deren Zeitraum ganz innerhalb des angegebene Filter-Zeitraumes liegen.
+</p>
+
+</body>
+</html>

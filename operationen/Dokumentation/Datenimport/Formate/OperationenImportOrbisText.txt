@@ -1,0 +1,51 @@
+Operierte Patienten
+des Beteiligten Mustermann, Max; Funktion: <Alle>
+Zeitraum vom 01.03.2008 bis 31.10.2008
+Fallstatus   stationär oder ambulant
+
+OP-Datum ; Fachabteilung ; OP-Buch-Nr.; Saal ; Fallnummer ; Patient ; Geb.-Dat.
+10.03.2008; Gefäßchirurgie; 64; ZOP 3; 5071186; Maurer, Christoph; 07.08.1909
+
+Durchgeführte Eingriffe
+Y-Prothese aorto-bifemoral bei AVK, auch unifemoral oder iliacal
+
+ICD-Code ; ICD-Text ; Seite ; H/N ; durch
+I70.23; Atherosklerose der Extremitätenarterien: Becken-Bein-Typ, mit Ulzeration; R; H; Mustermann
+
+ICPM-Code ; ICPM-Text ; H/N ; durch 
+5-393.36; Anlegen eines anderen Shuntes und Bypasses an Blutgefäßen: Aorta: Aortofemoral; H; Mustermann
+
+Funktion ; Beteiligte
+1. Operateur; Mustermann, Max
+2. Operateur; Mustermann, Max
+3. Operateur; Mustermann, Max
+1. Assistent; Mustermann, Max
+2. Assistent; Mustermann, Max
+1. Instrumentierer; Mustermann, Max
+1. Springer; Mustermann, Max
+1. Schleuser; Mustermann, Max
+1. Anästhesist; Mustermann, Max
+1. Anästhesiepflege; Mustermann, Max
+
+OP-Datum ; Fachabteilung ; OP-Buch-Nr.; Saal ; Fallnummer ; Patient ; Geb.-Dat.
+12.03.2008; Gefäßchirurgie; 70; ZOP 3; 5072324; Maurer, Christoph; 01.01.1911
+
+Durchgeführte Eingriffe
+Carotis-TEA
+
+ICD-Code ; ICD-Text ; Seite ; H/N ; durch
+I65.2; Verschluss und Stenose der A. carotis; R; H; Mustermann
+
+ICPM-Code ; ICPM-Text ; H/N ; durch 
+5-381.02; Endarteriektomie: Arterien Kopf, extrakraniell, und Hals: A. carotis interna extrakraniell; H; Mustermann
+
+Funktion ; Beteiligte
+1. Operateur; Mustermann, Max
+1. Assistent; Mustermann, Max
+2. Assistent; Mustermann, Max
+1. Instrumentierer; Mustermann, Max
+1. Springer; Mustermann, Max
+2. Springer; Mustermann, Max
+1. Schleuser; Mustermann, Max
+1. Anästhesist; Mustermann, Max
+

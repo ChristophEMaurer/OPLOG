@@ -1,0 +1,82 @@
+<html>
+<head>
+<title>
+OP-LOG
+</title>
+<link rel="stylesheet" type="text/css" href="../css/operationen.css"> 
+</head>
+<body>
+
+<h1>Programmupdate</h1>
+
+<p>
+Das Programm kann im Internet oder in einem eingestellten Verzeichnis nach einer neuen Version suchen. 
+Falls eine neue Version vorhanden ist, wird das Setup automatisch augeführt und anschließend die neue Version
+gestartet.
+</p>
+
+<p>
+Hierzu klicken Sie auf 'Extras > Auf neue Programmversion aus dem Internet überprüfen' oder auf 
+'Extras > Auf neue Programmversion aus einem Verzeichnis überprüfen'. 
+Bei dem Update aus einem Verzeichnis wird in dem Verzeichnis gesucht, das unter 'Extras > Optionen > Programm Update' eingestellt ist.
+</p>
+<p>
+
+Weiterhin kann das Programm automatisch beim Programmstart nach einer neuen Version suchen. 
+Die Einstellungen hierzu stehen unter 'Extras > Optionen > Programm Update'. Hier gibt es zwei Möglichkeiten, diese Optionen geschickt einzusetzen.
+</p>
+
+
+<h2>A. Als einzelner Benutzer zu Hause</h2>
+Wenn Sie das Programm alleine zu Hause nutzen, schalten Sie die Option 'Bei Programmstart auf eine neue Version aus dem Internet überprüfen' 
+ein und klicken ab und zu auf den Menüpunkt 'Extras > Auf neue Programmversion aus dem Internet überprüfen'.
+
+<p>
+<img src="..\images\menu\extras\optionenAutoUpdateSingle.jpg" alt="Optionen Programm Update" /> 
+</p>
+
+
+<h2>B. Mehrere Benutzer, von denen mindestens einer Internetzugang hat</h2>
+Greifen mehrere Benutzer auf dieselben Daten zu, sollten diese alle dieselbe Programmversion benutzen. 
+Es bietet sich daher an, dass ein Benutzer eine neue Version aus dem Internet herunterlädt und dabei 
+in das Update-Verzeichnis kopieren läßt, und dass alle anderen Benutzer nach einer neuen Version aus dem Update-Verzeichnis suchen.
+So muss nur ein Benutzer Zugriff auf das Internet haben und alle benutzen dieselbe Programmversion.
+
+<p>
+Der Benutzer mit Internet-Zugriff stellt unter 'Extras > Optionen > Programm Update' folgendes ein:
+</p>
+
+<p>
+<img src="..\images\menu\extras\optionenAutoUpdateMultiMaster.jpg" alt="Optionen Programm Update" /> 
+</p>
+
+<p>
+Die anderen Benutzer, die keinen Internet Zugang haben, stellen folgendes ein:
+</p>
+
+<p>
+<img src="..\images\menu\extras\optionenAutoUpdateMultiSlave.jpg" alt="Optionen Programm Update" /> 
+</p>
+
+<h2>C. Mehrere Benutzer, von denen keiner Zugriff auf das Internet hat</h2>
+In diesem Fall muss sich jemand von außerhalb finden, der einmal ein Update durchführt wodurch 
+die Dateien erst einmal in ein von ihm eingestelltes Verzeichnis kopiert werden.
+
+Er kopiert dann die folgenden beiden Dateien in das Verzeichnis, das alle anderen als Update Verzeichnis eingestellt haben:
+
+<ul>
+<li>version.txt</li>
+<li>operationen-update.exe</li>
+</ul>
+
+<p>
+Alle anderen Benutzer stellen folgendes ein:
+</p>
+
+<p>
+<img src="..\images\menu\extras\optionenAutoUpdateMultiSlave.jpg" alt="Optionen Programm Update" /> 
+</p>
+
+</body>
+</html>
+

@@ -1,0 +1,102 @@
+<html>
+<head>
+<title>
+OP-LOG
+</title>
+<link rel="stylesheet" type="text/css" href="../../css/operationen.css"> 
+</head>
+<body>
+
+<h1>Verzeichnisse als vertrauenswürdig einstellen</h1>
+
+<p>
+Wenn Sie OP-LOG auf einem Server-Rechner installieren und von einem Netzlaufwerk
+oder per UNC von einem anderen Client-Rechner aus starten,
+muss dieses Verzeichnis dem Microsoft .NET Framework als vertrauenswürdig mitgeteilt werden.
+<br/>Das gilt sowohl für das Programmverzeichnis als auch für das Verzeichnis, das die gemeinsamen Daten enthält.
+</p>
+
+<h2>addTrust.bat modifizieren und ausführen</h2>
+
+<p>
+Wenn Sie OP-LOG auf dem Server-Rechner 'cmaurer2' installieren, wobei das Programmverzeichnis '\\cmaurer2\c$\Logbuch\LogbuchProgramm' ist und das Verzeichnis der gemeinsamen Dateien '\\cmaurer2\c$\Logbuch\LogbuchDaten', so müssen Sie die Datei '\\cmaurer2\c$\Logbuch\LogbuchProgramm\addTrust.bat' folgendermaßen modifizieren.
+<br/>Die Datei 'addTrust.bat' befindet sich nach der Installation in dem Programmverzeichnis '\\cmaurer2\c$\Logbuch\LogbuchProgramm'.
+</p>
+
+<p>
+<table border="1"><tr><td>
+<code>
+c:
+<br/>cd %windir%\Microsoft.NET\Framework\v2.0.50727
+<br/>caspol.exe -q -machine -addgroup "All_Code" -url "\\cmaurer2\c$\Logbuch\LogbuchProgramm\*" FullTrust
+<br/>caspol.exe -q -machine -addgroup "All_Code" -url "\\cmaurer2\c$\Logbuch\LogbuchDaten\*" FullTrust
+</code>
+</td></tr></table>
+</p>
+
+<p>
+Führen Sie die modifizierte Datei <b>addTrust.bat</b> nun auf jedem Client-Rechner aus, der OP-LOG von dem Server-Rechner 'cmaurer2' startet, und richten Sie eine entsprechende Verknüpfung ein.
+Als Pfad kann ein <b>Netzlaufwerk</b> oder ein <b>UNC-Pfad</b> verwendet werden.
+</p>
+
+<h2>Beispiel</h2>
+
+<p>
+Auf dem Server-Rechner 'cmaurer2' ist OP-LOG installiert mit dem Programmverzeichnis '\\cmaurer2\c$\Logbuch\LogbuchProgramm', das Verzeichnis für die gemeinsamen Dateien ist 
+'\\cmaurer2\c$\Logbuch\LogbuchDaten'.
+ </p>
+
+<p>
+<img src="..\..\images\manuals\serverInstallation\install.jpg" alt="Installation auf Rechner 'cmaurer2'" /> 
+</p>
+
+<p>
+Die Datei <b>\\cmaurer2\c$\Logbuch\LogbuchProgramm\operationen.exe.config</b> auf dem Server-Rechner enthält folgenden Eintrag.
+
+<table border="1"><tr><td>
+<code>
+&lt;setting name="DatabasePath" serializeAs="String"&gt;
+<br/>    &lt;value&gt;\\cmaurer2\c$\Logbuch\LogbuchDaten&lt;/value&gt;
+<br/>&lt;/setting&gt;
+</code>
+</td></tr></table>
+</p>
+
+<p>
+Sie ändern die Datei <b>\\cmaurer2\c$\Logbuch\LogbuchProgramm\addTrust.bat</b> auf dem Server-Rechner folgendermaßen:
+<table border="1"><tr><td>
+<code>
+c:
+<br/>cd %windir%\Microsoft.NET\Framework\v2.0.50727
+<br/>caspol.exe -q -machine -addgroup &quot;All_Code&quot; -url &quot;\\cmaurer2\c$\Logbuch\LogbuchProgramm\*&quot; FullTrust
+<br/>caspol.exe -q -machine -addgroup &quot;All_Code&quot; -url &quot;\\cmaurer2\c$\Logbuch\LogbuchDaten\*&quot; FullTrust
+</code>
+</td></tr></table>
+</p>
+
+<p>
+Auf dem Client-Rechner 'cmaurer' richten Sie nun eine Verknüpfung ein, die auf OP-LOG auf Server-Rechner 'cmaurer2' zeigt.
+</p>
+<p>
+<img src="..\..\images\manuals\serverInstallation\shortcut.jpg" alt="Verknüpfung" /> 
+</p>
+
+<p>
+Die Eigenschaften der Verknüpfung tragen Sie folgendermaßen ein.
+</p>
+
+<p>
+<img src="..\..\images\manuals\serverInstallation\shortcut-properties.jpg" alt="Eigenschaften der Verknüpfung" /> 
+<img src="..\..\images\manuals\serverInstallation\shortcut-properties2.jpg" alt="Eigenschaften der Verknüpfung" /> 
+</p>
+
+<p>
+Auf dem Client-Rechner 'cmaurer' führen Sie nun die modifizierte Datei '\\cmaurer2\c$\Logbuch\LogbuchProgramm\addTrust.bat' mit einem Doppelklick aus.
+</p>
+
+<p>
+<img src="..\..\images\manuals\serverInstallation\runAddTrust.jpg" alt="addTrust.bat ausführen" /> 
+</p>
+
+</body>
+</html>

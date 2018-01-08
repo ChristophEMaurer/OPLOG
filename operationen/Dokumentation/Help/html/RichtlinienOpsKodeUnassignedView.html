@@ -1,0 +1,119 @@
+<html>
+<head>
+<title>
+OP-LOG
+</title>
+<link rel="stylesheet" type="text/css" href="css/operationen.css"/> 
+</head>
+<body>
+
+<h1>Zuordnung von Richtlinien zu Prozeduren</h1>
+
+<p>
+<img src="images\menu\bearbeiten\zuordnungen.jpg" alt="Zuordnung von Richtlinien zu Prozeduren" /> 
+</p>
+
+<p>
+Angenommen, ein Chirurg möchte Facharzt für Visceral-Chirurgie werden.
+Er hat inzwischen eine bestimmte Anzahl von Prozeduren durchgeführt und möchte jetzt wissen,
+wie viele Prozeduren er gemäß den Weiterbildungsrichtlinien der BÄK er schon erledigt hat und welche ihm noch fehlen.
+</p>
+
+<p>
+Hierzu muss zunächst festgelegt werden, welche Prozedur zu welcher Richtlinie gehört. 
+</p>
+
+<p>
+Diese Zuordnung wird in diesem Fenster getroffen.
+</p>
+
+<p>
+Zunächst wird das Facharztgebiet ausgewählt. Im unteren Teil klickt man auf die gewünschte Richtlinie,
+trägt den OPS-Kode ein, der dieser zugeordnet werden soll und klickt dann auf 'Einfügen'. Die so getroffene Zuordnung landet dann in der Liste oben.
+</p>
+
+<p>
+Im Beispiel haben wir z.B. festgelegt, dass alle Prozeduren, die mit dem Code '3-00' anfangen,
+der Richtlinie Nr. 1 ('400 - Ultraschalluntersuchungen des Abdomens') zugeordnet werden.
+</p>
+
+<h2>Bedienung</h2>
+<p>
+Es wurde viel Wert darauf gelegt, dass man in dieser Maske schnell und effizient Zuordnungen eingeben kann,
+ohne ständig zwischen Maus und Tastatur wechseln
+zu müssen
+<br/>
+Zum Betätigen der Schaltfläche 'Einfügen' müssen Sie nicht zur Maus greifen, sondern können ENTER drücken. Anschließend steht der Cursor wieder im 
+Eingabefeld 'OPS-Kode', so dass Sie direkt weitertippen können, ohne zur Maus zu greifen. Außerdem wird die soeben eingefügte Zuordnung in der Liste oben 
+angezeigt und selektiert, so dass Sie immer den Eintrag sehen, den Sie gerade eingefügt haben, ohne extra scrollen zu müssen.
+</p>
+
+<p>
+Öffnen Sie gleichzeitig das Fenster 'Offizielle Dokumente &gt; OPS-Katalog', damit Sie besser überprüfen können, ob sie den korrekten OPS-Kode eingeben.
+Besonders wenn Sie mit dem Platzhalter '_' (Unterstrich) arbeiten können Sie hier sehen, welche OPS-Kodes alle mit dessen Benutzung erfasst werden.
+</p>
+
+<p>
+Sie können nur vorhandene OPS-Kodes eingeben. Geben Sie einen Text ein, der nicht als OPS-Kode vorkommt, erscheint eine Fehlermeldung.
+So können Sie keine Datenleichen produzieren.
+</p>
+
+
+<h2>Zuordnung treffen</h2>
+
+<ol>
+<li>Selektieren Sie in der unteren Liste die Richtlinie, der Sie einen OPS-Kode zuordnen möchten, indem Sie auf diese klicken.</li>
+<li>Tragen Sie den OPS-Kode in das Textfeld unten ein</li>
+<li>Klicken Sie 'Einfügen'</li>
+<li>Die Zuordnung wir nun zu der oberen Liste hinzugefügt</li>
+</ol>
+
+
+<div class="boxtext">
+Sie können gleichzeitig das Fenster 'Offizielle Dokumente > OPS-Katalog' öffnen und dort schnell einen OPS-Kode ermitteln
+</div>
+
+<h2>Zuordnung</h2>
+<p>
+Eine Zuordnung enthält eine Richtlinie und einen OPS-Code, welcher besagt, welche Operationen dieser Richtlinie zugeordnet werden.
+Eine Operation wird einer Richtlinie zugeordnet, wenn der OPS-Kode der Zuordnung mit dem OPS-Code der Operation anfängt.
+</p>
+
+<h2>Mustervergleich</h2>
+
+<p>
+Die OPS-Kodes sind hierarchisch gegliedert. Bei der Angabe des OPS-Kodes gilt der Unterstrich '_' als Platzhalter.
+</p>
+
+<div class="boxtext">
+Bei einer Zuordnung kann im OPS-Kode der Unterstrich '_' als Platzhalter verwendet werden.
+</div>
+
+<h2>Beispiel 1: Die Zuordnung enthält den OPS-Code 5-34</h2>
+
+<p>
+Alle Operationen, deren OPS-Kode mit 5-34 anfängt, werden der Richtlinie dieser Zuordnung zugeordnet, also auch die Operationen 
+</p>
+
+<ol>
+<li>5-341.0 - Inzision des Mediastinums: Kollare Mediastinotomie</li>
+<li>5-342.1 - Inzision des Mediastinums: Transpleural</li>
+<li>usw.</li>
+</ol>
+
+<h2>Beispiel 2: Die Zuordnung enthält den OPS-Code 5-89_._4</h2>
+
+<p>
+Alle Operationen, deren OPS-Kode mit 5-89_._4 anfängt, wobei an der Stelle des Unterstriches ein beliebiges Zeichen stehen kann,
+werden der Richtlinie der Zuordnung zugeordnet, also die Operationen 
+</p>
+
+<ul>
+<li>5-890.04 -Tätowieren und Einbringen von Fremdmaterial in Haut und Unterhaut: Tätowieren: Sonstige Teile Kopf</li>
+<li>5-890.14 - Tätowieren und Einbringen von Fremdmaterial in Haut und Unterhaut: Einbringen von autogenem Material: Sonstige Teile Kopf</li>
+<li>usw.</li>
+</ul>
+
+
+</body>
+</html>

@@ -1,0 +1,421 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="Window Styles" value="0x800025">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Allgemeines">
+		<param name="Local" value="html\Text\Allgemeines.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Enthaltene Daten">
+			<param name="Local" value="html\Text\EnthalteneDaten.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Abteilungen und Weiterbilder">
+			<param name="Local" value="html\Text\AbteilungenWeiterbilder.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Rollen und Rechte">
+			<param name="Local" value="html\Text\Rollen.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Seriennummern">
+			<param name="Local" value="html\Text\Lizenz.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Technische Hinweise">
+			<param name="Local" value="html\TechnischeHinweise\TechnischeHinweise.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="N&uuml;tzliche Hinweise">
+			<param name="Local" value="html\TechnischeHinweise\NuetzlicheHinweise.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Copyright und Warenzeichen">
+			<param name="Local" value="html\TechnischeHinweise\Copyright.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Inbetriebnahme">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Uuml;bersicht">
+			<param name="Local" value="html\Text\Inbetriebnahme.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Programm installieren">
+			<param name="Local" value="html\Text\Installieren.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Wahl der Datenbank">
+			<param name="Local" value="html\Text\Datenbankwahl.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Verzeichnisse als vertrauensw&uuml;rdig einrichten">
+			<param name="Local" value="html\manuals\serverInstallation\addTrust.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Installieren f&uuml;r einen einzelnen Benutzer">
+			<param name="Local" value="html\Text\InstallierenSingleUser.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Installieren f&uuml;r mehrere Benutzer auf mehreren PCs">
+			<param name="Local" value="html\Text\InstallierenMultiUser.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Installieren f&uuml;r mehrere Benutzer an einer zentralen Stelle">
+			<param name="Local" value="html\Text\InstallierenClientServer.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Programm in Betrieb nehmen">
+			<param name="Local" value="html\Text\InBetriebNehmen.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Programm Update">
+			<param name="Local" value="html\Text\ProgrammUpdate.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Men&uuml;struktur">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Start">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Ausgef&uuml;hrte Prozeduren drucken">
+				<param name="Local" value="html\PrintIstOperationen.html">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Eigene Dateien">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Einf&uuml;gen &gt; Definition">
+				<param name="Local" value="html\DateiTypenView.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Einf&uuml;gen &gt; Datei">
+				<param name="Local" value="html\DateienView.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Anzeigen &gt; Datei">
+				<param name="Local" value="html\EigeneDateien.html">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Offizielle Dokumente">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="OPS-Katalog">
+				<param name="Local" value="html\OperationenKatalogView.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Facharzt-Gebiete">
+				<param name="Local" value="html\GebieteView.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Weiterbildungsrichtlinien">
+				<param name="Local" value="html\RichtlinienView.html">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Verwaltung">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Uuml;bersicht">
+				<param name="Local" value="html\SecUserOverviewView.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Rollen">
+				<param name="Local" value="html\SecGroupsView.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Rollen und Benutzer">
+				<param name="Local" value="html\SecGroupsChirurgenView.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Rollen und Rechte">
+				<param name="Local" value="html\SecGroupsSecRightsView.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Abteilungen">
+				<param name="Local" value="html\AbteilungenView.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Abteilungen und Chirurgen">
+				<param name="Local" value="html\AbteilungenChirurgenView.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Weiterbilder und Chirurgen">
+				<param name="Local" value="html\WeiterbilderChirurgenView.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Uuml;bersicht">
+				<param name="Local" value="html\OperationenSummaryView.html">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Stammdaten">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Dienststellungen">
+				<param name="Local" value="html\ChirurgenFunktionenView.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Operateur">
+				<param name="Local" value="html\ChirurgView.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Einsch&auml;tzungen und Empfehlungen">
+				<param name="Local" value="html\KommentareView.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Logb&uuml;cher - Vorlagen einf&uuml;gen">
+				<param name="Local" value="html\DokumenteView.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Logb&uuml;cher &gt; Logbuch bearbeiten">
+				<param name="Local" value="html\ChirurgDokumenteView.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Akademischer Lebenslauf- Definition">
+				<param name="Local" value="html\AkademischeAusbildungTypenView.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Akademischer Lebenslauf">
+				<param name="Local" value="html\AkademischeAusbildungView.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Vermerke - Definition">
+				<param name="Local" value="html\NotizTypenView.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Vermerke">
+				<param name="Local" value="html\NotizenView.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Soll/Ist Einzel&uuml;bersicht">
+				<param name="Local" value="html\PlanOperationenView.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Soll/Ist Gesamt&uuml;bersicht">
+				<param name="Local" value="html\PlanOperationVergleichView.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Soll/Ist Weiterbildungsrichtlinien">
+				<param name="Local" value="html\RichtlinienSollIstView.html">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Bearbeiten">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Prozeduren eingeben">
+				<param name="Local" value="html\OperationenEditView.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Extern erf&uuml;llte Richtzahlen nachtragen">
+				<param name="Local" value="html\ChirurgenRichtlinienView.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Zuordnung von Prozeduren zu Richtlinien">
+				<param name="Local" value="html\RichtlinienOpsKodeView.html">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Auswertungen">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Liste aller durchgef&uuml;hrten Prozeduren">
+				<param name="Local" value="html\OperationenView.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Verbrachte Zeit im OP">
+				<param name="Local" value="html\OperationenZeitenVergleichView.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Dauer eines Eingriffs">
+				<param name="Local" value="html\OPDauerFortschrittView.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Klinische Ergebnisse">
+				<param name="Local" value="html\KlinischeErgebnisseView.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Verteilung - Ausgef&uuml;hrte Prozeduren Einzel&uuml;bersicht">
+				<param name="Local" value="html\ChirurgOperationenView.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Verteilung: Ausgef&uuml;hrte Prozeduren Gesamt&uuml;bersicht">
+				<param name="Local" value="html\GesamtOperationenView.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Verteilung: Verteilung der Prozeduren, ein OPSKode">
+				<param name="Local" value="html\PlanOperationVergleichIstView.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Verteilung: Verteilung der Prozeduren, mehrere OPSKodes">
+				<param name="Local" value="html\OperationenVergleichView.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Weiterbildungsstand Einzel&uuml;bersicht">
+				<param name="Local" value="html\RichtlinienVergleichView.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Weiterbildungsstand Gesamt&uuml;bersicht">
+				<param name="Local" value="html\RichtlinienvergleichOverviewView.html">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Extras">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Eigenes Kennwort &auml;ndern">
+				<param name="Local" value="html\UserChangePasswordView.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Kennwort eines anderen Benutzers festlegen">
+				<param name="Local" value="html\UserSetPasswordView.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Seriennummern verwalten">
+				<param name="Local" value="html\SerialNumbersView.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Seriennummern im Webshop bestellen">
+				<param name="Local" value="html\Extras\LizenzBestellen.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Lizenzdatei installieren">
+				<param name="Local" value="html\Extras\WizardLizenzInstallieren.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Auf Update aus einem Verzeichnis &uuml;berpr&uuml;fen">
+				<param name="Local" value="html\Text\UpdateVerzeichnis.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Auf Update aus dem Internet &uuml;berpr&uuml;fen">
+				<param name="Local" value="html\Extras\CheckForUpdates.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Programmn aus dem Internet in ein lokales Verzeichnis kopieren">
+				<param name="Local" value="html\CopyWWWProgramUpdateFilesView.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Auml;nderungs-Historie">
+				<param name="Local" value="html\LogView.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Optionen">
+				<param name="Local" value="html\OptionsView.html">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Datenimport">
+			<param name="Local" value="html\Extras\Import\Import.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Operationen">
+				<param name="Local" value="html\OperationenImportView.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Chirurgen Ausschl&uuml;sse festlegen">
+				<param name="Local" value="html\ImportChirurgenExcludeView.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Automatischer Prozeduren-Import">
+				<param name="Local" value="html\Extras\Import\AutomatischerImport.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Richtlinien">
+				<param name="Local" value="html\Extras\Import\WizardImportRichtlinien.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Zuordnungen von OPS-Kodes zu Richtlinien">
+				<param name="Local" value="html\Extras\Import\WizardImportZuordnungen.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Chirurg">
+				<param name="Local" value="html\Extras\Import\WizardImportArzt.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="OPS-Katalog">
+				<param name="Local" value="html\Extras\Import\WizardImportOPSKatalog.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Operationen von Handy">
+				<param name="Local" value="html\ImportOperationenMobileWizard.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Dateien &uuml;bertragen">
+				<param name="Local" value="html\ClientServerView.html">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Datenexport">
+			<param name="Local" value="html\Extras\Export\Export.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Richtlinien">
+				<param name="Local" value="html\Extras\Export\WizardExportRichtlinien.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Zuordnungen von OPS-Kodes zu Richtlinien">
+				<param name="Local" value="html\Extras\Export\WizardExportZuordnungen.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Chirurg">
+				<param name="Local" value="html\Extras\Export\WizardExportArzt.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="OPS-Katalog f&uuml;r Handy">
+				<param name="Local" value="html\ExportOperationenKatalogView.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Dateien &uuml;bertragen">
+				<param name="Local" value="html\ClientServerView.html">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Hilfe">
+			<param name="Local" value="html\Hilfe\Hilfe.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="FAQs">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Wie importiere ich Weiterbildungsrichtlinien?">
+			<param name="Local" value="html\manuals\importRichtlinien\importRichtlinien.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Wie importiere ich Zuordnungen von OPSKodes zu Weiterbildungsrichtlinien?">
+			<param name="Local" value="html\manuals\importZuordnungen\importZuordnungen.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Mehr FAQ">
+			<param name="Local" value="html\manuals\faq.html">
+			</OBJECT>
+	</UL>
+</UL>
+</BODY></HTML>

@@ -1,0 +1,5 @@
+Msg 547, Level 16, State 0, Line 11
+Msg 547, Level 16, State 0, Line 46
+
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_SecGroupsSecRights_SecRights". The conflict occurred in database "operationen", table "dbo.SecRights", column 'ID_SecRights'.
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_SecGroupsSecRights_SecRights". The conflict occurred in database "operationen", table "dbo.SecRights", column 'ID_SecRights'.

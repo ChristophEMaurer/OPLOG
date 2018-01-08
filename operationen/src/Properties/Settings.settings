@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Operationen.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Operationen_localhost_OperationenWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:1966/www/OperationenWebService.asmx</Value>
+    </Setting>
+    <Setting Name="Operationen_de_op_log_www_OperationenWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://www.op-log.de/OperationenWebService.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

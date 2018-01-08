@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B4DDD86C-F842-4F60-AD4A-3A3430F8E915}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Windows.Forms</RootNamespace>
+    <AssemblyName>Windows.Forms</AssemblyName>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>x:\OpLogbuch.snk</AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Windows.Forms.XML</DocumentationFile>
+    <NoWarn>1591,1572,1573</NoWarn>
+    <RegisterForComInterop>false</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\Windows.Forms.XML</DocumentationFile>
+    <NoWarn>1591,1572,1573</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CalendarPickerView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalendarPickerView.Designer.cs">
+      <DependentUpon>CalendarPickerView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NamespaceDoc.cs" />
+    <Compile Include="OplProtectedTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OplRadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OplLinkLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OplCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OplButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OplListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OplTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SortableListViewBalken.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DatabaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DateBoxPicker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DateBoxPicker.Designer.cs">
+      <DependentUpon>DateBoxPicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListViewBalken.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ListViewColumnSorter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SizeGripPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SortableListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Win32Interop.cs" />
+    <Compile Include="Wizard\WizardMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizard\WizardMaster.Designer.cs">
+      <DependentUpon>WizardMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizard\WizardPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizard\WizardPage.Designer.cs">
+      <DependentUpon>WizardPage.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CalendarPickerView.resx">
+      <DependentUpon>CalendarPickerView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatabaseForm.resx">
+      <DependentUpon>DatabaseForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DateBoxPicker.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DateBoxPicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizard\WizardMaster.resx">
+      <DependentUpon>WizardMaster.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizard\WizardPage.resx">
+      <DependentUpon>WizardPage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\AppFramework\AppFrameworkPublic.csproj">
+      <Project>{F4723B21-C7CD-455C-B522-5329AB5BFD15}</Project>
+      <Name>AppFrameworkPublic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Utility\UtilityPublic.csproj">
+      <Project>{943CE5C3-9B68-447E-9BB9-F95C9E2A4AE5}</Project>
+      <Name>UtilityPublic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

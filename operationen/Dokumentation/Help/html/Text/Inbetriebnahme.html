@@ -1,0 +1,184 @@
+<html>
+<head>
+<title>
+OP-LOG
+</title>
+<link rel="stylesheet" type="text/css" href="../css/operationen.css"> 
+</head>
+<body>
+
+<h1>Inbetriebnahme - Übersicht</h1>
+
+<p>
+Hier finden Sie eine Schnellübersicht der Dinge, die Sie tun müssen, um das Programm erstmalig in Betrieb zunehmen,
+und die Sie im laufenden Betrieb tun müssen.
+</p>
+
+<small>Diese Tabelle können Sie ausdrucken</small>
+ <table class="download" border="1" cellpadding="2" cellspacing="0">
+
+<tr><th>Nr</th><th>Aktion</th><th>Erledigt</th></tr>
+
+<tr><td colspan="3"><b>Inbetriebnahme</b></td></tr>
+<tr><td>1</td><td>Programminstallation</td><td>&nbsp;</td></tr>
+<tr><td>2</td><td>Seriennummern eingeben oder Lizenzdatei installieren</td><td>&nbsp;</td></tr>
+<tr><td>3</td><td>Benutzer anlegen</td><td>&nbsp;</td></tr>
+<tr><td>4</td><td>Rollen anlegen und Rechte zuordnen</td><td>&nbsp;</td></tr>
+<tr><td>5</td><td>Abteilungen anlegen und Benutzer zuordnen</td><td>&nbsp;</td></tr>
+<tr><td>6</td><td>Weiterbilder definieren und Benutzer zuordnen</td><td>&nbsp;</td></tr>
+<tr><td>7</td><td>Facharztgebiete anlegen</td><td>&nbsp;</td></tr>
+<tr><td>8</td><td>Weiterbildungsrichtlinien für Facharztgebiete anlegen</td><td>&nbsp;</td></tr>
+<tr><td>9</td><td>Zuordnungen von OPSKodes zu den Weiterbildungsrichtlinien der Facharztgebiete anlegen</td><td>&nbsp;</td></tr>
+<tr><td>10</td><td>Import der Operationen einrichten und kontrollieren</td><td>&nbsp;</td></tr>
+<tr><td>11</td><td>Datensicherung einrichten</td><td>&nbsp;</td></tr>
+
+
+<tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+
+<tr><td colspan="3"><b>Im laufenden Betrieb</b></td></tr>
+<tr><td>1</td><td>Ist der OPSKatalog für das laufende Jahr importiert?</td><td>&nbsp;</td></tr>
+<tr><td>2</td><td>Ist die aktuelle Programmversion installiert?</td><td>&nbsp;</td></tr>
+<tr><td>3</td><td>Habe ich nach einem Programmupdate neue Rechte zugeordnet?</td><td>&nbsp;</td></tr>
+<tr><td>4</td><td>Nicht zugeordnete Operationen kontrollieren</a></td><td>&nbsp;</td></tr>
+<tr><td>5</td><td>History-Tabelle kontrollieren</a></td><td>&nbsp;</td></tr>
+<tr><td>6</td><td>Rechte kontrollieren</a></td><td>&nbsp;</td></tr>
+<tr><td>7</td><td>Wurden die Operationen importiert?</a></td><td>&nbsp;</td></tr>
+<tr><td>8</td><td>Wurden die Daten gesichert?</a></td><td>&nbsp;</td></tr>
+
+</table>
+
+<h1>Inbetriebnahme</h1>
+
+<h2>Programminstallation</h2>
+Laden Sie das Programm herunter wie <a href="html\Text\Installieren.html">hier</a> angegeben und installieren Sie das Programm
+
+<ul>
+    <li>Für einen <a href="InstallierenSingleUser.html">einzelnen Benutzer</a></li>
+    <li>Für <a href="InstallierenMultiUser.html">mehrere Benutzer auf mehreren PCs</a></li>
+    <li>Für <a href="InstallierenClientServer.html">mehrere Benutzer an einer zentralen Stelle</a> (Serverinstallation)</li>
+</ul>
+
+<h2>Seriennummern / Lizenzdatei</h2>
+Geben Sie <a href="../SerialNumbersView.html">Seriennummern</a> ein oder installieren Sie eine <a href="../Extras/WizardLizenzInstallieren.html">Lizenzdatei</a>.
+
+<h2>Benutzer anlegen</h2>
+Legen Sie <a href="../ChirurgView.html">hier</a> alle benötigen Benutzer an. In diesem Fenster legen Sie auch fest, ob ein Benutzer Weiterbilder ist.
+Ein Weiterbilder hat Zugriff auf alle Daten der Benutzer, die ihm zugeordnet sind. Lesen Sie hierzu auch <a href="../Text/Rollen.html">Rollen und Rechte</a>.
+
+<h2>Abteilungen, Weiterbilder, Rollen und Rechte</h2>
+Die Rechte sind vom Programm vorgegeben, diese können Sie nicht ändern.
+
+<p>
+Legen Sie die <a href="../SecGroupsView.html">Rollen</a> fest. Ordnen Sie den Rollen die entsprechenden <a href="../SecGroupsSecRightsView.html">Rechte</a> zu. 
+Ordnen Sie die <a href="../SecGroupsChirurgenView.html">Benutzer den Rollen zu</a>.
+Ordnen Sie die <a href="../WeiterbilderChirurgenView.html">Benutzer den Weiterbildern zu</a>.
+</p>
+
+
+<p>
+Legen Sie die <a href="../AbteilungenView.html">Abteilungen</a> an und ordnen Sie die <a href="../AbteilungenChirurgenView.html">Benutzer den Abteilungen</a> zu.
+</p>
+
+<h2>Facharztgebiete, Weiterbildungsrichtlinien und Zuordnungen von Weiterbildungsrichtlinien zu OPSKodes</h2>
+<p>
+Legen Sie die <a href="../GebieteView.html">Facharztgebiete</a> (wie Allgemeinchirurgie, Herzchirurgie), an.
+</p>
+
+<p>
+Geben Sie die Weiterbildungsrichtlinien für ein Facharztgebiet <a href="../RichtlinienView.html">manuell</a> ein oder <a href="../manuals/importRichtlinien/importRichtlinien.html">importieren</a> Sie diese. Eine Weiterbildungsrichtlinie für das Facharztgebiet Basischirurgie
+ist z.B. "50 Ultraschalluntersuchungen bei chirurgischen Erkrankungen und Verletzungen".
+</p>
+
+<p>
+Damit Operationen automatisch einer Weiterbildungsrichtlinie zugeordnet werden können, muss festgelegt werden, welcher OPSKode 
+zu welcher Weiterbildungsrichtlinie gehört.
+Geben Sie die Zuordnungen von OPSKodes zu Weiterbildungsrichtlinien <a href="../RichtlinienOpsKodeUnassignedView.html">manuell</a> ein oder <a href="../manuals/importZuordnungen/importZuordnungen.html">importieren</a> Sie diese.
+</p>
+
+<h2>Datensicherung einrichten</h2>
+
+<p>
+Es ist wichtig, regelmäßig eine Datensicherung durchzuführen.
+Ob eine Datensicherung korrekt durchgeführt wurde, weiß man erst, wenn man die Daten aus einer Sicherung erfolgreich wiederhergestellt hat.
+Sichern Sie Ihre Daten!
+</p>
+
+<h1>Im laufenden Betrieb</h1>
+
+<h2>Operationen importieren</h2>
+Sie können Operationen <a href="../OperationenEditView.html">manuell eingeben</a> oder <a href="../OperationenImportView.html">importieren</a>.
+Kontrollieren Sie die Daten im Fenster <a href="../OperationenView.html">"Auswertungen &gt; Liste aller durchgeführten Prozeduren"</a>.
+
+<p>
+Jedes Jahr gibt es einen neuen OPS-Katalog. Dieser wird vom DIMDI herausgegeben. Im Jahr 2010 war dieser unter http://www.dimdi.de &gt; Webshop zu erhalten:
+</p>
+
+<p>
+<code>
+(1 x OPS Version 2010, Systematisches Verzeichnis, EDV-Fassung als ASCII-Datei, Artikel-Nr. KD10014, Format: ASCII-Datei, 20,00 EUR).
+</code>
+</p>
+
+<p>
+Die OPSKodes aus dem OPSKatalog können Sie <a href="../OperationenKatalogView.html">ansehen oder ändern</a>.
+Der Zweck des OPSKataloges ist, dass man in anderen Fenster einen OPSKode auswählen kann - wobei man OPSKode und OPSText sieht -  und diesen nicht manuell eingeben muss.
+</p>
+
+<p>
+Wenn Sie einen neuen OPSKatalog importieren wollen, tun Sie folgendes:
+<ol>
+  <li>Löschen Sie den aktuellen OPSKatalog, indem Sie unter
+"Offizielle Dokumente &gt; OPS-Katalog" die Schaltfläche "Gesamten OPS-Katalog löschen" klicken.</li>
+<li>Importieren Sie den neuen OPS-Katalog, indem Sie "Datenimport &gt; OPS-Katalog" anklicken und die entsprechende DIMDI-Datei auswählen.</li>
+</ol>
+</p>
+
+<p>
+Wenn Sie einen DIMDI OPS-Katalog importieren, ohne den vorhandenen zu löschen, ist das kompliziert. Manchmal ändert sich nur die Rechtschreibung - z.B. ss statt &szlig; aufgrund der neuen Deutschen Rechtschreibung. Sie müssen für jeden Eintrag entscheiden, ob der vorhandene beibehalten werden soll, ob ein vorhandener OPSText durch einen veränderten ersetzt werden soll, und welche neuen Einträge hinzugefügt werden sollen.
+</p>
+
+<p>
+<b>Tipp:</b> Wenn Sie beim Datenimport einschalten, dass nicht vorhandene Operationen automatisch eingefügt werden, so werden diese in den OPS-Katalog eingefügt, falls Sie dort fehlen. Damit kommen genau die OPS-Kodes im OPS-Katalog vor, die bei Ihnen durchgeführt werden.
+</p>
+
+<h2>Neue Programmversion einspielen</h2>
+
+<p>
+Unter "Extras &gt; Auf Update aus dem Internet überprüfen" können Sie <a href="../Text/ProgrammUpdate.html">eine neue Programmversion einspielen</a>, sobald diese vorhanden ist.
+</p>
+
+<p>
+<b>ACHTUNG:</b> Wenn eine neue Version eingespielt wird, und die die Datenbankstruktur verändert, so müssen alle Benutzer, die auf dieselbe Datenbank zugreifen, ihr Programm ebenfalls aktualisieren.
+</p>
+
+<p>
+<b>ACHTUNG:</b> Bei einer neuen Programmversion können neue Rechte eingeführt werden. Diese müssen Sie unter 
+"Verwaltung &gt; Rollen und Rechte" den entsprechenden Rollen zuordnen, ansonsten bleibt eine neuer Menüpunkt für alle Benutzer ausgegraut.
+</p>
+
+<h2>Nicht Zugeordnete Operationen kontrollieren</h2>
+
+<p>
+Kontrollieren Sie,  welche Operationen nicht durch Zuordnungen von OPSKodes zu Weiterbildungsrichtlinien erfasst werden.
+Dieses sehen Sie im Fenster <a href="../RichtlinienOpsKodeUnassignedView.html">Auswertungen &gt; Weiterbildungsstand &gt; Einzelübersicht</a>
+</p>
+
+<h2>History-Tabelle kontrollieren</h2>
+
+<p>
+Alle Aktionen werden festgehalten, indem Sie in eine <a href="../LogView.html">Änderungs-Historie</a> eingetragen werden.
+Diese Tabelle wächst stetig an. Wenn Sie zuviele Einträge enthält, können Sie einige hieraus löschen.
+Die Anzahl der Einträge sehen Sie unter <a href="../OperationenSummaryView.html">"Verwaltung &gt; System &gt; Übersicht"</a>.
+</p>
+
+<h2>Rechte kontrollieren</h2>
+
+<p>
+Kontrollieren Sie ab und zu die Rechte der Benutzer. Wenn man nicht als Benutzer einer Gruppe selber angemeldet ist, ist es schwierig zu wissen,
+welche Rechte der Benutzer wirklich hat.
+Eine Übersicht hierzu sehen Sie unter <a href="../SecUserOverviewView.html">"Verwaltung &gt; Rollen und Rechte &gt; Übersicht"</a>.
+</p>
+
+
+</body>
+</html>

@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cmdOK.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cmdOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>705, 547</value>
+  </data>
+  <data name="cmdOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cmdOK.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="cmdOK.Text" xml:space="preserve">
+    <value>Schließen</value>
+  </data>
+  <data name="&gt;&gt;cmdOK.Name" xml:space="preserve">
+    <value>cmdOK</value>
+  </data>
+  <data name="&gt;&gt;cmdOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdOK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdOK.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblVon.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblVon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 22</value>
+  </data>
+  <data name="lblVon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 13</value>
+  </data>
+  <data name="lblVon.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblVon.Text" xml:space="preserve">
+    <value>Datum von:</value>
+  </data>
+  <data name="&gt;&gt;lblVon.Name" xml:space="preserve">
+    <value>lblVon</value>
+  </data>
+  <data name="&gt;&gt;lblVon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblVon.Parent" xml:space="preserve">
+    <value>grpZeitraum</value>
+  </data>
+  <data name="&gt;&gt;lblVon.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblBis.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblBis.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 20</value>
+  </data>
+  <data name="lblBis.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 13</value>
+  </data>
+  <data name="lblBis.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblBis.Text" xml:space="preserve">
+    <value>Datum bis:</value>
+  </data>
+  <data name="&gt;&gt;lblBis.Name" xml:space="preserve">
+    <value>lblBis</value>
+  </data>
+  <data name="&gt;&gt;lblBis.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBis.Parent" xml:space="preserve">
+    <value>grpZeitraum</value>
+  </data>
+  <data name="&gt;&gt;lblBis.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txtDatumBis.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 36</value>
+  </data>
+  <data name="txtDatumBis.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 27</value>
+  </data>
+  <data name="txtDatumBis.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtDatumBis.Name" xml:space="preserve">
+    <value>txtDatumBis</value>
+  </data>
+  <data name="&gt;&gt;txtDatumBis.Type" xml:space="preserve">
+    <value>Windows.Forms.DateBoxPicker, Windows.Forms, Version=1.0.3423.41434, Culture=neutral, PublicKeyToken=82605a553e5279cb</value>
+  </data>
+  <data name="&gt;&gt;txtDatumBis.Parent" xml:space="preserve">
+    <value>grpZeitraum</value>
+  </data>
+  <data name="&gt;&gt;txtDatumBis.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtDatumVon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 38</value>
+  </data>
+  <data name="txtDatumVon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 28</value>
+  </data>
+  <data name="txtDatumVon.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtDatumVon.Name" xml:space="preserve">
+    <value>txtDatumVon</value>
+  </data>
+  <data name="&gt;&gt;txtDatumVon.Type" xml:space="preserve">
+    <value>Windows.Forms.DateBoxPicker, Windows.Forms, Version=1.0.3423.41434, Culture=neutral, PublicKeyToken=82605a553e5279cb</value>
+  </data>
+  <data name="&gt;&gt;txtDatumVon.Parent" xml:space="preserve">
+    <value>grpZeitraum</value>
+  </data>
+  <data name="&gt;&gt;txtDatumVon.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblOPFunktionen.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblOPFunktionen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 20</value>
+  </data>
+  <data name="lblOPFunktionen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 13</value>
+  </data>
+  <data name="lblOPFunktionen.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblOPFunktionen.Text" xml:space="preserve">
+    <value>Funktion:</value>
+  </data>
+  <data name="&gt;&gt;lblOPFunktionen.Name" xml:space="preserve">
+    <value>lblOPFunktionen</value>
+  </data>
+  <data name="&gt;&gt;lblOPFunktionen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblOPFunktionen.Parent" xml:space="preserve">
+    <value>grpZeitraum</value>
+  </data>
+  <data name="&gt;&gt;lblOPFunktionen.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="cbChirurgenOPFunktionen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>252, 36</value>
+  </data>
+  <data name="cbChirurgenOPFunktionen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 21</value>
+  </data>
+  <data name="cbChirurgenOPFunktionen.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;cbChirurgenOPFunktionen.Name" xml:space="preserve">
+    <value>cbChirurgenOPFunktionen</value>
+  </data>
+  <data name="&gt;&gt;cbChirurgenOPFunktionen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbChirurgenOPFunktionen.Parent" xml:space="preserve">
+    <value>grpZeitraum</value>
+  </data>
+  <data name="&gt;&gt;cbChirurgenOPFunktionen.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="cmdVergleich.Location" type="System.Drawing.Point, System.Drawing">
+    <value>679, 69</value>
+  </data>
+  <data name="cmdVergleich.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 23</value>
+  </data>
+  <data name="cmdVergleich.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="cmdVergleich.Text" xml:space="preserve">
+    <value>&amp;Anzeigen</value>
+  </data>
+  <data name="&gt;&gt;cmdVergleich.Name" xml:space="preserve">
+    <value>cmdVergleich</value>
+  </data>
+  <data name="&gt;&gt;cmdVergleich.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdVergleich.Parent" xml:space="preserve">
+    <value>grpZeitraum</value>
+  </data>
+  <data name="&gt;&gt;cmdVergleich.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="groupBox2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="txtGesamt.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="txtGesamt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 390</value>
+  </data>
+  <data name="txtGesamt.MaxLength" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="txtGesamt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 20</value>
+  </data>
+  <data name="txtGesamt.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtGesamt.Name" xml:space="preserve">
+    <value>txtGesamt</value>
+  </data>
+  <data name="&gt;&gt;txtGesamt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtGesamt.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;txtGesamt.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 390</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>(100%)</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblGesamt.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="lblGesamt.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblGesamt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblGesamt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 390</value>
+  </data>
+  <data name="lblGesamt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 13</value>
+  </data>
+  <data name="lblGesamt.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblGesamt.Text" xml:space="preserve">
+    <value>Gesamt:</value>
+  </data>
+  <data name="&gt;&gt;lblGesamt.Name" xml:space="preserve">
+    <value>lblGesamt</value>
+  </data>
+  <data name="&gt;&gt;lblGesamt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGesamt.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;lblGesamt.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lvTest.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lvTest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 19</value>
+  </data>
+  <data name="lvTest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>755, 365</value>
+  </data>
+  <data name="lvTest.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lvTest.Name" xml:space="preserve">
+    <value>lvTest</value>
+  </data>
+  <data name="&gt;&gt;lvTest.Type" xml:space="preserve">
+    <value>Windows.Forms.ListViewBalken, Windows.Forms, Version=1.0.3423.41434, Culture=neutral, PublicKeyToken=82605a553e5279cb</value>
+  </data>
+  <data name="&gt;&gt;lvTest.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;lvTest.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 125</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>778, 416</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Klinische Ergebnisse</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="grpZeitraum.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="txtOPSKode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 36</value>
+  </data>
+  <data name="txtOPSKode.MaxLength" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="txtOPSKode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 20</value>
+  </data>
+  <data name="txtOPSKode.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;txtOPSKode.Name" xml:space="preserve">
+    <value>txtOPSKode</value>
+  </data>
+  <data name="&gt;&gt;txtOPSKode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtOPSKode.Parent" xml:space="preserve">
+    <value>grpZeitraum</value>
+  </data>
+  <data name="&gt;&gt;txtOPSKode.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblOPSKode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblOPSKode.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblOPSKode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 22</value>
+  </data>
+  <data name="lblOPSKode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 13</value>
+  </data>
+  <data name="lblOPSKode.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblOPSKode.Text" xml:space="preserve">
+    <value>OPS-Kode:</value>
+  </data>
+  <data name="&gt;&gt;lblOPSKode.Name" xml:space="preserve">
+    <value>lblOPSKode</value>
+  </data>
+  <data name="&gt;&gt;lblOPSKode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblOPSKode.Parent" xml:space="preserve">
+    <value>grpZeitraum</value>
+  </data>
+  <data name="&gt;&gt;lblOPSKode.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cbKlinischeErgebnisseTypen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>557, 36</value>
+  </data>
+  <data name="cbKlinischeErgebnisseTypen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 21</value>
+  </data>
+  <data name="cbKlinischeErgebnisseTypen.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;cbKlinischeErgebnisseTypen.Name" xml:space="preserve">
+    <value>cbKlinischeErgebnisseTypen</value>
+  </data>
+  <data name="&gt;&gt;cbKlinischeErgebnisseTypen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbKlinischeErgebnisseTypen.Parent" xml:space="preserve">
+    <value>grpZeitraum</value>
+  </data>
+  <data name="&gt;&gt;cbKlinischeErgebnisseTypen.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblKlinischeErgebnisseTypen.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblKlinischeErgebnisseTypen.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblKlinischeErgebnisseTypen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>554, 22</value>
+  </data>
+  <data name="lblKlinischeErgebnisseTypen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 13</value>
+  </data>
+  <data name="lblKlinischeErgebnisseTypen.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblKlinischeErgebnisseTypen.Text" xml:space="preserve">
+    <value>Klinische Ergebnisse:</value>
+  </data>
+  <data name="&gt;&gt;lblKlinischeErgebnisseTypen.Name" xml:space="preserve">
+    <value>lblKlinischeErgebnisseTypen</value>
+  </data>
+  <data name="&gt;&gt;lblKlinischeErgebnisseTypen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblKlinischeErgebnisseTypen.Parent" xml:space="preserve">
+    <value>grpZeitraum</value>
+  </data>
+  <data name="&gt;&gt;lblKlinischeErgebnisseTypen.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="chkExtern.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkExtern.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkExtern.Location" type="System.Drawing.Point, System.Drawing">
+    <value>504, 69</value>
+  </data>
+  <data name="chkExtern.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 17</value>
+  </data>
+  <data name="chkExtern.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="chkExtern.Text" xml:space="preserve">
+    <value>externe</value>
+  </data>
+  <data name="&gt;&gt;chkExtern.Name" xml:space="preserve">
+    <value>chkExtern</value>
+  </data>
+  <data name="&gt;&gt;chkExtern.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkExtern.Parent" xml:space="preserve">
+    <value>grpZeitraum</value>
+  </data>
+  <data name="&gt;&gt;chkExtern.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chkIntern.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkIntern.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkIntern.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 69</value>
+  </data>
+  <data name="chkIntern.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 17</value>
+  </data>
+  <data name="chkIntern.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="chkIntern.Text" xml:space="preserve">
+    <value>klinikinterne</value>
+  </data>
+  <data name="&gt;&gt;chkIntern.Name" xml:space="preserve">
+    <value>chkIntern</value>
+  </data>
+  <data name="&gt;&gt;chkIntern.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkIntern.Parent" xml:space="preserve">
+    <value>grpZeitraum</value>
+  </data>
+  <data name="&gt;&gt;chkIntern.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="grpZeitraum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 12</value>
+  </data>
+  <data name="grpZeitraum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>778, 107</value>
+  </data>
+  <data name="grpZeitraum.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="grpZeitraum.Text" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="&gt;&gt;grpZeitraum.Name" xml:space="preserve">
+    <value>grpZeitraum</value>
+  </data>
+  <data name="&gt;&gt;grpZeitraum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpZeitraum.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpZeitraum.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmdPrint.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="cmdPrint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>605, 547</value>
+  </data>
+  <data name="cmdPrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 23</value>
+  </data>
+  <data name="cmdPrint.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cmdPrint.Text" xml:space="preserve">
+    <value>Drucken...</value>
+  </data>
+  <data name="&gt;&gt;cmdPrint.Name" xml:space="preserve">
+    <value>cmdPrint</value>
+  </data>
+  <data name="&gt;&gt;cmdPrint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdPrint.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdPrint.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>799, 581</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>807, 400</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>KlinischeErgebnisseView</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>KlinischeErgebnisseView</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>Operationen.OperationenForm, Operationen, Version=1.0.3423.41458, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

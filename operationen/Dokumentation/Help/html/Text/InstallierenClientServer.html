@@ -1,0 +1,186 @@
+<html>
+<head>
+<title>
+OP-LOG
+</title>
+<link rel="stylesheet" type="text/css" href="../css/operationen.css"> 
+</head>
+<body>
+
+<h1>Installieren für mehrere Benutzer  an einer zentralen Stelle</h1>
+
+<p>
+<b>Verzeichnisse als vertrauenswürdig einstellen</b>
+<br/>Richten Sie das Programmverzeichnis und das Verzeichnis für die gemeinsamen
+Daten ein wie unter <a href="../manuals/serverInstallation/addTrust.html">Verzeichnisse als vertrauenswürdig einrichten</a> beschrieben.
+</p>
+
+<p>
+<b>Wählen Sie diese Installationsart, wenn</b>
+</p>
+
+<ul>
+<li>Sie das Programm mit mehreren Personen benutzen, aber auf dieselben Daten zugreifen möchten</li>
+<li>Sie das Programm nur an einer Stelle installieren möchten und dieses eine Programm von verschiedenen PCs aus starten wollen</li>
+</ul>
+
+<p>
+<b>Voraussetzungen für die Installation</b>
+</p>
+
+<ul>
+<li>Sie müssen Administrator sein und Lese- und Schreibrechte in dem Verzeichnis haben, in dem das Programm installiert ist.</li>
+<li>Sie müssen Administrator sein und Lese- und Schreibrechte in dem Verzeichnis haben, in dem die gemeinsamen Daten liegen.</li>
+</ul>
+
+<p>
+<b>Voraussetzungen zum Starten des Programmes</b>
+</p>
+
+<ul>
+<li>Sie müssen Leserechte in dem Verzeichnis haben, in dem das Programm installiert ist.</li>
+<li>Sie müssen Lese- und Schreibrechte in dem Verzeichnis für die gemeinsamen Daten haben.</li>
+</ul>
+
+
+<p>
+<b>Hinweis</b>
+</p>
+
+<ul>
+<li>Sobald eine neue Version installiert ist, steht diese allen zur Verfügung.</li>
+<li>Achten Sie bei der Serverinstallation darauf, dass Sie die UNC-Pfade so eingeben, wie Sie vom Client aus später angegeben werden.
+Siehe hierzu auch <a href="../manuals/serverInstallation/addTrust.html">Verzeichnisse als vertrauenswürdig einrichten.</a></li>
+<li>Anstelle eines UNC-Pfades können Sie auch einen Laufwerksbuchstaben verwenden, z.B. 'L:\Logbuch' anstelle von '\\cmaurer\Logbuch'.</li>
+</ul>
+
+<p>
+<b>Installation</b>
+</p>
+
+<ol>
+<li>Führen Sie die Installationsart '3a. Mehrere Benutzer, eine zentrale Installation ... Programm' aus und installieren Sie 
+das Programm einmal auf einem Server, wobei Sie die UNC-Pfade so angeben, wie sie von den Clients aus verwendet werden.
+Hierbei wird die Datei <a href="../manuals/serverInstallation/addTrust.html">addTrust.bat</a> erstellt, die bei einer Client-Installation
+('3b. Mehrere Benutzer ... Verknüpfung') ausgeführt wird.</li>
+<li>Führen Sie auf jedem Client die Installationsart '3b. Mehrere Benutzer, eine zentrale Installation ... Verknüpfung' aus.</li>
+</ol>
+
+<h1>Beispiel für eine Installation</h1>
+
+<h2>Einmal führen Sie folgendes aus, um das Programm an einer zentralen Stelle zu installieren:</h2>
+
+<ol>
+<li>Starten Sie die Installation
+<p>
+    Das Programm soll in <b>\\cmaurer\Logbuch</b> installiert werden.
+    Die gemeinsamen Daten sollen in <b>\\cmaurer\LogbuchDaten</b> installiert werden. 
+    
+    <br />Hierbei ist <b>cmaurer</b> der Rechnername und <b>Logbuch</b> und <b>LogbuchDaten</b> sind freigegebene Verzeichnisse (shared folders).
+    Auch wenn Sie direkt auf dem Rechner <b>cmaurer</b> arbeiten, geben Sie NICHT einen lokalen Pfad wie 
+    'c:\Programme\OP-LOG' an, sondern den UNC-Pfad <b>\\cmaurer\Logbuch</b>, der von allen Clients aus
+    gültig ist.
+</p>
+    <p>
+    Angenommen, <b>\\cmaurer\Logbuch</b> steht allen Benutzern zur Verfügung. Sie installieren das Programm in <b>\\cmaurer\Logbuch</b>
+    und die gemeinsamen Daten in <b>\\cmaurer\LogbuchDaten</b>
+    </p>
+    <p>
+    <img src="..\images\setup\clientServerLaufwerk.jpg" alt="Gemeinsamer UNC Pfad" /> 
+    </p>
+</li>
+<li>Wählen Sie '3a. Mehrere Benutzer, eine zentrale Installation ... Programm' aus
+    <p>
+    <img src="..\images\setup\installClientServer.jpg" alt="Mehrere Benutzer" /> 
+    </p>
+</li>
+<li>Geben Sie als Programmverzeichnis \\cmaurer\Logbuch ein.</li>
+<li>Geben Sie als Datenbankverzeichnis \\cmaurer\LogbuchDaten ein.
+    <p>
+    <img src="..\images\setup\installClientServer3.jpg" alt="Mehrere Benutzer" /> 
+    </p>
+</li>
+<li>Schließen Sie die Installation ab.</li>
+
+<li>
+<p>
+Hierdurch wird die Datei <b>\\cmaurer\Logbuch\addTrust.bat</b> angelegt mit folgendem Inhalt:
+</p>
+
+<table border="1">
+<tr><td>
+<code>
+c:
+<br/>cd %windir%\Microsoft.NET\Framework\v2.0.50727
+<br/>caspol.exe -q -machine -addgroup "All_Code" -url "\\cmaurer\Logbuch\*" FullTrust
+<br/>caspol.exe -q -machine -addgroup "All_Code" -url "\\cmaurer\LogbuchDaten\*" FullTrust
+</code>
+</td></tr></table>
+</li>
+
+<p>
+Stellen Sie sicher, dass nach der Installation in dieser Datei die UNCPFade so stehen wie im Beispiel abgegeben.
+Wenn Sie als nächstes auf dem Client bei der Installation eine Verknüpfung anlegen lassen wie im folgenden beschrieben, wird addTrust.bat ausgeführt
+und muss die richtigen UNC-Pfade enthalten.
+</p>
+
+</ol>
+
+
+<h2>Auf jedem PC, auf dem das Programm gestartet werden soll, tun Sie folgendes:</h2>
+
+<ol>
+<li>Wählen Sie '3b. Mehrere Benutzer, eine zentrale Installation ... Verknüpfung' aus
+    <p>
+    <img src="..\images\setup\installClientServer2.jpg" alt="Mehrere Benutzer" /> 
+    </p>
+</li>
+<li>Geben Sie als Programmverzeichnis \\cmaurer\Logbuch ein.</li>
+<li>Geben Sie als Datenbankverzeichnis \\cmaurer\LogbuchDaten ein.
+    <p>
+    <img src="..\images\setup\installClientServer3.jpg" alt="Mehrere Benutzer" /> 
+    </p>
+</li>
+<li>Schließen Sie die Installation ab.</li>
+</ol>
+
+
+
+
+<p>
+<b>Wenn Sie das Programm auf dem Client nicht starten können,
+weil die Datei <a href="../manuals/serverInstallation/addTrust.html">addTrust.bat</a>
+nicht die richtigen Pfade enthält, tun Sie folgendes auf dem Client:</b>
+</p>
+
+<ol>
+
+<li>Legen eine Verknüpfung an, die auf \\cmaurer\Logbuch\operationen.exe verweist:
+<br/><br/><img src="..\images\setup\clientServerShortcut.jpg" alt="Verknüpfung"/><br/>&nbsp;
+</li>
+<li>Führen Sie folgendes Skript aus, wodurch die Verzeichnisse \\cmaurer\Logbuch und \\cmaurer\LogbuchDaten dem 
+.NET&nbsp;Framework als vertrauenswürdig mitgeteilt werden.
+<br/><br/><b>Dieser Schritt ist notwendig, da
+Sie das Programm sonst nicht starten können</b>.
+
+<table border="1">
+<tr><td>
+<code>
+c:
+<br/>cd %windir%\Microsoft.NET\Framework\v2.0.50727
+<br/>caspol.exe -q -machine -addgroup "All_Code" -url "\\cmaurer\Logbuch\*" FullTrust
+<br/>caspol.exe -q -machine -addgroup "All_Code" -url "\\cmaurer\LogbuchDaten\*" FullTrust
+</code>
+</td></tr></table>
+
+<br/><b>Passen Sie das Skript an, wenn Sie andere Verzeichnisse als \\cmaurer\Logbuch und \\cmaurer\LogbuchDaten verwenden.</b>
+
+</li>
+
+<li>Starten Sie das Programm nun durch Doppelklicken auf die Verknüpfung.</li>
+
+</ol>
+
+
+</body>
+</html>

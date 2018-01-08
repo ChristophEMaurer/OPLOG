@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.op-log.de/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://www.op-log.de/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.op-log.de/">
+      <s:element name="RegisterLicenseOneWay">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="data" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RegisterLicense">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="data" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RegisterLicenseResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="RegisterLicenseResult" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="errorText" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="RegisterLicenseOneWaySoapIn">
+    <wsdl:part name="parameters" element="tns:RegisterLicenseOneWay" />
+  </wsdl:message>
+  <wsdl:message name="RegisterLicenseSoapIn">
+    <wsdl:part name="parameters" element="tns:RegisterLicense" />
+  </wsdl:message>
+  <wsdl:message name="RegisterLicenseSoapOut">
+    <wsdl:part name="parameters" element="tns:RegisterLicenseResponse" />
+  </wsdl:message>
+  <wsdl:portType name="OperationenWebServiceSoap">
+    <wsdl:operation name="RegisterLicenseOneWay">
+      <wsdl:input message="tns:RegisterLicenseOneWaySoapIn" />
+    </wsdl:operation>
+    <wsdl:operation name="RegisterLicense">
+      <wsdl:input message="tns:RegisterLicenseSoapIn" />
+      <wsdl:output message="tns:RegisterLicenseSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="OperationenWebServiceSoap" type="tns:OperationenWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="RegisterLicenseOneWay">
+      <soap:operation soapAction="http://www.op-log.de/RegisterLicenseOneWay" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="RegisterLicense">
+      <soap:operation soapAction="http://www.op-log.de/RegisterLicense" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="OperationenWebServiceSoap12" type="tns:OperationenWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="RegisterLicenseOneWay">
+      <soap12:operation soapAction="http://www.op-log.de/RegisterLicenseOneWay" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="RegisterLicense">
+      <soap12:operation soapAction="http://www.op-log.de/RegisterLicense" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="OperationenWebService">
+    <wsdl:port name="OperationenWebServiceSoap" binding="tns:OperationenWebServiceSoap">
+      <soap:address location="http://localhost:1966/www/OperationenWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="OperationenWebServiceSoap12" binding="tns:OperationenWebServiceSoap12">
+      <soap12:address location="http://localhost:1966/www/OperationenWebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

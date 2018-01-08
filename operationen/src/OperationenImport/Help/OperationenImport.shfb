@@ -1,0 +1,48 @@
+﻿<project schemaVersion="1.3.3.1">
+    <assemblies>
+        <assembly assemblyPath="D:\Daten\Develop\DOT.NET\Operationen\src\OperationenImport\bin\Release\Operationen.OperationenImport.dll" xmlCommentsPath="D:\Daten\Develop\DOT.NET\Operationen\src\OperationenImport\bin\Release\Operationen.OperationenImport.xml" commentsOnly="False" />
+    </assemblies>
+    <namespaceSummaries>
+        <namespaceSummaryItem name="" isDocumented="False" />
+        <namespaceSummaryItem name="Operationen" isDocumented="True">This documentation explains how to create import plugins for Operationen-Logbuch.
+
+&lt;ol&gt;
+&lt;li&gt;Derive a class from OperationenImport and fill out the required virtual functions&lt;/li&gt;
+&lt;li&gt;Copy your assembly into the plugins directory&lt;/li&gt;
+&lt;li&gt;Click "Extras &gt;&gt; Datenimport &gt;&gt; Operationen importieren" and your assembly will appear in the list of available plugins&lt;/li&gt;
+&lt;li&gt;Follow the instructions of the Import Dialog to complete the import using your plugin&lt;/li&gt;
+&lt;/ol&gt;
+
+The class OperationenImport is contained in assembly Operationen.OperationenImport.dll which comes with the Operationen-Logbuch Software.
+You will need to reference this assembly as you derive a new class from it.</namespaceSummaryItem>
+    </namespaceSummaries>
+    <contentPlacement>AboveNamespaces</contentPlacement>
+    <projectSummary>This documentation explains how to create import plugins for Logbuch-Weiterbildung - www.logbuch-weiterbildung.de</projectSummary>
+    <sandcastlePath />
+    <hhcPath />
+    <hxcompPath />
+    <outputPath>.\</outputPath>
+    <helpFileFormat>HtmlHelp1x</helpFileFormat>
+    <cleanIntermediates>True</cleanIntermediates>
+    <purgeDuplicateTopics>True</purgeDuplicateTopics>
+    <cppCommentsFixup>False</cppCommentsFixup>
+    <frameworkVersion>2.0.50727</frameworkVersion>
+    <binaryTOC>True</binaryTOC>
+    <includeFavorites>False</includeFavorites>
+    <preliminary>False</preliminary>
+    <rootNSContainer>False</rootNSContainer>
+    <helpTitle>Logbuch Weiterbildung plugin documentation</helpTitle>
+    <htmlHelpName>Logbuch-Weiterbildung-Plugins</htmlHelpName>
+    <language>en-US</language>
+    <copyrightHref />
+    <copyrightText>Copyright Christoph Maurer [ch.maurer@gmx.de]</copyrightText>
+    <feedbackEMailAddress />
+    <headerText />
+    <projectLinks>Local</projectLinks>
+    <sdkLinks>Msdn</sdkLinks>
+    <presentationStyle>Prototype</presentationStyle>
+    <namingMethod>Guid</namingMethod>
+    <syntaxFilters>Standard</syntaxFilters>
+    <missingTags>Summary, Parameter, Returns, AutoDocumentCtors</missingTags>
+    <visibleItems>Protected, SealedProtected</visibleItems>
+</project>

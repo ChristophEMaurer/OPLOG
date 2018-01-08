@@ -1,0 +1,3628 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>269, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cmdOperationenKatalogView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 2</value>
+  </data>
+  <data name="cmdOperationenKatalogView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 0</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cmdOperationenKatalogView.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cmdOperationenKatalogView.Text" xml:space="preserve">
+    <value>OPS-Katalog</value>
+  </data>
+  <data name="&gt;&gt;cmdOperationenKatalogView.Name" xml:space="preserve">
+    <value>cmdOperationenKatalogView</value>
+  </data>
+  <data name="&gt;&gt;cmdOperationenKatalogView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdOperationenKatalogView.Parent" xml:space="preserve">
+    <value>rgrOffizielleDokumente1</value>
+  </data>
+  <data name="&gt;&gt;cmdOperationenKatalogView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdGebieteView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 2</value>
+  </data>
+  <data name="cmdGebieteView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 0</value>
+  </data>
+  <data name="cmdGebieteView.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="cmdGebieteView.Text" xml:space="preserve">
+    <value>Facharzt Gebiete</value>
+  </data>
+  <data name="&gt;&gt;cmdGebieteView.Name" xml:space="preserve">
+    <value>cmdGebieteView</value>
+  </data>
+  <data name="&gt;&gt;cmdGebieteView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdGebieteView.Parent" xml:space="preserve">
+    <value>rgrOffizielleDokumente1</value>
+  </data>
+  <data name="&gt;&gt;cmdGebieteView.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmdRichtlinienView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 2</value>
+  </data>
+  <data name="cmdRichtlinienView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 0</value>
+  </data>
+  <data name="cmdRichtlinienView.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmdRichtlinienView.Text" xml:space="preserve">
+    <value>Weiterbildungs Richtlinien</value>
+  </data>
+  <data name="&gt;&gt;cmdRichtlinienView.Name" xml:space="preserve">
+    <value>cmdRichtlinienView</value>
+  </data>
+  <data name="&gt;&gt;cmdRichtlinienView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdRichtlinienView.Parent" xml:space="preserve">
+    <value>rgrOffizielleDokumente1</value>
+  </data>
+  <data name="&gt;&gt;cmdRichtlinienView.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rgrOffizielleDokumente1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 3</value>
+  </data>
+  <data name="rgrOffizielleDokumente1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 0</value>
+  </data>
+  <data name="rgrOffizielleDokumente1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rgrOffizielleDokumente1.Text" xml:space="preserve">
+    <value>Offizielle Dokumente</value>
+  </data>
+  <data name="&gt;&gt;rgrOffizielleDokumente1.Name" xml:space="preserve">
+    <value>rgrOffizielleDokumente1</value>
+  </data>
+  <data name="&gt;&gt;rgrOffizielleDokumente1.Type" xml:space="preserve">
+    <value>Elegant.Ui.RibbonGroup, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;rgrOffizielleDokumente1.Parent" xml:space="preserve">
+    <value>rtpOffizielleDokumente</value>
+  </data>
+  <data name="&gt;&gt;rgrOffizielleDokumente1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdBaekWbOrdnung.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 2</value>
+  </data>
+  <data name="cmdBaekWbOrdnung.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 0</value>
+  </data>
+  <data name="cmdBaekWbOrdnung.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="cmdBaekWbOrdnung.Text" xml:space="preserve">
+    <value>Ärztekammer Weiterbildungsordnung</value>
+  </data>
+  <data name="&gt;&gt;cmdBaekWbOrdnung.Name" xml:space="preserve">
+    <value>cmdBaekWbOrdnung</value>
+  </data>
+  <data name="&gt;&gt;cmdBaekWbOrdnung.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdBaekWbOrdnung.Parent" xml:space="preserve">
+    <value>rgrOffizielleDokumente2</value>
+  </data>
+  <data name="&gt;&gt;cmdBaekWbOrdnung.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdBaekWbRichtlinien.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 2</value>
+  </data>
+  <data name="cmdBaekWbRichtlinien.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 0</value>
+  </data>
+  <data name="cmdBaekWbRichtlinien.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="cmdBaekWbRichtlinien.Text" xml:space="preserve">
+    <value>Ärztekammer Weiterbildungsrichtlinien</value>
+  </data>
+  <data name="&gt;&gt;cmdBaekWbRichtlinien.Name" xml:space="preserve">
+    <value>cmdBaekWbRichtlinien</value>
+  </data>
+  <data name="&gt;&gt;cmdBaekWbRichtlinien.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdBaekWbRichtlinien.Parent" xml:space="preserve">
+    <value>rgrOffizielleDokumente2</value>
+  </data>
+  <data name="&gt;&gt;cmdBaekWbRichtlinien.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rgrOffizielleDokumente2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 3</value>
+  </data>
+  <data name="rgrOffizielleDokumente2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 0</value>
+  </data>
+  <data name="rgrOffizielleDokumente2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rgrOffizielleDokumente2.Text" xml:space="preserve">
+    <value>Internet</value>
+  </data>
+  <data name="&gt;&gt;rgrOffizielleDokumente2.Name" xml:space="preserve">
+    <value>rgrOffizielleDokumente2</value>
+  </data>
+  <data name="&gt;&gt;rgrOffizielleDokumente2.Type" xml:space="preserve">
+    <value>Elegant.Ui.RibbonGroup, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;rgrOffizielleDokumente2.Parent" xml:space="preserve">
+    <value>rtpOffizielleDokumente</value>
+  </data>
+  <data name="&gt;&gt;rgrOffizielleDokumente2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="rtpOffizielleDokumente.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="rtpOffizielleDokumente.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="rtpOffizielleDokumente.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1122, 101</value>
+  </data>
+  <data name="rtpOffizielleDokumente.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rtpOffizielleDokumente.Text" xml:space="preserve">
+    <value>Offizielle Dokumente</value>
+  </data>
+  <data name="&gt;&gt;rtpOffizielleDokumente.Name" xml:space="preserve">
+    <value>rtpOffizielleDokumente</value>
+  </data>
+  <data name="&gt;&gt;rtpOffizielleDokumente.Type" xml:space="preserve">
+    <value>Elegant.Ui.RibbonTabPage, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="cmdSecUserOverviewView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 2</value>
+  </data>
+  <data name="cmdSecUserOverviewView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 0</value>
+  </data>
+  <data name="cmdSecUserOverviewView.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="cmdSecUserOverviewView.Text" xml:space="preserve">
+    <value>Übersicht</value>
+  </data>
+  <data name="&gt;&gt;cmdSecUserOverviewView.Name" xml:space="preserve">
+    <value>cmdSecUserOverviewView</value>
+  </data>
+  <data name="&gt;&gt;cmdSecUserOverviewView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdSecUserOverviewView.Parent" xml:space="preserve">
+    <value>rgrVerwaltung1</value>
+  </data>
+  <data name="&gt;&gt;cmdSecUserOverviewView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdSecGroupsView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 2</value>
+  </data>
+  <data name="cmdSecGroupsView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 0</value>
+  </data>
+  <data name="cmdSecGroupsView.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="cmdSecGroupsView.Text" xml:space="preserve">
+    <value>Rollen</value>
+  </data>
+  <data name="&gt;&gt;cmdSecGroupsView.Name" xml:space="preserve">
+    <value>cmdSecGroupsView</value>
+  </data>
+  <data name="&gt;&gt;cmdSecGroupsView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdSecGroupsView.Parent" xml:space="preserve">
+    <value>rgrVerwaltung1</value>
+  </data>
+  <data name="&gt;&gt;cmdSecGroupsView.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmdSecGroupsChirurgenView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 2</value>
+  </data>
+  <data name="cmdSecGroupsChirurgenView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 0</value>
+  </data>
+  <data name="cmdSecGroupsChirurgenView.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="cmdSecGroupsChirurgenView.Text" xml:space="preserve">
+    <value>Rollen und Benutzer</value>
+  </data>
+  <data name="&gt;&gt;cmdSecGroupsChirurgenView.Name" xml:space="preserve">
+    <value>cmdSecGroupsChirurgenView</value>
+  </data>
+  <data name="&gt;&gt;cmdSecGroupsChirurgenView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdSecGroupsChirurgenView.Parent" xml:space="preserve">
+    <value>rgrVerwaltung1</value>
+  </data>
+  <data name="&gt;&gt;cmdSecGroupsChirurgenView.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmdSecGroupsSecRightsView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 2</value>
+  </data>
+  <data name="cmdSecGroupsSecRightsView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 0</value>
+  </data>
+  <data name="cmdSecGroupsSecRightsView.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="cmdSecGroupsSecRightsView.Text" xml:space="preserve">
+    <value>Rollen und Rechte</value>
+  </data>
+  <data name="&gt;&gt;cmdSecGroupsSecRightsView.Name" xml:space="preserve">
+    <value>cmdSecGroupsSecRightsView</value>
+  </data>
+  <data name="&gt;&gt;cmdSecGroupsSecRightsView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdSecGroupsSecRightsView.Parent" xml:space="preserve">
+    <value>rgrVerwaltung1</value>
+  </data>
+  <data name="&gt;&gt;cmdSecGroupsSecRightsView.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="rgrVerwaltung1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 3</value>
+  </data>
+  <data name="rgrVerwaltung1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 0</value>
+  </data>
+  <data name="rgrVerwaltung1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="rgrVerwaltung1.Text" xml:space="preserve">
+    <value>Rollen und Rechte</value>
+  </data>
+  <data name="&gt;&gt;rgrVerwaltung1.Name" xml:space="preserve">
+    <value>rgrVerwaltung1</value>
+  </data>
+  <data name="&gt;&gt;rgrVerwaltung1.Type" xml:space="preserve">
+    <value>Elegant.Ui.RibbonGroup, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;rgrVerwaltung1.Parent" xml:space="preserve">
+    <value>rtpVerwaltung</value>
+  </data>
+  <data name="&gt;&gt;rgrVerwaltung1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdAbteilungenView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 2</value>
+  </data>
+  <data name="cmdAbteilungenView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 0</value>
+  </data>
+  <data name="cmdAbteilungenView.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="cmdAbteilungenView.Text" xml:space="preserve">
+    <value>Abteilungen</value>
+  </data>
+  <data name="&gt;&gt;cmdAbteilungenView.Name" xml:space="preserve">
+    <value>cmdAbteilungenView</value>
+  </data>
+  <data name="&gt;&gt;cmdAbteilungenView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdAbteilungenView.Parent" xml:space="preserve">
+    <value>rgrVerwaltung2</value>
+  </data>
+  <data name="&gt;&gt;cmdAbteilungenView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdAbteilungenChirurgenView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 2</value>
+  </data>
+  <data name="cmdAbteilungenChirurgenView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 0</value>
+  </data>
+  <data name="cmdAbteilungenChirurgenView.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="cmdAbteilungenChirurgenView.Text" xml:space="preserve">
+    <value>Abteilungen und Chirurgen</value>
+  </data>
+  <data name="&gt;&gt;cmdAbteilungenChirurgenView.Name" xml:space="preserve">
+    <value>cmdAbteilungenChirurgenView</value>
+  </data>
+  <data name="&gt;&gt;cmdAbteilungenChirurgenView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdAbteilungenChirurgenView.Parent" xml:space="preserve">
+    <value>rgrVerwaltung2</value>
+  </data>
+  <data name="&gt;&gt;cmdAbteilungenChirurgenView.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmdWeiterbilderChirurgenView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 2</value>
+  </data>
+  <data name="cmdWeiterbilderChirurgenView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 0</value>
+  </data>
+  <data name="cmdWeiterbilderChirurgenView.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="cmdWeiterbilderChirurgenView.Text" xml:space="preserve">
+    <value>Weiterbilder und Chirurgen</value>
+  </data>
+  <data name="&gt;&gt;cmdWeiterbilderChirurgenView.Name" xml:space="preserve">
+    <value>cmdWeiterbilderChirurgenView</value>
+  </data>
+  <data name="&gt;&gt;cmdWeiterbilderChirurgenView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdWeiterbilderChirurgenView.Parent" xml:space="preserve">
+    <value>rgrVerwaltung2</value>
+  </data>
+  <data name="&gt;&gt;cmdWeiterbilderChirurgenView.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rgrVerwaltung2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 3</value>
+  </data>
+  <data name="rgrVerwaltung2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 0</value>
+  </data>
+  <data name="rgrVerwaltung2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="rgrVerwaltung2.Text" xml:space="preserve">
+    <value>Abteilungen</value>
+  </data>
+  <data name="&gt;&gt;rgrVerwaltung2.Name" xml:space="preserve">
+    <value>rgrVerwaltung2</value>
+  </data>
+  <data name="&gt;&gt;rgrVerwaltung2.Type" xml:space="preserve">
+    <value>Elegant.Ui.RibbonGroup, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;rgrVerwaltung2.Parent" xml:space="preserve">
+    <value>rtpVerwaltung</value>
+  </data>
+  <data name="&gt;&gt;rgrVerwaltung2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmdOperationenSummaryView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 2</value>
+  </data>
+  <data name="cmdOperationenSummaryView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 0</value>
+  </data>
+  <data name="cmdOperationenSummaryView.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="cmdOperationenSummaryView.Text" xml:space="preserve">
+    <value>Übersicht</value>
+  </data>
+  <data name="&gt;&gt;cmdOperationenSummaryView.Name" xml:space="preserve">
+    <value>cmdOperationenSummaryView</value>
+  </data>
+  <data name="&gt;&gt;cmdOperationenSummaryView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdOperationenSummaryView.Parent" xml:space="preserve">
+    <value>rgrVerwaltung3</value>
+  </data>
+  <data name="&gt;&gt;cmdOperationenSummaryView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rgrVerwaltung3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>437, 3</value>
+  </data>
+  <data name="rgrVerwaltung3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 0</value>
+  </data>
+  <data name="rgrVerwaltung3.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="rgrVerwaltung3.Text" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="&gt;&gt;rgrVerwaltung3.Name" xml:space="preserve">
+    <value>rgrVerwaltung3</value>
+  </data>
+  <data name="&gt;&gt;rgrVerwaltung3.Type" xml:space="preserve">
+    <value>Elegant.Ui.RibbonGroup, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;rgrVerwaltung3.Parent" xml:space="preserve">
+    <value>rtpVerwaltung</value>
+  </data>
+  <data name="&gt;&gt;rgrVerwaltung3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rtpVerwaltung.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="rtpVerwaltung.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="rtpVerwaltung.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1122, 101</value>
+  </data>
+  <data name="rtpVerwaltung.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rtpVerwaltung.Text" xml:space="preserve">
+    <value>Verwaltung</value>
+  </data>
+  <data name="&gt;&gt;rtpVerwaltung.Name" xml:space="preserve">
+    <value>rtpVerwaltung</value>
+  </data>
+  <data name="&gt;&gt;rtpVerwaltung.Type" xml:space="preserve">
+    <value>Elegant.Ui.RibbonTabPage, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="cmdOperationenEditView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 2</value>
+  </data>
+  <data name="cmdOperationenEditView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 0</value>
+  </data>
+  <data name="cmdOperationenEditView.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmdOperationenEditView.Text" xml:space="preserve">
+    <value>Prozeduren eingeben</value>
+  </data>
+  <data name="&gt;&gt;cmdOperationenEditView.Name" xml:space="preserve">
+    <value>cmdOperationenEditView</value>
+  </data>
+  <data name="&gt;&gt;cmdOperationenEditView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdOperationenEditView.Parent" xml:space="preserve">
+    <value>rgrBearbeiten1</value>
+  </data>
+  <data name="&gt;&gt;cmdOperationenEditView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdChirurgenRichtlinienView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 2</value>
+  </data>
+  <data name="cmdChirurgenRichtlinienView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 0</value>
+  </data>
+  <data name="cmdChirurgenRichtlinienView.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="cmdChirurgenRichtlinienView.Text" xml:space="preserve">
+    <value>Extern erfüllte Richtzahlen nachtragen</value>
+  </data>
+  <data name="&gt;&gt;cmdChirurgenRichtlinienView.Name" xml:space="preserve">
+    <value>cmdChirurgenRichtlinienView</value>
+  </data>
+  <data name="&gt;&gt;cmdChirurgenRichtlinienView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdChirurgenRichtlinienView.Parent" xml:space="preserve">
+    <value>rgrBearbeiten1</value>
+  </data>
+  <data name="&gt;&gt;cmdChirurgenRichtlinienView.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rgrBearbeiten1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 3</value>
+  </data>
+  <data name="rgrBearbeiten1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 0</value>
+  </data>
+  <data name="rgrBearbeiten1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rgrBearbeiten1.Text" xml:space="preserve">
+    <value>Prozeduren</value>
+  </data>
+  <data name="&gt;&gt;rgrBearbeiten1.Name" xml:space="preserve">
+    <value>rgrBearbeiten1</value>
+  </data>
+  <data name="&gt;&gt;rgrBearbeiten1.Type" xml:space="preserve">
+    <value>Elegant.Ui.RibbonGroup, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;rgrBearbeiten1.Parent" xml:space="preserve">
+    <value>rtpBearbeiten</value>
+  </data>
+  <data name="&gt;&gt;rgrBearbeiten1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdRichtlinienOpsKodeUnassignedView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 2</value>
+  </data>
+  <data name="cmdRichtlinienOpsKodeUnassignedView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 0</value>
+  </data>
+  <data name="cmdRichtlinienOpsKodeUnassignedView.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="cmdRichtlinienOpsKodeUnassignedView.Text" xml:space="preserve">
+    <value>Zuordnung von  Prozeduren zu Richtlinien</value>
+  </data>
+  <data name="&gt;&gt;cmdRichtlinienOpsKodeUnassignedView.Name" xml:space="preserve">
+    <value>cmdRichtlinienOpsKodeUnassignedView</value>
+  </data>
+  <data name="&gt;&gt;cmdRichtlinienOpsKodeUnassignedView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdRichtlinienOpsKodeUnassignedView.Parent" xml:space="preserve">
+    <value>rgrBearbeiten2</value>
+  </data>
+  <data name="&gt;&gt;cmdRichtlinienOpsKodeUnassignedView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rgrBearbeiten2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 3</value>
+  </data>
+  <data name="rgrBearbeiten2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 0</value>
+  </data>
+  <data name="rgrBearbeiten2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="rgrBearbeiten2.Text" xml:space="preserve">
+    <value>Weiterbildungsrichtlinien</value>
+  </data>
+  <data name="&gt;&gt;rgrBearbeiten2.Name" xml:space="preserve">
+    <value>rgrBearbeiten2</value>
+  </data>
+  <data name="&gt;&gt;rgrBearbeiten2.Type" xml:space="preserve">
+    <value>Elegant.Ui.RibbonGroup, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;rgrBearbeiten2.Parent" xml:space="preserve">
+    <value>rtpBearbeiten</value>
+  </data>
+  <data name="&gt;&gt;rgrBearbeiten2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rtpBearbeiten.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="rtpBearbeiten.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="rtpBearbeiten.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1122, 101</value>
+  </data>
+  <data name="rtpBearbeiten.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rtpBearbeiten.Text" xml:space="preserve">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="&gt;&gt;rtpBearbeiten.Name" xml:space="preserve">
+    <value>rtpBearbeiten</value>
+  </data>
+  <data name="&gt;&gt;rtpBearbeiten.Type" xml:space="preserve">
+    <value>Elegant.Ui.RibbonTabPage, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="cmdOperationenView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 2</value>
+  </data>
+  <data name="cmdOperationenView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 72</value>
+  </data>
+  <data name="cmdOperationenView.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmdOperationenView.Text" xml:space="preserve">
+    <value>Liste aller durchgeführten Proz.</value>
+  </data>
+  <data name="&gt;&gt;cmdOperationenView.Name" xml:space="preserve">
+    <value>cmdOperationenView</value>
+  </data>
+  <data name="&gt;&gt;cmdOperationenView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdOperationenView.Parent" xml:space="preserve">
+    <value>rgrAuswertungen1</value>
+  </data>
+  <data name="&gt;&gt;cmdOperationenView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdOperationenZeitenVergleichView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 2</value>
+  </data>
+  <data name="cmdOperationenZeitenVergleichView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 72</value>
+  </data>
+  <data name="cmdOperationenZeitenVergleichView.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cmdOperationenZeitenVergleichView.Text" xml:space="preserve">
+    <value>Verbrachte Zeit im OP</value>
+  </data>
+  <data name="&gt;&gt;cmdOperationenZeitenVergleichView.Name" xml:space="preserve">
+    <value>cmdOperationenZeitenVergleichView</value>
+  </data>
+  <data name="&gt;&gt;cmdOperationenZeitenVergleichView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdOperationenZeitenVergleichView.Parent" xml:space="preserve">
+    <value>rgrAuswertungen1</value>
+  </data>
+  <data name="&gt;&gt;cmdOperationenZeitenVergleichView.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmdOPDauerFortschrittView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 2</value>
+  </data>
+  <data name="cmdOPDauerFortschrittView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 72</value>
+  </data>
+  <data name="cmdOPDauerFortschrittView.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cmdOPDauerFortschrittView.Text" xml:space="preserve">
+    <value>Dauer eines Eingriffes</value>
+  </data>
+  <data name="&gt;&gt;cmdOPDauerFortschrittView.Name" xml:space="preserve">
+    <value>cmdOPDauerFortschrittView</value>
+  </data>
+  <data name="&gt;&gt;cmdOPDauerFortschrittView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdOPDauerFortschrittView.Parent" xml:space="preserve">
+    <value>rgrAuswertungen1</value>
+  </data>
+  <data name="&gt;&gt;cmdOPDauerFortschrittView.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmdKlinischeErgebnisseView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>252, 2</value>
+  </data>
+  <data name="cmdKlinischeErgebnisseView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 72</value>
+  </data>
+  <data name="cmdKlinischeErgebnisseView.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="cmdKlinischeErgebnisseView.Text" xml:space="preserve">
+    <value>Klinische Ergebnisse</value>
+  </data>
+  <data name="&gt;&gt;cmdKlinischeErgebnisseView.Name" xml:space="preserve">
+    <value>cmdKlinischeErgebnisseView</value>
+  </data>
+  <data name="&gt;&gt;cmdKlinischeErgebnisseView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdKlinischeErgebnisseView.Parent" xml:space="preserve">
+    <value>rgrAuswertungen1</value>
+  </data>
+  <data name="&gt;&gt;cmdKlinischeErgebnisseView.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="rgrAuswertungen1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 3</value>
+  </data>
+  <data name="rgrAuswertungen1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>317, 94</value>
+  </data>
+  <data name="rgrAuswertungen1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rgrAuswertungen1.Text" xml:space="preserve">
+    <value>Verschiedenes</value>
+  </data>
+  <data name="&gt;&gt;rgrAuswertungen1.Name" xml:space="preserve">
+    <value>rgrAuswertungen1</value>
+  </data>
+  <data name="&gt;&gt;rgrAuswertungen1.Type" xml:space="preserve">
+    <value>Elegant.Ui.RibbonGroup, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;rgrAuswertungen1.Parent" xml:space="preserve">
+    <value>rtpAuswertungen</value>
+  </data>
+  <data name="&gt;&gt;rgrAuswertungen1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdChirurgOperationenView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 2</value>
+  </data>
+  <data name="cmdChirurgOperationenView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 72</value>
+  </data>
+  <data name="cmdChirurgOperationenView.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmdChirurgOperationenView.Text" xml:space="preserve">
+    <value>Ausgeführte Proz. Einzelübersicht</value>
+  </data>
+  <data name="&gt;&gt;cmdChirurgOperationenView.Name" xml:space="preserve">
+    <value>cmdChirurgOperationenView</value>
+  </data>
+  <data name="&gt;&gt;cmdChirurgOperationenView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdChirurgOperationenView.Parent" xml:space="preserve">
+    <value>rgrAuswertungen2</value>
+  </data>
+  <data name="&gt;&gt;cmdChirurgOperationenView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdGesamtOperationenView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 2</value>
+  </data>
+  <data name="cmdGesamtOperationenView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 72</value>
+  </data>
+  <data name="cmdGesamtOperationenView.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cmdGesamtOperationenView.Text" xml:space="preserve">
+    <value>Ausgeführte Proz. Gesamtübersicht</value>
+  </data>
+  <data name="&gt;&gt;cmdGesamtOperationenView.Name" xml:space="preserve">
+    <value>cmdGesamtOperationenView</value>
+  </data>
+  <data name="&gt;&gt;cmdGesamtOperationenView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdGesamtOperationenView.Parent" xml:space="preserve">
+    <value>rgrAuswertungen2</value>
+  </data>
+  <data name="&gt;&gt;cmdGesamtOperationenView.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmdPlanOperationVergleichIstView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 2</value>
+  </data>
+  <data name="cmdPlanOperationVergleichIstView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 72</value>
+  </data>
+  <data name="cmdPlanOperationVergleichIstView.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="cmdPlanOperationVergleichIstView.Text" xml:space="preserve">
+    <value>Verteilung der Proz. ein OPSKode</value>
+  </data>
+  <data name="&gt;&gt;cmdPlanOperationVergleichIstView.Name" xml:space="preserve">
+    <value>cmdPlanOperationVergleichIstView</value>
+  </data>
+  <data name="&gt;&gt;cmdPlanOperationVergleichIstView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdPlanOperationVergleichIstView.Parent" xml:space="preserve">
+    <value>rgrAuswertungen2</value>
+  </data>
+  <data name="&gt;&gt;cmdPlanOperationVergleichIstView.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmdOperationenVergleichView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>307, 2</value>
+  </data>
+  <data name="cmdOperationenVergleichView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 72</value>
+  </data>
+  <data name="cmdOperationenVergleichView.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cmdOperationenVergleichView.Text" xml:space="preserve">
+    <value>Verteilung der Proz. mehrere OPSKodes</value>
+  </data>
+  <data name="&gt;&gt;cmdOperationenVergleichView.Name" xml:space="preserve">
+    <value>cmdOperationenVergleichView</value>
+  </data>
+  <data name="&gt;&gt;cmdOperationenVergleichView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdOperationenVergleichView.Parent" xml:space="preserve">
+    <value>rgrAuswertungen2</value>
+  </data>
+  <data name="&gt;&gt;cmdOperationenVergleichView.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="rgrAuswertungen2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>323, 3</value>
+  </data>
+  <data name="rgrAuswertungen2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>419, 94</value>
+  </data>
+  <data name="rgrAuswertungen2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rgrAuswertungen2.Text" xml:space="preserve">
+    <value>Verteilung</value>
+  </data>
+  <data name="&gt;&gt;rgrAuswertungen2.Name" xml:space="preserve">
+    <value>rgrAuswertungen2</value>
+  </data>
+  <data name="&gt;&gt;rgrAuswertungen2.Type" xml:space="preserve">
+    <value>Elegant.Ui.RibbonGroup, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;rgrAuswertungen2.Parent" xml:space="preserve">
+    <value>rtpAuswertungen</value>
+  </data>
+  <data name="&gt;&gt;rgrAuswertungen2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmdRichtlinienVergleichView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 2</value>
+  </data>
+  <data name="cmdRichtlinienVergleichView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 72</value>
+  </data>
+  <data name="cmdRichtlinienVergleichView.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="cmdRichtlinienVergleichView.Text" xml:space="preserve">
+    <value>Einzel Übersicht</value>
+  </data>
+  <data name="&gt;&gt;cmdRichtlinienVergleichView.Name" xml:space="preserve">
+    <value>cmdRichtlinienVergleichView</value>
+  </data>
+  <data name="&gt;&gt;cmdRichtlinienVergleichView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdRichtlinienVergleichView.Parent" xml:space="preserve">
+    <value>rgrAuswertungen3</value>
+  </data>
+  <data name="&gt;&gt;cmdRichtlinienVergleichView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdRichtlinienVergleichOverviewView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 2</value>
+  </data>
+  <data name="cmdRichtlinienVergleichOverviewView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 72</value>
+  </data>
+  <data name="cmdRichtlinienVergleichOverviewView.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="cmdRichtlinienVergleichOverviewView.Text" xml:space="preserve">
+    <value>Gesamt Übersicht</value>
+  </data>
+  <data name="&gt;&gt;cmdRichtlinienVergleichOverviewView.Name" xml:space="preserve">
+    <value>cmdRichtlinienVergleichOverviewView</value>
+  </data>
+  <data name="&gt;&gt;cmdRichtlinienVergleichOverviewView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdRichtlinienVergleichOverviewView.Parent" xml:space="preserve">
+    <value>rgrAuswertungen3</value>
+  </data>
+  <data name="&gt;&gt;cmdRichtlinienVergleichOverviewView.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rgrAuswertungen3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>744, 3</value>
+  </data>
+  <data name="rgrAuswertungen3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 94</value>
+  </data>
+  <data name="rgrAuswertungen3.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="rgrAuswertungen3.Text" xml:space="preserve">
+    <value>Weiterbildungsstand</value>
+  </data>
+  <data name="&gt;&gt;rgrAuswertungen3.Name" xml:space="preserve">
+    <value>rgrAuswertungen3</value>
+  </data>
+  <data name="&gt;&gt;rgrAuswertungen3.Type" xml:space="preserve">
+    <value>Elegant.Ui.RibbonGroup, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;rgrAuswertungen3.Parent" xml:space="preserve">
+    <value>rtpAuswertungen</value>
+  </data>
+  <data name="&gt;&gt;rgrAuswertungen3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rtpAuswertungen.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="rtpAuswertungen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="rtpAuswertungen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1230, 101</value>
+  </data>
+  <data name="rtpAuswertungen.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rtpAuswertungen.Text" xml:space="preserve">
+    <value>Auswertungen</value>
+  </data>
+  <data name="&gt;&gt;rtpAuswertungen.Name" xml:space="preserve">
+    <value>rtpAuswertungen</value>
+  </data>
+  <data name="&gt;&gt;rtpAuswertungen.Type" xml:space="preserve">
+    <value>Elegant.Ui.RibbonTabPage, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="cmdOperationenImportView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 2</value>
+  </data>
+  <data name="cmdOperationenImportView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 0</value>
+  </data>
+  <data name="cmdOperationenImportView.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="cmdOperationenImportView.Text" xml:space="preserve">
+    <value>Operationen</value>
+  </data>
+  <data name="&gt;&gt;cmdOperationenImportView.Name" xml:space="preserve">
+    <value>cmdOperationenImportView</value>
+  </data>
+  <data name="&gt;&gt;cmdOperationenImportView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdOperationenImportView.Parent" xml:space="preserve">
+    <value>rgrImport1</value>
+  </data>
+  <data name="&gt;&gt;cmdOperationenImportView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdImportChirurgenExcludeView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 2</value>
+  </data>
+  <data name="cmdImportChirurgenExcludeView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 0</value>
+  </data>
+  <data name="cmdImportChirurgenExcludeView.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cmdImportChirurgenExcludeView.Text" xml:space="preserve">
+    <value>Chirurgen Ausschlüsse festlegen</value>
+  </data>
+  <data name="&gt;&gt;cmdImportChirurgenExcludeView.Name" xml:space="preserve">
+    <value>cmdImportChirurgenExcludeView</value>
+  </data>
+  <data name="&gt;&gt;cmdImportChirurgenExcludeView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdImportChirurgenExcludeView.Parent" xml:space="preserve">
+    <value>rgrImport1</value>
+  </data>
+  <data name="&gt;&gt;cmdImportChirurgenExcludeView.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmdExecAutoImport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 2</value>
+  </data>
+  <data name="cmdExecAutoImport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 0</value>
+  </data>
+  <data name="cmdExecAutoImport.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="cmdExecAutoImport.Text" xml:space="preserve">
+    <value>Automatischer Prozeduren Import</value>
+  </data>
+  <data name="&gt;&gt;cmdExecAutoImport.Name" xml:space="preserve">
+    <value>cmdExecAutoImport</value>
+  </data>
+  <data name="&gt;&gt;cmdExecAutoImport.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdExecAutoImport.Parent" xml:space="preserve">
+    <value>rgrImport1</value>
+  </data>
+  <data name="&gt;&gt;cmdExecAutoImport.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rgrImport1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 3</value>
+  </data>
+  <data name="rgrImport1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>274, 0</value>
+  </data>
+  <data name="rgrImport1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rgrImport1.Text" xml:space="preserve">
+    <value>Operationen</value>
+  </data>
+  <data name="&gt;&gt;rgrImport1.Name" xml:space="preserve">
+    <value>rgrImport1</value>
+  </data>
+  <data name="&gt;&gt;rgrImport1.Type" xml:space="preserve">
+    <value>Elegant.Ui.RibbonGroup, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;rgrImport1.Parent" xml:space="preserve">
+    <value>rtpImport</value>
+  </data>
+  <data name="&gt;&gt;rgrImport1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdImportRichtlinienWizard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 2</value>
+  </data>
+  <data name="cmdImportRichtlinienWizard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 0</value>
+  </data>
+  <data name="cmdImportRichtlinienWizard.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="cmdImportRichtlinienWizard.Text" xml:space="preserve">
+    <value>Richtlinien</value>
+  </data>
+  <data name="&gt;&gt;cmdImportRichtlinienWizard.Name" xml:space="preserve">
+    <value>cmdImportRichtlinienWizard</value>
+  </data>
+  <data name="&gt;&gt;cmdImportRichtlinienWizard.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdImportRichtlinienWizard.Parent" xml:space="preserve">
+    <value>rgrImport2</value>
+  </data>
+  <data name="&gt;&gt;cmdImportRichtlinienWizard.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdImportRichtlinienZuordnungWizard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 2</value>
+  </data>
+  <data name="cmdImportRichtlinienZuordnungWizard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 0</value>
+  </data>
+  <data name="cmdImportRichtlinienZuordnungWizard.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="cmdImportRichtlinienZuordnungWizard.Text" xml:space="preserve">
+    <value>Zuordnungen von OPS-Kodes zu Richtlinien</value>
+  </data>
+  <data name="&gt;&gt;cmdImportRichtlinienZuordnungWizard.Name" xml:space="preserve">
+    <value>cmdImportRichtlinienZuordnungWizard</value>
+  </data>
+  <data name="&gt;&gt;cmdImportRichtlinienZuordnungWizard.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdImportRichtlinienZuordnungWizard.Parent" xml:space="preserve">
+    <value>rgrImport2</value>
+  </data>
+  <data name="&gt;&gt;cmdImportRichtlinienZuordnungWizard.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rgrImport2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 3</value>
+  </data>
+  <data name="rgrImport2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 0</value>
+  </data>
+  <data name="rgrImport2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rgrImport2.Text" xml:space="preserve">
+    <value>Richtlinien</value>
+  </data>
+  <data name="&gt;&gt;rgrImport2.Name" xml:space="preserve">
+    <value>rgrImport2</value>
+  </data>
+  <data name="&gt;&gt;rgrImport2.Type" xml:space="preserve">
+    <value>Elegant.Ui.RibbonGroup, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;rgrImport2.Parent" xml:space="preserve">
+    <value>rtpImport</value>
+  </data>
+  <data name="&gt;&gt;rgrImport2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmdImportChirurgWizard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 2</value>
+  </data>
+  <data name="cmdImportChirurgWizard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 0</value>
+  </data>
+  <data name="cmdImportChirurgWizard.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="cmdImportChirurgWizard.Text" xml:space="preserve">
+    <value>Chirurg</value>
+  </data>
+  <data name="&gt;&gt;cmdImportChirurgWizard.Name" xml:space="preserve">
+    <value>cmdImportChirurgWizard</value>
+  </data>
+  <data name="&gt;&gt;cmdImportChirurgWizard.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdImportChirurgWizard.Parent" xml:space="preserve">
+    <value>rgrImport3</value>
+  </data>
+  <data name="&gt;&gt;cmdImportChirurgWizard.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdImportOPSWizard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 2</value>
+  </data>
+  <data name="cmdImportOPSWizard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 0</value>
+  </data>
+  <data name="cmdImportOPSWizard.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="cmdImportOPSWizard.Text" xml:space="preserve">
+    <value>OPS-Katalog</value>
+  </data>
+  <data name="&gt;&gt;cmdImportOPSWizard.Name" xml:space="preserve">
+    <value>cmdImportOPSWizard</value>
+  </data>
+  <data name="&gt;&gt;cmdImportOPSWizard.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdImportOPSWizard.Parent" xml:space="preserve">
+    <value>rgrImport3</value>
+  </data>
+  <data name="&gt;&gt;cmdImportOPSWizard.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmdImportOperationenMobileWizard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 2</value>
+  </data>
+  <data name="cmdImportOperationenMobileWizard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 0</value>
+  </data>
+  <data name="cmdImportOperationenMobileWizard.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="cmdImportOperationenMobileWizard.Text" xml:space="preserve">
+    <value>Operationen vom Handy</value>
+  </data>
+  <data name="&gt;&gt;cmdImportOperationenMobileWizard.Name" xml:space="preserve">
+    <value>cmdImportOperationenMobileWizard</value>
+  </data>
+  <data name="&gt;&gt;cmdImportOperationenMobileWizard.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdImportOperationenMobileWizard.Parent" xml:space="preserve">
+    <value>rgrImport3</value>
+  </data>
+  <data name="&gt;&gt;cmdImportOperationenMobileWizard.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmdClientServerViewImport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 2</value>
+  </data>
+  <data name="cmdClientServerViewImport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 0</value>
+  </data>
+  <data name="cmdClientServerViewImport.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="cmdClientServerViewImport.Text" xml:space="preserve">
+    <value>Dateien übertragen</value>
+  </data>
+  <data name="&gt;&gt;cmdClientServerViewImport.Name" xml:space="preserve">
+    <value>cmdClientServerViewImport</value>
+  </data>
+  <data name="&gt;&gt;cmdClientServerViewImport.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdClientServerViewImport.Parent" xml:space="preserve">
+    <value>rgrImport3</value>
+  </data>
+  <data name="&gt;&gt;cmdClientServerViewImport.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="rgrImport3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>471, 3</value>
+  </data>
+  <data name="rgrImport3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 0</value>
+  </data>
+  <data name="rgrImport3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="rgrImport3.Text" xml:space="preserve">
+    <value>Verschiedenes</value>
+  </data>
+  <data name="&gt;&gt;rgrImport3.Name" xml:space="preserve">
+    <value>rgrImport3</value>
+  </data>
+  <data name="&gt;&gt;rgrImport3.Type" xml:space="preserve">
+    <value>Elegant.Ui.RibbonGroup, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;rgrImport3.Parent" xml:space="preserve">
+    <value>rtpImport</value>
+  </data>
+  <data name="&gt;&gt;rgrImport3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rtpImport.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="rtpImport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="rtpImport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1122, 101</value>
+  </data>
+  <data name="rtpImport.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rtpImport.Text" xml:space="preserve">
+    <value>Datenimport</value>
+  </data>
+  <data name="&gt;&gt;rtpImport.Name" xml:space="preserve">
+    <value>rtpImport</value>
+  </data>
+  <data name="&gt;&gt;rtpImport.Type" xml:space="preserve">
+    <value>Elegant.Ui.RibbonTabPage, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="cmdExportRichtlinienWizard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 2</value>
+  </data>
+  <data name="cmdExportRichtlinienWizard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 0</value>
+  </data>
+  <data name="cmdExportRichtlinienWizard.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="cmdExportRichtlinienWizard.Text" xml:space="preserve">
+    <value>Richtlinien</value>
+  </data>
+  <data name="&gt;&gt;cmdExportRichtlinienWizard.Name" xml:space="preserve">
+    <value>cmdExportRichtlinienWizard</value>
+  </data>
+  <data name="&gt;&gt;cmdExportRichtlinienWizard.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdExportRichtlinienWizard.Parent" xml:space="preserve">
+    <value>rgrExport1</value>
+  </data>
+  <data name="&gt;&gt;cmdExportRichtlinienWizard.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdExportRichtlinienZuordnungWizard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 2</value>
+  </data>
+  <data name="cmdExportRichtlinienZuordnungWizard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 0</value>
+  </data>
+  <data name="cmdExportRichtlinienZuordnungWizard.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="cmdExportRichtlinienZuordnungWizard.Text" xml:space="preserve">
+    <value>Zuordnungen von OPS-Kodes zu Richtlinien</value>
+  </data>
+  <data name="&gt;&gt;cmdExportRichtlinienZuordnungWizard.Name" xml:space="preserve">
+    <value>cmdExportRichtlinienZuordnungWizard</value>
+  </data>
+  <data name="&gt;&gt;cmdExportRichtlinienZuordnungWizard.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdExportRichtlinienZuordnungWizard.Parent" xml:space="preserve">
+    <value>rgrExport1</value>
+  </data>
+  <data name="&gt;&gt;cmdExportRichtlinienZuordnungWizard.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rgrExport1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 3</value>
+  </data>
+  <data name="rgrExport1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 0</value>
+  </data>
+  <data name="rgrExport1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="rgrExport1.Text" xml:space="preserve">
+    <value>Richtlinien</value>
+  </data>
+  <data name="&gt;&gt;rgrExport1.Name" xml:space="preserve">
+    <value>rgrExport1</value>
+  </data>
+  <data name="&gt;&gt;rgrExport1.Type" xml:space="preserve">
+    <value>Elegant.Ui.RibbonGroup, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;rgrExport1.Parent" xml:space="preserve">
+    <value>rtpExport</value>
+  </data>
+  <data name="&gt;&gt;rgrExport1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdExportChirurgWizard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 2</value>
+  </data>
+  <data name="cmdExportChirurgWizard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 0</value>
+  </data>
+  <data name="cmdExportChirurgWizard.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="cmdExportChirurgWizard.Text" xml:space="preserve">
+    <value>Chirurg</value>
+  </data>
+  <data name="&gt;&gt;cmdExportChirurgWizard.Name" xml:space="preserve">
+    <value>cmdExportChirurgWizard</value>
+  </data>
+  <data name="&gt;&gt;cmdExportChirurgWizard.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdExportChirurgWizard.Parent" xml:space="preserve">
+    <value>rgrExport2</value>
+  </data>
+  <data name="&gt;&gt;cmdExportChirurgWizard.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdExportOperationenKatalogView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 2</value>
+  </data>
+  <data name="cmdExportOperationenKatalogView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 0</value>
+  </data>
+  <data name="cmdExportOperationenKatalogView.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="cmdExportOperationenKatalogView.Text" xml:space="preserve">
+    <value>OPS-Katalog für Handy</value>
+  </data>
+  <data name="&gt;&gt;cmdExportOperationenKatalogView.Name" xml:space="preserve">
+    <value>cmdExportOperationenKatalogView</value>
+  </data>
+  <data name="&gt;&gt;cmdExportOperationenKatalogView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdExportOperationenKatalogView.Parent" xml:space="preserve">
+    <value>rgrExport2</value>
+  </data>
+  <data name="&gt;&gt;cmdExportOperationenKatalogView.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmdClientServerViewExport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 2</value>
+  </data>
+  <data name="cmdClientServerViewExport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 0</value>
+  </data>
+  <data name="cmdClientServerViewExport.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="cmdClientServerViewExport.Text" xml:space="preserve">
+    <value>Dateien übertragen</value>
+  </data>
+  <data name="&gt;&gt;cmdClientServerViewExport.Name" xml:space="preserve">
+    <value>cmdClientServerViewExport</value>
+  </data>
+  <data name="&gt;&gt;cmdClientServerViewExport.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdClientServerViewExport.Parent" xml:space="preserve">
+    <value>rgrExport2</value>
+  </data>
+  <data name="&gt;&gt;cmdClientServerViewExport.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rgrExport2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 3</value>
+  </data>
+  <data name="rgrExport2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 0</value>
+  </data>
+  <data name="rgrExport2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="rgrExport2.Text" xml:space="preserve">
+    <value>Verschiedenes</value>
+  </data>
+  <data name="&gt;&gt;rgrExport2.Name" xml:space="preserve">
+    <value>rgrExport2</value>
+  </data>
+  <data name="&gt;&gt;rgrExport2.Type" xml:space="preserve">
+    <value>Elegant.Ui.RibbonGroup, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;rgrExport2.Parent" xml:space="preserve">
+    <value>rtpExport</value>
+  </data>
+  <data name="&gt;&gt;rgrExport2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rtpExport.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="rtpExport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="rtpExport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1122, 101</value>
+  </data>
+  <data name="rtpExport.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rtpExport.Text" xml:space="preserve">
+    <value>Datenexport</value>
+  </data>
+  <data name="&gt;&gt;rtpExport.Name" xml:space="preserve">
+    <value>rtpExport</value>
+  </data>
+  <data name="&gt;&gt;rtpExport.Type" xml:space="preserve">
+    <value>Elegant.Ui.RibbonTabPage, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="cmdHelpChm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 2</value>
+  </data>
+  <data name="cmdHelpChm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 0</value>
+  </data>
+  <data name="cmdHelpChm.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmdHelpChm.Text" xml:space="preserve">
+    <value>Hilfedatei (chm)</value>
+  </data>
+  <data name="&gt;&gt;cmdHelpChm.Name" xml:space="preserve">
+    <value>cmdHelpChm</value>
+  </data>
+  <data name="&gt;&gt;cmdHelpChm.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdHelpChm.Parent" xml:space="preserve">
+    <value>rgrHilfe1</value>
+  </data>
+  <data name="&gt;&gt;cmdHelpChm.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdWwwHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 2</value>
+  </data>
+  <data name="cmdWwwHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 0</value>
+  </data>
+  <data name="cmdWwwHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cmdWwwHelp.Text" xml:space="preserve">
+    <value>Online Hilfe</value>
+  </data>
+  <data name="&gt;&gt;cmdWwwHelp.Name" xml:space="preserve">
+    <value>cmdWwwHelp</value>
+  </data>
+  <data name="&gt;&gt;cmdWwwHelp.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdWwwHelp.Parent" xml:space="preserve">
+    <value>rgrHilfe1</value>
+  </data>
+  <data name="&gt;&gt;cmdWwwHelp.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmdWwwHome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 2</value>
+  </data>
+  <data name="cmdWwwHome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 0</value>
+  </data>
+  <data name="cmdWwwHome.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cmdWwwHome.Text" xml:space="preserve">
+    <value>OP-LOG Home Page</value>
+  </data>
+  <data name="&gt;&gt;cmdWwwHome.Name" xml:space="preserve">
+    <value>cmdWwwHome</value>
+  </data>
+  <data name="&gt;&gt;cmdWwwHome.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdWwwHome.Parent" xml:space="preserve">
+    <value>rgrHilfe1</value>
+  </data>
+  <data name="&gt;&gt;cmdWwwHome.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmdAboutBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 2</value>
+  </data>
+  <data name="cmdAboutBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 0</value>
+  </data>
+  <data name="cmdAboutBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="cmdAboutBox.Text" xml:space="preserve">
+    <value>Info über OP-LOG</value>
+  </data>
+  <data name="&gt;&gt;cmdAboutBox.Name" xml:space="preserve">
+    <value>cmdAboutBox</value>
+  </data>
+  <data name="&gt;&gt;cmdAboutBox.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdAboutBox.Parent" xml:space="preserve">
+    <value>rgrHilfe1</value>
+  </data>
+  <data name="&gt;&gt;cmdAboutBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="rgrHilfe1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 3</value>
+  </data>
+  <data name="rgrHilfe1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 0</value>
+  </data>
+  <data name="rgrHilfe1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rgrHilfe1.Text" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="&gt;&gt;rgrHilfe1.Name" xml:space="preserve">
+    <value>rgrHilfe1</value>
+  </data>
+  <data name="&gt;&gt;rgrHilfe1.Type" xml:space="preserve">
+    <value>Elegant.Ui.RibbonGroup, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;rgrHilfe1.Parent" xml:space="preserve">
+    <value>rtpHilfe</value>
+  </data>
+  <data name="&gt;&gt;rgrHilfe1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ddVideoTutorials.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 2</value>
+  </data>
+  <data name="ddVideoTutorials.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 0</value>
+  </data>
+  <data name="ddVideoTutorials.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ddVideoTutorials.Text" xml:space="preserve">
+    <value>Video Tutorials</value>
+  </data>
+  <data name="&gt;&gt;ddVideoTutorials.Name" xml:space="preserve">
+    <value>ddVideoTutorials</value>
+  </data>
+  <data name="&gt;&gt;ddVideoTutorials.Type" xml:space="preserve">
+    <value>Elegant.Ui.DropDown, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;ddVideoTutorials.Parent" xml:space="preserve">
+    <value>rgrHilfe2</value>
+  </data>
+  <data name="&gt;&gt;ddVideoTutorials.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rgrHilfe2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 3</value>
+  </data>
+  <data name="rgrHilfe2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 0</value>
+  </data>
+  <data name="rgrHilfe2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="rgrHilfe2.Text" xml:space="preserve">
+    <value>Tutorials</value>
+  </data>
+  <data name="&gt;&gt;rgrHilfe2.Name" xml:space="preserve">
+    <value>rgrHilfe2</value>
+  </data>
+  <data name="&gt;&gt;rgrHilfe2.Type" xml:space="preserve">
+    <value>Elegant.Ui.RibbonGroup, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;rgrHilfe2.Parent" xml:space="preserve">
+    <value>rtpHilfe</value>
+  </data>
+  <data name="&gt;&gt;rgrHilfe2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rtpHilfe.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="rtpHilfe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="rtpHilfe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1122, 101</value>
+  </data>
+  <data name="rtpHilfe.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rtpHilfe.Text" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="&gt;&gt;rtpHilfe.Name" xml:space="preserve">
+    <value>rtpHilfe</value>
+  </data>
+  <data name="&gt;&gt;rtpHilfe.Type" xml:space="preserve">
+    <value>Elegant.Ui.RibbonTabPage, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="cmdDebugSql.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 2</value>
+  </data>
+  <data name="cmdDebugSql.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 0</value>
+  </data>
+  <data name="cmdDebugSql.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cmdDebugSql.Text" xml:space="preserve">
+    <value>DEBUG SQL</value>
+  </data>
+  <data name="&gt;&gt;cmdDebugSql.Name" xml:space="preserve">
+    <value>cmdDebugSql</value>
+  </data>
+  <data name="&gt;&gt;cmdDebugSql.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdDebugSql.Parent" xml:space="preserve">
+    <value>ribbonGroup1</value>
+  </data>
+  <data name="&gt;&gt;cmdDebugSql.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdDebugExportOperationen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 2</value>
+  </data>
+  <data name="cmdDebugExportOperationen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>325, 0</value>
+  </data>
+  <data name="cmdDebugExportOperationen.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="cmdDebugExportOperationen.Text" xml:space="preserve">
+    <value>DEBUG Alle Operationen exportieren nach c:\temp\operationen.txt</value>
+  </data>
+  <data name="&gt;&gt;cmdDebugExportOperationen.Name" xml:space="preserve">
+    <value>cmdDebugExportOperationen</value>
+  </data>
+  <data name="&gt;&gt;cmdDebugExportOperationen.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdDebugExportOperationen.Parent" xml:space="preserve">
+    <value>ribbonGroup1</value>
+  </data>
+  <data name="&gt;&gt;cmdDebugExportOperationen.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmdUpdateSerialnumbersView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 2</value>
+  </data>
+  <data name="cmdUpdateSerialnumbersView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 0</value>
+  </data>
+  <data name="cmdUpdateSerialnumbersView.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="cmdUpdateSerialnumbersView.Text" xml:space="preserve">
+    <value>DEBUG UpdateSerialNumbersView</value>
+  </data>
+  <data name="&gt;&gt;cmdUpdateSerialnumbersView.Name" xml:space="preserve">
+    <value>cmdUpdateSerialnumbersView</value>
+  </data>
+  <data name="&gt;&gt;cmdUpdateSerialnumbersView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdUpdateSerialnumbersView.Parent" xml:space="preserve">
+    <value>ribbonGroup1</value>
+  </data>
+  <data name="&gt;&gt;cmdUpdateSerialnumbersView.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmdDebugReloadUserRights.Location" type="System.Drawing.Point, System.Drawing">
+    <value>582, 2</value>
+  </data>
+  <data name="cmdDebugReloadUserRights.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 0</value>
+  </data>
+  <data name="cmdDebugReloadUserRights.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="cmdDebugReloadUserRights.Text" xml:space="preserve">
+    <value>DEBUG Reload rights</value>
+  </data>
+  <data name="&gt;&gt;cmdDebugReloadUserRights.Name" xml:space="preserve">
+    <value>cmdDebugReloadUserRights</value>
+  </data>
+  <data name="&gt;&gt;cmdDebugReloadUserRights.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdDebugReloadUserRights.Parent" xml:space="preserve">
+    <value>ribbonGroup1</value>
+  </data>
+  <data name="&gt;&gt;cmdDebugReloadUserRights.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cmdZeitraeumeView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>696, 2</value>
+  </data>
+  <data name="cmdZeitraeumeView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 0</value>
+  </data>
+  <data name="cmdZeitraeumeView.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="cmdZeitraeumeView.Text" xml:space="preserve">
+    <value>DEBUG Zeiträume</value>
+  </data>
+  <data name="&gt;&gt;cmdZeitraeumeView.Name" xml:space="preserve">
+    <value>cmdZeitraeumeView</value>
+  </data>
+  <data name="&gt;&gt;cmdZeitraeumeView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdZeitraeumeView.Parent" xml:space="preserve">
+    <value>ribbonGroup1</value>
+  </data>
+  <data name="&gt;&gt;cmdZeitraeumeView.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ribbonGroup1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 3</value>
+  </data>
+  <data name="ribbonGroup1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>484, 0</value>
+  </data>
+  <data name="ribbonGroup1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ribbonGroup1.Text" xml:space="preserve">
+    <value>Debug</value>
+  </data>
+  <data name="&gt;&gt;ribbonGroup1.Name" xml:space="preserve">
+    <value>ribbonGroup1</value>
+  </data>
+  <data name="&gt;&gt;ribbonGroup1.Type" xml:space="preserve">
+    <value>Elegant.Ui.RibbonGroup, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;ribbonGroup1.Parent" xml:space="preserve">
+    <value>rtpDebug</value>
+  </data>
+  <data name="&gt;&gt;ribbonGroup1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rtpDebug.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="rtpDebug.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="rtpDebug.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1122, 101</value>
+  </data>
+  <data name="rtpDebug.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rtpDebug.Text" xml:space="preserve">
+    <value>Debug</value>
+  </data>
+  <data name="&gt;&gt;rtpDebug.Name" xml:space="preserve">
+    <value>rtpDebug</value>
+  </data>
+  <data name="&gt;&gt;rtpDebug.Type" xml:space="preserve">
+    <value>Elegant.Ui.RibbonTabPage, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="cmdUserChangePasswordView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 2</value>
+  </data>
+  <data name="cmdUserChangePasswordView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 0</value>
+  </data>
+  <data name="cmdUserChangePasswordView.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmdUserChangePasswordView.Text" xml:space="preserve">
+    <value>Eigenes Kennwort ändern</value>
+  </data>
+  <data name="&gt;&gt;cmdUserChangePasswordView.Name" xml:space="preserve">
+    <value>cmdUserChangePasswordView</value>
+  </data>
+  <data name="&gt;&gt;cmdUserChangePasswordView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdUserChangePasswordView.Parent" xml:space="preserve">
+    <value>rgrExtras1</value>
+  </data>
+  <data name="&gt;&gt;cmdUserChangePasswordView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdUserSetPasswordView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 2</value>
+  </data>
+  <data name="cmdUserSetPasswordView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 0</value>
+  </data>
+  <data name="cmdUserSetPasswordView.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cmdUserSetPasswordView.Text" xml:space="preserve">
+    <value>Kennwort eines anderen Benutzers festlegen</value>
+  </data>
+  <data name="&gt;&gt;cmdUserSetPasswordView.Name" xml:space="preserve">
+    <value>cmdUserSetPasswordView</value>
+  </data>
+  <data name="&gt;&gt;cmdUserSetPasswordView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdUserSetPasswordView.Parent" xml:space="preserve">
+    <value>rgrExtras1</value>
+  </data>
+  <data name="&gt;&gt;cmdUserSetPasswordView.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rgrExtras1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 3</value>
+  </data>
+  <data name="rgrExtras1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 0</value>
+  </data>
+  <data name="rgrExtras1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rgrExtras1.Text" xml:space="preserve">
+    <value>Kennwort</value>
+  </data>
+  <data name="&gt;&gt;rgrExtras1.Name" xml:space="preserve">
+    <value>rgrExtras1</value>
+  </data>
+  <data name="&gt;&gt;rgrExtras1.Type" xml:space="preserve">
+    <value>Elegant.Ui.RibbonGroup, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;rgrExtras1.Parent" xml:space="preserve">
+    <value>rtpExtras</value>
+  </data>
+  <data name="&gt;&gt;rgrExtras1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdSerialNumbersView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 2</value>
+  </data>
+  <data name="cmdSerialNumbersView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 0</value>
+  </data>
+  <data name="cmdSerialNumbersView.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="cmdSerialNumbersView.Text" xml:space="preserve">
+    <value>Seriennummern verwalten</value>
+  </data>
+  <data name="&gt;&gt;cmdSerialNumbersView.Name" xml:space="preserve">
+    <value>cmdSerialNumbersView</value>
+  </data>
+  <data name="&gt;&gt;cmdSerialNumbersView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdSerialNumbersView.Parent" xml:space="preserve">
+    <value>rgrExtras2</value>
+  </data>
+  <data name="&gt;&gt;cmdSerialNumbersView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdSerialBuy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 2</value>
+  </data>
+  <data name="cmdSerialBuy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 0</value>
+  </data>
+  <data name="cmdSerialBuy.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="cmdSerialBuy.Text" xml:space="preserve">
+    <value>Seriennummern im Webshop bestellen</value>
+  </data>
+  <data name="&gt;&gt;cmdSerialBuy.Name" xml:space="preserve">
+    <value>cmdSerialBuy</value>
+  </data>
+  <data name="&gt;&gt;cmdSerialBuy.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdSerialBuy.Parent" xml:space="preserve">
+    <value>rgrExtras2</value>
+  </data>
+  <data name="&gt;&gt;cmdSerialBuy.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmdInstallLicenseWizard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 2</value>
+  </data>
+  <data name="cmdInstallLicenseWizard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 0</value>
+  </data>
+  <data name="cmdInstallLicenseWizard.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="cmdInstallLicenseWizard.Text" xml:space="preserve">
+    <value>Lizenzdatei installieren</value>
+  </data>
+  <data name="&gt;&gt;cmdInstallLicenseWizard.Name" xml:space="preserve">
+    <value>cmdInstallLicenseWizard</value>
+  </data>
+  <data name="&gt;&gt;cmdInstallLicenseWizard.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdInstallLicenseWizard.Parent" xml:space="preserve">
+    <value>rgrExtras2</value>
+  </data>
+  <data name="&gt;&gt;cmdInstallLicenseWizard.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rgrExtras2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>221, 3</value>
+  </data>
+  <data name="rgrExtras2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 0</value>
+  </data>
+  <data name="rgrExtras2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="rgrExtras2.Text" xml:space="preserve">
+    <value>Seriennummern</value>
+  </data>
+  <data name="&gt;&gt;rgrExtras2.Name" xml:space="preserve">
+    <value>rgrExtras2</value>
+  </data>
+  <data name="&gt;&gt;rgrExtras2.Type" xml:space="preserve">
+    <value>Elegant.Ui.RibbonGroup, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;rgrExtras2.Parent" xml:space="preserve">
+    <value>rtpExtras</value>
+  </data>
+  <data name="&gt;&gt;rgrExtras2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmdUpdateFromFolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 2</value>
+  </data>
+  <data name="cmdUpdateFromFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 0</value>
+  </data>
+  <data name="cmdUpdateFromFolder.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="cmdUpdateFromFolder.Text" xml:space="preserve">
+    <value>Auf Update aus einem Verzeichnis überprüfen</value>
+  </data>
+  <data name="&gt;&gt;cmdUpdateFromFolder.Name" xml:space="preserve">
+    <value>cmdUpdateFromFolder</value>
+  </data>
+  <data name="&gt;&gt;cmdUpdateFromFolder.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdUpdateFromFolder.Parent" xml:space="preserve">
+    <value>rgrExtras3</value>
+  </data>
+  <data name="&gt;&gt;cmdUpdateFromFolder.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdUpdateFromWww.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 2</value>
+  </data>
+  <data name="cmdUpdateFromWww.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 0</value>
+  </data>
+  <data name="cmdUpdateFromWww.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="cmdUpdateFromWww.Text" xml:space="preserve">
+    <value>Auf Update aus dem Internet überprüfen</value>
+  </data>
+  <data name="&gt;&gt;cmdUpdateFromWww.Name" xml:space="preserve">
+    <value>cmdUpdateFromWww</value>
+  </data>
+  <data name="&gt;&gt;cmdUpdateFromWww.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdUpdateFromWww.Parent" xml:space="preserve">
+    <value>rgrExtras3</value>
+  </data>
+  <data name="&gt;&gt;cmdUpdateFromWww.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmdCopyWWWProgramUpdateFilesView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>432, 2</value>
+  </data>
+  <data name="cmdCopyWWWProgramUpdateFilesView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 0</value>
+  </data>
+  <data name="cmdCopyWWWProgramUpdateFilesView.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="cmdCopyWWWProgramUpdateFilesView.Text" xml:space="preserve">
+    <value>Programm aus dem Internet in ein lokales Verzeichnis kopieren</value>
+  </data>
+  <data name="&gt;&gt;cmdCopyWWWProgramUpdateFilesView.Name" xml:space="preserve">
+    <value>cmdCopyWWWProgramUpdateFilesView</value>
+  </data>
+  <data name="&gt;&gt;cmdCopyWWWProgramUpdateFilesView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdCopyWWWProgramUpdateFilesView.Parent" xml:space="preserve">
+    <value>rgrExtras3</value>
+  </data>
+  <data name="&gt;&gt;cmdCopyWWWProgramUpdateFilesView.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rgrExtras3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>437, 3</value>
+  </data>
+  <data name="rgrExtras3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 0</value>
+  </data>
+  <data name="rgrExtras3.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="rgrExtras3.Text" xml:space="preserve">
+    <value>Programm Update</value>
+  </data>
+  <data name="&gt;&gt;rgrExtras3.Name" xml:space="preserve">
+    <value>rgrExtras3</value>
+  </data>
+  <data name="&gt;&gt;rgrExtras3.Type" xml:space="preserve">
+    <value>Elegant.Ui.RibbonGroup, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;rgrExtras3.Parent" xml:space="preserve">
+    <value>rtpExtras</value>
+  </data>
+  <data name="&gt;&gt;rgrExtras3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmdLogView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 2</value>
+  </data>
+  <data name="cmdLogView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 0</value>
+  </data>
+  <data name="cmdLogView.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cmdLogView.Text" xml:space="preserve">
+    <value>Änderungs Historie</value>
+  </data>
+  <data name="&gt;&gt;cmdLogView.Name" xml:space="preserve">
+    <value>cmdLogView</value>
+  </data>
+  <data name="&gt;&gt;cmdLogView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdLogView.Parent" xml:space="preserve">
+    <value>rgrExtras4</value>
+  </data>
+  <data name="&gt;&gt;cmdLogView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdOptionsView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 2</value>
+  </data>
+  <data name="cmdOptionsView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 0</value>
+  </data>
+  <data name="cmdOptionsView.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="cmdOptionsView.Text" xml:space="preserve">
+    <value>Optionen</value>
+  </data>
+  <data name="&gt;&gt;cmdOptionsView.Name" xml:space="preserve">
+    <value>cmdOptionsView</value>
+  </data>
+  <data name="&gt;&gt;cmdOptionsView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdOptionsView.Parent" xml:space="preserve">
+    <value>rgrExtras4</value>
+  </data>
+  <data name="&gt;&gt;cmdOptionsView.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmdLangDeDe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 2</value>
+  </data>
+  <data name="cmdLangDeDe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 0</value>
+  </data>
+  <data name="cmdLangDeDe.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="cmdLangDeDe.Text" xml:space="preserve">
+    <value>Deutsch</value>
+  </data>
+  <data name="&gt;&gt;cmdLangDeDe.Name" xml:space="preserve">
+    <value>cmdLangDeDe</value>
+  </data>
+  <data name="&gt;&gt;cmdLangDeDe.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdLangDeDe.Parent" xml:space="preserve">
+    <value>rgrExtras4</value>
+  </data>
+  <data name="&gt;&gt;cmdLangDeDe.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmdLangEnUs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 2</value>
+  </data>
+  <data name="cmdLangEnUs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 0</value>
+  </data>
+  <data name="cmdLangEnUs.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="cmdLangEnUs.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="&gt;&gt;cmdLangEnUs.Name" xml:space="preserve">
+    <value>cmdLangEnUs</value>
+  </data>
+  <data name="&gt;&gt;cmdLangEnUs.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdLangEnUs.Parent" xml:space="preserve">
+    <value>rgrExtras4</value>
+  </data>
+  <data name="&gt;&gt;cmdLangEnUs.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="rgrExtras4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>767, 3</value>
+  </data>
+  <data name="rgrExtras4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 0</value>
+  </data>
+  <data name="rgrExtras4.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rgrExtras4.Text" xml:space="preserve">
+    <value>Verschiedenes</value>
+  </data>
+  <data name="&gt;&gt;rgrExtras4.Name" xml:space="preserve">
+    <value>rgrExtras4</value>
+  </data>
+  <data name="&gt;&gt;rgrExtras4.Type" xml:space="preserve">
+    <value>Elegant.Ui.RibbonGroup, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;rgrExtras4.Parent" xml:space="preserve">
+    <value>rtpExtras</value>
+  </data>
+  <data name="&gt;&gt;rgrExtras4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="rtpExtras.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="rtpExtras.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="rtpExtras.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1122, 101</value>
+  </data>
+  <data name="rtpExtras.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rtpExtras.Text" xml:space="preserve">
+    <value>Extras</value>
+  </data>
+  <data name="&gt;&gt;rtpExtras.Name" xml:space="preserve">
+    <value>rtpExtras</value>
+  </data>
+  <data name="&gt;&gt;rtpExtras.Type" xml:space="preserve">
+    <value>Elegant.Ui.RibbonTabPage, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="ribbon.ApplicationButtonImages.Images" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAEE0lEQVRIS6WVaUxUVxTHgWYMWltijJrW
+        RgxYY9MWYrcPNW2M1ZkKzNigGIofoC7dCElba1ksQpvWoGALBhkYqA6jLI4UbRQUBezCYKlFZV+MwzYF
+        hhm2gVHG8dx/73s88YOIAv/kJi+5/3N+75x37n0uj9PCjA8uLDm21eaStgH3l7vG3/pUqlwvWWam9QV7
+        XDec/mbEBicMjlbo7VU4PFSCmP4CbG5MwpuG3ZClKnok+/Q1X6M0gqv+TgeV2upwfKgCh6xFiLTmUcC1
+        H+F7MZyeL/xQqGhMCpmmeCskACsdqaPcoUr6eeA8RVlPso1V8fRq0adsUU7QeNtmJAnQRD206tSuif4L
+        6xldIFYUfUyLdJtnB3g5bydW6UJRaShG7z9lMJXmw1CYQln6eLyXFUoT0JnIU60cEEsYGWWw9BOMzYTa
+        SkLVWXa3LJsc5w6ztjOJcE9TGKWQ6WmlepN94g2nWMvVyn4pZHqqzoquwPVLmKsJQBP6+JheRVxfIQK7
+        Umlx41d49sj7aNDGgvuSpJDpq04be35euh9uwcbyBgy0z6Sn4JvJbOGfn7CX0lSozoxsk6wzV35qRJVX
+        bhh+ddxAdK8eqo6fmEzjh1Mp4X9LltlpeeLWBeWaPfaV2hCx58t+CUJFVpTTSxc2R7LMTPMzlCbvnFCs
+        0O/A1eNxQPUloLkGaLhC13SxkGX6iUC3dAXc0uTbpbAn0xt5n3UP8zuo2tmOcmcrvVMQjn8zvwbKsoWP
+        Sh7p/nj6qApBzYcQbFYjwJyEuZn+jVL41PLQbDIxPv41dzpgsLfgwkgNnXHUwlMfhjm894tzQ7C7Nx8R
+        PVra3q3Bls5kKDoO0FpLAtzUiptSmsm1OnOn2+sFn8N0r5/d4JccBxAHMP1wFWUP/0Xq4ct0cPAsizGf
+        pIhuLQs1pRMHkKI9ga3p/B7uOtXUp3qZNqRcOLxGh5mECiqlCjgAxwb/QIqlBPstpymqh1fQrSUOECuQ
+        tyfQGmM8XuvbB1e1vEVK97A8dduGx3APtzig/q4Jv9saUPIEAKFFAsC3c68AcErpJhGfilE4+LkdZUuP
+        BmNj8V5WertebBEHEAcQBzAOEFsUxlvkXbyLeZwIxNtt35FvR8z4FfJISYAu54BoNNhbcXG09pEVfPRf
+        BlStB0Tv2u798GmbArA0Uu4hbI5gTKhANDah57HfIMSqFr3vdv0AH2O0+CxLlj98CF/8VvWCsDnA7HQf
+        UENdE1M0WYuEKQo2HxH/C281xZCvMVp8liWuWyClfaBX4rZ4CZuDzI4GW5cIaIEZl8ea8Nvt68gZrYR6
+        qByJQ+cQay3Al5YT2NGbhW396aLX58oXWG2KlSpY/5yU9oG8Y5RL5vGrWTDMZrnyq0N2cJ3HeFYXl/8B
+        qmRo00mT1FYAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="cmdPrintIstOperationen.LargeImages.Images" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACKUlEQVQ4T7WS/09SURjG+adYra1WW20a
+        amW2sJwRDVdSNIxpQck0siU1ycKtqCmUG9SgL+iQmFksbwa5JGVKuAnkBIkQARXiy9O9l2tM0a2t9Wzv
+        L+e8z+c55z2H9V/k8YVheju1bRmHJ8G0looyjzi82Kz0ryz8C0t4bhlDJU+6PcBg/YK1VAY/onHYndN0
+        vbQ5oDcTcE4FUCfqwPFzbVsDPrrmQEzMMZkFUcnLiRTcsyEYrQ5UnLoCs40oBURiSWiMBLK5PALByIZ0
+        i/0rHJN+1DYqUCOQ47bmFe7pLEWIa9pHm4cdnj+p68nBSBIeXwQP9Tb67vKufjw2jqLytKwAcH8LoFs3
+        BK35Mx4Y7Hjy+hO6tVa03TVA3K4Br0mJQ2RzeV0zTpy/AVXvACQKDQ7WXy4A7vS9QTyZopM3K5PNYZUc
+        KHWScHQV84sJyDq1aGjpIk/AvISixwTzuwm8sDmhNY3gvm4QHepnkHb2QtSqBv+SEtzGdhzmy1B2UoIL
+        5Fqt8Dr21ogKgFaVnskrVXwlDX9wGeMzYXxwhTBAzIMnvoWK+hawy88UAFLlU6a9KHJ++JnIYOb7Ckbd
+        UXB6dkL/fpGe/FHBNeypFhYBzTf7kM4AZBiiyTwWYnnMhnIY865hcDyBfvsSVGw21EMxGnCAKy6aKUkU
+        j+AlDdTm39QG87qqG+So4l8Fh/xlZeRz7ec2Yd+xi9h9RIhdVWexgyOgjVua/00s1m8B2C9JiieXMwAA
+        AABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="cmdPrintIstOperationen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="cmdPrintIstOperationen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 23</value>
+  </data>
+  <data name="cmdPrintIstOperationen.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="cmdPrintIstOperationen.Text" xml:space="preserve">
+    <value>Ausgeführte Prozeduren drucken...</value>
+  </data>
+  <data name="&gt;&gt;cmdPrintIstOperationen.Name" xml:space="preserve">
+    <value>cmdPrintIstOperationen</value>
+  </data>
+  <data name="&gt;&gt;cmdPrintIstOperationen.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="ribbon.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="ribbon.HelpButtonAccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ribbon.HelpButtonAccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ribbon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ribbon.MinimizeButtonAccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ribbon.MinimizeButtonAccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ribbon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1230, 151</value>
+  </data>
+  <data name="ribbon.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cmdDateiTypenView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 2</value>
+  </data>
+  <data name="cmdDateiTypenView.ScreenTip.Caption" xml:space="preserve">
+    <value>Oberbegriff</value>
+  </data>
+  <data name="cmdDateiTypenView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 0</value>
+  </data>
+  <data name="cmdDateiTypenView.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmdDateiTypenView.Text" xml:space="preserve">
+    <value>Definition</value>
+  </data>
+  <data name="&gt;&gt;cmdDateiTypenView.Name" xml:space="preserve">
+    <value>cmdDateiTypenView</value>
+  </data>
+  <data name="&gt;&gt;cmdDateiTypenView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdDateiTypenView.Parent" xml:space="preserve">
+    <value>rgrEigeneDateien1</value>
+  </data>
+  <data name="&gt;&gt;cmdDateiTypenView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdDateienView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 2</value>
+  </data>
+  <data name="cmdDateienView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 0</value>
+  </data>
+  <data name="cmdDateienView.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cmdDateienView.Text" xml:space="preserve">
+    <value>Datei</value>
+  </data>
+  <data name="&gt;&gt;cmdDateienView.Name" xml:space="preserve">
+    <value>cmdDateienView</value>
+  </data>
+  <data name="&gt;&gt;cmdDateienView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdDateienView.Parent" xml:space="preserve">
+    <value>rgrEigeneDateien1</value>
+  </data>
+  <data name="&gt;&gt;cmdDateienView.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rgrEigeneDateien1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 3</value>
+  </data>
+  <data name="rgrEigeneDateien1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 0</value>
+  </data>
+  <data name="rgrEigeneDateien1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rgrEigeneDateien1.Text" xml:space="preserve">
+    <value>Einfügen</value>
+  </data>
+  <data name="&gt;&gt;rgrEigeneDateien1.Name" xml:space="preserve">
+    <value>rgrEigeneDateien1</value>
+  </data>
+  <data name="&gt;&gt;rgrEigeneDateien1.Type" xml:space="preserve">
+    <value>Elegant.Ui.RibbonGroup, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;rgrEigeneDateien1.Parent" xml:space="preserve">
+    <value>rtpEigeneDateien</value>
+  </data>
+  <data name="&gt;&gt;rgrEigeneDateien1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ddEigeneDateien.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 2</value>
+  </data>
+  <data name="ddEigeneDateien.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 0</value>
+  </data>
+  <data name="ddEigeneDateien.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ddEigeneDateien.Text" xml:space="preserve">
+    <value>Datei</value>
+  </data>
+  <data name="&gt;&gt;ddEigeneDateien.Name" xml:space="preserve">
+    <value>ddEigeneDateien</value>
+  </data>
+  <data name="&gt;&gt;ddEigeneDateien.Type" xml:space="preserve">
+    <value>Elegant.Ui.DropDown, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;ddEigeneDateien.Parent" xml:space="preserve">
+    <value>rgrEigeneDateien2</value>
+  </data>
+  <data name="&gt;&gt;ddEigeneDateien.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rgrEigeneDateien2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 3</value>
+  </data>
+  <data name="rgrEigeneDateien2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 0</value>
+  </data>
+  <data name="rgrEigeneDateien2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rgrEigeneDateien2.Text" xml:space="preserve">
+    <value>Anzeigen</value>
+  </data>
+  <data name="&gt;&gt;rgrEigeneDateien2.Name" xml:space="preserve">
+    <value>rgrEigeneDateien2</value>
+  </data>
+  <data name="&gt;&gt;rgrEigeneDateien2.Type" xml:space="preserve">
+    <value>Elegant.Ui.RibbonGroup, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;rgrEigeneDateien2.Parent" xml:space="preserve">
+    <value>rtpEigeneDateien</value>
+  </data>
+  <data name="&gt;&gt;rgrEigeneDateien2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rtpEigeneDateien.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="rtpEigeneDateien.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="rtpEigeneDateien.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1122, 101</value>
+  </data>
+  <data name="rtpEigeneDateien.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rtpEigeneDateien.Text" xml:space="preserve">
+    <value>Eigene Dateien</value>
+  </data>
+  <data name="&gt;&gt;rtpEigeneDateien.Name" xml:space="preserve">
+    <value>rtpEigeneDateien</value>
+  </data>
+  <data name="&gt;&gt;rtpEigeneDateien.Type" xml:space="preserve">
+    <value>Elegant.Ui.RibbonTabPage, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="cmdChirurgenFunktionenView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 2</value>
+  </data>
+  <data name="cmdChirurgenFunktionenView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 0</value>
+  </data>
+  <data name="cmdChirurgenFunktionenView.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="cmdChirurgenFunktionenView.Text" xml:space="preserve">
+    <value>Dienststellungen festlegen</value>
+  </data>
+  <data name="&gt;&gt;cmdChirurgenFunktionenView.Name" xml:space="preserve">
+    <value>cmdChirurgenFunktionenView</value>
+  </data>
+  <data name="&gt;&gt;cmdChirurgenFunktionenView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdChirurgenFunktionenView.Parent" xml:space="preserve">
+    <value>rgrChirurg</value>
+  </data>
+  <data name="&gt;&gt;cmdChirurgenFunktionenView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdChirurgNew.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 2</value>
+  </data>
+  <data name="cmdChirurgNew.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 0</value>
+  </data>
+  <data name="cmdChirurgNew.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="cmdChirurgNew.Text" xml:space="preserve">
+    <value>Operateur anlegen</value>
+  </data>
+  <data name="&gt;&gt;cmdChirurgNew.Name" xml:space="preserve">
+    <value>cmdChirurgNew</value>
+  </data>
+  <data name="&gt;&gt;cmdChirurgNew.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdChirurgNew.Parent" xml:space="preserve">
+    <value>rgrChirurg</value>
+  </data>
+  <data name="&gt;&gt;cmdChirurgNew.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmdChirurgEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 2</value>
+  </data>
+  <data name="cmdChirurgEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 0</value>
+  </data>
+  <data name="cmdChirurgEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="cmdChirurgEdit.Text" xml:space="preserve">
+    <value>Operateur bearbeiten</value>
+  </data>
+  <data name="&gt;&gt;cmdChirurgEdit.Name" xml:space="preserve">
+    <value>cmdChirurgEdit</value>
+  </data>
+  <data name="&gt;&gt;cmdChirurgEdit.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdChirurgEdit.Parent" xml:space="preserve">
+    <value>rgrChirurg</value>
+  </data>
+  <data name="&gt;&gt;cmdChirurgEdit.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmdChirurgDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 2</value>
+  </data>
+  <data name="cmdChirurgDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 0</value>
+  </data>
+  <data name="cmdChirurgDelete.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="cmdChirurgDelete.Text" xml:space="preserve">
+    <value>Operateur löschen</value>
+  </data>
+  <data name="&gt;&gt;cmdChirurgDelete.Name" xml:space="preserve">
+    <value>cmdChirurgDelete</value>
+  </data>
+  <data name="&gt;&gt;cmdChirurgDelete.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdChirurgDelete.Parent" xml:space="preserve">
+    <value>rgrChirurg</value>
+  </data>
+  <data name="&gt;&gt;cmdChirurgDelete.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="rgrChirurg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 3</value>
+  </data>
+  <data name="rgrChirurg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>253, 0</value>
+  </data>
+  <data name="rgrChirurg.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="rgrChirurg.Text" xml:space="preserve">
+    <value>Operateur</value>
+  </data>
+  <data name="&gt;&gt;rgrChirurg.Name" xml:space="preserve">
+    <value>rgrChirurg</value>
+  </data>
+  <data name="&gt;&gt;rgrChirurg.Type" xml:space="preserve">
+    <value>Elegant.Ui.RibbonGroup, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;rgrChirurg.Parent" xml:space="preserve">
+    <value>rtpStammdaten</value>
+  </data>
+  <data name="&gt;&gt;rgrChirurg.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdKommentareView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 2</value>
+  </data>
+  <data name="cmdKommentareView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 0</value>
+  </data>
+  <data name="cmdKommentareView.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cmdKommentareView.Text" xml:space="preserve">
+    <value>Einschätzungen und Empfehlungen</value>
+  </data>
+  <data name="&gt;&gt;cmdKommentareView.Name" xml:space="preserve">
+    <value>cmdKommentareView</value>
+  </data>
+  <data name="&gt;&gt;cmdKommentareView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdKommentareView.Parent" xml:space="preserve">
+    <value>rgrStammdaten2</value>
+  </data>
+  <data name="&gt;&gt;cmdKommentareView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rgrStammdaten2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>259, 3</value>
+  </data>
+  <data name="rgrStammdaten2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 0</value>
+  </data>
+  <data name="rgrStammdaten2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="rgrStammdaten2.Text" xml:space="preserve">
+    <value>Weiterbildungsgespräch</value>
+  </data>
+  <data name="&gt;&gt;rgrStammdaten2.Name" xml:space="preserve">
+    <value>rgrStammdaten2</value>
+  </data>
+  <data name="&gt;&gt;rgrStammdaten2.Type" xml:space="preserve">
+    <value>Elegant.Ui.RibbonGroup, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;rgrStammdaten2.Parent" xml:space="preserve">
+    <value>rtpStammdaten</value>
+  </data>
+  <data name="&gt;&gt;rgrStammdaten2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmdDokumenteView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 2</value>
+  </data>
+  <data name="cmdDokumenteView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 0</value>
+  </data>
+  <data name="cmdDokumenteView.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="cmdDokumenteView.Text" xml:space="preserve">
+    <value>Vorlagen einfügen</value>
+  </data>
+  <data name="&gt;&gt;cmdDokumenteView.Name" xml:space="preserve">
+    <value>cmdDokumenteView</value>
+  </data>
+  <data name="&gt;&gt;cmdDokumenteView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdDokumenteView.Parent" xml:space="preserve">
+    <value>rgrStammdaten3</value>
+  </data>
+  <data name="&gt;&gt;cmdDokumenteView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdChirurgDokumenteView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 2</value>
+  </data>
+  <data name="cmdChirurgDokumenteView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 0</value>
+  </data>
+  <data name="cmdChirurgDokumenteView.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="cmdChirurgDokumenteView.Text" xml:space="preserve">
+    <value>Logbuch bearbeiten</value>
+  </data>
+  <data name="&gt;&gt;cmdChirurgDokumenteView.Name" xml:space="preserve">
+    <value>cmdChirurgDokumenteView</value>
+  </data>
+  <data name="&gt;&gt;cmdChirurgDokumenteView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdChirurgDokumenteView.Parent" xml:space="preserve">
+    <value>rgrStammdaten3</value>
+  </data>
+  <data name="&gt;&gt;cmdChirurgDokumenteView.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rgrStammdaten3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>395, 3</value>
+  </data>
+  <data name="rgrStammdaten3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 0</value>
+  </data>
+  <data name="rgrStammdaten3.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="rgrStammdaten3.Text" xml:space="preserve">
+    <value>Logbücher</value>
+  </data>
+  <data name="&gt;&gt;rgrStammdaten3.Name" xml:space="preserve">
+    <value>rgrStammdaten3</value>
+  </data>
+  <data name="&gt;&gt;rgrStammdaten3.Type" xml:space="preserve">
+    <value>Elegant.Ui.RibbonGroup, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;rgrStammdaten3.Parent" xml:space="preserve">
+    <value>rtpStammdaten</value>
+  </data>
+  <data name="&gt;&gt;rgrStammdaten3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmdAkademischeAusbildungTypenView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 2</value>
+  </data>
+  <data name="cmdAkademischeAusbildungTypenView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 0</value>
+  </data>
+  <data name="cmdAkademischeAusbildungTypenView.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cmdAkademischeAusbildungTypenView.Text" xml:space="preserve">
+    <value>Definition</value>
+  </data>
+  <data name="&gt;&gt;cmdAkademischeAusbildungTypenView.Name" xml:space="preserve">
+    <value>cmdAkademischeAusbildungTypenView</value>
+  </data>
+  <data name="&gt;&gt;cmdAkademischeAusbildungTypenView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdAkademischeAusbildungTypenView.Parent" xml:space="preserve">
+    <value>rgrStammdaten4</value>
+  </data>
+  <data name="&gt;&gt;cmdAkademischeAusbildungTypenView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdAkademischeAusbildungView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 2</value>
+  </data>
+  <data name="cmdAkademischeAusbildungView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 0</value>
+  </data>
+  <data name="cmdAkademischeAusbildungView.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="cmdAkademischeAusbildungView.Text" xml:space="preserve">
+    <value>Akademischer Lebenslauf</value>
+  </data>
+  <data name="&gt;&gt;cmdAkademischeAusbildungView.Name" xml:space="preserve">
+    <value>cmdAkademischeAusbildungView</value>
+  </data>
+  <data name="&gt;&gt;cmdAkademischeAusbildungView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdAkademischeAusbildungView.Parent" xml:space="preserve">
+    <value>rgrStammdaten4</value>
+  </data>
+  <data name="&gt;&gt;cmdAkademischeAusbildungView.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rgrStammdaten4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>508, 3</value>
+  </data>
+  <data name="rgrStammdaten4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 0</value>
+  </data>
+  <data name="rgrStammdaten4.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="rgrStammdaten4.Text" xml:space="preserve">
+    <value>Akademischer Lebenslauf</value>
+  </data>
+  <data name="&gt;&gt;rgrStammdaten4.Name" xml:space="preserve">
+    <value>rgrStammdaten4</value>
+  </data>
+  <data name="&gt;&gt;rgrStammdaten4.Type" xml:space="preserve">
+    <value>Elegant.Ui.RibbonGroup, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;rgrStammdaten4.Parent" xml:space="preserve">
+    <value>rtpStammdaten</value>
+  </data>
+  <data name="&gt;&gt;rgrStammdaten4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cmdNotizTypenView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 2</value>
+  </data>
+  <data name="cmdNotizTypenView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 0</value>
+  </data>
+  <data name="cmdNotizTypenView.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="cmdNotizTypenView.Text" xml:space="preserve">
+    <value>Definition</value>
+  </data>
+  <data name="&gt;&gt;cmdNotizTypenView.Name" xml:space="preserve">
+    <value>cmdNotizTypenView</value>
+  </data>
+  <data name="&gt;&gt;cmdNotizTypenView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdNotizTypenView.Parent" xml:space="preserve">
+    <value>rgrStammdaten5</value>
+  </data>
+  <data name="&gt;&gt;cmdNotizTypenView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdNotizenView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 2</value>
+  </data>
+  <data name="cmdNotizenView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 0</value>
+  </data>
+  <data name="cmdNotizenView.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmdNotizenView.Text" xml:space="preserve">
+    <value>Vermerke</value>
+  </data>
+  <data name="&gt;&gt;cmdNotizenView.Name" xml:space="preserve">
+    <value>cmdNotizenView</value>
+  </data>
+  <data name="&gt;&gt;cmdNotizenView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdNotizenView.Parent" xml:space="preserve">
+    <value>rgrStammdaten5</value>
+  </data>
+  <data name="&gt;&gt;cmdNotizenView.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rgrStammdaten5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>652, 3</value>
+  </data>
+  <data name="rgrStammdaten5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 0</value>
+  </data>
+  <data name="rgrStammdaten5.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rgrStammdaten5.Text" xml:space="preserve">
+    <value>Vermerke und Notizen</value>
+  </data>
+  <data name="&gt;&gt;rgrStammdaten5.Name" xml:space="preserve">
+    <value>rgrStammdaten5</value>
+  </data>
+  <data name="&gt;&gt;rgrStammdaten5.Type" xml:space="preserve">
+    <value>Elegant.Ui.RibbonGroup, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;rgrStammdaten5.Parent" xml:space="preserve">
+    <value>rtpStammdaten</value>
+  </data>
+  <data name="&gt;&gt;rgrStammdaten5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cmdPlanOperationenView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 2</value>
+  </data>
+  <data name="cmdPlanOperationenView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 0</value>
+  </data>
+  <data name="cmdPlanOperationenView.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="cmdPlanOperationenView.Text" xml:space="preserve">
+    <value>Einzel Übersicht</value>
+  </data>
+  <data name="&gt;&gt;cmdPlanOperationenView.Name" xml:space="preserve">
+    <value>cmdPlanOperationenView</value>
+  </data>
+  <data name="&gt;&gt;cmdPlanOperationenView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdPlanOperationenView.Parent" xml:space="preserve">
+    <value>rgrStammdaten6</value>
+  </data>
+  <data name="&gt;&gt;cmdPlanOperationenView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdPlanOperationVergleichView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 2</value>
+  </data>
+  <data name="cmdPlanOperationVergleichView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 0</value>
+  </data>
+  <data name="cmdPlanOperationVergleichView.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="cmdPlanOperationVergleichView.Text" xml:space="preserve">
+    <value>Gesamt Übersicht</value>
+  </data>
+  <data name="&gt;&gt;cmdPlanOperationVergleichView.Name" xml:space="preserve">
+    <value>cmdPlanOperationVergleichView</value>
+  </data>
+  <data name="&gt;&gt;cmdPlanOperationVergleichView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdPlanOperationVergleichView.Parent" xml:space="preserve">
+    <value>rgrStammdaten6</value>
+  </data>
+  <data name="&gt;&gt;cmdPlanOperationVergleichView.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmdRichtlinienSollIstView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 2</value>
+  </data>
+  <data name="cmdRichtlinienSollIstView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 0</value>
+  </data>
+  <data name="cmdRichtlinienSollIstView.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="cmdRichtlinienSollIstView.Text" xml:space="preserve">
+    <value>Weiterbildungs Richtlinien</value>
+  </data>
+  <data name="&gt;&gt;cmdRichtlinienSollIstView.Name" xml:space="preserve">
+    <value>cmdRichtlinienSollIstView</value>
+  </data>
+  <data name="&gt;&gt;cmdRichtlinienSollIstView.Type" xml:space="preserve">
+    <value>Elegant.Ui.Button, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;cmdRichtlinienSollIstView.Parent" xml:space="preserve">
+    <value>rgrStammdaten6</value>
+  </data>
+  <data name="&gt;&gt;cmdRichtlinienSollIstView.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rgrStammdaten6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>779, 3</value>
+  </data>
+  <data name="rgrStammdaten6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 0</value>
+  </data>
+  <data name="rgrStammdaten6.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="rgrStammdaten6.Text" xml:space="preserve">
+    <value>Soll/Ist</value>
+  </data>
+  <data name="&gt;&gt;rgrStammdaten6.Name" xml:space="preserve">
+    <value>rgrStammdaten6</value>
+  </data>
+  <data name="&gt;&gt;rgrStammdaten6.Type" xml:space="preserve">
+    <value>Elegant.Ui.RibbonGroup, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;rgrStammdaten6.Parent" xml:space="preserve">
+    <value>rtpStammdaten</value>
+  </data>
+  <data name="&gt;&gt;rgrStammdaten6.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="rtpStammdaten.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="rtpStammdaten.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="rtpStammdaten.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1122, 101</value>
+  </data>
+  <data name="rtpStammdaten.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rtpStammdaten.Text" xml:space="preserve">
+    <value>Stammdaten</value>
+  </data>
+  <data name="&gt;&gt;rtpStammdaten.Name" xml:space="preserve">
+    <value>rtpStammdaten</value>
+  </data>
+  <data name="&gt;&gt;rtpStammdaten.Type" xml:space="preserve">
+    <value>Elegant.Ui.RibbonTabPage, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;ribbon.Name" xml:space="preserve">
+    <value>ribbon</value>
+  </data>
+  <data name="&gt;&gt;ribbon.Type" xml:space="preserve">
+    <value>Elegant.Ui.Ribbon, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;ribbon.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ribbon.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pbMain.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pbMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 15</value>
+  </data>
+  <data name="pbMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1104, 267</value>
+  </data>
+  <data name="pbMain.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="pbMain.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="&gt;&gt;pbMain.Name" xml:space="preserve">
+    <value>pbMain</value>
+  </data>
+  <data name="&gt;&gt;pbMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbMain.Parent" xml:space="preserve">
+    <value>pnlMain</value>
+  </data>
+  <data name="&gt;&gt;pbMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnlMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="pnlMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 151</value>
+  </data>
+  <data name="pnlMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1230, 293</value>
+  </data>
+  <data name="pnlMain.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="&gt;&gt;pnlMain.Name" xml:space="preserve">
+    <value>pnlMain</value>
+  </data>
+  <data name="&gt;&gt;pnlMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="timer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>361, 17</value>
+  </metadata>
+  <metadata name="formFrameSkinner.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>100</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1230, 462</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        PgB92TkAeOEqAHrnKwB+4TUAf+U3AFySRABllFEAb5xbAHGdWgB/sU0AfqVfAH2fdQBuoGQAesVCAH7G
+        SQCB3TsAgd48AITjPwCG5T8Ag+w4AIKqXgCBrFwAiLtXAIm5WQCJsWYAhrxjAI6ybQCPvnEAmb95AIDT
+        QQCF3UQAhtdLAIjfSACIzFMAkchXAIvRUwCQ3lAAkNBYAJLaXACF40AAhuZAAIbgRQCM5EsAjeBPAI3o
+        SwCO4lAAkOZRAJPjVwCT6VMAk+lUAJTrVQCT41gAleZaAJjvWACY6VwAlcF0AJnEcQCi33cAmOJiAJnk
+        YgCe6mcAn+ZrAKLpbgCk4HcApehzAKTscACl6HQAqOp3AKbieACo6XkAq+96AKrofgCt730ArvB9AFaE
+        iwBeiJkAYoyYAHyfkwB3nqMAdZ64AHmc3wCXuoUAnr+DAI+tlgCgu44Aor+WAKK+nQCat6MAhqazAKTD
+        iQCvy5YAtM+dALLUlwC00p0AsuuGALHvhQC47oIAs+uKALHwggC48Y0AvfiIALjrkQC57ZIAueiVALvr
+        mAC+7pkAve6cALnwkAC/8pkAutanAMP1nADK+5oAwdqtAMLipwDE7qQAye6lAMT0ogDK8awAy/WtAM75
+        qQDW/q8Az/G1AND3sgDQ87UA0vi2ANL0vADY+r8A3P6+AIWoxgCBpssAiKrKAIau3wClv9sAhqjnAIqu
+        4wCKsOsAl7jpAJ647ACStPMAlrj7AKC25AChv+cAprz2AKW8/gC8zMUAsMXcAK/H7wC1yOkArsT8AK/J
+        /QCzzPwAu8z/ANrpywDW88AA1vTAANjxwADZ88UA2/jGANz2yADd8c4A3frJANzt0ADg/cwA4fbSAOT5
+        1ADm9NsA5vrZAOj52wDp/9kA6frdAO3+3QDE1O4AxNP+AMvV/wDU2v8A2uD+AOz34gDt+uMA7vnmAO/+
+        5ADy/+MA8f/nAPL96gDz/u0A9//uAOPl/QDq6v8A9/7zAPr/8AD4//QA/P/5APr6/wD///8AAAAAAAoH
+        BwcHBwcHBwcHBwcHBwcHBwcHBwcHBwAAAAAAAAAAFP/XkQfz3727tbOrop6FgHt1dQcqQ0AHAAAAAAAA
+        AAAH/OCYB+fYurWxqKSehn98em5xBzRDNQcAAAAAAAAAAAf65JkH59i6tbGopJ6Gf3x6bnEHPTs1BwAA
+        AAAAAAAAB/zvrAvn27q0saiknoZ/fHpycQhmOzUHAAAAAAAAAAAH/PWvU5vfurWxqKSehn98enI4ImY7
+        NQcAAAAAAAAAAA7/8+BZW9+6tLGopJ6Gf3x6dSQqZjtABwAAAAAAAAAAB//x85tZ37q1saiknoZ/fHpy
+        bj1PO0AHAAAAAAAAAAAl//Hx3tvburSxqKSehn98em5qX087QCIAAAAAAAAAAFb/8eXj3tm6tbGopJ6G
+        f3x6bmpmTztBVQAAAAAAAAAAAC715+Pb2bq0saiknoZ/fHpuamo/QxEAAAAAAAAAAAAAI//k497ZurWx
+        qKSehn98eW5qT09SIAAAAAAAAAAAAAAALvPj29m6tLWun6Kegnx6bmpqUREAAAAAAAAAAAAAAAAl/OXb
+        2Lq3S4mKARpkYHpybGs/LgAAAAAAAAAAAAAAAABI5effvR3K1dXWxA5gTWpmTyUAAAAAAAAAAAAAAAAA
+        AAAuFrCyB9Xr7evVB2JiOg8xAAAAAAAAAAAAAAAAAAAAAAAALiEfl5aVks0KBwcxAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAElkrYhjEEoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACMMNmmeHo3C4sAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAA05QwuKZ4ZVwHj8AAAAAAAAAAAAAAAAAAAAAAAAAAAOrQLue6qHhlajIcxsMAAAAA
+        AAAAAAAAAAAAAAAAAAAALQcHCgcHBwcHBwcHLQAAAAAAAAAAAAAAAAAAAAAAAAC///n57u7Sy87JwsaO
+        AAAAAAAAAAAAAAAAAAAAAAAAAMH++fju7uvRzMfJxRsAAAAAAAAAAAAAAAAAAAAAAAAARpPP+e7s1tbH
+        jUQGAgAAAAAAAAAAAAAAAAAAAAAAAAAb9dt3dlpYMSk0GRMDAAAAAAAAAAAAAAAAAAAAAAAAABvx5b26
+        raKIZDgnFQQAAAAAAAAAAAAAAAAAAAAAAAAAG/Hf2LWooIVlOCcXBAAAAAAAAAAAAAAAAAAAAAAAAAAb
+        8ePZtKighGU6KBcEAAAAAAAAAAAAAAAAAAAAAAAAAEX/3tm1qKCGZUwsGFMAAAAAAAAAAAAAAAAAAAAA
+        AAAAAEeR39mzpIh6Xx0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACbRBsbG0QAAAAAAAAAAAAAAAAAAPAA
+        AA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/4AAAf+AAAH/wAAD/8AAA//gAAf/8A
+        AP//wAP///Af///gD///wAf//4AD//+AA///gAP//4AD//+AA///gAP//4AD//+AA///gAP//4AD///A
+        D///8D//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAABgAAAAwAAAAAQAIAAAAAABAAgAAAAAAAAAA
+        AAAAAQAAAAEAAAAAAABFlgAAR5gBAEmZBQBIlQ4ASpgKAEyaCQBOngsAS5gPAFWdHgBYnhsAWJ4cAE6i
+        CABSog0AUqQPAFOiFQBVpRUAWqYWAFihGgBZrhoAYKofAE6WKQBVmy4AWJ0uAF6jIgBfpSMAWqAmAF6j
+        JgBfoigAYKYiAGClJQBjqiQAYaQoAGSnKwBlqygAZbYjAGe1JQBotS0AZ6swAGqsMwBrrD0AbLowAGfC
+        EwBy1hYAcMcuAHneLgBzxTUAe9c3AHreMAB64S8AfeQxAH7qMgBgnEQAd69HAHu2SQB8sk0AgN47AILi
+        OwCE4z4AgbZVAIS4VwCAyUoAhc5MAInaTgCM1lMAjdhVAJDbWACG5kAAiOBHAIjrQACJ4UgAjuFOAIzp
+        TACU41MAkOJUAJjkXwCW6VgAl+xaAJjtWwCY5GAAnOhjAKDmbQCk63EAqOhzAKjneACq5H8Ap+x4AKno
+        egCp7HgArO16AK7qfwCs7H0Aep3AAHqdxAB0m8wAepzNAH+jywB9os4AfaDVAICqnACLqroAiqi9AK/r
+        hgCz74oAtu2OALTwiwC565EAufCSAL7wlwDB758Axe6nAMPxoQDE8KMAxvCmAMb0pQDJ8aoAyvWqAND5
+        rQDP9rEA0vmwANHzuADS9LoA0/K8ANT2vADX+L8A2vu+AJGuxQCIp9MAi7DfAJiy2AChut8AkrT5AKi8
+        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
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////AAAAAQEBAQEBAQEBAQEBAAAAAAE3AUw6NS8s
+        KQEVAQAAAAABSQJKODMuKikBGwEAAAAAAVEFSjgzLiokARsBAAAAABBRTTw4My4qJCEbCQAAAAAdU0s8
+        OjYwLCQhHBcAAAAAAB5PPjItGCYkIgsAAAAAAAAADRE/RUQGAQYAAAAAAAAAAAAAFiETAAAAAAAAAAAA
+        AAAAQiUfGhlIAAAAAAAAAAAAEwEBAQEBDAAAAAAAAAAAAEdTTkBGREEAAAAAAAAAAAAHAQEBAQQBAAAA
+        AAAAAAAAB1E7MScSAQAAAAAAAAAAAAdTPDQsFAIAAAAAAAAAAAAADwEBAQoAAAAAAADAAwAAwAMAAMAD
+        AADAAwAAwAMAAMADAADgBwAA8A8AAPx/AAD4HwAA8B8AAPAfAADwHwAA8B8AAPAfAAD4PwAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAKAAAADAAAABgAAAAAQAgAAAAAACAJQAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAeKBTC0SDEP1BgQz/QYEM/0GBDP9BgQz/QYEM/0GBDP9BgQz/QYEM/0GB
+        DP9BgQz/QYEM/0GBDP9BgQz/QYEM/0GBDP9BgQz/QYEM/0GBDP9BgQz/QYEM/0GBDP9BgQz/QYEM/0GB
+        DP9BgQz/QYEM/0GBDP9BgQz/QYEM/0GBDP9BgQz/QYEM/0GBDP9BgQz/QYIM/UiTCggAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEqHGP///////////9/v0/+61Kb/nb+B/0GB
+        DP////f/6P/Y/+T/0P/g/sr/2/zD/9f7vf/T+rX/zvmv/8r4qP/E96D/wfaa/731lP+39I3/s/OF/6/y
+        f/+r8Xn/pvBx/6Lua/+e7WT/mexe/5XqVv+a+Ff/QYEM/2W2KP930zP/f+c2/3vjLv934yj/QYEM/wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEGBDP/3/fP99v/x/dvq
+        zv+406P9nL5//0GBDP/y/+b92/XI/df0wP/T87v9z/K1/cvxr//H8Kf9w++i/b/unP+57ZT9t+yP/bPr
+        if+t6oP9qul7/abodv+i53D9nuZo/ZrlY/+W5F39kuNX/47gT/2T7lH9QYEM/2i4Kv130zP9e94x/3bb
+        K/1y2iX9QYEM/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEGB
+        DP/3/fP/9f7w/+Lx2P++1qr/o8KH/0GBDP/0/+X/2/XI/9f0wP/T87v/z/K1/8vxr//H8Kf/w++i/7/u
+        nP+77ZT/t+yP/7Prif+t6oP/qul9/6bodf+i53D/nuZq/5rlYv+W5F3/kuNX/47jUP+P6E//QYEM/22/
+        LP983Df/etwx/3bbK/9y2iX/QYEM/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAEGBDP/4/vT99P3v/en13//F3LH9p8eO/0eDFP/l+9b93PbK/df0wP/T87v9z/K1/cvx
+        r//H8Kf9w++i/b/unP+57ZT9t+yP/bPrif+t6oP9qul7/abodv+i53D9nuZo/ZrlY/+W5F39kuNX/4/i
+        Uf2H3kj9QoIM/3DFMf2A4jn9etwx/3bbK/1y2yX9QYEM/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEGBDP/5/vX99Pzu/ez45P/J4Ln9rcqT/2yXRf3I47P94PnO/df0
+        wP/T87v9z/K1/cvxr//H8Kf9w++i/b/unP+57ZT9t+yP/bPrif+t6oP9qul7/abodv+i53D9nuZo/Zrl
+        Y/+W5F39kuNX/5HlUv11xTn9UZcZ/3nRNv2A3zj9etwx/3bbK/1z2yX9QYEM/wAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEGBDP/7//f/8/zt//H66P/Q5MD/sM2Y/4as
+        ZP+YvHj/5f3U/9f0wP/T87v/z/K1/8vxr//H8Kf/w++i/7/unP+77ZT/t+yP/7Prif+t6oP/qul9/6bo
+        df+i53D/nuZq/5rlYv+W5F3/kuNX/5PqVP9gpib/YKol/3/bPP9/3jf/etwx/3bbK/9z3CX/QYEM/wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEGBDP/8//r98/zt/fL8
+        6v/W6cf9ttKe/5W4d/1xnkr96//b/df0wP/T87v9z/K1/cvxr//H8Kf9w++i/b/unP+57ZT9t+yP/bPr
+        if+t6oP9qul7/abodv+i53D9nuZo/ZrlY/+W5F39kuNX/5brVv1Rkxn9Z7Qq/4bkQf1+3Tf9etwx/3bb
+        K/103ib9QYEM/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEGB
+        DP/+//z98/zt/fD86f/j8tf9uNSk/6DBgf1OgCD96//c/df0wf/T87v9z/K1/cvxr//H8Kf9w++i/b/u
+        nP+57ZT9t+yP/bPrif+t6oP9qul7/abodv+i53D9nuZo/ZrlY/+W5F39kuNX/5XsVv1EgQ79bb4x/4bj
+        Qf1+3Tb9etwx/3bbK/113yb9QYEM/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAEGBDP//////8/zt/+/75//w/uj/w92v/6HChf9smUP/s9SZ/935yP/T87v/z/K1/8vx
+        r//H8Kf/w++i/7/unP+77ZT/t+yP/7Prif+t6oP/qul9/6bodf+i53D/nuZq/5rlYv+W5F3/lulb/2iv
+        L/9RlBj/ccIz/4XiQf9+3Tb/etwx/3bbK/924if/RIcM/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAFKLIvv/////8/zt/e/75//s++L96/zf/6bGiv16o1T9x+Ww/dz4
+        xv/T87v9z/K1/cvxr//H8Kf9w++i/b/unP+57ZT9t+yP/bPrif+t6oP9qul7/abodv+i53D9nuZo/Zrl
+        Y/+W5F39lOZZ/3vKQP2L40z9ccIz/4ThQP1+3Tb9etwx/3bbK/134yf/SpgN2AAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIepaMn/////8/zt/+/75//r+uH/6/zg/9ft
+        xv+VunX/h7Bk/+H8zf/T87v/z/K1/8vxr//H8Kf/w++i/7/unP+77ZT/t+yP/7Prif+t6oP/qul9/6bo
+        df+i53D/nuZq/5rlYv+W5F3/kuNX/5DjUf+L40z/etA6/4PfP/9+3Tb/etwx/3bbK/945Sj/RY4KowAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGeRQY//////8/zt/e/7
+        5//r+uH96fnc/8vkuP3v/+H9xeKu/dr2xP/T87v9z/K1/cvxr//H8Kf9w++i/b/unP+57ZT9t+yP/bPr
+        if+t6oP9qul7/abodv+i53D9nuZo/ZrlY/+W5F39kuNX/47gT/2K4Ur9hd5D/4LePv1+3Tb9etwx/3bb
+        K/125Sf/Q4oJYwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHCY
+        Skj0+vD/9v7x/e/75//r+uH95/fZ/+X51/3f9s7+3vfM/df0wP/T87v9z/K1/cvxr//H8Kf9w++i/b/u
+        nP+57ZT9t+yP/bPrif+t6oP9qul7/abodv+i53D9nuZo/ZrlY/+W5F39kuNX/47gT/2K4Ur9huBE/4Ld
+        Pv1+3Tb9etwx/3jeLP1myB7/TpwPFwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAABakSz//v/7/u/75//r+uH95/nb/+P20/3f9c792/XI/df0wP/T87v9z/K1/cvx
+        r//H8Kf9w++i/b/unP+57ZT9t+yP/bPrif+t6oP9qul7/abodv+i53D9nuZo/ZrlY/+W5F39kuNX/47g
+        T/2K4Ur9huBE/4LdPv1+3Tb9etwx/3vjLv9GjQ37AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABMhxrx/////+/75//r+uH/5/nb/+P20//f987/2/TI/9f0
+        wP/T87v/z/K1/8vxr//H8Kf/w++i/7/unP+77ZT/t+yP/7Prif+t6oP/qul9/6bodf+i53D/nuZq/5rl
+        Yv+W5F3/kuNX/47iT/+K4Ur/huBE/4LdPv9+3Tb/etwx/33pLv9AggeQAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABbiDFU+P7z//L96//r+uH95/nb/+P2
+        0/3f9c792/XI/df0wP/T87v9z/K1/cvxr//H8Kf9w++i/b/unP+57ZT9t+yP/bPrif+t6oP9qul7/abo
+        dv+i53D9nuZo/ZrlY/+W5F39kuNX/47gT/2K4Ur9huBE/4LdPv1+3Tb9fOAy/0qQEf9NmREUAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYJM0+f//
+        /v/r+uH95/nb/+P20/3f9c792/XI/df0wP/T87v9z/K1/cvxr//H8Kf9w++i/b/unP+57ZT9t+yP/bPr
+        if+t6oP9qul7/abodv+i53D9nuZo/ZrlY/+W5F39kuNX/47gT/2K4Ur9huBE/4LdPv1+3Tb9hOw3/0GB
+        C/EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAUoInWPP+7P/v/eb/5/nb/+P20//f987/2/TI/9f0wP/T87v/z/K1/8vxr//H8Kf/xPCj/8f2
+        pf/I+aD/xPia/731k/+z74j/reyA/6jreP+j6XH/nuZq/5rlYv+W5F3/kuNX/47iT/+K4Ur/huBE/4Ld
+        Pv+C5Dr/UZsW/06YEhIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEqDGeb/////5/nb/+P20/3f9c792/XI/df0wP/T87v9z/K1/cvx
+        r//Q+LD9zPmf/X+1SP9XkC39Uosm/WulK/+U0Vv9n91w/ZTUY/+Y22X9oOls/ZvnZP+W5F39kuNX/47g
+        T/2K4Ur9huBE/4PgP/2C5Dn/O3kGfQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIyubAJajy37///9/+P31P3f9c792/XI/df0
+        wP/T87v9z/K1/db7uf+Xxmj9P3Bo/Xaf1/+Vt/b9lbf1/XWc0P82aFX9SoYK/ZbYY/+FxlP9gsRO/ZLb
+        W/+Z6GD9kuNX/47hUP2L4kr9ieRG/4zuRf8/fwriAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACBqF8PWo8s+///
+        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
+        MOBioC+4Uo8eekyLGDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPgAAAAAHwAA/AAAAAA/AAD8AAAAAD8AAPwA
+        AAAAPwAA/AAAAAA/AAD8AAAAAD8AAPwAAAAAPwAA/AAAAAA/AAD8AAAAAD8AAPwAAAAAPwAA/AAAAAA/
+        AAD8AAAAAD8AAPwAAAAAPwAA/AAAAAA/AAD+AAAAAH8AAP4AAAAAfwAA/gAAAAB/AAD/AAAAAP8AAP8A
+        AAAA/wAA/4AAAAH/AAD/gAAAA/8AAP/AAAAH/wAA//AAAA//AAD/+AAAH/8AAP/+AAB//wAA///AB///
+        AAD//4AH//8AAP//AAP//wAA//4AAf//AAD//AAA//8AAP/8AAD//wAA//gAAH//AAD/+AAAf/8AAP/4
+        AAB//wAA//gAAH//AAD/+AAAf/8AAP/4AAB//wAA//gAAH//AAD/+AAAf/8AAP/4AAB//wAA//gAAH//
+        AAD/+AAAf/8AAP/4AAB//wAA//gAAH//AAD/+AAAf/8AAP/8AAD//wAA//4AA///AAD//4AP//8AAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAACgAAAAgAAAAQAAAAAEAIAAAAAAAgBAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAABqnTsHV54O/lKcB/9SnAf/UpwH/1KcB/9SnAf/UpwH/1KcB/9SnAf/UpwH/1Kc
+        B/9SnAf/UpwH/1KcB/9SnAf/UpwH/1KcB/9SnAf/UpwH/1KcB/9SnAf/UpwH/1KcB/9UoQr7S5sIBQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABboRP//////9rpy/+ev4P/UpwH//L/4//e+8r/2Pq//9L4
+        tv/L9a3/xfWi/7/ymf+58o7/se+F/6vvev+k7HD/nupn/5jpXP+Y71j/UpwH/2q9Kv9/5Tf/eOEr/1qt
+        Df8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFKcB//4//T/3O3Q/6TDif9SnAf/6f/Y/9bz
+        wP/Q87X/yvGt/8TupP++7pn/uOuR/7Lrhv+q6H7/pehz/5/ma/+Z42L/k+NX/5PpVP9SnAf/cMYv/37h
+        Nf912yn/UpwH/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUpwH//f+8//m9Nv/r8uW/1Kc
+        B//q/9r/1vPA/9Dztf/K8a3/xO6k/77umf+465H/suuG/6rofv+l6HP/n+Zr/5njYv+T41f/lOtV/1Kc
+        B/981jj/fN80/3XcKf9SnAf/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABSnAf/+P/0/+z3
+        4v+61qf/VZkS/+//3//W9MD/0PO1/8rxrf/E7qT/vu6Z/7jrkf+y64b/quh+/6Xoc/+f5mv/meNi/5Pj
+        WP+T6VP/UJgJ/4XjQP973TP/dt0p/1KcB/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFKc
+        B//5//X/8/7q/8Harf+Cql7/stSX/9z5yP/Q87X/yvGt/8TupP++7pn/uOuR/7Lrhv+q6H7/pehz/5/m
+        a/+Z42L/luda/3XBOv9gqST/huZA/3vdM/933in/UpwH/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAWJ8Q//z/+f/x/Or/3fDO/46ybf+Zv3n/3/vL/9Dztf/K8a3/xO6k/77umf+465H/suuG/6ro
+        fv+l6HP/n+Zr/5njYv+Y6Vz/Yago/2y6L/+E4z//e90z/3jgKv9SnQj/AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAABSnAf////9/+755v/x/+f/tNKd/4mxZv/g/Mz/0PO1/8rxrf/E7qT/vu6Z/7jr
+        kf+y64b/quh+/6Xoc/+f5mv/meNi/5PjWP+Q5lH/ftM+/4LfPf973TP/eOEq/1KcB/8AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAGCiHe7/////7vnm/+n63f/e887/2fPF/9f1wf/Q87X/yvGt/8Tu
+        pP++7pn/uOuR/7Lrhv+q6H7/pehz/5/ma/+Z42L/k+NX/43hT/+G4EX/gd48/3vdM/954yv/U54J5wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXZ8buf/////u+eb/6Pnb/+P31P/d98r/1vPA/9Dz
+        tf/K8a3/xO6k/77umf+465H/suuG/6rofv+l6HP/n+Zr/5njYv+T41f/jeBP/4fgRv+B3Tv/e90z/3rn
+        K/9RmwitAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB5p08Ecq41//P+7f/o+dv/4vbT/9z2
+        yP/W88D/0PO1/8rxrf/E7qT/vu6Z/7jrkf+y64b/quh+/6Xoc/+f5mv/meNi/5PjV/+N4E//h+BG/4Hd
+        O/9+4jX/VqMM/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABdoBrv/////+j5
+        2//i9tP/3PbI/9bzwP/Q87X/yvGt/8TupP++7pr/ue2S/7Lrh/+r6X7/peh0/5/ma/+Z42L/k+NX/43g
+        T/+H4Eb/gd07/4PsOP9SnAnmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHej
+        UBZxrjT/7/7k/+L20//c9sj/1vPA/9Dztf/K8a3/zvmp/8r7mv+47oL/vfiI/7Hwgv+o6nf/oulu/5nk
+        Yv+T41f/jeBP/4fgRv+G5T//VqMN/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAFacD976//D/5vrZ/9z2yP/W88D/0PO2/9b+r/9uoGT/VoSL/16Imf9Kemv/Uo4g/5DQ
+        WP+IzVb/meRi/5XmWv+O4lD/jehL/33ZOf9SnAjSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAFqbGcXm+tb/7f/d/9v4x//c/r7/XaAh/5a4+/+yy/n/t875/7XP
+        //+GqOf/V54S/4jMUf9+xkn/iN9I/4fgRv+F3UT/UpsI2wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFOcCtFbnxj5wuKn/8nupf9SnAf/r8n9/8bU
+        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
+        AAAAAAAA
+</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>OP-LOG</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
+    <value>toolTip1</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;applicationMenu.Name" xml:space="preserve">
+    <value>applicationMenu</value>
+  </data>
+  <data name="&gt;&gt;applicationMenu.Type" xml:space="preserve">
+    <value>Elegant.Ui.ApplicationMenu, Elegant.Ui.Ribbon, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;timer.Name" xml:space="preserve">
+    <value>timer</value>
+  </data>
+  <data name="&gt;&gt;timer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;formFrameSkinner.Name" xml:space="preserve">
+    <value>formFrameSkinner</value>
+  </data>
+  <data name="&gt;&gt;formFrameSkinner.Type" xml:space="preserve">
+    <value>Elegant.Ui.FormFrameSkinner, Elegant.Ui.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=3a2b400713aae6e0</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>OperationenLogbuchView</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>Operationen.OperationenForm, Operationen, Version=1.29.11.41641, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

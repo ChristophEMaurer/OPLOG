@@ -1,0 +1,4 @@
+Nach dem Extrahieren auszuführender Befehl: 
+=========================================== 
+.\OP-LOG-V1.29.18\setuplauncher.exe  
+.\OP-LOG-V1.29.18\opsetup.exe update 

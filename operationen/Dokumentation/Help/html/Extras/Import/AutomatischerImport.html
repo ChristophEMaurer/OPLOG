@@ -1,0 +1,83 @@
+<html>
+<head>
+<title>
+OP-LOG
+</title>
+<link rel="stylesheet" type="text/css" href="../../css/operationen.css"> 
+</head>
+<body>
+
+<h1>Automatischen Prozeduren-Import durchführen</h1>
+
+<p>
+Um ausgeführte Prozeduren importieren zu können, müssen die Daten aus dem EDV-Systems des Krankenhauses zunächst in eine Datei exportiert werden, dann muss diese Datei mit dem hier beschriebenen Datenimport eingelesen werden.
+</p>
+<p>
+Um diesen Vorgang zu vereinfachen gibt es die Möglichkeit, unter "Extras &gt; Optionen &gt; Automatischer Prozeduren-Import" ein Verzeichnis anzugeben, aus dem alle vorhandenen Dateien automatisch importiert werden.
+</p>
+<p>
+Für den automatischen Import wird das mitgelieferte Plugin Operationen.OperationenImportCSV.dll verwendet.
+</p>
+<p>
+Es werden alle Dateien importiert, die mit .csv enden. Anschließend werden diese in das Unterverzeichnis "done" (engl. "fertig") verschoben, damit sie beim nächsten Mal nicht nochmals importiert werden.
+</p>
+<p>
+Es werden hierbei keine Unterverzeichnisse berücksichtigt und nur Dateien importiert, die direkt in dem angegebenen Verzeichnis liegen.
+</p>
+
+<h2>Beispiel</h2>
+
+<p>
+Unter "Extras &gt; Optionen &gt; Automatischer Prozeduren-Import" wird eingestellt, dass alle Dateien aus dem Verzeichnis "c:\temp\Import" beim Programmstart importiert werden und dabei fehlende Ärzte und Prozeduren automatisch eingefügt werden. Außerdem wird ein Arzt anhand seines Nachnamens identifiziert:
+</p>
+
+<p>
+<img src="..\..\images\menu\extras\optionenAutoImport.jpg" alt="Optionen" /> 
+</p>
+
+<p>
+In dem Verzeichnis "c:\temp\Import" befinden sich die Dateien "Import Daten.csv", "Import Daten2.csv" und "Import Daten3.csv":
+</p>
+
+<p>
+<img src="..\..\images\menu\extras\import\autoImportVerzeichnis.jpg" alt="Verzeichnis" /> 
+</p>
+
+<p>
+Beim nächsten Programmstart oder durch Auswahl des Menüpunktes "Extras &gt; Datenimport &gt; Automatischen Prozeduren-Import durchführen" werden diese importiert.
+</p>
+
+<p>
+Beim manuellen Ausführen über "Extras &gt; Datenimport &gt; Automatischen Prozeduren-Import durchführen" erscheint zunächst eine Rückfrage
+</p>
+
+<p>
+<img src="..\..\images\menu\extras\import\autoImportFrage.jpg" alt="Automatischer Import Rückfrage" /> 
+</p>
+
+<p>
+Und nach Bestätigung werden die drei Dateien importiert
+</p>
+
+<p>
+<img src="..\..\images\menu\extras\import\autoImportFortschritt.jpg" alt="Automatischer Import Fortschritt" /> 
+</p>
+
+<p>
+Anschließend werden alle drei Dateien mit einem Zeitstempel versehen in das Unterverzeichnis "done" (engl. "fertig") verschoben.
+</p>
+<p>
+Die Datei, die vorher "Dateiname.csv" hieß, wird dabei umbenannt und dabei mit einem Zeitstempel versehen, sie wird umbenannt in "Dateiname.csv.Jahr-Monat-Tag-Stunden-Minuten-Sekunden-Millisekunden".
+</p>
+
+<p>
+Die Logdateien werden ebenfalls erzeugt und in das Verzeichnis "Logfiles" geschrieben.
+</p>
+
+<p>
+<img src="..\..\images\menu\extras\import\autoImportDone.jpg" alt="Automatischer Import Fertig" /> 
+</p>
+
+</body>
+</html>
+

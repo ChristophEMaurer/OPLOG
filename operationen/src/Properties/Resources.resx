@@ -1,0 +1,622 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Database16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Database16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Oculist16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Oculist16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Add16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Add16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CaseHistory_Problem16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CaseHistory-Problem16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MultistoreyBuilding32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MultistoreyBuilding32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Help32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Help32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Reports_Problem16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Reports-Problem16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BarCode_BlackPencil16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BarCode-BlackPencil16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AccountCard_Many32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AccountCard-Many32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3Dchart_PieChart_Report16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3Dchart-PieChart-Report16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PeopleContact16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PeopleContact16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Surgeon_BlackPencil32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Surgeon-BlackPencil32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Question16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Question16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3Dchart_PeopleContacts32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3Dchart-PeopleContacts32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MultistoreyBuilding_UserGroup16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MultistoreyBuilding-UserGroup16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Timer16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Timer16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Surgeon_Add16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Surgeon-Add16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PeopleContacts16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PeopleContacts16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PatientID16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PatientID16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="User_Registration16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\User-Registration16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MobilePhone_Back32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MobilePhone-Back32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Database_Clock_Back16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Database-Clock-Back16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BarCode16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BarCode16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Student32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Student32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Reports_Problem32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Reports-Problem32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlackPencil16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BlackPencil16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Registration32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Registration32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FlipHorizontally_RightArrow32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlipHorizontally-RightArrow32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Certification_RightArrow32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Certification-RightArrow32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Back16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Back16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Surgeon_Back16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Surgeon-Back16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AccountCard32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AccountCard32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AccountCard_Key32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AccountCard-Key32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Report_PeopleContact16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Report-PeopleContact16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Certification_Report32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Certification-Report32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Earth_Certification_Problem16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Earth-Certification-Problem16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CaseHistory_Problem32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CaseHistory-Problem32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Surgeon_Back_Erase32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Surgeon-Back-Erase32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Surgeon_BlackPencil16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Surgeon-BlackPencil16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Question32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Question32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Earth_Surgeon16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Earth-Surgeon16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Certification_Back16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Certification-Back16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Document32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Document32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Erase16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Erase16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="User_Registration32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\User-Registration32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Student_Problem32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Student-Problem32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Book_BlackPencil32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Book-BlackPencil32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MobilePhone16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MobilePhone16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="User16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\User16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Document_Problem32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Document-Problem32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Boss_UserGroup32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Boss-UserGroup32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Book16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Book16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OpenFile_Question16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OpenFile-Question16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Earth_Help16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Earth-Help16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Certification_PeopleContacts16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Certification-PeopleContacts16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Surgeon_Add32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Surgeon-Add32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Key16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Key16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FlipHorizontally_PatientID_Certification16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlipHorizontally-PatientID-Certification16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lang_en16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lang_en16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MultistoreyBuilding_UserGroup32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MultistoreyBuilding-UserGroup32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Book32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Book32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Earth_Question16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Earth-Question16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Book_BlackPencil16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Book-BlackPencil16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Report16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Report16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Clock16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Clock16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Certification_RightArrow16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Certification-RightArrow16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Certification_Back32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Certification-Back32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lang_de16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lang_de16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PieChart_PeopleContacts16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PieChart-PeopleContacts16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Help16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Help16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Earth_Certification32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Earth-Certification32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Earth16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Earth16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Report_PeopleContacts16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Report-PeopleContacts16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Table_Timer32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Table-Timer32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MobilePhone_Back16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MobilePhone-Back16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Table_Death32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Table-Death32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FlipHorizontally_Back32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlipHorizontally-Back32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Earth_Help32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Earth-Help32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="History16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\History16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PieChart_PeopleContact32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PieChart-PeopleContact32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FlipHorizontally_RightArrow16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlipHorizontally-RightArrow16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AccountCard_UserGroup16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AccountCard-UserGroup16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Book_Back32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Book-Back32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cardiologist_Oculist_Surgeon16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cardiologist-Oculist-Surgeon16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MultistoreyBuilding16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MultistoreyBuilding16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Table_Death16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Table-Death16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cardiologist_Oculist_Surgeon32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cardiologist-Oculist-Surgeon32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Table_Clock32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Table-Clock32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Certification16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Certification16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3Dchart_PeopleContact32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3Dchart-PeopleContact32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Student_Problem16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Student-Problem16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Earth_Certification16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Earth-Certification16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="History32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\History32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Camcorder16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Camcorder16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Reports32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Reports32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FlipHorizontally_Back16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlipHorizontally-Back16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CaseHistory16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CaseHistory16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Messages32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Messages32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Camcorder32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Camcorder32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Open16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Open16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Table32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Table32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Certification_PeopleContacts32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Certification-PeopleContacts32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Database_Back32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Database-Back32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Reports16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Reports16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Registration16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Registration16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UserGroup16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UserGroup16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Boss16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Boss16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Certification_Report16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Certification-Report16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Document16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Document16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3Dchart_PieChart_Report32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3Dchart-PieChart-Report32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Surgeon_RightArrow16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Surgeon-RightArrow16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Surgeon_Back32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Surgeon-Back32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wrench32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Wrench32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Death16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Death16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Database_Clock_Back32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Database-Clock-Back32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MobilePhone_RightArrow16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MobilePhone-RightArrow16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3Dchart16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3Dchart16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Surgeon16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Surgeon16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3Dchart_PeopleContacts16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3Dchart-PeopleContacts16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AccountCard_Key16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AccountCard-Key16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Report_PeopleContact32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Report-PeopleContact32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Earth_Surgeon32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Earth-Surgeon32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CaseHistory32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CaseHistory32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Earth_BarCode16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Earth-BarCode16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Document_Problem16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Document-Problem16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Surgeon_Back_Erase16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Surgeon-Back-Erase16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Boss_UserGroup16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Boss-UserGroup16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Document_BlackPencil16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Document-BlackPencil16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Surgeon_Erase32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Surgeon-Erase32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wrench16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Wrench16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Table_Clock16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Table-Clock16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Certification_PeopleContact16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Certification-PeopleContact16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Certification32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Certification32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Surgeon_Problem16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Surgeon-Problem16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Table16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Table16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Certification_PeopleContact32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Certification-PeopleContact32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Table_Timer16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Table-Timer16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Database_Back16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Database-Back16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Surgeon_RightArrow32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Surgeon-RightArrow32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Certification_BlackPencil32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Certification-BlackPencil32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cardiologist16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cardiologist16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Problem16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Problem16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PieChart_PeopleContacts32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PieChart-PeopleContacts32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RightArrow16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RightArrow16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Report_PeopleContacts32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Report-PeopleContacts32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PieChart_PeopleContact16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PieChart-PeopleContact16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FlipHorizontally_PatienID_Certification32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlipHorizontally-PatienID-Certification32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Surgeon_Problem32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Surgeon-Problem32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FlipHorizontally16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlipHorizontally16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3Dchart_PeopleContact16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3Dchart-PeopleContact16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Certification_BlackPencil16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Certification-BlackPencil16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Student16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Student16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PieChart16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PieChart16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Surgeon_Erase16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Surgeon-Erase16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AccountCard_Many16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AccountCard-Many16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AccountCard_UserGroup32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AccountCard-UserGroup32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Earth_Certification_Problem32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Earth-Certification-Problem32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BarCode_Back16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BarCode-Back16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Document_BlackPencil32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Document-BlackPencil32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MobilePhone_RightArrow32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MobilePhone-RightArrow32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AccountCard16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AccountCard16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hauptfenster_unten" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hauptfenster_unten.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OpenFile16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OpenFile16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Book_Back16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Book-Back16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Messages16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Messages16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PcPdaSynchronization16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PcPdaSynchronization16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PcPdaSynchronization32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PcPdaSynchronization32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

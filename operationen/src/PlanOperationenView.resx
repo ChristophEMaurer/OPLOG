@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cmdEditPlanOperation.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="cmdEditPlanOperation.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cmdEditPlanOperation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 225</value>
+  </data>
+  <data name="cmdEditPlanOperation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cmdEditPlanOperation.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="cmdEditPlanOperation.Text" xml:space="preserve">
+    <value>Ändern...</value>
+  </data>
+  <data name="&gt;&gt;cmdEditPlanOperation.Name" xml:space="preserve">
+    <value>cmdEditPlanOperation</value>
+  </data>
+  <data name="&gt;&gt;cmdEditPlanOperation.Type" xml:space="preserve">
+    <value>Windows.Forms.OplButton, Windows.Forms, Version=1.0.3954.39882, Culture=neutral, PublicKeyToken=82605a553e5279cb</value>
+  </data>
+  <data name="&gt;&gt;cmdEditPlanOperation.Parent" xml:space="preserve">
+    <value>grpPlanOperationen</value>
+  </data>
+  <data name="&gt;&gt;cmdEditPlanOperation.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdPrintPlanOperationen.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="cmdPrintPlanOperationen.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdPrintPlanOperationen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>791, 225</value>
+  </data>
+  <data name="cmdPrintPlanOperationen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 23</value>
+  </data>
+  <data name="cmdPrintPlanOperationen.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="cmdPrintPlanOperationen.Text" xml:space="preserve">
+    <value>Drucken...</value>
+  </data>
+  <data name="&gt;&gt;cmdPrintPlanOperationen.Name" xml:space="preserve">
+    <value>cmdPrintPlanOperationen</value>
+  </data>
+  <data name="&gt;&gt;cmdPrintPlanOperationen.Type" xml:space="preserve">
+    <value>Windows.Forms.OplButton, Windows.Forms, Version=1.0.3954.39882, Culture=neutral, PublicKeyToken=82605a553e5279cb</value>
+  </data>
+  <data name="&gt;&gt;cmdPrintPlanOperationen.Parent" xml:space="preserve">
+    <value>grpPlanOperationen</value>
+  </data>
+  <data name="&gt;&gt;cmdPrintPlanOperationen.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmdNewPlanOperation.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="cmdNewPlanOperation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 225</value>
+  </data>
+  <data name="cmdNewPlanOperation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 23</value>
+  </data>
+  <data name="cmdNewPlanOperation.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cmdNewPlanOperation.Text" xml:space="preserve">
+    <value>Neu...</value>
+  </data>
+  <data name="&gt;&gt;cmdNewPlanOperation.Name" xml:space="preserve">
+    <value>cmdNewPlanOperation</value>
+  </data>
+  <data name="&gt;&gt;cmdNewPlanOperation.Type" xml:space="preserve">
+    <value>Windows.Forms.OplButton, Windows.Forms, Version=1.0.3954.39882, Culture=neutral, PublicKeyToken=82605a553e5279cb</value>
+  </data>
+  <data name="&gt;&gt;cmdNewPlanOperation.Parent" xml:space="preserve">
+    <value>grpPlanOperationen</value>
+  </data>
+  <data name="&gt;&gt;cmdNewPlanOperation.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmdDeletePlanOperation.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="cmdDeletePlanOperation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 225</value>
+  </data>
+  <data name="cmdDeletePlanOperation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 23</value>
+  </data>
+  <data name="cmdDeletePlanOperation.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cmdDeletePlanOperation.Text" xml:space="preserve">
+    <value>Löschen...</value>
+  </data>
+  <data name="&gt;&gt;cmdDeletePlanOperation.Name" xml:space="preserve">
+    <value>cmdDeletePlanOperation</value>
+  </data>
+  <data name="&gt;&gt;cmdDeletePlanOperation.Type" xml:space="preserve">
+    <value>Windows.Forms.OplButton, Windows.Forms, Version=1.0.3954.39882, Culture=neutral, PublicKeyToken=82605a553e5279cb</value>
+  </data>
+  <data name="&gt;&gt;cmdDeletePlanOperation.Parent" xml:space="preserve">
+    <value>grpPlanOperationen</value>
+  </data>
+  <data name="&gt;&gt;cmdDeletePlanOperation.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lvPlanOperationen.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lvPlanOperationen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="lvPlanOperationen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>870, 200</value>
+  </data>
+  <data name="lvPlanOperationen.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lvPlanOperationen.Name" xml:space="preserve">
+    <value>lvPlanOperationen</value>
+  </data>
+  <data name="&gt;&gt;lvPlanOperationen.Type" xml:space="preserve">
+    <value>Windows.Forms.OplListView, Windows.Forms, Version=1.0.3954.39882, Culture=neutral, PublicKeyToken=82605a553e5279cb</value>
+  </data>
+  <data name="&gt;&gt;lvPlanOperationen.Parent" xml:space="preserve">
+    <value>grpPlanOperationen</value>
+  </data>
+  <data name="&gt;&gt;lvPlanOperationen.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="grpPlanOperationen.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="grpPlanOperationen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="grpPlanOperationen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>882, 254</value>
+  </data>
+  <data name="grpPlanOperationen.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="grpPlanOperationen.Text" xml:space="preserve">
+    <value>Vereinbarte Prozeduren</value>
+  </data>
+  <data name="&gt;&gt;grpPlanOperationen.Name" xml:space="preserve">
+    <value>grpPlanOperationen</value>
+  </data>
+  <data name="&gt;&gt;grpPlanOperationen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpPlanOperationen.Parent" xml:space="preserve">
+    <value>splitContainer.Panel1</value>
+  </data>
+  <data name="&gt;&gt;grpPlanOperationen.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cbChirurgenOPFunktionen.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cbChirurgenOPFunktionen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>583, 34</value>
+  </data>
+  <data name="cbChirurgenOPFunktionen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 21</value>
+  </data>
+  <data name="cbChirurgenOPFunktionen.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;cbChirurgenOPFunktionen.Name" xml:space="preserve">
+    <value>cbChirurgenOPFunktionen</value>
+  </data>
+  <data name="&gt;&gt;cbChirurgenOPFunktionen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbChirurgenOPFunktionen.Parent" xml:space="preserve">
+    <value>grpTest</value>
+  </data>
+  <data name="&gt;&gt;cbChirurgenOPFunktionen.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblOPFunktionen.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblOPFunktionen.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblOPFunktionen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>580, 16</value>
+  </data>
+  <data name="lblOPFunktionen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 13</value>
+  </data>
+  <data name="lblOPFunktionen.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblOPFunktionen.Text" xml:space="preserve">
+    <value>Funktion:</value>
+  </data>
+  <data name="&gt;&gt;lblOPFunktionen.Name" xml:space="preserve">
+    <value>lblOPFunktionen</value>
+  </data>
+  <data name="&gt;&gt;lblOPFunktionen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblOPFunktionen.Parent" xml:space="preserve">
+    <value>grpTest</value>
+  </data>
+  <data name="&gt;&gt;lblOPFunktionen.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkExtern.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkExtern.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkExtern.Location" type="System.Drawing.Point, System.Drawing">
+    <value>430, 34</value>
+  </data>
+  <data name="chkExtern.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 17</value>
+  </data>
+  <data name="chkExtern.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="chkExtern.Text" xml:space="preserve">
+    <value>externe</value>
+  </data>
+  <data name="&gt;&gt;chkExtern.Name" xml:space="preserve">
+    <value>chkExtern</value>
+  </data>
+  <data name="&gt;&gt;chkExtern.Type" xml:space="preserve">
+    <value>Windows.Forms.OplCheckBox, Windows.Forms, Version=1.0.3954.39882, Culture=neutral, PublicKeyToken=82605a553e5279cb</value>
+  </data>
+  <data name="&gt;&gt;chkExtern.Parent" xml:space="preserve">
+    <value>grpTest</value>
+  </data>
+  <data name="&gt;&gt;chkExtern.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chkIntern.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkIntern.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkIntern.Location" type="System.Drawing.Point, System.Drawing">
+    <value>430, 15</value>
+  </data>
+  <data name="chkIntern.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 17</value>
+  </data>
+  <data name="chkIntern.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="chkIntern.Text" xml:space="preserve">
+    <value>klinikinterne</value>
+  </data>
+  <data name="&gt;&gt;chkIntern.Name" xml:space="preserve">
+    <value>chkIntern</value>
+  </data>
+  <data name="&gt;&gt;chkIntern.Type" xml:space="preserve">
+    <value>Windows.Forms.OplCheckBox, Windows.Forms, Version=1.0.3954.39882, Culture=neutral, PublicKeyToken=82605a553e5279cb</value>
+  </data>
+  <data name="&gt;&gt;chkIntern.Parent" xml:space="preserve">
+    <value>grpTest</value>
+  </data>
+  <data name="&gt;&gt;chkIntern.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtDatumBis.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 19</value>
+  </data>
+  <data name="txtDatumBis.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 20</value>
+  </data>
+  <data name="txtDatumBis.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtDatumBis.Name" xml:space="preserve">
+    <value>txtDatumBis</value>
+  </data>
+  <data name="&gt;&gt;txtDatumBis.Type" xml:space="preserve">
+    <value>Windows.Forms.DateBoxPicker, Windows.Forms, Version=1.0.3954.39882, Culture=neutral, PublicKeyToken=82605a553e5279cb</value>
+  </data>
+  <data name="&gt;&gt;txtDatumBis.Parent" xml:space="preserve">
+    <value>grpTest</value>
+  </data>
+  <data name="&gt;&gt;txtDatumBis.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtDatumVon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 19</value>
+  </data>
+  <data name="txtDatumVon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 20</value>
+  </data>
+  <data name="txtDatumVon.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtDatumVon.Name" xml:space="preserve">
+    <value>txtDatumVon</value>
+  </data>
+  <data name="&gt;&gt;txtDatumVon.Type" xml:space="preserve">
+    <value>Windows.Forms.DateBoxPicker, Windows.Forms, Version=1.0.3954.39882, Culture=neutral, PublicKeyToken=82605a553e5279cb</value>
+  </data>
+  <data name="&gt;&gt;txtDatumVon.Parent" xml:space="preserve">
+    <value>grpTest</value>
+  </data>
+  <data name="&gt;&gt;txtDatumVon.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cmdIstSoll.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="cmdIstSoll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>790, 32</value>
+  </data>
+  <data name="cmdIstSoll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 23</value>
+  </data>
+  <data name="cmdIstSoll.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="cmdIstSoll.Text" xml:space="preserve">
+    <value>Anzeigen</value>
+  </data>
+  <data name="&gt;&gt;cmdIstSoll.Name" xml:space="preserve">
+    <value>cmdIstSoll</value>
+  </data>
+  <data name="&gt;&gt;cmdIstSoll.Type" xml:space="preserve">
+    <value>Windows.Forms.OplButton, Windows.Forms, Version=1.0.3954.39882, Culture=neutral, PublicKeyToken=82605a553e5279cb</value>
+  </data>
+  <data name="&gt;&gt;cmdIstSoll.Parent" xml:space="preserve">
+    <value>grpTest</value>
+  </data>
+  <data name="&gt;&gt;cmdIstSoll.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblDatumBis.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDatumBis.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 22</value>
+  </data>
+  <data name="lblDatumBis.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 13</value>
+  </data>
+  <data name="lblDatumBis.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblDatumBis.Text" xml:space="preserve">
+    <value>Datum bis: </value>
+  </data>
+  <data name="&gt;&gt;lblDatumBis.Name" xml:space="preserve">
+    <value>lblDatumBis</value>
+  </data>
+  <data name="&gt;&gt;lblDatumBis.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDatumBis.Parent" xml:space="preserve">
+    <value>grpTest</value>
+  </data>
+  <data name="&gt;&gt;lblDatumBis.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblDatumVon.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDatumVon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 22</value>
+  </data>
+  <data name="lblDatumVon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 13</value>
+  </data>
+  <data name="lblDatumVon.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblDatumVon.Text" xml:space="preserve">
+    <value>Datum von: </value>
+  </data>
+  <data name="&gt;&gt;lblDatumVon.Name" xml:space="preserve">
+    <value>lblDatumVon</value>
+  </data>
+  <data name="&gt;&gt;lblDatumVon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDatumVon.Parent" xml:space="preserve">
+    <value>grpTest</value>
+  </data>
+  <data name="&gt;&gt;lblDatumVon.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lvTest.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lvTest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 61</value>
+  </data>
+  <data name="lvTest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>868, 178</value>
+  </data>
+  <data name="lvTest.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lvTest.Name" xml:space="preserve">
+    <value>lvTest</value>
+  </data>
+  <data name="&gt;&gt;lvTest.Type" xml:space="preserve">
+    <value>Windows.Forms.ListViewBalken, Windows.Forms, Version=1.0.3954.39882, Culture=neutral, PublicKeyToken=82605a553e5279cb</value>
+  </data>
+  <data name="&gt;&gt;lvTest.Parent" xml:space="preserve">
+    <value>grpTest</value>
+  </data>
+  <data name="&gt;&gt;lvTest.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="grpTest.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="grpTest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="grpTest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>882, 256</value>
+  </data>
+  <data name="grpTest.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="grpTest.Text" xml:space="preserve">
+    <value>Geplante Prozeduren Summen</value>
+  </data>
+  <data name="&gt;&gt;grpTest.Name" xml:space="preserve">
+    <value>grpTest</value>
+  </data>
+  <data name="&gt;&gt;grpTest.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpTest.Parent" xml:space="preserve">
+    <value>splitContainer.Panel2</value>
+  </data>
+  <data name="&gt;&gt;grpTest.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 9</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 13</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Operateur:</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cbChirurgen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 25</value>
+  </data>
+  <data name="cbChirurgen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>415, 21</value>
+  </data>
+  <data name="cbChirurgen.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cbChirurgen.Name" xml:space="preserve">
+    <value>cbChirurgen</value>
+  </data>
+  <data name="&gt;&gt;cbChirurgen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbChirurgen.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbChirurgen.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdClose.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="cmdClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>804, 618</value>
+  </data>
+  <data name="cmdClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 23</value>
+  </data>
+  <data name="cmdClose.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="cmdClose.Text" xml:space="preserve">
+    <value>Schließen</value>
+  </data>
+  <data name="&gt;&gt;cmdClose.Name" xml:space="preserve">
+    <value>cmdClose</value>
+  </data>
+  <data name="&gt;&gt;cmdClose.Type" xml:space="preserve">
+    <value>Windows.Forms.OplButton, Windows.Forms, Version=1.0.3954.39882, Culture=neutral, PublicKeyToken=82605a553e5279cb</value>
+  </data>
+  <data name="&gt;&gt;cmdClose.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdClose.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblInfo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="lblInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 580</value>
+  </data>
+  <data name="lblInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>738, 64</value>
+  </data>
+  <data name="lblInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblInfo.Text" xml:space="preserve">
+    <value>info</value>
+  </data>
+  <data name="&gt;&gt;lblInfo.Name" xml:space="preserve">
+    <value>lblInfo</value>
+  </data>
+  <data name="&gt;&gt;lblInfo.Type" xml:space="preserve">
+    <value>Windows.Forms.OplLinkLabel, Windows.Forms, Version=1.0.3954.39882, Culture=neutral, PublicKeyToken=82605a553e5279cb</value>
+  </data>
+  <data name="&gt;&gt;lblInfo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblInfo.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cmdPrintTest.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="cmdPrintTest.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdPrintTest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>804, 580</value>
+  </data>
+  <data name="cmdPrintTest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 23</value>
+  </data>
+  <data name="cmdPrintTest.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="cmdPrintTest.Text" xml:space="preserve">
+    <value>Drucken...</value>
+  </data>
+  <data name="&gt;&gt;cmdPrintTest.Name" xml:space="preserve">
+    <value>cmdPrintTest</value>
+  </data>
+  <data name="&gt;&gt;cmdPrintTest.Type" xml:space="preserve">
+    <value>Windows.Forms.OplButton, Windows.Forms, Version=1.0.3954.39882, Culture=neutral, PublicKeyToken=82605a553e5279cb</value>
+  </data>
+  <data name="&gt;&gt;cmdPrintTest.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdPrintTest.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="splitContainer.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="splitContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 52</value>
+  </data>
+  <data name="splitContainer.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Panel1.Name" xml:space="preserve">
+    <value>splitContainer.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Panel1.Parent" xml:space="preserve">
+    <value>splitContainer</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Panel2.Name" xml:space="preserve">
+    <value>splitContainer.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Panel2.Parent" xml:space="preserve">
+    <value>splitContainer</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>886, 522</value>
+  </data>
+  <data name="splitContainer.SplitterDistance" type="System.Int32, mscorlib">
+    <value>258</value>
+  </data>
+  <data name="splitContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Name" xml:space="preserve">
+    <value>splitContainer</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>910, 658</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>730, 520</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>PlanOperationen</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>PlanOperationenView</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>Operationen.OperationenForm, Operationen, Version=1.27.1.39884, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

@@ -1,0 +1,216 @@
+<html>
+<head>
+<title>
+OP-LOG
+</title>
+<link rel="stylesheet" type="text/css" href="../css/operationen.css"> 
+</head>
+<body>
+
+<h1><a name="faq">FAQ (häufig gestellte Fragen)</a></h1>
+<ol>
+            <li><a href="#faq-rights">Ich kann keine Menüpunkte mehr anklicken</a></li>
+            <li><a href="#faq-importSurgeon">Ich kann meine exportierten Daten nicht importieren</a></li>
+            <li><a href="#faq-op-import">Wie importiere ich Operationen?</a></li>
+            <li><a href="#faq-password">Ich kann mich nicht mehr anmelden</a></li>
+            <li><a href="#faq-helpchm">Wieso kann ich die heruntergeladenen Hilfedateien im CHM Format nicht ansehen?</a></li>
+            <li><a href="#faq-importRichtlinien">Wie importiere ich Richtlinien?</a></li>
+            <li><a href="#faq-importZuordnungen">Wie importiere ich die Zuordnungen von OPS-Kodes zu Richtlinien?</a></li>
+            <li><a href="#faq-importGebiet">Wie importiere ich die Richtlinien und Zuordnungen für ein neues Facharztgebiet?</a></li>
+            <li><a href="#faq-backup">Wie sichere ich meine Daten?</a></li>
+            <li><a href="#faq-version">Welche Datenbank/Programmversion verwende ich?</a></li>
+            <li><a href="#faq-wrl-change">Was passiert, wenn sich die Weiterbildungsrichtlinien ändern?</a></li>
+            <li><a href="#faq-op-old">Was passiert mit meinen alten Eingriffen aus einem anderen Krankenhaus?</a></li>
+            <li><a href="#faq-wrl-old">Was passiert mit meinen extern/vorab erfüllten Weiterbildungsrichtlinien aus einem anderen Krankenhaus?</a></li>
+</ol>
+
+<hr />
+
+<ol>
+
+            <li><a name="faq-rights"><b>Ich kann keine Menüpunkte mehr anklicken</b></a>
+                <small><a href="#faq">nach oben</a></small>
+                <br/>
+                Nachdem ein neuer Benutzer angelegt oder automatisch imporiert wurde, muss dieser unter
+                <a href="../SecGroupsChirurgenView.html">Extras &gt; Zuordnungen von Benutzern zu Rollen</a> 
+                einer Rolle zugeordnet werden.
+                Die Rolle enthält die Rechte, die alle Benutzer erhalten, die dieser Rolle zugeordnet sind.
+                <br />Lesen Sie hierzu auch <a href="../Text/Rollen.html">Rollen und Rechte</a>.
+                <hr />
+            </li>
+            
+            <li><a name="faq-importSurgeon"><b>Ich kann meine exportierten Daten nicht importieren</b></a>
+                <small><a href="#faq">nach oben</a></small>
+                <br/>
+                Ich erhalte folgende Fehlermeldung:
+                
+                <p>
+                <img src="..\images\menu\extras\import\wizardArztImportierenVersionMismatch.jpg" alt="Arzt importieren Versionsfehler" /> 
+                </p>
+                
+                Exportierte Daten können nur in dieselbe Programmversion wiedereingelesen werden. 
+                Wenn Sie Daten mit einer früheren Version X exportiert haben, 
+                müssen Sie dieselbe Version X installieren, die Daten importieren und dann auf die neueste Version Y updaten.
+            <br />&nbsp;
+            </li>
+            
+            <li><a name="faq-op-import"><b>Wie importiere ich Operationen?</b></a>
+                <small><a href="#faq">nach oben</a></small>
+                <br/>OP-LOG kann Operationen aus einer beliebigen Datenquelle einlesen. Bereits vorhandene Plugins lesen Operationen aus Textdateien in verschiedenen Formaten.
+                Eine genaue Beschreibung finden Sie unter <a href="../OperationenImportView.html">Extras &gt; Datenimport &gt; Ausgeführte Prozeduren importieren</a>.
+                <hr />
+            </li>
+                    
+            <li><a name="faq-password"><b>Ich kann mich nicht mehr anmelden</b></a>
+                <small><a href="#faq">nach oben</a></small>
+            <br />Das Anfangs-Kennwort ist immer 'start'. Achten Sie hierbei auf die Groß- und Kleinschreibung.
+            <br />Wenn Sie ihren Anmeldenamen vergessen haben, kann ein anderer Benutzer, der das entsprechende Recht hat, diesen unter "Verwaltung &gt; Operateur-Daten &gt; Bearbeiten"
+            nachsehen.
+            <br />Wenn Sie ihr Kennwort vergessen haben, kann ein anderer Benutzer, der das entsprechende Recht hat, 
+            dieses unter 'Extras &gt; Kennwort eines anderen Benutzers festlegen' neu vergeben.
+                <hr />
+            </li>
+
+            <li><a name="faq-helpchm"><b>Wieso kann ich die heruntergeladenen Hilfedateien im .chm Format nicht ansehen?</b></a>
+                <small><a href="#faq">nach oben</a></small>
+            <br />Die Sicherheitseinstellungen in Windows verhindern, dass Topics in heruntergeladenen .chm Dateien angezeigt werden k&ouml;nnen. 
+            Aus dem Internet heruntergeladenen Dateien werden als nicht vertauensw&uuml;rdig eingestuft.
+            Wenden Sie daher eine der folgenden Methoden an:
+
+            <br />
+            <br />
+            <b>Methode 1</b>
+            <ol>
+                <li>
+                    Doppelklicken Sie auf die CHM-Datei.
+                </li>
+                <li>
+                    Deaktivieren Sie im Dialogfenster Datei &ouml;ffnen - Sicherheitswarnung das Kontrollk&auml;stchen <b>Vor dem &Ouml;ffnen dieser Datei immer best&auml;tigen</b>.    
+                </li>
+                <li>
+                    Klicken Sie auf <b>&Ouml;ffnen</b>.
+                </li>
+            </ol>
+
+            <br />
+            <b>Methode 2</b>
+
+            <ol>
+                <li>
+                    Klicken Sie mit der rechten Maustaste auf die CHM-Datei, und klicken Sie danach auf <b>Eigenschaften</b>.
+                </li>
+                <li>
+                    Klicken Sie auf <b>Zulassen</b>
+                </li>
+                <li>
+                    &Ouml;ffnen Sie die CHM-Datei per Doppelklick.
+                </li>
+            </ol>
+
+                <br />Quelle: <a target="_blank" href="http://support.microsoft.com/kb/902225/EN-US/">http://support.microsoft.com/kb/902225/EN-US/</a> 
+                <hr />
+            </li>
+            
+            <li><a name="faq-importRichtlinien"><b>Wie importiere ich Richtlinien?</b></a>
+                <small><a href="#faq">nach oben</a></small>
+            <br />Laden Sie das Programm herunter und installieren Sie es, falls das noch nicht geschehen ist.
+                Drücken Sie dann F1, um die Hilfe aufzurufen. Lesen Sie unter den FAQ nach, wie es gemacht wird.
+                <hr />
+            </li>
+            
+            <li><a name="faq-importZuordnungen"><b>Wie importiere ich die Zuordnungen von OPS-Kodes zu Richtlinien?</b></a>
+                <small><a href="#faq">nach oben</a></small>
+            <br />Laden Sie das Programm herunter und installieren Sie es, falls das noch nicht geschehen ist.
+                Drücken Sie dann F1, um die Hilfe aufzurufen. Lesen Sie unter den FAQ nach, wie es gemacht wird.
+            <br />&nbsp;
+            <hr />
+            </li>
+            
+            <li><a name="faq-importGebiet"><b>Wie importiere ich die Richtlinien und Zuordnungen für ein neues Facharztgebiet?</b></a>
+                <small><a href="#faq">nach oben</a></small>
+            <br />
+                Wenn das Facharztgebiet noch nicht vorhanden ist, müssen Sie dieses unter 'Offizielle Dokumente &gt; Facharzt-Gebiete'
+                zunächst einfügen.
+            <br />Danach müssen Sie erst die Richtlinien und dann die Zuordnungen von OPS-Kodes zu den Richtlinien einfügen.
+            <br />
+            Richtlinien können Sie manuell unter 'Offizielle Dokumente &gt; Weiterbildungsrichtlinien' eingeben oder unter
+            'Extras &gt; Datenimport &gt; Richtlinien importieren Assistent' importieren.
+            <br />
+            Zuordnungen von OPS-Kodes zu Richtlinien können Sie manuell unter 'Bearbeiten &gt; Zuordnungen von Richtlinien zu Prozeduren' eingeben 
+            oder unter 'Extras &gt; Datenimport &gt; Zuordnungen von OPS-Kodes zu Richtlinien importieren Assistent' importieren.
+            <hr />
+            </li>
+            
+            <li><a name="faq-backup"><b>Wie sichere ich meine Daten?</b></a>
+                <small><a href="#faq">nach oben</a></small>
+                <br />
+                <p>
+                Wenn Sie die Datenbank MSAccess benutzen, sind alle Daten im Datenverzeichnis in der Datei operationen.mdb.
+                Kopieren Sie diese Datei in ein anderes Verzeichnis, auf einen USB-Stick oder brennen Sie sie auf eine CD.
+                <br/>Anschließend können Sie diese Datei wieder in das Datenverzeichnis kopieren.
+                </p>
+
+                <p>
+                <img src="../images/datenSicherung.jpg" alt="Datensicherung" /> 
+                </p>
+
+                <p>
+                Wenn Sie die Datenbanken MS SQLServer oder MySQL benutzen, muss der Datenbankadministrator dafür sorgen, dass die Datenbank gesichert wird.
+                </p>
+            <hr />
+            </li>
+
+            <li><a name="faq-version"><b>Welche Datenbank/Programmversion verwende ich</b></a>
+                <small><a href="#faq">nach oben</a></small>
+                <p>
+                Um herauszufinden, welche Datenbankversion Sie verwenden, klicken Sie auf 'Hilfe > Über OP-LOG'.
+                <br/>In dem sich nun öffnenden Fenster können Sie alle Informationen entnehmen.
+                </p>
+
+                <p>
+                <img src="..\images\menu\hilfe\AboutBox.jpg" alt="Über OP-LOG" /> 
+                </p>
+                <hr />
+            </li>
+            
+            <li><a name="faq-wrl-change"><b>Was passiert, wenn sich die Weiterbildungsrichtlinien ändern?</b></a>
+                <small><a href="#faq">nach oben</a></small>
+                <p>
+                Sie können ein und dasselbe Facharztgebiet gleichzeitig nach verschiedenen Richtlinien (alt und neu) auswerten.
+                Legen Sie das Facharztgebiet einfach doppelt ('Viszeralchirurgie alt' und 'Viszeralchirurgie neu') 
+                an und weisen Sie jedem einen eigenen Satz an Richtlinien zu.
+                Jedem Facharztgebiet mit seinen verschiedenen Richtlinien können Sie verschiedene OPS-Kodes zuweisen.
+                <p>
+                Es macht keinen Unterschied, ob zwei Facharztgebiete verschieden sind (Herzchirurgie, Kinderchirurgie) oder
+                an sich gleich hei&szlig;en ('Viszeralchirurgie alt' und 'Viszeralchirurgie neu').
+                In beiden Fällen gibt es eigene (verschiedene) Richtlinien mit eigenen 
+                Zuordnungen von OPS-Kodes zu diesen Richtlinien.
+                </p>
+                <hr />
+            </li>
+
+            <li><a name="faq-op-old"><b>Was passiert mit meinen alten Eingriffen aus einem anderen Krankenhaus?</b></a>
+                <small><a href="#faq">nach oben</a></small>
+                <p>Alte Eingriffe können Sie manuell unter 'Bearbeiten &gt; Prozeduren bearbeiten' eingeben und hierbei als 'extern' markieren.
+                </p>
+                <p>Sie können jede alte Prozedur einzeln eingeben, oder für ein Datum viele auf einmal anlegen, 
+                indem Sie als Anzahl statt eins z.B. 50 eingeben.
+                </p>
+                <hr />
+            </li>
+
+            <li><a name="faq-wrl-old"><b>Was passiert mit meinen extern/vorab erfüllten Weiterbildungsrichtlinien aus einem anderen Krankenhaus?</b></a>
+                <small><a href="#faq">nach oben</a></small>
+                <p>
+                Sie können Ihre alten Operationen auch gar nicht eingeben und einfach weglassen.
+                Unter 'Bearbeiten &gt; Extern erfüllte Richtzahlen nachtragen'
+                können Sie bereits erfüllte Weiterbildungsrichtlinien direkt eintragen. Diese werden dann zu den Zahlen hinzugezählt, 
+                die durch Zuordnungen von Operationen zu Weiterbildungsrichtlinien entstanden sind.
+                </p>
+                <hr />
+            </li>
+</ol>
+
+
+</body>
+</html>

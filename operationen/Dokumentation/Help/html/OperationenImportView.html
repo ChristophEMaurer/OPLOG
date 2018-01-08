@@ -1,0 +1,332 @@
+<html>
+<head>
+<title>
+OP-LOG
+</title>
+<link rel="stylesheet" type="text/css" href="css/operationen.css"> 
+</head>
+<body>
+
+<h1>Ausgef&uuml;hrte Prozeduren importieren</h1>
+
+<p>
+Der Datenimport liest Operationen in das Programm OP-LOG ein, ohne dass Sie dieses manuell tun m�ssen. 
+Damit stehen Ihnen schlagartig g&auml;nzlich neue Vergleichs- und Auswertungsm&ouml;glichkeiten zur Verf�gung.
+</p>
+
+<p>
+In der Regel werden Prozeduren bereits im Krankenhaus in einem speziellen System eingepflegt. 
+Diese Daten m&uuml;ssen in die Anwendung OP-LOG importiert werden, damit sie dort angezeigt und ausgewertet werden k&ouml;nnen.
+</p>
+
+<p>
+Hierbei werden Prozeduren in die Datenbank eingef&uuml;gt und mit dem Operateur verkn&uuml;pft, der sie durchgef&uuml;hrt hat. 
+Bezieht sich eine Prozedur auf einen Operateur, der im System noch nicht existiert, so kann dieser optional automatisch angelegt werden. 
+Auf diese Weise erfordert ein Import keine Benutzer-Interaktion.
+</p>
+
+<div class="boxtext">
+Es werden nur Prozeduren eingef&uuml;gt, die noch nicht im System vorhanden sind, daher kann ein Import 
+auch mehrfach mit denselben Daten durchgef&uuml;hrt werden, wobei sichergestellt ist, dass jede Operation nur genau ein Mal in das System eingef&uuml;gt wird.
+Es kann also dieselbe Importdatei beliebig oft eingelesen werden, ohne doppelte Eintr&auml;ge zu produzieren.
+</div>
+
+<p>
+Der Datenimport ist mittels Plugin-Technik realisiert. Das hei&szlig;t, dass die Anwendung eine Schnittstelle zur Verf&uuml;gung stellt, 
+die von einer beliebigen Datenquelle gespeist werden kann.
+</p>
+
+<p>
+Die Plugins sind in dem Unterverzeichnis Plugins. Standardm&auml;&szlig;ig werden Plugins geliefert, 
+die Operationen aus einer Textdatei einlesen, die ein festgelegtes Format haben muss. 
+Es sind verschiedene Plugins vorhanden, die verschiedene Formate lesen k&ouml;nnen.
+Klicken Sie auf <a href="OperationenImportView.html">Extras &gt; Datenimport &gt; Ausgef&uuml;hrte Prozeduren importieren</a> 
+und dann auf 'Beschreibung', um das Format eines Plugins anzuzeigen.
+</p>
+
+<p>
+Bei jedem Import wird eine Logdatei in das Unterverzeichnis 'Logfiles' geschrieben. 
+Der Dateiname einer Logdatei hat das Format 'JJJJ.MM.TT-hh:mm:sss.log' (sss = Millisekunden) und wird nach jedem Import automatisch angezeigt.
+</p>
+
+
+<h2>Eigene Plugins erstellen</h2>
+<p>
+Sie k&ouml;nnen einen beliebigen Datenimport definieren, indem Sie selber ein Plugin erstellen.
+Wie das geht, steht auf <a href="http://www.op-log.de/Plugins.aspx" target="_blank">www.op-log.de/Plugins.aspx</a>.
+Sie k&ouml;nnen mit dem .NET-Framework ein solches Plugin selber erstellen und Operationen aus einer beliebigen Datenquelle einlesen.
+</p>
+
+<h2>Chirurgen automatisch anlegen</h2>
+<p>
+Wenn Sie beim Datenimport Chirurgen automatisch anlegen lassen m&ouml;chten, m&uuml;ssen Sie die Checkbox 'Fehlende Operateure automatisch einf&uuml;gen' einschalten.
+</p>
+
+<p>
+Seriennummern f&uuml;r Chirugen k&ouml;nnen Sie unter <a href="SerialnumbersView.html">Extras &gt; Seriennummern verwalten</a> in das Programm einf&uuml;gen.
+Wenn Sie m&ouml;chten, dass beim Datenimport automatisch diese Seriennummern verwendet werden, schalten Sie diese Option
+unter <a href="OptionsView.html#opt-seriennummern">Extras &gt; Optionen &gt;  Seriennummern &gt; Immer wenn ein Arzt angelegt wird eine Seriennummer automatisch aus den hinterlegten verbrauchen</a> ein.
+</p>
+
+<h2>Chirurgen identifizieren</h2>
+<p>
+Beim Datenimport werden Operationen einer Person normalerweise &uuml;ber den Nachnamen zugeordnet.
+Wenn jedoch mehr als eine Person denselben Namen hat, so k&ouml;nnen Sie angeben, f&uuml;r die Zuordnung anstelle von Nachname/Vorname den 
+<a href="ChirurgView.html">Importnamen</a> zu verwenden.
+Der Importname muss unter allen Benutzern eindeutig sein.
+<br />Dieses stellen Sie hier ein und unter 
+<a href="OptionsView.html#opt-auto-op-import">Extras>Optionen>Automatischer Prozeduren-Import</a>
+</p>
+
+
+<h1>Prozeduren importieren mit den mitgelieferten Plugins f&uuml;r Text-Dateien</h1>
+
+<h2>1 Operationen.OperationenImportCSV.dll </h2>
+
+<p>
+Das Plugin Operationen.OperationenImportCSV.dll erwartet eine Datei mit ANSI-Zeichensatz Latin 2 (1250):
+</p>
+
+<p>
+<img src="images\zeichensatz-1250.jpg" alt="ANSI-Zeichensatz Latin 2 (1250)"  /> 
+</p>
+
+<p>
+Jede Zeile enth&auml;lt 26 durch Semikolon (;) getrennte relevante Felder, der Rest wird ignoriert.
+</p>
+
+<table border="1">
+<tr>
+<th>Index</th>
+<th>Inhalt</th>
+<th>Format</th>
+</tr>
+<tr><td>1</td><td>&lt;Fallzahl&gt;</td><td>Text, L&auml;nge &lt;= 50</td></tr>
+<tr><td>2</td><td>&lt;OPDatum&gt;</td><td>DD/MM/YYYY</td></tr>
+<tr><td>3</td><td>&lt;OPZeitBeginn&gt;</td><td>HH:MM</td></tr>
+<tr><td>4</td><td>&lt;OPZeitEnde&gt;</td><td>HH:MM</td></tr>
+<tr><td>5</td><td>&lt;OPSKode1&gt;</td><td>Text</td></tr>
+<tr><td>6</td><td>&lt;OPSBezeichnung1&gt;</td><td>Text</td></tr>
+<tr><td>7</td><td>&lt;OPSKode2&gt;</td><td>Text</td></tr>
+<tr><td>8</td><td>&lt;OPSBezeichnung2&gt;</td><td>Text</td></tr>
+<tr><td>9</td><td>&lt;OPSKode3&gt;</td><td>Text</td></tr>
+<tr><td>10</td><td>&lt;OPSBezeichnung3&gt;</td><td>Text</td></tr>
+<tr><td>11</td><td>&lt;OPSKode4&gt;</td><td>Text</td></tr>
+<tr><td>12</td><td>&lt;OPSBezeichnung4&gt;</td><td>Text</td></tr>
+<tr><td>13</td><td>&lt;OPSKode5&gt;</td><td>Text</td></tr>
+<tr><td>14</td><td>&lt;OPSBezeichnung5&gt;</td><td>Text</td></tr>
+
+<tr><td>15</td><td>&lt;BeteiligterName1&gt;</td><td>Nachname[ ,][Vorname]</td></tr>
+<tr><td>16</td><td>&lt;BeteiligterFunktion1&gt;</td><td>OP1 | OP2 | ASS1</td></tr>
+<tr><td>17</td><td>&lt;BeteiligterVon1&gt;</td><td>HH:MM</td></tr>
+<tr><td>18</td><td>&lt;BeteiligterBis1&gt;</td><td>HH:MM</td></tr>
+
+<tr><td>19</td><td>&lt;BeteiligterName2&gt;</td><td>Nachname[ ,][Vorname]</td></tr>
+<tr><td>20</td><td>&lt;BeteiligterFunktion2&gt;</td><td>OP1 | OP2 | ASS1</td></tr>
+<tr><td>21</td><td>&lt;BeteiligterVon2&gt;</td><td>HH:MM</td></tr>
+<tr><td>22</td><td>&lt;BeteiligterBis2&gt;</td><td>HH:MM</td></tr>
+
+<tr><td>23</td><td>&lt;BeteiligterName3&gt;</td><td>Nachname[ ,][Vorname]</td></tr>
+<tr><td>24</td><td>&lt;BeteiligterFunktion3&gt;</td><td>OP1 | OP2 | ASS1</td></tr>
+<tr><td>25</td><td>&lt;BeteiligterVon3&gt;</td><td>HH:MM</td></tr>
+<tr><td>26</td><td>&lt;BeteiligterBis3&gt;</td><td>HH:MM</td></tr>
+<tr><td>&nbsp;</td><td>[;&lt;Rest]&gt;</td><td>&nbsp;</td></tr>
+</table>
+
+<p>
+Nachname:	L&auml;nge &lt;= 50
+<br/>Vorname:	L&auml;nge &lt;= 50
+<br/>OPS-Kode: 	L&auml;nge &lt;= 20
+<br/>OPS-Text: 	L&auml;nge &lt;=  255
+</p>
+
+<h3>Dateiformat</h3>
+
+<p>
+Eine Zeile enth&auml;lt bis zu drei "beteiligte Operateure" mit deren Zeiten und bis zu f&uuml;nf OPS-Kodes.
+</p>
+<p>
+F&uuml;r jeden beteiligten Operateur wird f&uuml;r jeden auftretenden OPS-Kode eine Operation angelegt. Pro Zeile k&ouml;nnen also bis zu 15 Prozeduren generiert werden.
+</p>
+<p>
+Weiterhin gibt es pro Zeile ein Datum &lt;OPDatum&gt; und einen Zeitraum: &lt;OPZeitBeginn&gt; bis &lt;OPZeitEnde&gt;.
+</p>
+<p>
+Wird eine Zeitangabe eines Beteiligten nicht als g&uuml;ltige Zeitangabe erkannt, so wird stattdessen diese allgemeine Zeitangabe (Index 3 oder 4) verwendet.
+</p>
+<p>
+Es werden nur Eintr&auml;ge mit Funktion OP1 (1. Operateur), OP2 (2. Operateur) und ASS1 (1. Assistent) importiert.
+</p>
+<p>
+Ein Arzt wird anhand seines Nachnamens identifiziert. Die Gro&szlig;- oder Kleinschreibung ist hierbei egal. 
+Alternativ kann f&uuml;r die Identifikation sowohl der Nachname als auch der Vorname verwendet werden, wenn es zum Beispiel zwei Ärzte mit Namen M&uuml;ller gibt.
+</p>
+<p>
+Eine Operation wird anhand ihres OPS-Kodes identifiziert. Die Gro&szlig;- oder Kleinschreibung ist hierbei egal.
+</p>
+<p>
+Bitte beachten Sie: Ist das Datum 01.01.2007, die Beginn-Zeit 23:10 und die Ende-Zeit 00:30, so wird angenommen, dass die Ende-Zeit auf dem n&auml;chsten Tag liegt. 
+Es ist dann die Beginn-Zeit = 01.01.2007, 23:10, und die Ende-Zeit 02.01.2007, 00:30. Die Operationsdauer ist 80 Minuten.
+</p>
+
+
+<h2>2 Operationen.OperationenImportIcpm3Op3CSV.dll</h2>
+
+<p>
+Das Plugin Operationen.OperationenImportIcpm3Op3CSV.dll erwartet eine Datei im ANSI-Zeichensatz Latin 2 (1250).
+</p>
+
+<p>
+Jede Zeile enth&auml;lt genau 13 durch Semikolon (;) getrennte Felder.
+</p>
+
+<table border="1">
+<tr>
+<th>Index</th>
+<th>Inhalt</th>
+<th>Format</th>
+</tr>
+<tr><td>1</td><td>&lt;Fallzahl&gt;</td><td>Text, L&auml;nge &lt;= 50</td></tr>
+<tr><td>2</td><td>&lt;OPDatum&gt;</td><td>DD.MM.YYYY</td></tr>
+<tr><td>3</td><td>&lt;OPZeitBeginn&gt;</td><td>HH:MM</td></tr>
+<tr><td>4</td><td>&lt;OPZeitEnde&gt;</td><td>HH:MM</td></tr>
+<tr><td>5</td><td>&lt;OPSKode1&gt;</td><td>Text, L&auml;nge &lt;= 20</td></tr>
+<tr><td>6</td><td>&lt;OPSBezeichnung1&gt;</td><td>Text, L&auml;nge &lt;= 255</td></tr>
+<tr><td>7</td><td>&lt;OPSKode2&gt;</td><td>Text, L&auml;nge &lt;= 20</td></tr>
+<tr><td>8</td><td>&lt;OPSBezeichnung2&gt;</td><td>Text, L&auml;nge &lt;= 255</td></tr>
+<tr><td>9</td><td>&lt;OPSKode3&gt;</td><td>Text, L&auml;nge &lt;= 20</td></tr>
+<tr><td>10</td><td>&lt;OPSBezeichnung3&gt;</td><td>Text, L&auml;nge &lt;= 255</td></tr>
+
+<tr><td>11</td><td>&lt;NameOperateur1&gt;</td><td>Nachname[ ,][Vorname]</td></tr>
+<tr><td>12</td><td>&lt;NameOperateur2&gt;</td><td>Nachname[ ,][Vorname]</td></tr>
+<tr><td>13</td><td>&lt;NameAssistent&gt;</td><td>Nachname[ ,][Vorname]</td></tr>
+
+</table>
+
+<table>
+<tr><td>Nachname:</td><td>L&auml;nge &lt;= 50</td></tr>
+<tr><td>Vorname:</td><td>L&auml;nge &lt;= 50</td></tr>
+<tr><td>OPS-Kode:</td><td>L&auml;nge &lt;= 20</td></tr>
+<tr><td>OPS-Text:</td><td>L&auml;nge &lt;= 255</td></tr>
+</table>
+
+<h3>Dateiformat</h3>
+
+<p>
+Eine Zeile enth&auml;lt ein Datum, eine Beginnzeit, eine Endezeit, bis zu drei "beteiligte Operateure" und bis zu drei OPS-Kodes.
+</p>
+
+<p>
+Die Funktion des Operateurs ist durch die Spalte definiert.
+F&uuml;r jeden beteiligten Operateur wird f&uuml;r jeden auftretenden OPS-Kode eine Operation angelegt. 
+Pro Zeile k&ouml;nnen also bis zu 3 x 3 = 9 Prozeduren generiert werden.
+</p>
+<p>
+Ein Arzt wird anhand seines Nachnamens identifiziert. Die Gro&szlig;- oder Kleinschreibung ist hierbei egal. 
+Alternativ kann f&uuml;r die Identifikation sowohl der Nachname als auch der Vorname verwendet werden, wenn es zum Beispiel zwei Ärzte mit Namen M&uuml;ller gibt.
+</p>
+<p>
+Eine Operation wird anhand ihres OPS-Kodes identifiziert. Die Gro&szlig;- oder Kleinschreibung ist hierbei egal.
+</p>
+<p>
+Bitte beachten Sie: Ist das Datum 01.01.2007, die Beginn-Zeit 23:10 und die Ende-Zeit 00:30, so wird angenommen, 
+dass die Ende-Zeit auf dem n&auml;chsten Tag liegt. 
+Es ist dann die Beginn-Zeit = 01.01.2007, 23:10, und die Ende-Zeit 02.01.2007, 00:30. 
+Die Operationsdauer ist 80 Minuten.
+</p>
+
+
+
+<h2>3 Beispiel</h2>
+
+<p>
+Die folgende Datenzeile in der original Importdatei NICHT umgebrochen.
+Sie wird hier auf mehreren Zeilen dargestellt, damit man den Inhalt besser lesen kann.
+</p>
+<p>
+Die erste Zeile enth&auml;lt Spalten&uuml;berschriften und wird ignoriert, nicht weil sie die erste Zeile ist, 
+sondern weil sie nicht das notwendige Format einer Datenzeile einh&auml;lt.
+</p>
+
+<p>
+Importdatei.txt: die ersten zwei Zeilen
+</p>
+<div class="code">
+Fallzahl;OP-Datum;OP-Beginn;OP-Ende;Ops(1);Ops-Bez(1);Ops(2);Ops-Bez(2);Ops(3);Ops-Bez(3);Ops(4);Ops-Bez(4);Ops(5);Ops-Bez(5);Beteiligte(1);Bet.Fkt.(1);Bet.von (1);Bet.bis (1);;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+2001010306;02/01/2001;07:30;10:00;5-062.5;Op1;5-062.3;Op2;5-20;OP3;5-21;OP4;5-22;OP5;Name1;OP1;01:00;01:50;Name2;ASS1;02:aa;02:22;Name3;OP1;03:33;03:55;
+</div>
+
+<p>
+erzeugt folgendes:
+</p>
+<p>
+Die Logdatei enth&auml;lt einige Meldungen weil die erste Zeile die Feldnamen enth&auml;lt:
+</p>
+
+<p>
+<img src="images\datenimport-logdatei.jpg" alt="Logdatei"  /> 
+</p>
+
+<p>
+Diese Operationen werden dadurch erzeugt (<a href="OperationenView.html">Auswertungen &gt; Liste aller durchgef&uuml;hrter Prozeduren</a>):
+</p>
+
+<p>
+<img src="images\menu\auswertungen\durchgefuehrteProzeduren.jpg" alt="Durchgef&uuml;hrte Prozeduren"  /> 
+</p>
+
+<p>
+Sie klicken auf <a href="OperationenImportView.html">Extras &gt; Datenimport &gt; Ausgef&uuml;hrte Prozeduren importieren</a>
+</p>
+
+
+<p>
+<img src="images\menu\extras\import\operationenImportView.jpg" alt="Operationen importieren"  /> 
+</p>
+
+<p>
+Sie m&uuml;ssen Administrator sein, um den Datenimport durchf&uuml;hren zu k&ouml;nnen.
+</p>
+
+<p>
+Markieren Sie die Zeile 'Operationen.OperationenImportCSV.dll', und klicken Sie 'Import starten'. 
+Es erscheint folgendes Fenster:
+</p>
+
+<p>
+<img src="images\menu\extras\import\fileOpen.jpg" alt="Datei &ouml;ffnen"  /> 
+</p>
+
+<p>
+W&auml;hlen Sie die Datei aus, die Ihre Daten enth&auml;lt und importiert werden soll, und klicken Sie dann 'Open'/'Öffnen'.
+</p>
+
+<p>
+Prozeduren und Ärzte werden nun importiert und der Fortschritt angezeigt.
+</p>
+
+<p>
+<img src="images\menu\extras\import\importFortschritt.jpg" alt="Import Fortschritt"  /> 
+</p>
+
+<p>
+Sie k&ouml;nnen den Import jederzeit abbrechen und wiederholen. Bereits eingef&uuml;gte Prozeduren werden erkannt und nicht nochmals eingef&uuml;gt.
+</p>
+
+<p>
+Anschlie&szlig;end wird die erstellte Logdatei angezeigt:
+</p>
+
+<p>
+<img src="images\menu\extras\import\logdatei.jpg" alt="Logdatei" /> 
+</p>
+
+<p>
+Überpr&uuml;fen Sie anschlie&szlig;end, ob der Import wie gew&uuml;nscht durchlaufen wurde. 
+Hierzu k&ouml;nnen Sie alle Prozeduren unter 'Bearbeiten > Liste aller durchgef&uuml;hrten Prozeduren' einsehen.
+</p>
+
+</body>
+</html>
+
+

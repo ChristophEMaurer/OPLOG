@@ -1,0 +1,59 @@
+        1 Datei(en) kopiert.
+        1 Datei(en) kopiert.
+        1 Datei(en) kopiert.
+
+7-Zip [64] 16.04 : Copyright (c) 1999-2016 Igor Pavlov : 2016-10-04
+
+Scanning the drive:
+33 folders, 302 files, 18582944 bytes (18 MiB)
+
+Creating archive: d:\daten\develop\OpLog\operationen\www\download\online-help.zip
+
+Items to compress: 335
+
+
+Files read from disk: 302
+Archive size: 14410086 bytes (14 MiB)
+Everything is Ok
+
+7-Zip [64] 16.04 : Copyright (c) 1999-2016 Igor Pavlov : 2016-10-04
+
+Scanning the drive:
+2 files, 3754850 bytes (3667 KiB)
+
+Creating archive: d:\daten\develop\OpLog\operationen\www\download\db\mysql-operationen.zip
+
+Items to compress: 2
+
+
+Files read from disk: 2
+Archive size: 387794 bytes (379 KiB)
+Everything is Ok
+
+7-Zip [64] 16.04 : Copyright (c) 1999-2016 Igor Pavlov : 2016-10-04
+
+Scanning the drive:
+2 files, 13492144 bytes (13 MiB)
+
+Creating archive: d:\daten\develop\OpLog\operationen\www\download\db\sqlserver-operationen.zip
+
+Items to compress: 2
+
+
+Files read from disk: 2
+Archive size: 523126 bytes (511 KiB)
+Everything is Ok
+
+7-Zip [64] 16.04 : Copyright (c) 1999-2016 Igor Pavlov : 2016-10-04
+
+Scanning the drive:
+2 files, 13485792 bytes (13 MiB)
+
+Creating archive: d:\daten\develop\OpLog\operationen\www\download\db\sqlazure-operationen.zip
+
+Items to compress: 2
+
+
+Files read from disk: 2
+Archive size: 522903 bytes (511 KiB)
+Everything is Ok

@@ -1,0 +1,2 @@
+Fallzahl;OP-Datum;OP-Beginn;OP-Ende;Ops(1);Ops-Bez(1);Ops(2);Ops-Bez(2);Ops(3);Ops-Bez(3);Ops(4);Ops-Bez(4);Ops(5);Ops-Bez(5);Beteiligte(1);Bet.Fkt.(1);Bet.von (1);Bet.bis (1);;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+2001010306;02/01/2001;07:30;10:00;5-062.5;Op1;5-062.3;Op2;5-20;OP3;5-21;OP4;5-22;OP5;Name1;OP1;01:00;01:50;Name2;ASS1;02:aa;02:22;Name3;OP1;03:33;03:55;
