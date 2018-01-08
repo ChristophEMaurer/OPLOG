@@ -3,3 +3,6 @@
 ################################################################################
 
 *.cache
+*.suo
+/operationen/src/SetupData/obj/Debug/Interop.IWshRuntimeLibrary.dll
+/OpLog.VC.VC.opendb
