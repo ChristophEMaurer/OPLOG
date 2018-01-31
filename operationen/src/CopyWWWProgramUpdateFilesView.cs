@@ -125,7 +125,7 @@ namespace Operationen
 
             // download version.txt to temp folder
             if (!DownloadAsciiInfoFile(
-                    BusinessLayer.UrlHomepage + "/download/" + BusinessLayer.VERSION_DOWNLOAD_FILENAME,
+                    BusinessLayer.UrlHomepageForDownload + "/download/" + BusinessLayer.VERSION_DOWNLOAD_FILENAME,
                     true,
                     tempVersionFile,
                     out versionInfo))
@@ -176,7 +176,7 @@ namespace Operationen
             if (!DownloadFile(
                 GetText("download_file"),
                 fileSizeKb,
-                BusinessLayer.UrlHomepage + "/download/" + setupFilename,
+                BusinessLayer.UrlHomepageForDownload + "/download/" + setupFilename,
                 tempSetupFile))
             {
                 // delete file in any case if download failed

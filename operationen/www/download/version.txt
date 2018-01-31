@@ -1,1 +1,1 @@
-1.29.18|17160|operationen-update.exe
+1.29.19|17156|operationen-update.exe

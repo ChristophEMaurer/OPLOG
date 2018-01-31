@@ -11,7 +11,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("OP-LOG")]
-[assembly: AssemblyCopyright("Copyright © Christoph Maurer")]
+[assembly: AssemblyCopyright("Christoph Maurer")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

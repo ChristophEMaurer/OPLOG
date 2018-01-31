@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Christoph Maurer")]
 [assembly: AssemblyProduct("OP-LOG")]
-[assembly: AssemblyCopyright("Copyright © Christoph Maurer")]
+[assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: AssemblyVersion("3.2.0.0")]

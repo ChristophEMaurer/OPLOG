@@ -7,18 +7,6 @@ rd /s /q Data\obj
 rd /s /q Operationen\src\obj
 rd /s /q Operationen\src\bin
 
-rd /s /q Operationen\src\aspx\Logbuch\bin
-rd /s /q Operationen\src\aspx\Logbuch\obj
-
-rd /s /q Operationen\src\BDC\bin
-rd /s /q Operationen\src\BDC\obj
-
-rd /s /q Operationen\src\LicenseManager\bin
-rd /s /q Operationen\src\LicenseManager\obj
-
-rd /s /q Operationen\src\LogbuchStrings\bin
-rd /s /q Operationen\src\LogbuchStrings\obj
-
 rd /s /q Operationen\src\OperationenAppFramework\bin
 rd /s /q Operationen\src\OperationenAppFramework\obj
 
@@ -98,8 +86,6 @@ rd /s /q Operationen\src\SetupLauncher\Release
 rd /s /q Operationen\src\Uninstall\bin
 rd /s /q Operationen\src\Uninstall\obj
 
-rd /s /q Operationen\www\bin
-
 rd /s /q Security\bin
 rd /s /q Security\obj
 
@@ -108,8 +94,5 @@ rd /s /q Utility\obj
 
 rd /s /q Windows\Forms\bin
 rd /s /q Windows\Forms\obj
-
-rd /s /q XmlSignTool\bin
-rd /s /q XmlSignTool\obj
 
 pause

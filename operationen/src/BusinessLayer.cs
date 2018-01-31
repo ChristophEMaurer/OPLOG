@@ -46,9 +46,17 @@ namespace Operationen
 
         public const string LicenseFileName = "operationen.license.xml";
 
-        public const string UrlWebshop = "http://www.op-log.de";
-        public const string UrlHomepage = "http://www.op-log.de";
-        public const string UrlHomepageNoHttp = "www.op-log.de";
+        // 04.02.2018 www.op-log.de changed to github
+        public const string UrlWebshop = "https://github.com/ChristophEMaurer/OPLOG";
+        public const string UrlHomepageForDisplay = "https://github.com/ChristophEMaurer/OPLOG/wiki";
+
+        /// <summary>
+        /// UrlHomepageForDownload is always used like this: 
+        /// BusinessLayer.UrlHomepageForDownload +  "/download/[fileName]"
+        ///                                         "/help/operationen_help.html");
+        /// </summary>
+        public const string UrlHomepageForDownload = "https://github.com/ChristophEMaurer/OPLOG/raw/master/operationen/www";
+        public const string UrlHomepageNoHttpForDisplay = "github.com/ChristophEMaurer/OPLOG";
 
 #if urologie
 #if targetplatform_x86
@@ -574,7 +582,7 @@ namespace Operationen
 
         public string AppAndVersionStringForPrinting
         {
-            get { return AppTitle() + " " + VersionString + " " + UrlHomepage; }
+            get { return AppTitle() + " " + VersionString + " " + UrlHomepageForDisplay; }
         }
 
         public string AppAndVersionString

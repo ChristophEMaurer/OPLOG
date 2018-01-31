@@ -10,7 +10,7 @@ using System.Security;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Christoph Maurer")]
 [assembly: AssemblyProduct("OP-LOG")]
-[assembly: AssemblyCopyright("Copyright © Christoph Maurer")]
+[assembly: AssemblyCopyright("Christoph Maurer")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

@@ -555,6 +555,10 @@ namespace Operationen
         /// <returns></returns>
         private void QueryWebService(string command, string serialNumber, DataRow chirurg)
         {
+            //
+            // 04.02.2018 Moved to GitHub -> removed call to webservice
+            //
+#if false
             try
             {
                 // Erster Parameter ist immer die Version
@@ -610,6 +614,7 @@ namespace Operationen
             {
                 string s = e.Message;
             }
+#endif
         }
 
         /// <summary>

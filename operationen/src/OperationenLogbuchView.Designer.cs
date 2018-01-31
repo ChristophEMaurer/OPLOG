@@ -1234,6 +1234,7 @@ namespace Operationen
             this.cmdSerialBuy.Name = "cmdSerialBuy";
             this.cmdSerialBuy.SmallImages.Images.AddRange(new Elegant.Ui.ControlImage[] {
             new Elegant.Ui.ControlImage("Normal", global::Operationen.Properties.Resources.Earth_BarCode16)});
+            this.cmdSerialBuy.Click += new System.EventHandler(this.cmdSerialBuy_Click);
             // 
             // cmdInstallLicenseWizard
             // 
@@ -1369,7 +1370,7 @@ namespace Operationen
             new Elegant.Ui.ControlImage("Normal", ((System.Drawing.Image)(resources.GetObject("ribbon.ApplicationButtonImages.Images"))))});
             this.ribbon.ApplicationButtonPopup = this.applicationMenu;
             this.ribbon.AutoHide = false;
-            this.ribbon.CurrentTabPage = this.rtpAuswertungen;
+            this.ribbon.CurrentTabPage = this.rtpExtras;
             resources.ApplyResources(this.ribbon, "ribbon");
             this.ribbon.Id = "003e845a-9ea4-41ad-b052-a403e8ba4481";
             this.ribbon.MinimizeButtonVisible = false;

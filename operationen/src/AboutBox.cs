@@ -30,10 +30,7 @@ namespace Operationen
         {
             InitializeComponent();
 
-#if !DEBUG
             cmdDetails.Visible = false;
-#endif
-
         }
 
         private void cmdOK_Click(object sender, EventArgs e)
@@ -60,14 +57,14 @@ namespace Operationen
 #elif gynaekologie
             tmp = AppTitle() + " Gynäkologie\r" + "Version " + BusinessLayer.VersionString;
 #else
-            tmp = BusinessLayer.UrlHomepage + "\r" + AppTitle() + " Chirurgie\r" + "Version " + BusinessLayer.VersionString;
+            tmp = BusinessLayer.UrlHomepageForDisplay + "\r" + AppTitle() + " Chirurgie\r" + "Version " + BusinessLayer.VersionString;
 #endif
 #if targetplatform_x86
             tmp = tmp + " (x86)";
 #endif
             lblProduct.Text = tmp;
 
-            lblCopyright.Text = "Copyright © Christoph Maurer"
+            lblCopyright.Text = "Christoph Maurer"
                 + "\rElisabethenstraße 38"
                 + "\r61184 Karben"
                 ;
@@ -188,12 +185,12 @@ namespace Operationen
 
         private void llblWWW_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            LaunchInternetBrowser(BusinessLayer.UrlHomepage);
+            LaunchInternetBrowser(BusinessLayer.UrlHomepageForDisplay);
         }
 
         private void pbIcon_Click(object sender, EventArgs e)
         {
-            LaunchInternetBrowser(BusinessLayer.UrlHomepage);
+            LaunchInternetBrowser(BusinessLayer.UrlHomepageForDisplay);
         }
 
         private void llLicence_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -231,7 +228,7 @@ namespace Operationen
             "Für Teresa, Charlotte",
             "und Johannes",
             "",
-            BusinessLayer.UrlHomepage
+            BusinessLayer.UrlHomepageForDisplay
         };
         static int i = 0;
 
@@ -378,7 +375,7 @@ namespace Operationen
 
         private void SetDetailsText()
         {
-            AddDetail(BusinessLayer.UrlHomepageNoHttp);
+            AddDetail(BusinessLayer.UrlHomepageNoHttpForDisplay);
             AddDetail("'" + BusinessLayerCommon.ProgramTitle + "' Windows version is programmed in C# using the .NET Framework 2.0");
             AddDetail("Web pages are ASPX pages programmed in C# using the .NET Framework 2.0");
             AddDetail("The super-sophisticated framework supports databases 'MS Access', 'MS SQLServer', 'SQLAzure' and 'MySQL'");
@@ -398,11 +395,15 @@ namespace Operationen
             AddDetail("'" + BusinessLayerCommon.ProgramTitle + "' version for iPhone/iPad/iPod Touch");
             AddDetail("    was first programmed in Objective-C on MacOS 10.6.5 (Snowleopard) with XCode 3.2.5");
 
-            AddDetail("The Windows version is tested on Windows 2000/XP/Vista/7/8");
+            AddDetail("The Windows version is tested on Windows 2000/XP/Vista/7/8/10");
             AddDetail("    The first 64Bit OS used was Windows 8.1");
 
             AddDetail("The version for Apple devices is tested using various simulators in XCode");
             AddDetail("    and on selected live cell phones");
+
+            AddDetail("Since February 2018, all code is free and moved from www.op-log.de to https://github.com/ChristophEMaurer");
+
+            AddDetail("Double click left, double click right, double click left to show credits.");
         }
     }
 }

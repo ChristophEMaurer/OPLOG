@@ -37,9 +37,9 @@ namespace CMaurer.Operationen.AppFramework
         /// 1.7.7
         public const int VersionMajor = 1;      // CHANGE_FOR_NEW_VERSION
         public const int VersionMinor = 29;     // CHANGE_FOR_NEW_VERSION
-        public const int ReleaseMajor = 18;     // CHANGE_FOR_NEW_VERSION
+        public const int ReleaseMajor = 19;     // CHANGE_FOR_NEW_VERSION
 
-        public const string VersionDate = "(27.12.2017)";   // CHANGE_FOR_NEW_VERSION
+        public const string VersionDate = "(04.02.2018)";   // CHANGE_FOR_NEW_VERSION
 
         public const int OperationQuelleIntern = 0;
         public const int OperationQuelleExtern = 1;

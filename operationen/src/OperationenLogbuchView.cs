@@ -570,7 +570,7 @@ namespace Operationen
             }
             else
             {
-                string text = string.Format(CultureInfo.InvariantCulture, GetText("downloadInfo1"), localFile, BusinessLayer.UrlHomepage);
+                string text = string.Format(CultureInfo.InvariantCulture, GetText("downloadInfo1"), localFile, BusinessLayer.UrlHomepageForDownload);
                 MessageBox(text);
                 
 
@@ -593,7 +593,7 @@ namespace Operationen
                     text = string.Format(CultureInfo.InvariantCulture, GetText("downloadInfo2"), description);
                     bool fileDownloaded = DownloadFile(
                         text,
-                        fileSizeKb, BusinessLayer.UrlHomepage + "/download/" + remoteName,
+                        fileSizeKb, BusinessLayer.UrlHomepageForDownload + "/download/" + remoteName,
                         localFile);
 
                     if (fileDownloaded)
@@ -612,7 +612,7 @@ namespace Operationen
         private void bedienungsanleitungToolStripMenuItem_Click(object sender, EventArgs e)
         {
             IfMissingQueryUserAndDownload(BusinessLayer.PathDokumente + System.IO.Path.DirectorySeparatorChar + BusinessLayer.BedienungsanleitungPdf,
-                BusinessLayer.UrlHomepage + "/download/bedienungsanleitung.txt",
+                BusinessLayer.UrlHomepageForDownload + "/download/bedienungsanleitung.txt",
                 GetText("bedienungsanleitung"),
                 BusinessLayer.BedienungsanleitungPdf
                 );
@@ -789,7 +789,7 @@ namespace Operationen
 
         private void llblWWW_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            LaunchInternetBrowser(BusinessLayer.UrlHomepage);
+            LaunchInternetBrowser(BusinessLayer.UrlHomepageForDisplay);
         }
 
         internal void CreateEigeneDateienCustomMenu()
@@ -822,7 +822,7 @@ namespace Operationen
             if (fromInternet)
             {
                 success = DownloadAsciiInfoFile(
-                    BusinessLayer.UrlHomepage + "/download/" + BusinessLayer.VERSION_DOWNLOAD_FILENAME,
+                    BusinessLayer.UrlHomepageForDownload + "/download/" + BusinessLayer.VERSION_DOWNLOAD_FILENAME,
                     showErrorMessage,
                     localVersionFile,
                     out versionInfo);
@@ -1018,7 +1018,7 @@ namespace Operationen
                 fileDownloaded = DownloadFile(
                     text,
                     fileSizeKb,
-                    BusinessLayer.UrlHomepage + "/download/" + newProgramName,
+                    BusinessLayer.UrlHomepageForDownload + "/download/" + newProgramName,
                     setupFilename);
             }
             else
@@ -1254,12 +1254,12 @@ namespace Operationen
 
         private void lblLogo_Click(object sender, EventArgs e)
         {
-            LaunchInternetBrowser(BusinessLayer.UrlHomepage);
+            LaunchInternetBrowser(BusinessLayer.UrlHomepageForDisplay);
         }
 
         private void pbLogo_Click(object sender, EventArgs e)
         {
-            LaunchInternetBrowser(BusinessLayer.UrlHomepage);
+            LaunchInternetBrowser(BusinessLayer.UrlHomepageForDisplay);
         }
 
         private void llOperationenKatalogView_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -1754,7 +1754,7 @@ namespace Operationen
 
         void WwwHome_Executed(object sender, Elegant.Ui.CommandExecutedEventArgs e)
         {
-            LaunchInternetBrowser(BusinessLayer.UrlHomepage);
+            LaunchInternetBrowser(BusinessLayer.UrlHomepageForDisplay);
         }
 
         void HelpChm_Executed(object sender, Elegant.Ui.CommandExecutedEventArgs e)
@@ -1778,7 +1778,7 @@ namespace Operationen
 
         void WwwHelp_Executed(object sender, Elegant.Ui.CommandExecutedEventArgs e)
         {
-            LaunchInternetBrowser(BusinessLayer.UrlHomepage + "/help/operationen_help.html");
+            LaunchInternetBrowser(BusinessLayer.UrlHomepageForDownload + "/help/operationen_help.html");
         }
 
         void ExportOperationenKatalogView_Executed(object sender, Elegant.Ui.CommandExecutedEventArgs e)
@@ -2683,6 +2683,11 @@ namespace Operationen
         }
 
         private void cmdClientServerViewImport_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmdSerialBuy_Click(object sender, EventArgs e)
         {
 
         }
