@@ -1,0 +1,8 @@
+VNR;OPDat;OP_SCHNITT;OP_NAHT;ICPM1;ICPM1_Text;ICPM2;ICPM2_Text;ICPM3;ICPM3_Text;Operateur;OperateurB;Ass1
+111000001;15.11.2007;15:19;16:10;5-345.2;Pleurodese mit Poudrage, rechts offen;;;;;Mustermann;;
+111000001;07.11.2007;08:50;09:39;5-322.F1;Thorakoskopische Keilexcision, re. OL, apikal,;5-344.X;Sonstige Pleurektomie;;;;Mustermann;
+111000002;20.11.2007;10:00;10:45;5-895.0B;Radikale und ausgedehnte Exzision von erkranktem G;;;;;Mustermann;;
+111000002;16.11.2007;12:20;18:15;5-454.2;Segmentresektion des Ileums;5-466.2;Wiederherstellung der Kontinuität des Darmes bei e;;;Mustermann;;
+111000002;19.11.2007;10:45;11:45;5-541.2;Relaparotomie mit Spülung und Drainage;;;;;Mustermann;;
+111000003;23.11.2007;13:55;16:55;5-458.3X;**Erweiterte Kolonresektion mit Entfernung von Nachbarorganen: Kolektomie: Sonstige;5-456.0X;**(Totale) Kolektomie und Proktokolektomie: Kolektomie: Sonstige;;;Mustermann;;
+111000004;26.11.2007;11:57;14:50;5-541.1;Laparotomie, therapeutisch, ohne Organbezug, all;5-454.X;Dünndarm-Teilresektion;5-469.20;Adhäsiolyse am Darm, offen chirurgisch;Mustermann;;
