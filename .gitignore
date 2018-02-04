@@ -11,12 +11,21 @@
 /operationen/src/Setup/Versionen/V1.29.18-chirurgie-x86/
 /operationen/src/Setup/Versionen/V1.29.19-chirurgie-anycpu/
 /operationen/src/Setup/Versionen/V1.29.19-chirurgie-x86/
+
 /operationen/src/bin/
 /operationen/src/obj/
+
 AppFramework/bin/
 AppFramework/obj/
+
 Security/bin/
 Security/obj/
+
+Utility/bin/
+Utility/obj/
+
+Windows\Forms/bin/
+Windows\Forms/obj/
 
 operationen/src/OperationenAppFramework/bin/
 operationen/src/OperationenAppFramework/obj/
@@ -81,8 +90,8 @@ operationen/src/Setup/obj/
 operationen/src/SetupData/bin/
 operationen/src/SetupData/obj/
 
-operationen/src/SetupLauncher/bin/
-operationen/src/SetupLauncher/obj/
+operationen/src/SetupLauncher/Debug
+operationen/src/SetupLauncher/Release
 
 operationen/src/Uninstall/bin/
 operationen/src/Uninstall/obj/
