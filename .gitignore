@@ -11,8 +11,10 @@
 /operationen/src/Setup/Versionen/V1.29.18-chirurgie-x86/
 /operationen/src/Setup/Versionen/V1.29.19-chirurgie-anycpu/
 /operationen/src/Setup/Versionen/V1.29.19-chirurgie-x86/
-bin/Debug/
-obj/Debug/
-bin/Release/
-obj/Release/
+/operationen/src/bin/
+/operationen/src/obj/
+AppFramework/bin/
+AppFramework/obj/
+Security/bin/
+Security/obj/
 
