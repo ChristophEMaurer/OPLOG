@@ -58,6 +58,7 @@ namespace Operationen
         public const string UrlHomepageForDownload = "https://github.com/ChristophEMaurer/OPLOG/raw/master/operationen/www";
         public const string UrlHomepageNoHttpForDisplay = "github.com/ChristophEMaurer/OPLOG";
 
+
 #if urologie
 #if targetplatform_x86
         public const string VERSION_DOWNLOAD_FILENAME = "version-urologie-x86.txt";
