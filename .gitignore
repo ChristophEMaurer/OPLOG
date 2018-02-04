@@ -6,3 +6,8 @@
 *.suo
 /operationen/src/SetupData/obj/Debug/Interop.IWshRuntimeLibrary.dll
 /OpLog.VC.VC.opendb
+/operationen/src/Setup/Versionen/V1.29.18-chirurgie-anycpu
+/operationen/src/Setup/Versionen/V1.29.18-chirurgie-x86
+/operationen/src/Setup/Versionen/V1.29.19-chirurgie-anycpu
+/operationen/src/Setup/Versionen/V1.29.19-chirurgie-x86
+
