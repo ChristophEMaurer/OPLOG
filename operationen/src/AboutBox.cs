@@ -2,19 +2,13 @@
 
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Drawing;
 using System.Windows.Forms;
-using System.Reflection;
-using System.Threading;
-using System.Data;
 using System.Timers; 
 using System.Drawing.Drawing2D;
 using System.IO;
-using System.Globalization;
 using System.Text;
 
-using Utility;
 using Operationen.Wizards.CreateCustomerData;
 using CMaurer.Operationen.AppFramework;
 
@@ -30,7 +24,7 @@ namespace Operationen
         {
             InitializeComponent();
 
-            cmdDetails.Visible = false;
+            //cmdDetails.Visible = false;
         }
 
         private void cmdOK_Click(object sender, EventArgs e)
