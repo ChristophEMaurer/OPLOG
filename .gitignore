@@ -24,8 +24,8 @@ Security/obj/
 Utility/bin/
 Utility/obj/
 
-Windows\Forms/bin/
-Windows\Forms/obj/
+Windows/Forms/bin/
+Windows/Forms/obj/
 
 operationen/src/OperationenAppFramework/bin/
 operationen/src/OperationenAppFramework/obj/
