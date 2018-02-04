@@ -21,15 +21,17 @@ A group contains users and all this (permissions/groups/users) can be edited by 
 * you must purchase a license key and add it to your code
 
 File BusinessLayerPrivate.cs
-        public void ActivateEleganzUiLicense()
-        {
-            //
-            // You must purchase a license for the Elegant UI Runtime Version v2.0.50727, Version 3.3.0.0
-            // and activate it like below.
-            //
-            string elegantUiKey = "...";
 
-            Elegant.Ui.RibbonLicenser.LicenseKey = elegantUiKey;
-        }
-   
+public void ActivateEleganzUiLicense()
+
+{
+
+/* You must purchase a license for the Elegant UI Runtime Version v2.0.50727, Version 3.3.0.0 and activate it like below. */
+    
+    string elegantUiKey = "...";
+
+    Elegant.Ui.RibbonLicenser.LicenseKey = elegantUiKey;
+
+}
+
    
