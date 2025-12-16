@@ -1,9 +1,6 @@
 rd /s /q AppFramework\bin
 rd /s /q AppFramework\obj
 
-rd /s /q Data\bin
-rd /s /q Data\obj
-
 rd /s /q Operationen\src\obj
 rd /s /q Operationen\src\bin
 

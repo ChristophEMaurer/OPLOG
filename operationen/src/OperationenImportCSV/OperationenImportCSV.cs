@@ -28,7 +28,7 @@ namespace Operationen
     /// and pass the data into the main application.
     /// </summary>
 	public partial class OperationenImportPlugin : OperationenImport
-	{
+    {
         private string _fileName = "";
 
         /// <summary>

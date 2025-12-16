@@ -59,8 +59,10 @@ namespace Operationen
             lblProduct.Text = tmp;
 
             lblCopyright.Text = "Christoph Maurer"
-                + "\rElisabethenstraﬂe 38"
-                + "\r61184 Karben"
+                + "\rch.maurer@gmx.de"
+                + "\rKirchstr. 3"
+                + "\r59969 Hallenberg"
+                + "\rGermany"
                 ;
             pnlCredits.Visible = false;
 
@@ -173,8 +175,8 @@ namespace Operationen
             AddRow("Elegant UI", typeof(Elegant.Ui.Ribbon).Assembly.GetName().Version.ToString());
             AddRow("System.Data.OleDb", typeof(System.Data.OleDb.OleDbFactory).Assembly.GetName().Version.ToString());
             AddRow("System.Data.SqlClient", typeof(System.Data.SqlClient.SqlClientFactory).Assembly.GetName().Version.ToString());
-            AddRow("MySql.Data.MySqlClient", typeof(MySql.Data.MySqlClient.MySqlClientFactory).Assembly.GetName().Version.ToString());
-            //AddRow("System.Data.OracleClient", typeof(System.Data.OracleClient.OracleClientFactory).Assembly.GetName().Version.ToString());
+            //AddRow("MySql.Data.MySqlClient", typeof(MySql.Data.MySqlClient.MySqlClientFactory).Assembly.GetName().Version.ToString());
+            AddRow("System.Data.OracleClient", typeof(System.Data.OracleClient.OracleClientFactory).Assembly.GetName().Version.ToString());
         }
 
         private void llblWWW_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
