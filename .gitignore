@@ -98,3 +98,4 @@ operationen/src/SetupLauncher/Release
 operationen/src/Uninstall/bin/
 operationen/src/Uninstall/obj/
 
+/.vs/OpLog
